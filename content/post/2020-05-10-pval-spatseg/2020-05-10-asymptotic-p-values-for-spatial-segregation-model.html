@@ -1,0 +1,71 @@
+---
+title: Areas of a spatial segregation model significantly different from null expectations
+author: ~
+date: '2020-05-10'
+slug: asymptotic-p-values-for-spatial-segregation-model
+categories: ["R"]
+tags: ["R Markdown", "point pattern", "R"]
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-05-10T10:47:18-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>I present code to identify areas of a spatial segregation model that exceed our null expectations using the <a href="https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd">relrisk</a> function in the <a href="https://github.com/spatstat/spatstat">spatstat</a> package and an assumption of normality of the estimated probabilities. A spatial segregation model was originally proposed by <a href="https://doi.org/10.1111/j.1467-9876.2005.05373.x">Diggle, Zheng, &amp; Durr in 2005</a> which estimates spatially-varying probabilities of an event of a certain type to occur in an area accounting for other types. The original method uses a Monte Carlo-based simulation, which is computationally expensive. Instead, <a href="https://github.com/baddstats">Adrian Baddeley</a> and the spatstat team adapted the <a href="https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd">relrisk</a> function for a multitype (m &gt; 2) point pattern that has an option to compute the standard error of the probability estimates based on asymptotic theory, assuming a Poisson process.</p>
+<p>Here, I use the standard errors to compute a 95% confidence interval (CI) at all gridded pixels (“knots”) for each type. Knots with a CI that does not capture the null expectation for each type are identified. I use the provided <code>lansing</code> dataset from the <a href="https://github.com/spatstat/spatstat.data">spatstat.data</a> package. Created with assistance from <a href="https://sph.emory.edu/faculty/profile/index.php?FID=345">Dr. Lance Waller</a> and <a href="http://barry.rowlingson.com/">Barry Rowlingson</a>.</p>
+<pre class="r"><code># Packages
+  library(spatstat)</code></pre>
+<pre class="r"><code># Data
+  spatstat.data::lansing</code></pre>
+<pre><code>## Marked planar point pattern: 2251 points
+## Multitype, with levels = blackoak, hickory, maple, misc, redoak, whiteoak 
+## window: rectangle = [0, 1] x [0, 1] units (one unit = 924 feet)</code></pre>
+<pre class="r"><code># Convert the lansing data to a ppp object
+  ppp_lansing &lt;- spatstat::ppp(x = spatstat.data::lansing$x, 
+                             y = spatstat.data::lansing$y,
+                             window = spatstat::unit.square(),
+                             marks = as.factor(spatstat::marks(spatstat.data::lansing)))
+
+# Plot input
+  spatstat::plot.ppp(ppp_lansing, main = &quot;Lansing Woods&quot;, cex = 0.5)</code></pre>
+<p><img src="/post/2020-05-10-pval-spatseg/2020-05-10-asymptotic-p-values-for-spatial-segregation-model_files/figure-html/data-1.png" width="672" style="display: block; margin: auto;" /></p>
+<pre class="r"><code># Estimate nonparametric spatially-varying probabilities of type
+  f1 &lt;- spatstat::relrisk.ppp(ppp_lansing, casecontrol = F, diggle = T, se = T, sigma = bw.diggle)
+  
+# Default plots
+  plot(f1$estimate, main = &quot;Probability of an event by type&quot;, zlim = c(0,1)) # probabilities</code></pre>
+<p><img src="/post/2020-05-10-pval-spatseg/2020-05-10-asymptotic-p-values-for-spatial-segregation-model_files/figure-html/spatial%20segregration-1.png" width="672" style="display: block; margin: auto;" /></p>
+<pre class="r"><code>  plot(f1$SE, main = &quot;Standard error of probability&quot;, zlim = c(0,0.03)) # standard errors</code></pre>
+<p><img src="/post/2020-05-10-pval-spatseg/2020-05-10-asymptotic-p-values-for-spatial-segregation-model_files/figure-html/spatial%20segregration-2.png" width="672" style="display: block; margin: auto;" /></p>
+<pre class="r"><code>  wh &lt;- spatstat::im.apply(f1$estimate, which.max)
+  types &lt;- levels(spatstat::marks(spatstat.data::lansing))
+  wh &lt;- spatstat::eval.im(types[wh]) # most common 
+  spatstat::plot.im(wh, main=&quot;Most common species&quot;, ribargs = list(las = 1))</code></pre>
+<p><img src="/post/2020-05-10-pval-spatseg/2020-05-10-asymptotic-p-values-for-spatial-segregation-model_files/figure-html/spatial%20segregration-3.png" width="672" style="display: block; margin: auto;" /></p>
+<pre class="r"><code># Significant p-values assumming normality of the Poisson process
+## relrisk() computes standard errors based on asymptotic theory, assuming a Poisson process
+  alpha &lt;- 0.05                           # alpha
+  z &lt;- qnorm(alpha/2, lower.tail = F)     # z-statistic
+  f1$u &lt;- f1$estimate + z*f1$SE           # Upper CIs
+  f1$l &lt;- f1$estimate - z*f1$SE           # Lower CIs
+  mu_0 &lt;- as.vector(table(spatstat::marks(ppp_lansing))/ppp_lansing$n) # null expectations by type
+  f1$p &lt;- f1$estimate # copy structure of pixels, replace values
+  for (i in 1:length(f1$p)) {
+    f1$p[[i]]$v &lt;- factor(ifelse(mu_0[i] &gt; f1$u[[i]]$v, &quot;lower&quot;,
+                                 ifelse( mu_0[i] &lt; f1$l[[i]]$v, &quot;higher&quot;, &quot;none&quot;)),
+                          levels = c(&quot;lower&quot;, &quot;none&quot;, &quot;higher&quot;))
+  }
+
+  # Plot significant p-values
+  plot(f1$p, main = &quot;Significant difference from null?&quot;)</code></pre>
+<p><img src="/post/2020-05-10-pval-spatseg/2020-05-10-asymptotic-p-values-for-spatial-segregation-model_files/figure-html/spatial%20segregration-4.png" width="672" style="display: block; margin: auto;" /></p>
+<p>The final plot identifies where the spatially-varying probabilities exceed the null expected probability of each type. Areas of higher-than-expected probability could be considered “hot-spots” and areas of lower-than-expected probability could be considered “cold-spots.” Areas that are not significantly different from the null expectation could suggest additional sampling is required.</p>
