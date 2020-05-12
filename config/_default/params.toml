@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Personal website of Ian David Buller where I blog about career updates and spatial analysis in R. Opinions/Content/Views are my own."
+description = "Personal website of Ian David Buller where I blog about spatial analysis in R. Opinions/Content/Views are my own."
 
 ############################
 ## Site Features
@@ -67,7 +67,7 @@ diagram = false
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
-privacy_pack = false
+privacy_pack = true
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
@@ -271,7 +271,7 @@ plugins_js  = []
 ## Marketing
 ############################
 [marketing]
-  google_analytics = ""
+  google_analytics = "UA-166311141-1"
   google_tag_manager = ""
 
 ############################
