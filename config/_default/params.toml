@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Personal website of Ian David Buller where I blog about career updates and spatial analysis in R. Opinions/Content/Views are my own."
 
 ############################
 ## Site Features
@@ -117,10 +117,14 @@ contact_links = [
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = ""
+sharing_image = "avatar.jpg"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = "@idblr"
+twitter = "idblr"
+
+# Diplay a logo in navigation bar rather than title (optional). 
+#   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
+logo = ""
 
 ############################
 ## Regional Settings
