@@ -418,62 +418,57 @@
     }
   }
 
-  /* ---------------------------------------------------------------------------
+/* ---------------------------------------------------------------------------
    * On document ready.
    * --------------------------------------------------------------------------- */
 
-  $(document).ready(function () {
-    fixHugoOutput();
-    fixMermaid();
+  $(document).ready(function() {
+    // Fix Hugo's auto-generated Table of Contents.
+    //   Must be performed prior to initializing ScrollSpy.
+    $('#TableOfContents > ul > li > ul').unwrap().unwrap();
+    $('#TableOfContents').addClass('nav flex-column');
+    $('#TableOfContents li').addClass('nav-item');
+    $('#TableOfContents li a').addClass('nav-link');
 
-    // Initialise code highlighting if enabled for this page.
-    // Note: this block should be processed after the Mermaid code-->div conversion.
-    if (code_highlighting) {
-      hljs.initHighlighting();
+    // Set dark mode if user chose it.
+    let default_mode = 0;
+    if ($('body').hasClass('dark')) {
+      default_mode = 1;
+    }
+    let dark_mode = parseInt(localStorage.getItem('dark_mode') || default_mode);
+
+    // Is code highlighting enabled in site config?
+    const codeHlEnabled = $('link[title=hl-light]').length > 0;
+    const codeHlLight = $('link[title=hl-light]')[0];
+    const codeHlDark = $('link[title=hl-dark]')[0];
+    const diagramEnabled = $('script[title=mermaid]').length > 0;
+
+    if (dark_mode) {
+      $('body').addClass('dark');
+      if (codeHlEnabled) {
+        codeHlLight.disabled = true;
+        codeHlDark.disabled = false;
+      }
+      if (diagramEnabled) {
+        mermaid.initialize({ theme: 'dark' });
+      }
+      $('.js-dark-toggle i').removeClass('fa-moon').addClass('fa-sun');
+    } else {
+      $('body').removeClass('dark');
+      if (codeHlEnabled) {
+        codeHlLight.disabled = false;
+        codeHlDark.disabled = true;
+      }
+      if (diagramEnabled) {
+        mermaid.initialize({ theme: 'default' });
+      }
+      $('.js-dark-toggle i').removeClass('fa-sun').addClass('fa-moon');
     }
 
-    // Initialize theme variation.
-    initThemeVariation();
-
-    // Change theme mode.
-    $('.js-set-theme-light').click(function (e) {
+    // Toggle day/night mode.
+    $('.js-dark-toggle').click(function(e) {
       e.preventDefault();
-      changeThemeModeClick(2);
-    });
-    $('.js-set-theme-dark').click(function (e) {
-      e.preventDefault();
-      changeThemeModeClick(0);
-    });
-    $('.js-set-theme-auto').click(function (e) {
-      e.preventDefault();
-      changeThemeModeClick(1);
-    });
-
-    // Live update of day/night mode on system preferences update (no refresh required).
-    // Note: since we listen only for *dark* events, we won't detect other scheme changes such as light to no-preference.
-    const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    darkModeMediaQuery.addListener((e) => {
-      if (!canChangeTheme()) {
-        // Changing theme variation is not allowed by admin.
-        return;
-      }
-      const darkModeOn = e.matches;
-      console.log(`OS dark mode preference changed to ${darkModeOn ? '🌒 on' : '☀️ off'}.`);
-      let currentThemeVariation = parseInt(localStorage.getItem('dark_mode') || 2);
-      let isDarkTheme;
-      if (currentThemeVariation === 2) {
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          // The visitor prefers dark themes.
-          isDarkTheme = 1;
-        } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-          // The visitor prefers light themes.
-          isDarkTheme = 0;
-        } else {
-          // The visitor does not have a day or night preference, so use the theme's default setting.
-          isDarkTheme = isSiteThemeDark;
-        }
-        renderThemeVariation(isDarkTheme);
-      }
+      toggleDarkMode(codeHlEnabled, codeHlLight, codeHlDark, diagramEnabled);
     });
   });
 
