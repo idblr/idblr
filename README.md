@@ -1,2 +1,1 @@
-# idblr
-Personal website of Ian David Buller
+Personal website of Ian David Buller  [https://idblr.rbind.io](https://idblr.rbind.io)
