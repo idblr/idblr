@@ -5,7 +5,7 @@
     <link>/tag/r-markdown/</link>
       <atom:link href="/tag/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     <description>R Markdown</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2020 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2020 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>R Markdown</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Areas of a spatial segregation model significantly different from null expectations</title>
       <link>/post/2020-05-10-pval-spatseg/asymptotic-p-values-for-spatial-segregation-model/</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       <guid>/post/2020-05-10-pval-spatseg/asymptotic-p-values-for-spatial-segregation-model/</guid>
       <description>
 &lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
@@ -69,7 +69,7 @@
   # Plot significant p-values
   plot(f1$p, main = &amp;quot;Significant difference from null?&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2020-05-10-pval-spatseg/2020-05-10-asymptotic-p-values-for-spatial-segregation-model_files/figure-html/spatial%20segregration-4.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The final plot identifies where the spatially-varying probabilities exceed the null expected probability of each type. Areas of higher-than-expected probability could be considered “hot-spots” and areas of lower-than-expected probability could be considered “cold-spots.” Areas that are not significantly different from the null expectation could suggest additional sampling is required.&lt;/p&gt;
+&lt;p&gt;The final plot identifies where the spatially-varying probabilities exceed the null expected probability of each type. Areas of higher-than-expected probability could be considered “hot-spots” and areas of lower-than-expected probability could be considered “cold-spots.” Areas that are not significantly different from the null expectation could suggest additional sampling is necessary to determine if these areas are hot are cold spots.&lt;/p&gt;
 </description>
     </item>
     

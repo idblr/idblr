@@ -1,14 +1,14 @@
 ---
 title: Areas of a spatial segregation model significantly different from null expectations
 author: ~
-date: '2020-05-10'
+date: '2020-05-12'
 slug: asymptotic-p-values-for-spatial-segregation-model
 categories: ["R"]
 tags: ["R Markdown", "point pattern", "R"]
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2020-05-10T10:47:18-04:00'
+lastmod: '2020-05-12T8:47:18-04:00'
 featured: no
 image:
   caption: ''
@@ -75,4 +75,4 @@ Here, I use the standard errors to compute a 95\% confidence interval (CI) at al
   plot(f1$p, main = "Significant difference from null?")
 ```
 
-The final plot identifies where the spatially-varying probabilities exceed the null expected probability of each type. Areas of higher-than-expected probability could be considered "hot-spots" and areas of lower-than-expected probability could be considered "cold-spots." Areas that are not significantly different from the null expectation could suggest additional sampling is required. 
+The final plot identifies where the spatially-varying probabilities exceed the null expected probability of each type. Areas of higher-than-expected probability could be considered "hot-spots" and areas of lower-than-expected probability could be considered "cold-spots." Areas that are not significantly different from the null expectation could suggest additional sampling is necessary to determine if these areas are hot are cold spots. 
