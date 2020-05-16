@@ -154,13 +154,13 @@ dc_m1 <- leaflet::leaflet(CoV_DC_WGS84, width = "100%") %>%                     
             title = "Cumulative Rate per 1,000", opacity = 1, group = "Cumulative Rate") %>%
   leaflet::hideGroup(c("Cumulative Cases", "Cumulative Rate")) %>% # no data shown (default)
   leaflet::addMiniMap(position = "bottomleft") # add mini map
+
+dc_m1 # display leafmap
 ```
 
-```{r echo = FALSE}
-htmlwidgets::saveWidget(dc_m1, "leafMap.html")
+```{r save leaflet, echo = FALSE, eval = FALSE}
+htmlwidgets::saveWidget(dc_m1, "leafmap.html")
 ```
-
-<iframe seamless src="leafmap.html" width="100%" height="400"></iframe>
 
 As of May 15, 2020 the highest cumulative rate of SARS-CoV-2 cases have occurred in the Stadium Armory and Molly Tolzmann [zmotoly](https://twitter.com/zmotoly) noted the DC Jail is located in this neighborhood in [her original post](https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053).
 
