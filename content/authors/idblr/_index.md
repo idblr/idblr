@@ -1,7 +1,7 @@
 ---
 authors:
 - idblr
-bio: I'm a spatial statistician and environmental epidemiologist at the NCI who codes in R.
+bio: I'm a spatial statistician and environmental epidemiologist who codes in R.
 #   matter.
 education:
   courses:
