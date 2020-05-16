@@ -28,42 +28,67 @@
   </url>
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-05-16T03:47:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/coronavirus/</loc>
+    <lastmod>2020-05-16T03:47:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020-05-15-covid-dc/covid-dc/</loc>
+    <lastmod>2020-05-16T03:47:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/dceg-informatics-tool-challenge-award/</loc>
+    <lastmod>2020-05-16T16:37:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/leaflet/</loc>
+    <lastmod>2020-05-16T03:47:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/open-data/</loc>
+    <lastmod>2020-05-16T03:47:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-05-16T16:37:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/r/</loc>
+    <lastmod>2020-05-16T03:47:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/r/</loc>
+    <lastmod>2020-05-16T03:47:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/r-markdown/</loc>
+    <lastmod>2020-05-16T03:47:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-05-16T03:47:18-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2020-05-10-pval-spatseg/asymptotic-p-values-for-spatial-segregation-model/</loc>
     <lastmod>2020-05-12T08:47:18-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-05-12T08:47:18-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/point-pattern/</loc>
-    <lastmod>2020-05-12T08:47:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-05-12T08:47:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/r/</loc>
-    <lastmod>2020-05-12T08:47:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/r/</loc>
-    <lastmod>2020-05-12T08:47:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/r-markdown/</loc>
-    <lastmod>2020-05-12T08:47:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-05-12T08:47:18-04:00</lastmod>
   </url>
   

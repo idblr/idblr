@@ -2,7 +2,7 @@
 title: Cumulative SARS-CoV-2 Cases in the District of Columbia by Health Planning Neighborhoods
 author: ~
 date: '2020-05-16'
-slug: cumulative-covid-dc-05152020
+slug: covid-dc
 categories: ["R"]
 tags: ["R Markdown", "leaflet", "R", "open data", "coronavirus"]
 subtitle: ''
