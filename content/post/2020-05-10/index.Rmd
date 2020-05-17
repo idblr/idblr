@@ -11,7 +11,7 @@ authors: []
 lastmod: '2020-05-12T8:47:18-04:00'
 featured: no
 image:
-  caption: ''
+  caption: 'Image credit: [**Ian Buller**](/)'
   focal_point: ''
   preview_only: no
 projects: []
@@ -21,9 +21,9 @@ projects: []
 knitr::opts_chunk$set(echo = TRUE, fig.align = "center", message = FALSE, warning = FALSE)
 ```
 
-I present code to identify areas of a spatial segregation model that exceed our null expectations using the [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd) function in the [spatstat](https://github.com/spatstat/spatstat) package and an assumption of normality of the estimated probabilities. A spatial segregation model was originally proposed by [Diggle, Zheng, & Durr in 2005]( https://doi.org/10.1111/j.1467-9876.2005.05373.x) which estimates spatially-varying probabilities of an event of a certain type to occur in an area accounting for other types. The original method uses a Monte Carlo-based simulation, which is computationally expensive. Instead, [Adrian Baddeley](https://github.com/baddstats) and the spatstat team adapted the [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd) function for a multitype (m > 2) point pattern that has an option to compute the standard error of the probability estimates based on asymptotic theory, assuming a Poisson process. 
+I present code to identify areas of a spatial segregation model that exceed our null expectations using the [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd){target="_blank"} function in the [spatstat](https://github.com/spatstat/spatstat){target="_blank"} package and an assumption of normality of the estimated probabilities. A spatial segregation model was originally proposed by [Diggle, Zheng, & Durr in 2005]( https://doi.org/10.1111/j.1467-9876.2005.05373.x){target="_blank"} which estimates spatially-varying probabilities of an event of a certain type to occur in an area accounting for other types. The original method uses a Monte Carlo-based simulation, which is computationally expensive. Instead, [Adrian Baddeley](https://github.com/baddstats){target="_blank"} and the spatstat team adapted the [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd){target="_blank"} function for a multitype (m > 2) point pattern that has an option to compute the standard error of the probability estimates based on asymptotic theory, assuming a Poisson process. 
 
-Here, I use the standard errors to compute a 95\% confidence interval (CI) at all gridded pixels ("knots") for each type. Knots with a CI that does not capture the null expectation for each type are identified. I use the provided `lansing` dataset from the [spatstat.data](https://github.com/spatstat/spatstat.data) package. Created with assistance from [Dr. Lance Waller](https://sph.emory.edu/faculty/profile/index.php?FID=345) and [Barry Rowlingson](http://barry.rowlingson.com/).
+Here, I use the standard errors to compute a 95\% confidence interval (CI) at all gridded pixels ("knots") for each type. Knots with a CI that does not capture the null expectation for each type are identified. I use the provided `lansing` dataset from the [spatstat.data](https://github.com/spatstat/spatstat.data){target="_blank"} package. Created with assistance from [Dr. Lance Waller](https://sph.emory.edu/faculty/profile/index.php?FID=345){target="_blank"} and [Barry Rowlingson](http://barry.rowlingson.com/){target="_blank"}.
 
 ```{r packages}
 # Packages

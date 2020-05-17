@@ -1,8 +1,7 @@
 ---
 authors:
 - idblr
-bio: I'm a spatial statistician & environmental epidemiologist who primarily codes in `R`. *All content is my own and does not represent my employer*. he/him/his
-#   matter.
+bio: I'm a spatial statistician & environmental epidemiologist who primarily codes in [R](https://cran.r-project.org/). *All content is my own and does not represent my employer*. he/him/his
 education:
   courses:
   - course: PhD in Environmental Health Sciences
@@ -28,6 +27,9 @@ social:
 - icon: orcid
   icon_pack: fab
   link: https://orcid.org/0000-0001-9477-8582
+- icon: researchgate
+  icon_pack: fab
+  link: https://www.researchgate.net/profile/Ian_Buller
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=QajtftEAAAAJ&hl=en

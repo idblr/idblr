@@ -11,7 +11,7 @@ authors: []
 lastmod: '2020-05-17T8:43:18-04:00'
 featured: no
 image:
-  caption: ''
+  caption: 'Image credit: [**Ian Buller**](/)'
   focal_point: ''
   preview_only: no
 projects: []
@@ -21,7 +21,7 @@ projects: []
 knitr::opts_chunk$set(echo = TRUE, fig.align = "center", message = FALSE, warning = FALSE, cache = FALSE)
 ```
 
-After moving to DC last year, [PoPville](https://twitter.com/PoPville) has been a personal favorite for local scoop. A post on [May 11, 2020](https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053) captured my attention. Molly Tolzmann [zmotoly](https://twitter.com/zmotoly) adjusted the daily [coronavirus data](https://coronavirus.dc.gov/page/coronavirus-data) publicly released by the DC Mayoral Office at the [DC health planning neighborhood level](https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods) by the 2018 American Community Survey (ACS) census tract data and demographic data from [OpenData DC](https://opendata.dc.gov/). This post is a replication of the data visualization using [R](https://cran.r-project.org/) and can be found on a public [GitHub repository](https://github.com/idblr/coviDC). 
+After moving to DC last year, [PoPville](https://twitter.com/PoPville){target="_blank"} has been a personal favorite for local scoop. A post on [May 11, 2020](https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053){target="_blank"} captured my attention. Molly Tolzmann [zmotoly](https://twitter.com/zmotoly){target="_blank"} adjusted the daily [coronavirus data](https://coronavirus.dc.gov/page/coronavirus-data){target="_blank"} publicly released by the DC Mayoral Office at the [DC health planning neighborhood level](https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods){target="_blank"} by the 2018 American Community Survey (ACS) census tract data and demographic data from [Open Data DC](https://opendata.dc.gov/){target="_blank"}. This post is a replication of the data visualization using [R](https://cran.r-project.org/){target="_blank"} and can be found on a public [GitHub repository](https://github.com/idblr/coviDC){target="_blank"}. 
 
 **Imporant Notes**:
 
@@ -30,7 +30,7 @@ After moving to DC last year, [PoPville](https://twitter.com/PoPville) has been 
 
 <center>
 
-![COVID-19 in DC by @zmotoly](`r "https://s26552.pcdn.co/wp-content/uploads/2020/05/IMAGE-May-9-DC-neighborhood-COVID-positive-rate.jpg"`){width=400px}
+![COVID-19 in DC by Molly Tolzmann](`r "https://s26552.pcdn.co/wp-content/uploads/2020/05/IMAGE-May-9-DC-neighborhood-COVID-positive-rate.jpg"`){width=400px}
 
 </center>
 
@@ -44,7 +44,7 @@ invisible(lapply(loadedPackages, require, character.only = T))
 googlesheets4::gs4_deauth() # no Google authorization necessary because we are not reading a public repo
 ```
 
-We import the District of Columbia [Health Planning Neighborhoods](https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data) boundaries and Molly Tolzmann's [zmotoly](https://twitter.com/zmotoly) collation of the cumulative cases from start of the SARS-CoV-2 outbreak. The latter is hosted on a public [Google Sheet](https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378) and is accessible in `R` using the [googlesheets4 package](https://github.com/tidyverse/googlesheets4). After cleaning up the column names of the disease data, we merge the two data sets together and spatially project the polygons contained in the data to [EPSG:32618](https://epsg.io/32618).
+We import the District of Columbia [Health Planning Neighborhoods](https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data){target="_blank"} boundaries and Molly Tolzmann's [zmotoly](https://twitter.com/zmotoly){target="_blank"} collation of the cumulative cases from start of the SARS-CoV-2 outbreak. The latter is hosted on a public [Google Sheet](https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378){target="_blank"} and is accessible in `R` using the [googlesheets4 package](https://github.com/tidyverse/googlesheets4){target="_blank"}. After cleaning up the column names of the disease data, we merge the two data sets together and spatially project the polygons contained in the data to [EPSG:32618](https://epsg.io/32618){target="_blank"}.
 ```{r data}
 # District of Columbia Health Planning Neighborhoods
 gis_path <- "https://opendata.arcgis.com/datasets/de63a68eb7674548ae0ac01867123f7e_13.geojson"
@@ -68,7 +68,7 @@ dc_covid_proj <- sp::spTransform(dc_covid, CRS("+init=EPSG:32618"))
 
 ### Static Map
 
-We can then plot the cumulative rate using various plotting techniques. Here, I demonstrate the [ggplot2 package](https://github.com/tidyverse/ggplot2). First, we convert the `dc_covid_proj` object of class `SpatialPolygonsDataFrame` to a class `tibble`. 
+We can then plot the cumulative rate using various plotting techniques. Here, I demonstrate the [ggplot2 package](https://github.com/tidyverse/ggplot2){target="_blank"}. First, we convert the `dc_covid_proj` object of class `SpatialPolygonsDataFrame` to a class `tibble`. 
 ```{r static}
 # Uses ggplot2 package
 ## helpful material: https://cengel.github.io/rspatial/4_Mapping.nb.html
@@ -78,7 +78,7 @@ dc_covid_proj$polyID <- sapply(slot(dc_covid_proj, "polygons"), function(x) slot
 CoV_DC_df <- merge(dc_covid_df, dc_covid_proj, by.x = "id", by.y="polyID") # merge data
 ```
 
-Then we can customize our plot in various ways. Here I present cumulative cases per 1,000 (May 15, since start of the outbreak) choosing a [non-alarmist color palette](https://blog.mapbox.com/7-best-practices-for-mapping-a-pandemic-9f203576a132?gi=6907699c528e) from [ColorBrewer2.0](https://colorbrewer2.org/).
+Then we can customize our plot in various ways. Here I present cumulative cases per 1,000 (May 15, since start of the outbreak) choosing a [non-alarmist color palette](https://blog.mapbox.com/7-best-practices-for-mapping-a-pandemic-9f203576a132?gi=6907699c528e){target="_blank"} from [ColorBrewer2.0](https://colorbrewer2.org/){target="_blank"}.
 ```{r cumulative rate}
 ## Plot of cumulative cases per 1,000
 ggplot2::ggplot() +                                             # initialize ggplot object
@@ -103,7 +103,7 @@ ggplot2::ggplot() +                                             # initialize ggp
 
 ### Interactive Map
 
-In addition to a static map, the [leaflet package](https://github.com/rstudio/leaflet) provides capabilities to create an interactive map with customizable features such as basemaps and overlapping layers. First, we need to spatially project the data to [EPSG:4326](https://epsg.io/4326). We can also create custom popups when scrolling mouse over each neighborhood. Here, I use the same color palette as the static map and provide an example of the raw cumulative cases (May 15, 2020) in DC to demonstrate the layer overlapping feature of the `leaflet` package.
+In addition to a static map, the [leaflet package](https://github.com/rstudio/leaflet){target="_blank"} provides capabilities to create an interactive map with customizable features such as basemaps and overlapping layers. First, we need to spatially project the data to [EPSG:4326](https://epsg.io/4326){target="_blank"}. We can also create custom popups when scrolling mouse over each neighborhood. Here, I use the same color palette as the static map and provide an example of the raw cumulative cases (May 15, 2020) in DC to demonstrate the layer overlapping feature of the `leaflet` package.
 
 ```{r interactive}
 # Work with unprojected spatialpolygonsdataframe
@@ -153,8 +153,8 @@ leaflet::leaflet(CoV_DC_WGS84, width = "100%") %>%                        # init
   leaflet::addMiniMap(position = "bottomleft") # add mini map
 ```
 
-As of May 15, 2020 the highest cumulative rate of SARS-CoV-2 cases have occurred in the Stadium Armory and Molly Tolzmann [zmotoly](https://twitter.com/zmotoly) noted the DC Jail is located in this neighborhood in [her original post](https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053).
+As of May 15, 2020 the highest cumulative rate of SARS-CoV-2 cases have occurred in the Stadium Armory and Molly Tolzmann [zmotoly](https://twitter.com/zmotoly){target="_blank"} noted the DC Jail is located in this neighborhood in [her original post](https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053){target="_blank"}.
 
-**The provided maps are not intended to inform decision-making**. Instead, I provide the the [open-source code](https://github.com/idblr/coviDC) to download, manage, and visualize publicly available data. Future steps include linking other demographic information to each DC Health Planning Neighborhood (e.g., housing occupancy) and assessing their relationships with disease occurrence or creating an automatic workflow to update these figures daily.
+**The provided maps are not intended to inform decision-making**. Instead, I provide the the [open-source code](https://github.com/idblr/coviDC){target="_blank"} to download, manage, and visualize publicly available data. Future steps include linking other demographic information to each DC Health Planning Neighborhood (e.g., housing occupancy) and assessing their relationships with disease occurrence or creating an automatic workflow to update these figures daily.
 
-Thanks, again, to Molly Tolzmann [zmotoly](https://twitter.com/zmotoly) and [PoPville](https://twitter.com/PoPville).
+Thanks, again, to Molly Tolzmann [zmotoly](https://twitter.com/zmotoly){target="_blank"} and [PoPville](https://twitter.com/PoPville){target="_blank"}.
