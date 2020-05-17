@@ -675,7 +675,7 @@ invisible(lapply(loadedPackages, require, character.only = T))
 
 # Settings
 googlesheets4::gs4_deauth() # no Google authorization necessary because we are not reading a public repo</code></pre>
-<p>We import the District of Columbia <a href="https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data">Health Planning Neighborhoods</a> boundaries and Molly Tolzmann’s <a href="https://twitter.com/zmotoly">zmotoly</a> collation of the cumulative cases from start of the SARS-CoV-2 outbreak. The latter is hosted on a public <a href="%22https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378%22">Google Sheet</a> and is accessible in <code>R</code> using the <a href="https://github.com/tidyverse/googlesheets4">googlesheets4 package</a>. After cleaning up the column names of the disease data, we merge the two data sets together and spatially project the polygons contained in the data to <a href="https://epsg.io/32618">EPSG:32618</a>.</p>
+<p>We import the District of Columbia <a href="https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data">Health Planning Neighborhoods</a> boundaries and Molly Tolzmann’s <a href="https://twitter.com/zmotoly">zmotoly</a> collation of the cumulative cases from start of the SARS-CoV-2 outbreak. The latter is hosted on a public <a href="https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378">Google Sheet</a> and is accessible in <code>R</code> using the <a href="https://github.com/tidyverse/googlesheets4">googlesheets4 package</a>. After cleaning up the column names of the disease data, we merge the two data sets together and spatially project the polygons contained in the data to <a href="https://epsg.io/32618">EPSG:32618</a>.</p>
 <pre class="r"><code># District of Columbia Health Planning Neighborhoods
 gis_path &lt;- &quot;https://opendata.arcgis.com/datasets/de63a68eb7674548ae0ac01867123f7e_13.geojson&quot;
 dc &lt;- geojsonio::geojson_read(gis_path,  what = &quot;sp&quot;)
@@ -723,7 +723,7 @@ ggplot2::ggplot() +                                             # initialize ggp
                  panel.background = ggplot2::element_blank(),   # remove background gridlines
                  text = ggplot2::element_text(size = 10)) +     # set font size
   ggplot2::coord_equal()                                        # both axes the same scale</code></pre>
-<p><img src="/post/2020-05-15-covid-dc/2020-05-15-covid-dc_files/figure-html/cumulative%20rate-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="/post/2020-05-16/covid-dc_files/figure-html/cumulative%20rate-1.png" width="672" style="display: block; margin: auto;" /></p>
 </div>
 <div id="interactive-map" class="section level3">
 <h3>Interactive Map</h3>

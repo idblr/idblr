@@ -52,7 +52,7 @@ invisible(lapply(loadedPackages, require, character.only = T))
 
 # Settings
 googlesheets4::gs4_deauth() # no Google authorization necessary because we are not reading a public repo&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;We import the District of Columbia &lt;a href=&#34;https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data&#34;&gt;Health Planning Neighborhoods&lt;/a&gt; boundaries and Molly Tolzmann’s &lt;a href=&#34;https://twitter.com/zmotoly&#34;&gt;zmotoly&lt;/a&gt; collation of the cumulative cases from start of the SARS-CoV-2 outbreak. The latter is hosted on a public &lt;a href=&#34;%22https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378%22&#34;&gt;Google Sheet&lt;/a&gt; and is accessible in &lt;code&gt;R&lt;/code&gt; using the &lt;a href=&#34;https://github.com/tidyverse/googlesheets4&#34;&gt;googlesheets4 package&lt;/a&gt;. After cleaning up the column names of the disease data, we merge the two data sets together and spatially project the polygons contained in the data to &lt;a href=&#34;https://epsg.io/32618&#34;&gt;EPSG:32618&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We import the District of Columbia &lt;a href=&#34;https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data&#34;&gt;Health Planning Neighborhoods&lt;/a&gt; boundaries and Molly Tolzmann’s &lt;a href=&#34;https://twitter.com/zmotoly&#34;&gt;zmotoly&lt;/a&gt; collation of the cumulative cases from start of the SARS-CoV-2 outbreak. The latter is hosted on a public &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&#34;&gt;Google Sheet&lt;/a&gt; and is accessible in &lt;code&gt;R&lt;/code&gt; using the &lt;a href=&#34;https://github.com/tidyverse/googlesheets4&#34;&gt;googlesheets4 package&lt;/a&gt;. After cleaning up the column names of the disease data, we merge the two data sets together and spatially project the polygons contained in the data to &lt;a href=&#34;https://epsg.io/32618&#34;&gt;EPSG:32618&lt;/a&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# District of Columbia Health Planning Neighborhoods
 gis_path &amp;lt;- &amp;quot;https://opendata.arcgis.com/datasets/de63a68eb7674548ae0ac01867123f7e_13.geojson&amp;quot;
 dc &amp;lt;- geojsonio::geojson_read(gis_path,  what = &amp;quot;sp&amp;quot;)
@@ -100,7 +100,7 @@ ggplot2::ggplot() +                                             # initialize ggp
                  panel.background = ggplot2::element_blank(),   # remove background gridlines
                  text = ggplot2::element_text(size = 10)) +     # set font size
   ggplot2::coord_equal()                                        # both axes the same scale&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-15-covid-dc/2020-05-15-covid-dc_files/figure-html/cumulative%20rate-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-05-16/covid-dc_files/figure-html/cumulative%20rate-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;interactive-map&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Interactive Map&lt;/h3&gt;
