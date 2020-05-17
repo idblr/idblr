@@ -2,7 +2,7 @@
 title: Areas of a spatial segregation model significantly different from null expectations
 author: ~
 date: '2020-05-12'
-slug: asymptotic-p-values-for-spatial-segregation-model
+slug: pvalues-spatial-segregation
 categories: ["R"]
 tags: ["R Markdown", "point pattern", "R"]
 subtitle: ''

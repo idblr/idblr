@@ -14,9 +14,9 @@
     
     <item>
       <title>Cumulative SARS-CoV-2 Cases in the District of Columbia by Health Planning Neighborhoods</title>
-      <link>/post/2020-05-15-covid-dc/covid-dc/</link>
+      <link>/post/2020-05-16/covid-dc/</link>
       <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/2020-05-15-covid-dc/covid-dc/</guid>
+      <guid>/post/2020-05-16/covid-dc/</guid>
       <description>
 &lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
@@ -158,11 +158,10 @@ leaflet::leaflet(CoV_DC_WGS84, width = &amp;quot;100%&amp;quot;) %&amp;gt;%     
     
     <item>
       <title>Areas of a spatial segregation model significantly different from null expectations</title>
-      <link>/post/2020-05-10-pval-spatseg/asymptotic-p-values-for-spatial-segregation-model/</link>
+      <link>/post/2020-05-10/pvalues-spatial-segregation/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/2020-05-10-pval-spatseg/asymptotic-p-values-for-spatial-segregation-model/</guid>
+      <guid>/post/2020-05-10/pvalues-spatial-segregation/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;I present code to identify areas of a spatial segregation model that exceed our null expectations using the &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34;&gt;relrisk&lt;/a&gt; function in the &lt;a href=&#34;https://github.com/spatstat/spatstat&#34;&gt;spatstat&lt;/a&gt; package and an assumption of normality of the estimated probabilities. A spatial segregation model was originally proposed by &lt;a href=&#34;https://doi.org/10.1111/j.1467-9876.2005.05373.x&#34;&gt;Diggle, Zheng, &amp;amp; Durr in 2005&lt;/a&gt; which estimates spatially-varying probabilities of an event of a certain type to occur in an area accounting for other types. The original method uses a Monte Carlo-based simulation, which is computationally expensive. Instead, &lt;a href=&#34;https://github.com/baddstats&#34;&gt;Adrian Baddeley&lt;/a&gt; and the spatstat team adapted the &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34;&gt;relrisk&lt;/a&gt; function for a multitype (m &amp;gt; 2) point pattern that has an option to compute the standard error of the probability estimates based on asymptotic theory, assuming a Poisson process.&lt;/p&gt;
@@ -182,20 +181,20 @@ leaflet::leaflet(CoV_DC_WGS84, width = &amp;quot;100%&amp;quot;) %&amp;gt;%     
 
 # Plot input
   spatstat::plot.ppp(ppp_lansing, main = &amp;quot;Lansing Woods&amp;quot;, cex = 0.5)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10-pval-spatseg/2020-05-10-asymptotic-p-values-for-spatial-segregation-model_files/figure-html/data-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/pvalues-spatial-segregation_files/figure-html/data-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Estimate nonparametric spatially-varying probabilities of type
   f1 &amp;lt;- spatstat::relrisk.ppp(ppp_lansing, casecontrol = F, diggle = T, se = T, sigma = bw.diggle)
   
 # Default plots
   plot(f1$estimate, main = &amp;quot;Probability of an event by type&amp;quot;, zlim = c(0,1)) # probabilities&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10-pval-spatseg/2020-05-10-asymptotic-p-values-for-spatial-segregation-model_files/figure-html/spatial%20segregration-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/pvalues-spatial-segregation_files/figure-html/spatial%20segregration-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  plot(f1$SE, main = &amp;quot;Standard error of probability&amp;quot;, zlim = c(0,0.03)) # standard errors&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10-pval-spatseg/2020-05-10-asymptotic-p-values-for-spatial-segregation-model_files/figure-html/spatial%20segregration-2.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/pvalues-spatial-segregation_files/figure-html/spatial%20segregration-2.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  wh &amp;lt;- spatstat::im.apply(f1$estimate, which.max)
   types &amp;lt;- levels(spatstat::marks(spatstat.data::lansing))
   wh &amp;lt;- spatstat::eval.im(types[wh]) # most common 
   spatstat::plot.im(wh, main=&amp;quot;Most common species&amp;quot;, ribargs = list(las = 1))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10-pval-spatseg/2020-05-10-asymptotic-p-values-for-spatial-segregation-model_files/figure-html/spatial%20segregration-3.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/pvalues-spatial-segregation_files/figure-html/spatial%20segregration-3.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Significant p-values assumming normality of the Poisson process
 ## relrisk() computes standard errors based on asymptotic theory, assuming a Poisson process
   alpha &amp;lt;- 0.05                           # alpha
@@ -212,7 +211,7 @@ leaflet::leaflet(CoV_DC_WGS84, width = &amp;quot;100%&amp;quot;) %&amp;gt;%     
 
   # Plot significant p-values
   plot(f1$p, main = &amp;quot;Significant difference from null?&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10-pval-spatseg/2020-05-10-asymptotic-p-values-for-spatial-segregation-model_files/figure-html/spatial%20segregration-4.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/pvalues-spatial-segregation_files/figure-html/spatial%20segregration-4.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The final plot identifies where the spatially-varying probabilities exceed the null expected probability of each type. Areas of higher-than-expected probability could be considered “hot-spots” and areas of lower-than-expected probability could be considered “cold-spots.” Areas that are not significantly different from the null expectation could suggest additional sampling is necessary to determine if these areas are hot are cold spots.&lt;/p&gt;
 </description>
     </item>
