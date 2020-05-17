@@ -8,7 +8,7 @@ tags: ["R Markdown", "leaflet", "R", "open data", "coronavirus"]
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2020-05-16T3:47:18-04:00'
+lastmod: '2020-05-17T8:43:18-04:00'
 featured: no
 image:
   caption: ''
@@ -92,7 +92,7 @@ ggplot2::ggplot() +                                             # initialize ggp
                              na.value = "grey67",               # color for NA (The National Mall)
                              direction = 1,                     # reverse colors in colorkey
                              guide = ggplot2::guide_legend(reverse = T)) +  # reverse order of colokey
-  ggplot2::ggtitle("Cumulative SARS-CoV-2 cases per 1,000 (March 7, 2020 - May 15, 2020)") + # add title
+  ggplot2::ggtitle("Cumulative SARS-CoV-2 cases per 1,000 (as of May 15, 2020)") + # add title
   ggplot2::theme(line = ggplot2::element_blank(),               # remove axis lines
                  axis.text = ggplot2::element_blank(),          # remove tickmarks
                  axis.title = ggplot2::element_blank(),         # remove axis labels
@@ -155,6 +155,6 @@ leaflet::leaflet(CoV_DC_WGS84, width = "100%") %>%                        # init
 
 As of May 15, 2020 the highest cumulative rate of SARS-CoV-2 cases have occurred in the Stadium Armory and Molly Tolzmann [zmotoly](https://twitter.com/zmotoly) noted the DC Jail is located in this neighborhood in [her original post](https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053).
 
-The provided maps are not intended to inform decision-making. Instead, I provide the the [open-source code](https://github.com/idblr/coviDC) to download, manage, and visualize publicly available data. Future steps include linking other demographic information to each DC Health Planning Neighborhood (e.g., housing occupancy) and assessing their relationships with disease occurrence or creating an automatic workflow to update these figures daily.
+**The provided maps are not intended to inform decision-making**. Instead, I provide the the [open-source code](https://github.com/idblr/coviDC) to download, manage, and visualize publicly available data. Future steps include linking other demographic information to each DC Health Planning Neighborhood (e.g., housing occupancy) and assessing their relationships with disease occurrence or creating an automatic workflow to update these figures daily.
 
 Thanks, again, to Molly Tolzmann [zmotoly](https://twitter.com/zmotoly) and [PoPville](https://twitter.com/PoPville).
