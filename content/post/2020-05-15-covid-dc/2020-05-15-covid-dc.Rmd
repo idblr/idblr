@@ -18,7 +18,7 @@ projects: []
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, fig.align = "center", message = FALSE, warning = FALSE)
+knitr::opts_chunk$set(echo = TRUE, fig.align = "center", message = FALSE, warning = FALSE, cache = FALSE)
 ```
 
 After moving to DC last year, [PoPville](https://twitter.com/PoPville) has been a personal favorite for local scoop. A post on [May 11, 2020](https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053) captured my attention. Molly Tolzmann [zmotoly](https://twitter.com/zmotoly) adjusted the daily [coronavirus data](https://coronavirus.dc.gov/page/coronavirus-data) publicly released by the DC Mayoral Office at the [DC health planning neighborhood level](https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods) by the 2018 American Community Survey (ACS) census tract data and demographic data from [OpenData DC](https://opendata.dc.gov/). This post is a replication of the data visualization using [R](https://cran.r-project.org/) and can be found on a public [GitHub repository](https://github.com/idblr/coviDC). 
@@ -132,11 +132,9 @@ pal_rate <- leaflet::colorNumeric(palette = "Purples",
 The following is code for the leaflet plot. I set the starting parameters including available basemaps and then add each layer of COVID-19 data as polygons. After specifying the legend for each layer I finish up with a mini map to show scale. 
 ```{r leaflet}
 ## Create leaflet plot
-dc_m1 <- leaflet::leaflet(CoV_DC_WGS84, width = "100%") %>%                        # initial data
-  leaflet::setView(lng = -77, lat = 38.9, zoom = 11) %>%                           # starting coordinates
-  leaflet::addProviderTiles(providers$OpenStreetMap, group = "OSM (Default)") %>%  # default basemap
-  leaflet::addProviderTiles(providers$Esri.WorldTopoMap, group = "Terrain") %>%    # additional basemap
-  leaflet::addProviderTiles(providers$OpenTopoMap, group = "Roads") %>%            # additional basemap
+leaflet::leaflet(CoV_DC_WGS84, width = "100%") %>%                        # initial data
+  leaflet::setView(lng = -77, lat = 38.9, zoom = 11) %>%                  # starting coordinates
+  leaflet::addTiles() %>% # basemap
   leaflet::addPolygons(data = CoV_DC_WGS84, color = "black", weight = 1, smoothFactor = 0.5, opacity = 1,
                        fillOpacity = 0.67, fillColor = ~pal_cum(Total_cases_May_15), popup = ~popup1,
                        highlightOptions = highlightOptions(color = "white", weight = 2, bringToFront = TRUE),
@@ -145,21 +143,14 @@ dc_m1 <- leaflet::leaflet(CoV_DC_WGS84, width = "100%") %>%                     
                        fillOpacity = 0.67, fillColor = ~pal_rate(Cases_per_1000_May_15), popup = ~popup2,
                        highlightOptions = highlightOptions(color = "white", weight = 2, bringToFront = TRUE),
                        group = "Cumulative Rate") %>%
-  leaflet::addLayersControl(baseGroups = c("OSM (Default)", "Terrain", "Roads"),
-                            overlayGroups = c("Cumulative Cases", "Cumulative Rate"),
-                            options = layersControlOptions(collapsed = FALSE)) %>% # layer selection
-  addLegend("topright", pal = pal_cum, values = ~Total_cases_May_15,
+  leaflet::addLayersControl(overlayGroups = c("Cumulative Cases", "Cumulative Rate"), # layer selection
+                            options = layersControlOptions(collapsed = FALSE)) %>%     
+  addLegend("topright", pal = pal_cum, values = ~Total_cases_May_15,                  # legend for cases
             title = "Cumulative Cases", opacity = 1, group = "Cumulative Cases") %>%
-  addLegend("topright", pal = pal_rate, values = ~Cases_per_1000_May_15, 
+  addLegend("topright", pal = pal_rate, values = ~Cases_per_1000_May_15,              # legend for rate
             title = "Cumulative Rate per 1,000", opacity = 1, group = "Cumulative Rate") %>%
   leaflet::hideGroup(c("Cumulative Cases", "Cumulative Rate")) %>% # no data shown (default)
   leaflet::addMiniMap(position = "bottomleft") # add mini map
-
-dc_m1 # display leafmap
-```
-
-```{r save leaflet, echo = FALSE, eval = FALSE}
-htmlwidgets::saveWidget(dc_m1, "leafmap.html")
 ```
 
 As of May 15, 2020 the highest cumulative rate of SARS-CoV-2 cases have occurred in the Stadium Armory and Molly Tolzmann [zmotoly](https://twitter.com/zmotoly) noted the DC Jail is located in this neighborhood in [her original post](https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053).
