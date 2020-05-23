@@ -37,7 +37,7 @@ After moving to DC last year, [PoPville](https://twitter.com/PoPville){target="_
 The following are the necessary packages and settings for the exercise. 
 ```{r packages}
 # Packages
-loadedPackages <- c("broom", "geojsonio", "ggplot2", "googlesheets4", "htmlwidgets", "leaflet", "sp", "stringr")
+loadedPackages <- c("broom", "geojsonio", "ggplot2", "googlesheets4", "leaflet", "sp", "stringr", "widgetframe")
 invisible(lapply(loadedPackages, require, character.only = T))
 
 # Settings
@@ -132,7 +132,7 @@ pal_rate <- leaflet::colorNumeric(palette = "Purples",
 The following is code for the leaflet plot. I set the starting parameters including available basemaps and then add each layer of COVID-19 data as polygons. After specifying the legend for each layer I finish up with a mini map to show scale. 
 ```{r leaflet}
 ## Create leaflet plot
-leaflet::leaflet(CoV_DC_WGS84, width = "100%") %>%                        # initial data
+lf <- leaflet::leaflet(CoV_DC_WGS84) %>%                        # initial data
   leaflet::setView(lng = -77, lat = 38.9, zoom = 11) %>%                  # starting coordinates
   leaflet::addTiles() %>% # basemap
   leaflet::addPolygons(data = CoV_DC_WGS84, color = "black", weight = 1, smoothFactor = 0.5, opacity = 1,
@@ -151,6 +151,7 @@ leaflet::leaflet(CoV_DC_WGS84, width = "100%") %>%                        # init
             title = "Cumulative Rate per 1,000", opacity = 1, group = "Cumulative Rate") %>%
   leaflet::hideGroup(c("Cumulative Cases", "Cumulative Rate")) %>% # no data shown (default)
   leaflet::addMiniMap(position = "bottomleft") # add mini map
+widgetframe::frameWidget(lf, width='100%')
 ```
 
 As of May 15, 2020 the highest cumulative rate of SARS-CoV-2 cases have occurred in the Stadium Armory and Molly Tolzmann [zmotoly](https://twitter.com/zmotoly){target="_blank"} noted the DC Jail is located in this neighborhood in [her original post](https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053){target="_blank"}.

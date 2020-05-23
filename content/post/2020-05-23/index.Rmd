@@ -30,7 +30,7 @@ Here, I present the test positivity rate (TPR) for cumulative COVID-19 cases as 
 Necessary packages and settings for the exercise include:
 ```{r packages}
 # Packages
-loadedPackages <- c("broom", "geojsonio", "ggplot2", "googlesheets4", "htmlwidgets", "leaflet", "sp", "stringr")
+loadedPackages <- c("broom", "geojsonio", "ggplot2", "googlesheets4", "leaflet", "sp", "stringr", "widgetframe")
 invisible(lapply(loadedPackages, require, character.only = T))
 
 # Settings
@@ -130,7 +130,7 @@ pal_weight <- leaflet::colorNumeric(palette = "Purples",
 
 
 ## Create leaflet plot
-leaflet::leaflet(CoV_DC_WGS84, width = "100%") %>%                        # initial data
+lf <- leaflet::leaflet(CoV_DC_WGS84) %>%                        # initial data
   leaflet::setView(lng = -77, lat = 38.9, zoom = 11) %>%                  # starting coordinates
   leaflet::addTiles() %>% # basemap
   leaflet::addPolygons(data = CoV_DC_WGS84, color = "black", weight = 1, smoothFactor = 0.5, opacity = 1,
@@ -161,6 +161,7 @@ leaflet::leaflet(CoV_DC_WGS84, width = "100%") %>%                        # init
             title = "Cumulative test positivity rate", opacity = 1, na.label = "No Data", group = "Test positivity rate") %>%
   leaflet::hideGroup(c("Cases", "Cases per 1,000", "Tests per 1,000", "Test positivity rate")) %>% # no data shown (default)
   leaflet::addMiniMap(position = "bottomleft") # add mini map
+widgetframe::frameWidget(lf, width='100%')
 ```
 
 As of May 21, 2020 the highest positive testing rate of cumulative SARS-CoV-2 cases has occurred in the Stadium Armory (almost 1 out of 2 tests return positive). The DC Jail is located in the Stadium Armory as [previously noted](https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053){target="_blank"}. An East/West divide is evident in the case rate after accounting for testing. Also, no neighborhood is below the 5\% WHO recommendation; however, this metric is more appropriately used for incident (or recent) tests such as, for example, a 7 day average than for cumulative cases, so interpret these findings with caution.
