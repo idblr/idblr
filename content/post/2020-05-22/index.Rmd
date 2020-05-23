@@ -1,5 +1,5 @@
 ---
-title: Cumulative SARS-CoV-2 Case Rate in D.C. Accounting for Testing
+title: Test Positivity Rate of Cumulative SARS-CoV-2 Cases in the District of Columbia
 author: ~
 date: '2020-05-22'
 slug: covid-dc-test
@@ -23,7 +23,9 @@ knitr::opts_chunk$set(echo = TRUE, fig.align = "center", message = FALSE, warnin
 
 I present an update to my [previous post](/post/covid-dc). Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their [coronavirus data portal](https://coronavirus.dc.gov/page/coronavirus-data){target="_blank"}. Molly Tolzmann [zmotoly](https://twitter.com/zmotoly){target="_blank"} added this feature to her publicly available [Google Sheet](https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378){target="_blank"} presented at the [DC health planning neighborhood level](https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods){target="_blank"}. The update here can also be found on a public [GitHub repository](https://github.com/idblr/coviDC){target="_blank"}. 
 
-**Imporant Note**: The following show cumulative case rate per 1,000 since the beginning of the COVID-19 outbreak in DC. Therefore, the the stats do not reflect the number of people currently infected with SARS-CoV-2. 
+Here, I present the test positivity rate (TPR) for cumulative COVID-19 cases as of May 21, 2020. A TPR is the proportion of positive tests for every administered test. For example, the World Health Organization [recommends](https://coronavirus.jhu.edu/testing/testing-positivity){target="_blank"} a test positivity rate below 5% (1 out of 20 tests, TPR = 0.05) before reopening. 
+
+**Important Note**: The following show cumulative case rate per 1,000 since the beginning of the COVID-19 outbreak in DC. Therefore, the the stats do not reflect the number of people currently infected with SARS-CoV-2. 
 
 Necessary packages and settings for the exercise include:
 ```{r packages}
@@ -35,7 +37,7 @@ invisible(lapply(loadedPackages, require, character.only = T))
 googlesheets4::gs4_deauth() # no Google authorization necessary because we are not reading a public repo
 ```
 
-I merged the District of Columbia [Health Planning Neighborhoods](https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data){target="_blank"} boundaries and Molly Tolzmann's [zmotoly](https://twitter.com/zmotoly){target="_blank"} [collation](https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378){target="_blank"} of the cumulative cases and tests from start of the SARS-CoV-2 outbreak. I created a new variable for the case rate (cases per 1,000) accouning for testing (tests per 1,000) `Weighted_Case_Rate_May_21`.
+I merged the District of Columbia [Health Planning Neighborhoods](https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data){target="_blank"} boundaries and Molly Tolzmann's [zmotoly](https://twitter.com/zmotoly){target="_blank"} [collation](https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378){target="_blank"} of the cumulative cases and tests from start of the SARS-CoV-2 outbreak. I created a new variable for the test positivity rate `test_positivity_May_21`.
 ```{r data}
 # District of Columbia Health Planning Neighborhoods
 gis_path <- "https://opendata.arcgis.com/datasets/de63a68eb7674548ae0ac01867123f7e_13.geojson"
@@ -49,10 +51,8 @@ covid <- googlesheets4::read_sheet(ss = covid_path,
 names(covid) <- sub("\n", "", names(covid))   # remove extra line in column names
 names(covid) <- gsub(" ", "_", names(covid))  # replace spaces with underscore
 
-#covid$May21_pertest_per1000 <- covid$Total_cases_May_21 / covid$Total_tests_May_21 / covid$`Population_(2018_ACS)` * 1000
-
-covid$Weighted_Case_Rate_May_21 <- covid$Cases_per_1000_May_21 / covid$Tests_per_1000_May_21
-
+# Test Positivity Rate
+covid$test_positivity_May_21 <- covid$Total_cases_May_21 / covid$Total_tests_May_21
 
 # Merge
 dc_covid <- sp::merge(dc, covid, by.x = "CODE", by.y = "NB_Code")
@@ -64,7 +64,8 @@ dc_covid_proj <- sp::spTransform(dc_covid, CRS("+init=EPSG:32618"))
 
 ### Static Map
 
-I use the [ggplot2 package](https://github.com/tidyverse/ggplot2){target="_blank"} to plot cumulative cases per 1,000 (May 21, since start of the outbreak) accounting for testing (tests per 1,000).
+I use the [ggplot2 package](https://github.com/tidyverse/ggplot2){target="_blank"} to plot the test positivity rate (as of May 21).
+
 ```{r static}
 # Uses ggplot2 package
 ## helpful material: https://cengel.github.io/rspatial/4_Mapping.nb.html
@@ -78,14 +79,14 @@ ggplot2::ggplot() +                                             # initialize ggp
   ggplot2::geom_polygon(                                        # make a polygon
     data = CoV_DC_df,                                           # data frame
     ggplot2::aes(x = long, y = lat, group = group,              # coordinates, and group them by polygons
-                 fill = ggplot2::cut_interval(Weighted_Case_Rate_May_21, 5)),       # variable to use for filling
+                 fill = ggplot2::cut_interval(test_positivity_May_21, 5)),       # variable to use for filling
     colour = "white") +                                         # color of polygon borders
-  ggplot2::scale_fill_brewer("Case rate / testing rate",      # title of colorkey 
+  ggplot2::scale_fill_brewer("Test positivity rate",      # title of colorkey 
                              palette = "Purples",               # fill with brewer colors 
                              na.value = "grey67",               # color for NA (The National Mall)
                              direction = 1,                     # reverse colors in colorkey
                              guide = ggplot2::guide_legend(reverse = T)) +  # reverse order of colokey
-  ggplot2::ggtitle("Cumulative SARS-CoV-2 cases per 1,000 as of May 21, 2020 accounting for testing") + # add title
+  ggplot2::ggtitle("Test Positivity Rate of cumulative SARS-CoV-2 cases as of May 21, 2020") + # add title
   ggplot2::theme(line = ggplot2::element_blank(),               # remove axis lines
                  axis.text = ggplot2::element_blank(),          # remove tickmarks
                  axis.title = ggplot2::element_blank(),         # remove axis labels
@@ -110,8 +111,8 @@ CoV_DC_WGS84$popup2 <- paste(dc_health, ": ",
                              format(round(CoV_DC_WGS84$Cases_per_1000_May_21, digits = 0), big.mark = ",", trim = T),
                              " cumulative cases per 1,000", sep = "")
 CoV_DC_WGS84$popup3 <- paste(dc_health, ": ",
-                             format(round(CoV_DC_WGS84$Weighted_Case_Rate_May_21, digits = 2), big.mark = ",", trim = T),
-                             " cumulative cases per 1,000 accounting for testing", sep = "")
+                             format(round(CoV_DC_WGS84$test_positivity_May_21, digits = 2), big.mark = ",", trim = T),
+                             " test positivity rate", sep = "")
 
 ## Set Palettes
 pal_cum <- leaflet::colorNumeric(palette = "Purples",
@@ -124,7 +125,7 @@ pal_test <- leaflet::colorNumeric(palette = "Purples",
                                   domain = CoV_DC_WGS84$Tests_per_1000_May_21,
                                   na.color = "#555555")
 pal_weight <- leaflet::colorNumeric(palette = "Purples",
-                                  domain = CoV_DC_WGS84$Weighted_Case_Rate_May_21,
+                                  domain = CoV_DC_WGS84$test_positivity_May_21,
                                   na.color = "#555555")
 
 
@@ -145,25 +146,25 @@ leaflet::leaflet(CoV_DC_WGS84, width = "100%") %>%                        # init
                        highlightOptions = highlightOptions(color = "white", weight = 2, bringToFront = TRUE),
                        group = "Tests per 1,000") %>%
   leaflet::addPolygons(data = CoV_DC_WGS84, color = "black", weight = 1, smoothFactor = 0.5, opacity = 1,
-                       fillOpacity = 0.67, fillColor = ~pal_weight(Weighted_Case_Rate_May_21), popup = ~popup3,
+                       fillOpacity = 0.67, fillColor = ~pal_weight(test_positivity_May_21), popup = ~popup3,
                        highlightOptions = highlightOptions(color = "white", weight = 2, bringToFront = TRUE),
-                       group = "Case rate / testing rate") %>%
-  leaflet::addLayersControl(overlayGroups = c("Cases", "Cases per 1,000", "Tests per 1,000", "Case rate / testing rate"), # layer selection
+                       group = "Test positivity rate") %>%
+  leaflet::addLayersControl(overlayGroups = c("Cases", "Cases per 1,000", "Tests per 1,000", "Test positivity rate"), # layer selection
                             options = layersControlOptions(collapsed = FALSE)) %>%     
   addLegend("topright", pal = pal_cum, values = ~Total_cases_May_21,                  # legend for cases
-            title = "Cumulative cases", opacity = 1, na.label = "No Data", group = "Cases") %>%
+            title = "Cumulative COVID-19 cases", opacity = 1, na.label = "No Data", group = "Cases") %>%
   addLegend("topright", pal = pal_rate, values = ~Cases_per_1000_May_21,              # legend for rate
             title = "Cumulative cases per 1,000", opacity = 1, na.label = "No Data", group = "Cases per 1,000") %>%
-  addLegend("topright", pal = pal_test, values = ~Tests_per_1000_May_21,              # legend for Cases per 1,000 accounting for testing
+  addLegend("topright", pal = pal_test, values = ~Tests_per_1000_May_21,              # legend for test positivity rate
             title = "Cumulative tests per 1,000", opacity = 1, na.label = "No Data", group = "Tests per 1,000") %>%
-  addLegend("topright", pal = pal_weight, values = ~Weighted_Case_Rate_May_21,              # legend for Cases per 1,000 accounting for testing
-            title = "Case rate / testing rate", opacity = 1, na.label = "No Data", group = "Case rate / testing rate") %>%
-  leaflet::hideGroup(c("Cases", "Cases per 1,000", "Tests per 1,000", "Case rate / testing rate")) %>% # no data shown (default)
+  addLegend("topright", pal = pal_weight, values = ~test_positivity_May_21,              # legend for test positivity rate
+            title = "Cumulative test positivity rate", opacity = 1, na.label = "No Data", group = "Test positivity rate") %>%
+  leaflet::hideGroup(c("Cases", "Cases per 1,000", "Tests per 1,000", "Test positivity rate")) %>% # no data shown (default)
   leaflet::addMiniMap(position = "bottomleft") # add mini map
 ```
 
-As of May 21, 2020 the highest cumulative rate of SARS-CoV-2 cases (after accounting for testing) have occurred in the Stadium Armory as [previously noted](https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053){target="_blank"}. An East/West divide is evident in the case rate after accounting for testing.
+As of May 21, 2020 the highest positive testing rate of cumulative SARS-CoV-2 cases has occurred in the Stadium Armory (almost 1 out of 2 tests return positive). The DC Jail is located in the Stadium Armory as [previously noted](https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053){target="_blank"}. An East/West divide is evident in the case rate after accounting for testing. Also, no neighborhood is below the 5\% WHO recommendation; however, this metric is more appropriately used for incident (or recent) tests such as, for example, a 7 day average than for cumulative cases, so interpret these findings with caution.
 
 **The provided maps are not intended to inform decision-making**. Instead, I provide the the [open-source code](https://github.com/idblr/coviDC){target="_blank"} to download, manage, and visualize publicly available data. Future steps are similar to my [previous post](/post/covid-dc),  linking other demographic information to each DC Health Planning Neighborhood (e.g., housing occupancy) and assessing their relationships with disease occurrence or creating an automatic workflow to update these figures daily.
 
-Thanks, again, to Molly Tolzmann [zmotoly](https://twitter.com/zmotoly){target="_blank"}.\
+Thanks, again, to Molly Tolzmann [zmotoly](https://twitter.com/zmotoly){target="_blank"} for the data management. 
