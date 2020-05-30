@@ -5,12 +5,152 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2020 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2020 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Sat, 30 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/avatar.jpg</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Cluster Detection in PCoA Space using Kernel Density Estimation</title>
+      <link>/post/cluster-microbiome/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      <guid>/post/cluster-microbiome/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I present code to identify relative spatial clustering in multidimensional scaling / principal coordinate analysis (MDS/PCoA) space. I use a spatial relative risk function &lt;a href=&#34;https://github.com/cran/sparr/blob/master/R/risk.R&#34; target=&#34;_blank&#34;&gt;risk&lt;/a&gt; from the &lt;a href=&#34;https://github.com/cran/sparr&#34; target=&#34;_blank&#34;&gt;sparr&lt;/a&gt; package. I use a spatial segregation model &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34;&gt;relrisk&lt;/a&gt; from the &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34;&gt;spatstat&lt;/a&gt; package. See my &lt;a href=&#34;/post/pvalues-spatial-segregation&#34;&gt;previous post&lt;/a&gt; about using the spatial segregation model.&lt;/p&gt;
+&lt;p&gt;I use microbiome data from the &lt;a href=&#34;https://datadryad.org/stash/dataset/doi:10.5061/dryad.1mn1n&#34;&gt;dietswap&lt;/a&gt; data set in the &lt;a href=&#34;https://www.bioconductor.org/packages/release/bioc/html/microbiome.html&#34; target=&#34;_blank&#34;&gt;microbiome&lt;/a&gt; package part of &lt;a href=&#34;https://www.bioconductor.org/&#34;&gt;Bioconductor&lt;/a&gt;. The diet swap data set represents a study with African and African American groups undergoing a two-week diet swap reported in &lt;a href=&#34;https://www.nature.com/articles/ncomms7342&#34;&gt;O’Keefe et al. Nat. Comm. 6:6342, 2015&lt;/a&gt;. I follow the &lt;a href=&#34;https://microbiome.github.io/tutorials/Ordination.html&#34;&gt;Ordination Analysis&lt;/a&gt; example by Leo Lahti, Sudarshan Shetty &lt;em&gt;et al.&lt;/em&gt; 2020.&lt;/p&gt;
+&lt;p&gt;MDS/PCoA summarizes and attempts to represent inter-object dissimilarity in a low-dimensional space, not necessarily using Euclidean Distances (used by Principal Component Analysis)&lt;/p&gt;
+&lt;p&gt;Necessary packages and settings for the exercise include:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Packages
+loadedPackages &amp;lt;- c(&amp;quot;ggplot2&amp;quot;, &amp;quot;maptools&amp;quot;, &amp;quot;microbiome&amp;quot;, &amp;quot;phyloseq&amp;quot;, &amp;quot;sp&amp;quot;, &amp;quot;spatstat&amp;quot;)
+invisible(lapply(loadedPackages, require, character.only = T))
+set.seed(4235421) # for reproducibility&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I prepare the data by choosing limiting to taxa with 90% prevalence and a detection limit above 0.1%. I then ordinate Bray-Curtis dissimilarity matrix by MDS/PCoA.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# data
+data(dietswap)
+pseq &amp;lt;- dietswap
+
+# Convert to compositional data
+pseq.rel &amp;lt;- microbiome::transform(pseq, &amp;quot;compositional&amp;quot;)
+
+# Pick core taxa with with the given prevalence and detection limits
+pseq.core &amp;lt;- core(pseq.rel, detection = 0.1/100, prevalence = 90/100)
+
+# Use relative abundances for the core
+pseq.core &amp;lt;- microbiome::transform(pseq.core, &amp;quot;compositional&amp;quot;)
+
+# Ordinate the data
+ord &amp;lt;- ordinate(pseq.core, &amp;quot;MDS&amp;quot;, &amp;quot;bray&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;two-group-comparison&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Two Group Comparison&lt;/h3&gt;
+&lt;p&gt;As an example of relative spatial clustering between two groups I compare the two levels of the &lt;code&gt;nationality&lt;/code&gt; variable “AMR” (America) and “AFR” (Africa). A plot of the samples by the two groups is displayed below:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Plot ordination
+plot_ordination(pseq.core, ord, color = &amp;quot;nationality&amp;quot;) +
+  geom_point(size = 1) + 
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank(),
+        axis.line = element_line(colour = &amp;quot;black&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-05-30/index_files/figure-html/plot%20ordination%20two%20groups-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;To detect significant relative spatial clustering between the two nationalities, I use the &lt;a href=&#34;https://github.com/cran/sparr/blob/master/R/risk.R&#34; target=&#34;_blank&#34;&gt;risk&lt;/a&gt; function from the &lt;a href=&#34;https://github.com/cran/sparr&#34; target=&#34;_blank&#34;&gt;sparr&lt;/a&gt; package. The function requires data as a planar point process (&lt;code&gt;ppp&lt;/code&gt;) object. Here, I use the default settings for the &lt;a href=&#34;https://github.com/cran/sparr/blob/master/R/risk.R&#34; target=&#34;_blank&#34;&gt;risk&lt;/a&gt; function except I use adaptive-bandwidth selection. Significant areas are defined as areas that exceed a two-tailed 0.05 alpha level.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Convert to ppp object
+test_df &amp;lt;- data.frame(&amp;quot;x&amp;quot; = ord$vectors[,1],
+                      &amp;quot;y&amp;quot; = ord$vectors[,2],
+                      &amp;quot;g&amp;quot; = pseq@sam_data@.Data[[3]])
+coordinates(test_df) &amp;lt;- ~ x + y
+test_pp &amp;lt;- as(test_df, &amp;quot;ppp&amp;quot;)
+
+# Spatial Relative Risk Function
+f0 &amp;lt;- sparr::risk(test_pp, tolerate = TRUE, adapt = TRUE)
+
+# Plot of significant areas
+f0_p &amp;lt;- f0$P
+f0_p$v &amp;lt;- factor(ifelse(f0_p$v &amp;lt; 0.025, &amp;quot;AAM&amp;quot;,
+                        ifelse(f0_p$v &amp;gt; 0.975, &amp;quot;AFR&amp;quot;,&amp;quot;insignificant&amp;quot;)),
+                 levels = c(&amp;quot;AFR&amp;quot;, &amp;quot;insignificant&amp;quot;, &amp;quot;AAM&amp;quot;))
+plot.ppp(test_pp, ann = TRUE, axes = TRUE,
+         leg.side = &amp;quot;left&amp;quot;,
+         xlab = &amp;quot;Axis.1 [54.5%]&amp;quot;,
+         ylab = &amp;quot;Axis.2 [20.4%]&amp;quot;,
+         main = &amp;quot;Significant area, adaptive bandwidth, alpha = 0.05&amp;quot;,
+         cols = c(&amp;quot;coral1&amp;quot;, &amp;quot;cadetblue3&amp;quot;),
+         pch = 16)
+plot.im(f0_p, add = TRUE, show.all = TRUE, main = &amp;quot;&amp;quot;,
+        col = c(&amp;quot;cadetblue4&amp;quot;,&amp;quot;grey80&amp;quot;,&amp;quot;coral4&amp;quot;))
+plot.ppp(test_pp, add = TRUE, main = &amp;quot;&amp;quot;,
+         cols = c(&amp;quot;coral1&amp;quot;, &amp;quot;cadetblue3&amp;quot;),
+         pch = 16)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-05-30/index_files/figure-html/sparr-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The African group has one significant cluster relative to the American Group (colored blue), which has two significant clusters (colored red). The areas in grey are where the African and American groups spatially covary together that is indiscernible from spatial randomness.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;multi-group-comparison&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Multi-Group Comparison&lt;/h3&gt;
+&lt;p&gt;As an example of relative spatial clustering between three groups I compare the two levels of the &lt;code&gt;bmi_group&lt;/code&gt; variable “lean”, “overweight’ and”obese&#34;. A plot of the samples by the three groups is displayed below:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Plot ordination
+plot_ordination(pseq.core, ord, color = &amp;quot;bmi_group&amp;quot;) +
+  geom_point(size = 1) +
+  labs(color = &amp;quot;BMI Group&amp;quot;) +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank(),
+        axis.line = element_line(colour = &amp;quot;black&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-05-30/index_files/figure-html/plot%20ordination%20three%20groups-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;To detect significant relative spatial clustering between three BMI groups, I use a spatial segregation model &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34;&gt;relrisk&lt;/a&gt; from the &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34;&gt;spatstat&lt;/a&gt; package. The function requires data as a planar point process (&lt;code&gt;ppp&lt;/code&gt;) object. Here, I use the default settings for the &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34;&gt;relrisk&lt;/a&gt; function. I present 1) the most common BMI group across the MDS/PCoA space, and 2) areas that are significantly different from the null expectation for each BMI group. See my &lt;a href=&#34;/post/pvalues-spatial-segregation&#34;&gt;previous post&lt;/a&gt; about using the spatial segregation model.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Convert to ppp object
+test_df &amp;lt;- data.frame(&amp;quot;x&amp;quot; = ord$vectors[,1],
+                      &amp;quot;y&amp;quot; = ord$vectors[,2],
+                      &amp;quot;g&amp;quot; = pseq@sam_data@.Data[[8]])
+coordinates(test_df) &amp;lt;- ~ x + y
+test_pp &amp;lt;- as(test_df, &amp;quot;ppp&amp;quot;)
+
+# Spatial Segregation model
+f1 &amp;lt;- spatstat::relrisk.ppp(test_pp, se = T)
+
+# Plot of most common BMI Group
+wh &amp;lt;- spatstat::im.apply(f1$estimate, which.max)
+types &amp;lt;- levels(spatstat::marks(test_pp))
+wh &amp;lt;- spatstat::eval.im(types[wh]) # most common 
+
+plot.ppp(test_pp, ann = TRUE, axes = TRUE,
+         leg.side = &amp;quot;left&amp;quot;,
+         xlab = &amp;quot;Axis.1 [54.5%]&amp;quot;,
+         ylab = &amp;quot;Axis.2 [20.4%]&amp;quot;,
+         main = &amp;quot;Most common type&amp;quot;,
+         cols = c(&amp;quot;coral1&amp;quot;, &amp;quot;chartreuse3&amp;quot;, &amp;quot;cadetblue3&amp;quot;),
+         pch = 16)
+plot.im(wh, add = TRUE, show.all = TRUE, main = &amp;quot;&amp;quot;,
+        col = c(&amp;quot;coral4&amp;quot;,&amp;quot;cadetblue4&amp;quot;,&amp;quot;chartreuse4&amp;quot;))
+plot.ppp(test_pp, add = TRUE, main = &amp;quot;&amp;quot;,
+         cols = c(&amp;quot;coral1&amp;quot;, &amp;quot;chartreuse3&amp;quot;, &amp;quot;cadetblue3&amp;quot;),
+         pch = 16)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-05-30/index_files/figure-html/spatial%20segregation-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The “lean” BMI group appears most common in one area of the MDS/PCoA space (colored red), while the other two groups have numerous clusters. This plot &lt;em&gt;does not&lt;/em&gt; indicate where eat group are significantly different from their null expectations. For example, our null expectation for the “lean” BMI group is a probability of about 0.25 (56/222).&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#spatstat::plot.im(wh, main=&amp;quot;Most common type&amp;quot;, ribargs = list(las = 1))
+
+# Plot of significantly different areas
+alpha &amp;lt;- 0.05                           # alpha
+z &amp;lt;- qnorm(alpha/2, lower.tail = F)     # z-statistic
+f1$u &amp;lt;- f1$estimate + z*f1$SE           # Upper CIs
+f1$l &amp;lt;- f1$estimate - z*f1$SE           # Lower CIs
+mu_0 &amp;lt;- as.vector(table(spatstat::marks(test_pp))/test_pp$n) # null expectations by type
+f1$p &amp;lt;- f1$estimate # copy structure of pixels, replace values
+for (i in 1:length(f1$p)) {
+  f1$p[[i]]$v &amp;lt;- factor(ifelse(mu_0[i] &amp;gt; f1$u[[i]]$v, &amp;quot;lower&amp;quot;,
+                               ifelse( mu_0[i] &amp;lt; f1$l[[i]]$v, &amp;quot;higher&amp;quot;, &amp;quot;none&amp;quot;)),
+                        levels = c(&amp;quot;lower&amp;quot;, &amp;quot;none&amp;quot;, &amp;quot;higher&amp;quot;))
+}
+
+# Plot significant p-values
+plot(f1$p, main = &amp;quot;Significant difference from null?&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-05-30/index_files/figure-html/significant%20spatial%20segregation-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The “lean” BMI group is significantly higher than expected in one large cluster. The “overweight” BMI group is significantly higher than expected in one large cluster and one small cluster. The “obese” BMI group is significantly higher is numerous small clusters.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Test Positivity Rate of Cumulative SARS-CoV-2 Cases in the District of Columbia</title>

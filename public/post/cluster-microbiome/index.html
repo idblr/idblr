@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="I present an update to my previous post. Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their coronavirus data portal.">
+  <meta name="description" content="I present code to identify relative spatial clustering in multidimensional scaling / principal coordinate analysis (MDS/PCoA) space. I use a spatial relative risk function risk from the sparr package.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/covid-dc-test/">
+  <link rel="alternate" hreflang="en-us" href="/post/cluster-microbiome/">
 
   
 
@@ -253,7 +253,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hue3c8c0abcde60b15cf7b3f1a8dee385e_56509_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hue3c8c0abcde60b15cf7b3f1a8dee385e_56509_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/post/covid-dc-test/">
+  <link rel="canonical" href="/post/cluster-microbiome/">
 
   
   
@@ -271,15 +271,15 @@
   <meta property="twitter:creator" content="@idblr">
   
   <meta property="og:site_name" content="Ian Buller">
-  <meta property="og:url" content="/post/covid-dc-test/">
-  <meta property="og:title" content="Test Positivity Rate of Cumulative SARS-CoV-2 Cases in the District of Columbia | Ian Buller">
-  <meta property="og:description" content="I present an update to my previous post. Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their coronavirus data portal."><meta property="og:image" content="/post/covid-dc-test/featured.png">
-  <meta property="twitter:image" content="/post/covid-dc-test/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="/post/cluster-microbiome/">
+  <meta property="og:title" content="Cluster Detection in PCoA Space using Kernel Density Estimation | Ian Buller">
+  <meta property="og:description" content="I present code to identify relative spatial clustering in multidimensional scaling / principal coordinate analysis (MDS/PCoA) space. I use a spatial relative risk function risk from the sparr package."><meta property="og:image" content="/post/cluster-microbiome/featured.png">
+  <meta property="twitter:image" content="/post/cluster-microbiome/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-05-23T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-05-30T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-05-22T23:23:18-04:00">
+    <meta property="article:modified_time" content="2020-05-30T03:14:18-04:00">
   
 
   
@@ -303,16 +303,16 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/post/covid-dc-test/"
+    "@id": "/post/cluster-microbiome/"
   },
-  "headline": "Test Positivity Rate of Cumulative SARS-CoV-2 Cases in the District of Columbia",
+  "headline": "Cluster Detection in PCoA Space using Kernel Density Estimation",
   
   "image": [
-    "/post/covid-dc-test/featured.png"
+    "/post/cluster-microbiome/featured.png"
   ],
   
-  "datePublished": "2020-05-23T00:00:00Z",
-  "dateModified": "2020-05-22T23:23:18-04:00",
+  "datePublished": "2020-05-30T00:00:00Z",
+  "dateModified": "2020-05-30T03:14:18-04:00",
   
   "author": {
     "@type": "Person",
@@ -327,7 +327,7 @@
       "url": "/images/icon_hue3c8c0abcde60b15cf7b3f1a8dee385e_56509_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "I present an update to my previous post. Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their coronavirus data portal."
+  "description": "I present code to identify relative spatial clustering in multidimensional scaling / principal coordinate analysis (MDS/PCoA) space. I use a spatial relative risk function risk from the sparr package."
 }
 </script>
 
@@ -375,7 +375,7 @@
 
 
 
-  <title>Test Positivity Rate of Cumulative SARS-CoV-2 Cases in the District of Columbia | Ian Buller</title>
+  <title>Cluster Detection in PCoA Space using Kernel Density Estimation | Ian Buller</title>
 
 </head>
 
@@ -576,10 +576,12 @@
 
   
   
+    
+  
 
 
 <div class="article-container pt-3">
-  <h1>Test Positivity Rate of Cumulative SARS-CoV-2 Cases in the District of Columbia</h1>
+  <h1>Cluster Detection in PCoA Space using Kernel Density Estimation</h1>
 
   
 
@@ -599,7 +601,7 @@
           Last updated on
       
     
-    2020-05-22
+    2020-05-30
   </span>
   
 
@@ -608,7 +610,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    6 min read
+    5 min read
   </span>
   
 
@@ -643,9 +645,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 600px; max-height: 600px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 514px;">
   <div style="position: relative">
-    <img src="/post/covid-dc-test/featured.png" alt="" class="featured-image">
+    <img src="/post/cluster-microbiome/featured_hu8df7bbc8018077a8fcda8368142382a5_130355_720x0_resize_lanczos_2.png" alt="" class="featured-image">
     <span class="article-header-caption">Image credit: <a href="/"><strong>Ian Buller</strong></a></span>
   </div>
 </div>
@@ -657,144 +659,135 @@
     <div class="article-style">
       
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
-<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
-<script src="/rmarkdown-libs/pymjs/pym.v1.js"></script>
-<script src="/rmarkdown-libs/widgetframe-binding/widgetframe.js"></script>
 
 
-<p>I present an update to my <a href="/post/covid-dc">previous post</a>. Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their <a href="https://coronavirus.dc.gov/page/coronavirus-data" target="_blank">coronavirus data portal</a>. Molly Tolzmann <a href="https://twitter.com/zmotoly" target="_blank">zmotoly</a> added this feature to her publicly available <a href="https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378" target="_blank">Google Sheet</a> presented at the <a href="https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods" target="_blank">DC health planning neighborhood level</a>. The update here can also be found on a public <a href="https://github.com/idblr/coviDC" target="_blank">GitHub repository</a>.</p>
-<p>Here, I present the test positivity rate (TPR) for cumulative COVID-19 cases as of May 21, 2020. A TPR is the proportion of positive tests for every administered test. For example, the World Health Organization <a href="https://coronavirus.jhu.edu/testing/testing-positivity" target="_blank">recommends</a> a test positivity rate below 5% (1 out of 20 tests, TPR = 0.05) before reopening.</p>
-<p><strong>Important Note</strong>: The following show cumulative case rate per 1,000 since the beginning of the COVID-19 outbreak in DC. Therefore, the the stats do not reflect the number of people currently infected with SARS-CoV-2.</p>
+<p>I present code to identify relative spatial clustering in multidimensional scaling / principal coordinate analysis (MDS/PCoA) space. I use a spatial relative risk function <a href="https://github.com/cran/sparr/blob/master/R/risk.R" target="_blank">risk</a> from the <a href="https://github.com/cran/sparr" target="_blank">sparr</a> package. I use a spatial segregation model <a href="https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd" target="_blank">relrisk</a> from the <a href="https://github.com/spatstat/spatstat" target="_blank">spatstat</a> package. See my <a href="/post/pvalues-spatial-segregation">previous post</a> about using the spatial segregation model.</p>
+<p>I use microbiome data from the <a href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.1mn1n">dietswap</a> data set in the <a href="https://www.bioconductor.org/packages/release/bioc/html/microbiome.html" target="_blank">microbiome</a> package part of <a href="https://www.bioconductor.org/">Bioconductor</a>. The diet swap data set represents a study with African and African American groups undergoing a two-week diet swap reported in <a href="https://www.nature.com/articles/ncomms7342">O’Keefe et al. Nat. Comm. 6:6342, 2015</a>. I follow the <a href="https://microbiome.github.io/tutorials/Ordination.html">Ordination Analysis</a> example by Leo Lahti, Sudarshan Shetty <em>et al.</em> 2020.</p>
+<p>MDS/PCoA summarizes and attempts to represent inter-object dissimilarity in a low-dimensional space, not necessarily using Euclidean Distances (used by Principal Component Analysis)</p>
 <p>Necessary packages and settings for the exercise include:</p>
 <pre class="r"><code># Packages
-loadedPackages &lt;- c(&quot;broom&quot;, &quot;geojsonio&quot;, &quot;ggplot2&quot;, &quot;googlesheets4&quot;, &quot;leaflet&quot;, &quot;sp&quot;, &quot;stringr&quot;, &quot;widgetframe&quot;)
+loadedPackages &lt;- c(&quot;ggplot2&quot;, &quot;maptools&quot;, &quot;microbiome&quot;, &quot;phyloseq&quot;, &quot;sp&quot;, &quot;spatstat&quot;)
 invisible(lapply(loadedPackages, require, character.only = T))
+set.seed(4235421) # for reproducibility</code></pre>
+<p>I prepare the data by choosing limiting to taxa with 90% prevalence and a detection limit above 0.1%. I then ordinate Bray-Curtis dissimilarity matrix by MDS/PCoA.</p>
+<pre class="r"><code># data
+data(dietswap)
+pseq &lt;- dietswap
 
-# Settings
-googlesheets4::gs4_deauth() # no Google authorization necessary because we are not reading a public repo</code></pre>
-<p>I merged the District of Columbia <a href="https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data" target="_blank">Health Planning Neighborhoods</a> boundaries and Molly Tolzmann’s <a href="https://twitter.com/zmotoly" target="_blank">zmotoly</a> <a href="https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378" target="_blank">collation</a> of the cumulative cases and tests from start of the SARS-CoV-2 outbreak. I created a new variable for the test positivity rate <code>test_positivity_May_21</code>.</p>
-<pre class="r"><code># District of Columbia Health Planning Neighborhoods
-gis_path &lt;- &quot;https://opendata.arcgis.com/datasets/de63a68eb7674548ae0ac01867123f7e_13.geojson&quot;
-dc &lt;- geojsonio::geojson_read(gis_path,  what = &quot;sp&quot;)
+# Convert to compositional data
+pseq.rel &lt;- microbiome::transform(pseq, &quot;compositional&quot;)
 
-# District of Columbia SAR-CoV-2 Data prepared by @zmotoly
-covid_path &lt;- &quot;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&quot;
-covid &lt;- googlesheets4::read_sheet(ss = covid_path,
-                                   sheet = 2, # second sheet
-                                   skip = 1)  # skip 1st row of annotation
-names(covid) &lt;- sub(&quot;\n&quot;, &quot;&quot;, names(covid))   # remove extra line in column names
-names(covid) &lt;- gsub(&quot; &quot;, &quot;_&quot;, names(covid))  # replace spaces with underscore
+# Pick core taxa with with the given prevalence and detection limits
+pseq.core &lt;- core(pseq.rel, detection = 0.1/100, prevalence = 90/100)
 
-# Test Positivity Rate
-covid$test_positivity_May_21 &lt;- covid$Total_cases_May_21 / covid$Total_tests_May_21
+# Use relative abundances for the core
+pseq.core &lt;- microbiome::transform(pseq.core, &quot;compositional&quot;)
 
-# Merge
-dc_covid &lt;- sp::merge(dc, covid, by.x = &quot;CODE&quot;, by.y = &quot;NB_Code&quot;)
+# Ordinate the data
+ord &lt;- ordinate(pseq.core, &quot;MDS&quot;, &quot;bray&quot;)</code></pre>
+<div id="two-group-comparison" class="section level3">
+<h3>Two Group Comparison</h3>
+<p>As an example of relative spatial clustering between two groups I compare the two levels of the <code>nationality</code> variable “AMR” (America) and “AFR” (Africa). A plot of the samples by the two groups is displayed below:</p>
+<pre class="r"><code># Plot ordination
+plot_ordination(pseq.core, ord, color = &quot;nationality&quot;) +
+  geom_point(size = 1) + 
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank(),
+        axis.line = element_line(colour = &quot;black&quot;))</code></pre>
+<p><img src="/post/2020-05-30/index_files/figure-html/plot%20ordination%20two%20groups-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>To detect significant relative spatial clustering between the two nationalities, I use the <a href="https://github.com/cran/sparr/blob/master/R/risk.R" target="_blank">risk</a> function from the <a href="https://github.com/cran/sparr" target="_blank">sparr</a> package. The function requires data as a planar point process (<code>ppp</code>) object. Here, I use the default settings for the <a href="https://github.com/cran/sparr/blob/master/R/risk.R" target="_blank">risk</a> function except I use adaptive-bandwidth selection. Significant areas are defined as areas that exceed a two-tailed 0.05 alpha level.</p>
+<pre class="r"><code># Convert to ppp object
+test_df &lt;- data.frame(&quot;x&quot; = ord$vectors[,1],
+                      &quot;y&quot; = ord$vectors[,2],
+                      &quot;g&quot; = pseq@sam_data@.Data[[3]])
+coordinates(test_df) &lt;- ~ x + y
+test_pp &lt;- as(test_df, &quot;ppp&quot;)
 
-# Spatial Projection
-## UTM zone 18N (Washington, DC)
-dc_covid_proj &lt;- sp::spTransform(dc_covid, CRS(&quot;+init=EPSG:32618&quot;))</code></pre>
-<div id="static-map" class="section level3">
-<h3>Static Map</h3>
-<p>I use the <a href="https://github.com/tidyverse/ggplot2" target="_blank">ggplot2 package</a> to plot the test positivity rate (as of May 21).</p>
-<pre class="r"><code># Uses ggplot2 package
-## helpful material: https://cengel.github.io/rspatial/4_Mapping.nb.html
-## Data preparation, ggplot2 requires a data.frame
-dc_covid_df &lt;- broom::tidy(dc_covid_proj) # convert to tidy data frame
-dc_covid_proj$polyID &lt;- sapply(slot(dc_covid_proj, &quot;polygons&quot;), function(x) slot(x, &quot;ID&quot;)) # preserve polygon id
-CoV_DC_df &lt;- merge(dc_covid_df, dc_covid_proj, by.x = &quot;id&quot;, by.y=&quot;polyID&quot;) # merge data
+# Spatial Relative Risk Function
+f0 &lt;- sparr::risk(test_pp, tolerate = TRUE, adapt = TRUE)
 
-## Plot of cumulative cases per 1,000
-ggplot2::ggplot() +                                             # initialize ggplot object
-  ggplot2::geom_polygon(                                        # make a polygon
-    data = CoV_DC_df,                                           # data frame
-    ggplot2::aes(x = long, y = lat, group = group,              # coordinates, and group them by polygons
-                 fill = ggplot2::cut_interval(test_positivity_May_21, 5)),       # variable to use for filling
-    colour = &quot;white&quot;) +                                         # color of polygon borders
-  ggplot2::scale_fill_brewer(&quot;Test positivity rate&quot;,      # title of colorkey 
-                             palette = &quot;Purples&quot;,               # fill with brewer colors 
-                             na.value = &quot;grey67&quot;,               # color for NA (The National Mall)
-                             direction = 1,                     # reverse colors in colorkey
-                             guide = ggplot2::guide_legend(reverse = T)) +  # reverse order of colokey
-  ggplot2::ggtitle(&quot;Test Positivity Rate of cumulative SARS-CoV-2 cases as of May 21, 2020&quot;) + # add title
-  ggplot2::theme(line = ggplot2::element_blank(),               # remove axis lines
-                 axis.text = ggplot2::element_blank(),          # remove tickmarks
-                 axis.title = ggplot2::element_blank(),         # remove axis labels
-                 panel.background = ggplot2::element_blank(),   # remove background gridlines
-                 text = ggplot2::element_text(size = 10)) +     # set font size
-  ggplot2::coord_equal()                                        # both axes the same scale</code></pre>
-<p><img src="/post/2020-05-23/index_files/figure-html/static-1.png" width="672" style="display: block; margin: auto;" /></p>
-<p>And an interactive map with the <a href="https://github.com/rstudio/leaflet" target="_blank">leaflet package</a>.</p>
-<pre class="r"><code># Work with unprojected spatialpolygonsdataframe
-## Project to WGS84 EPSG:4326
-CoV_DC_WGS84 &lt;- sp::spTransform(dc_covid_proj, CRS(&quot;+init=epsg:4326&quot;))
+# Plot of significant areas
+f0_p &lt;- f0$P
+f0_p$v &lt;- factor(ifelse(f0_p$v &lt; 0.025, &quot;AAM&quot;,
+                        ifelse(f0_p$v &gt; 0.975, &quot;AFR&quot;,&quot;insignificant&quot;)),
+                 levels = c(&quot;AFR&quot;, &quot;insignificant&quot;, &quot;AAM&quot;))
+plot.ppp(test_pp, ann = TRUE, axes = TRUE,
+         leg.side = &quot;left&quot;,
+         xlab = &quot;Axis.1 [54.5%]&quot;,
+         ylab = &quot;Axis.2 [20.4%]&quot;,
+         main = &quot;Significant area, adaptive bandwidth, alpha = 0.05&quot;,
+         cols = c(&quot;coral1&quot;, &quot;cadetblue3&quot;),
+         pch = 16)
+plot.im(f0_p, add = TRUE, show.all = TRUE, main = &quot;&quot;,
+        col = c(&quot;cadetblue4&quot;,&quot;grey80&quot;,&quot;coral4&quot;))
+plot.ppp(test_pp, add = TRUE, main = &quot;&quot;,
+         cols = c(&quot;coral1&quot;, &quot;cadetblue3&quot;),
+         pch = 16)</code></pre>
+<p><img src="/post/2020-05-30/index_files/figure-html/sparr-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>The African group has one significant cluster relative to the American Group (colored blue), which has two significant clusters (colored red). The areas in grey are where the African and American groups spatially covary together that is indiscernible from spatial randomness.</p>
+</div>
+<div id="multi-group-comparison" class="section level3">
+<h3>Multi-Group Comparison</h3>
+<p>As an example of relative spatial clustering between three groups I compare the two levels of the <code>bmi_group</code> variable “lean”, “overweight’ and”obese". A plot of the samples by the three groups is displayed below:</p>
+<pre class="r"><code># Plot ordination
+plot_ordination(pseq.core, ord, color = &quot;bmi_group&quot;) +
+  geom_point(size = 1) +
+  labs(color = &quot;BMI Group&quot;) +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank(),
+        axis.line = element_line(colour = &quot;black&quot;))</code></pre>
+<p><img src="/post/2020-05-30/index_files/figure-html/plot%20ordination%20three%20groups-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>To detect significant relative spatial clustering between three BMI groups, I use a spatial segregation model <a href="https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd" target="_blank">relrisk</a> from the <a href="https://github.com/spatstat/spatstat" target="_blank">spatstat</a> package. The function requires data as a planar point process (<code>ppp</code>) object. Here, I use the default settings for the <a href="https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd" target="_blank">relrisk</a> function. I present 1) the most common BMI group across the MDS/PCoA space, and 2) areas that are significantly different from the null expectation for each BMI group. See my <a href="/post/pvalues-spatial-segregation">previous post</a> about using the spatial segregation model.</p>
+<pre class="r"><code># Convert to ppp object
+test_df &lt;- data.frame(&quot;x&quot; = ord$vectors[,1],
+                      &quot;y&quot; = ord$vectors[,2],
+                      &quot;g&quot; = pseq@sam_data@.Data[[8]])
+coordinates(test_df) &lt;- ~ x + y
+test_pp &lt;- as(test_df, &quot;ppp&quot;)
 
-## Create Popups
-dc_health &lt;- stringr::str_to_title(CoV_DC_WGS84$Neighborhood_Name)
-dc_health[c(11,25,41,49)] &lt;- c(&quot;DC Medical Center&quot;, &quot;GWU&quot;, &quot;National Mall&quot;, &quot;SW/Waterfront&quot; )
-CoV_DC_WGS84$popup1 &lt;- paste(dc_health, &quot;: &quot;,
-                             format(round(CoV_DC_WGS84$Total_cases_May_21, digits = 0), big.mark = &quot;,&quot;, trim = T),
-                             &quot; cumulative cases&quot;, sep = &quot;&quot;)
-CoV_DC_WGS84$popup2 &lt;- paste(dc_health, &quot;: &quot;,
-                             format(round(CoV_DC_WGS84$Cases_per_1000_May_21, digits = 0), big.mark = &quot;,&quot;, trim = T),
-                             &quot; cumulative cases per 1,000&quot;, sep = &quot;&quot;)
-CoV_DC_WGS84$popup3 &lt;- paste(dc_health, &quot;: &quot;,
-                             format(round(CoV_DC_WGS84$test_positivity_May_21, digits = 2), big.mark = &quot;,&quot;, trim = T),
-                             &quot; test positivity rate&quot;, sep = &quot;&quot;)
+# Spatial Segregation model
+f1 &lt;- spatstat::relrisk.ppp(test_pp, se = T)
 
-## Set Palettes
-pal_cum &lt;- leaflet::colorNumeric(palette = &quot;Purples&quot;,
-                                 domain = CoV_DC_WGS84$Total_cases_May_21,
-                                 na.color = &quot;#555555&quot;)
-pal_rate &lt;- leaflet::colorNumeric(palette = &quot;Purples&quot;,
-                                  domain = CoV_DC_WGS84$Cases_per_1000_May_21,
-                                  na.color = &quot;#555555&quot;)
-pal_test &lt;- leaflet::colorNumeric(palette = &quot;Purples&quot;,
-                                  domain = CoV_DC_WGS84$Tests_per_1000_May_21,
-                                  na.color = &quot;#555555&quot;)
-pal_weight &lt;- leaflet::colorNumeric(palette = &quot;Purples&quot;,
-                                  domain = CoV_DC_WGS84$test_positivity_May_21,
-                                  na.color = &quot;#555555&quot;)
+# Plot of most common BMI Group
+wh &lt;- spatstat::im.apply(f1$estimate, which.max)
+types &lt;- levels(spatstat::marks(test_pp))
+wh &lt;- spatstat::eval.im(types[wh]) # most common 
 
+plot.ppp(test_pp, ann = TRUE, axes = TRUE,
+         leg.side = &quot;left&quot;,
+         xlab = &quot;Axis.1 [54.5%]&quot;,
+         ylab = &quot;Axis.2 [20.4%]&quot;,
+         main = &quot;Most common type&quot;,
+         cols = c(&quot;coral1&quot;, &quot;chartreuse3&quot;, &quot;cadetblue3&quot;),
+         pch = 16)
+plot.im(wh, add = TRUE, show.all = TRUE, main = &quot;&quot;,
+        col = c(&quot;coral4&quot;,&quot;cadetblue4&quot;,&quot;chartreuse4&quot;))
+plot.ppp(test_pp, add = TRUE, main = &quot;&quot;,
+         cols = c(&quot;coral1&quot;, &quot;chartreuse3&quot;, &quot;cadetblue3&quot;),
+         pch = 16)</code></pre>
+<p><img src="/post/2020-05-30/index_files/figure-html/spatial%20segregation-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>The “lean” BMI group appears most common in one area of the MDS/PCoA space (colored red), while the other two groups have numerous clusters. This plot <em>does not</em> indicate where eat group are significantly different from their null expectations. For example, our null expectation for the “lean” BMI group is a probability of about 0.25 (56/222).</p>
+<pre class="r"><code>#spatstat::plot.im(wh, main=&quot;Most common type&quot;, ribargs = list(las = 1))
 
-## Create leaflet plot
-lf &lt;- leaflet::leaflet(CoV_DC_WGS84) %&gt;%                        # initial data
-  leaflet::setView(lng = -77, lat = 38.9, zoom = 11) %&gt;%                  # starting coordinates
-  leaflet::addTiles() %&gt;% # basemap
-  leaflet::addPolygons(data = CoV_DC_WGS84, color = &quot;black&quot;, weight = 1, smoothFactor = 0.5, opacity = 1,
-                       fillOpacity = 0.67, fillColor = ~pal_cum(Total_cases_May_21), popup = ~popup1,
-                       highlightOptions = highlightOptions(color = &quot;white&quot;, weight = 2, bringToFront = TRUE),
-                       group = &quot;Cases&quot;) %&gt;%
-  leaflet::addPolygons(data = CoV_DC_WGS84, color = &quot;black&quot;, weight = 1, smoothFactor = 0.5, opacity = 1,
-                       fillOpacity = 0.67, fillColor = ~pal_rate(Cases_per_1000_May_21), popup = ~popup2,
-                       highlightOptions = highlightOptions(color = &quot;white&quot;, weight = 2, bringToFront = TRUE),
-                       group = &quot;Cases per 1,000&quot;) %&gt;%
-  leaflet::addPolygons(data = CoV_DC_WGS84, color = &quot;black&quot;, weight = 1, smoothFactor = 0.5, opacity = 1,
-                       fillOpacity = 0.67, fillColor = ~pal_test(Tests_per_1000_May_21), popup = ~popup3,
-                       highlightOptions = highlightOptions(color = &quot;white&quot;, weight = 2, bringToFront = TRUE),
-                       group = &quot;Tests per 1,000&quot;) %&gt;%
-  leaflet::addPolygons(data = CoV_DC_WGS84, color = &quot;black&quot;, weight = 1, smoothFactor = 0.5, opacity = 1,
-                       fillOpacity = 0.67, fillColor = ~pal_weight(test_positivity_May_21), popup = ~popup3,
-                       highlightOptions = highlightOptions(color = &quot;white&quot;, weight = 2, bringToFront = TRUE),
-                       group = &quot;Test positivity rate&quot;) %&gt;%
-  leaflet::addLayersControl(overlayGroups = c(&quot;Cases&quot;, &quot;Cases per 1,000&quot;, &quot;Tests per 1,000&quot;, &quot;Test positivity rate&quot;), # layer selection
-                            options = layersControlOptions(collapsed = FALSE)) %&gt;%     
-  addLegend(&quot;topright&quot;, pal = pal_cum, values = ~Total_cases_May_21,                  # legend for cases
-            title = &quot;Cumulative COVID-19 cases&quot;, opacity = 1, na.label = &quot;No Data&quot;, group = &quot;Cases&quot;) %&gt;%
-  addLegend(&quot;topright&quot;, pal = pal_rate, values = ~Cases_per_1000_May_21,              # legend for rate
-            title = &quot;Cumulative cases per 1,000&quot;, opacity = 1, na.label = &quot;No Data&quot;, group = &quot;Cases per 1,000&quot;) %&gt;%
-  addLegend(&quot;topright&quot;, pal = pal_test, values = ~Tests_per_1000_May_21,              # legend for test positivity rate
-            title = &quot;Cumulative tests per 1,000&quot;, opacity = 1, na.label = &quot;No Data&quot;, group = &quot;Tests per 1,000&quot;) %&gt;%
-  addLegend(&quot;topright&quot;, pal = pal_weight, values = ~test_positivity_May_21,              # legend for test positivity rate
-            title = &quot;Cumulative test positivity rate&quot;, opacity = 1, na.label = &quot;No Data&quot;, group = &quot;Test positivity rate&quot;) %&gt;%
-  leaflet::hideGroup(c(&quot;Cases&quot;, &quot;Cases per 1,000&quot;, &quot;Tests per 1,000&quot;, &quot;Test positivity rate&quot;)) %&gt;% # no data shown (default)
-  leaflet::addMiniMap(position = &quot;bottomleft&quot;) # add mini map
-widgetframe::frameWidget(lf, width=&#39;100%&#39;)</code></pre>
-<div id="htmlwidget-1" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1">{"x":{"url":"/post/2020-05-23/index_files/figure-html//widgets/widget_interactive.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
-<p>As of May 21, 2020 the highest positive testing rate of cumulative SARS-CoV-2 cases has occurred in the Stadium Armory (almost 1 out of 2 tests return positive). The DC Jail is located in the Stadium Armory as <a href="https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053" target="_blank">previously noted</a>. An East/West divide is evident in the case rate after accounting for testing. Also, no neighborhood is below the 5% WHO recommendation; however, this metric is more appropriately used for incident (or recent) tests such as, for example, a 7 day average than for cumulative cases, so interpret these findings with caution.</p>
-<p><strong>The provided maps are not intended to inform decision-making</strong>. Instead, I provide the the <a href="https://github.com/idblr/coviDC" target="_blank">open-source code</a> to download, manage, and visualize publicly available data. Future steps are similar to my <a href="/post/covid-dc">previous post</a>, linking other demographic information to each DC Health Planning Neighborhood (e.g., housing occupancy) and assessing their relationships with disease occurrence or creating an automatic workflow to update these figures daily.</p>
-<p>Thanks, again, to Molly Tolzmann <a href="https://twitter.com/zmotoly" target="_blank">zmotoly</a> for the data management.</p>
+# Plot of significantly different areas
+alpha &lt;- 0.05                           # alpha
+z &lt;- qnorm(alpha/2, lower.tail = F)     # z-statistic
+f1$u &lt;- f1$estimate + z*f1$SE           # Upper CIs
+f1$l &lt;- f1$estimate - z*f1$SE           # Lower CIs
+mu_0 &lt;- as.vector(table(spatstat::marks(test_pp))/test_pp$n) # null expectations by type
+f1$p &lt;- f1$estimate # copy structure of pixels, replace values
+for (i in 1:length(f1$p)) {
+  f1$p[[i]]$v &lt;- factor(ifelse(mu_0[i] &gt; f1$u[[i]]$v, &quot;lower&quot;,
+                               ifelse( mu_0[i] &lt; f1$l[[i]]$v, &quot;higher&quot;, &quot;none&quot;)),
+                        levels = c(&quot;lower&quot;, &quot;none&quot;, &quot;higher&quot;))
+}
+
+# Plot significant p-values
+plot(f1$p, main = &quot;Significant difference from null?&quot;)</code></pre>
+<p><img src="/post/2020-05-30/index_files/figure-html/significant%20spatial%20segregation-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>The “lean” BMI group is significantly higher than expected in one large cluster. The “overweight” BMI group is significantly higher than expected in one large cluster and one small cluster. The “obese” BMI group is significantly higher is numerous small clusters.</p>
 </div>
 
     </div>
@@ -807,15 +800,13 @@ widgetframe::frameWidget(lf, width=&#39;100%&#39;)</code></pre>
 
 <div class="article-tags">
   
+  <a class="badge badge-light" href="/tag/microbiome/">microbiome</a>
+  
   <a class="badge badge-light" href="/tag/open-data/">open data</a>
   
   <a class="badge badge-light" href="/tag/r/">R</a>
   
   <a class="badge badge-light" href="/tag/r-markdown/">R Markdown</a>
-  
-  <a class="badge badge-light" href="/tag/coronavirus/">coronavirus</a>
-  
-  <a class="badge badge-light" href="/tag/leaflet/">leaflet</a>
   
 </div>
 
@@ -832,7 +823,7 @@ widgetframe::frameWidget(lf, width=&#39;100%&#39;)</code></pre>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/covid-dc-test/&amp;text=Test%20Positivity%20Rate%20of%20Cumulative%20SARS-CoV-2%20Cases%20in%20the%20District%20of%20Columbia" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/cluster-microbiome/&amp;text=Cluster%20Detection%20in%20PCoA%20Space%20using%20Kernel%20Density%20Estimation" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -845,7 +836,7 @@ widgetframe::frameWidget(lf, width=&#39;100%&#39;)</code></pre>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/covid-dc-test/&amp;t=Test%20Positivity%20Rate%20of%20Cumulative%20SARS-CoV-2%20Cases%20in%20the%20District%20of%20Columbia" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/cluster-microbiome/&amp;t=Cluster%20Detection%20in%20PCoA%20Space%20using%20Kernel%20Density%20Estimation" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -858,7 +849,7 @@ widgetframe::frameWidget(lf, width=&#39;100%&#39;)</code></pre>
       
       
       <li>
-        <a href="mailto:?subject=Test%20Positivity%20Rate%20of%20Cumulative%20SARS-CoV-2%20Cases%20in%20the%20District%20of%20Columbia&amp;body=/post/covid-dc-test/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Cluster%20Detection%20in%20PCoA%20Space%20using%20Kernel%20Density%20Estimation&amp;body=/post/cluster-microbiome/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -871,7 +862,7 @@ widgetframe::frameWidget(lf, width=&#39;100%&#39;)</code></pre>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/covid-dc-test/&amp;title=Test%20Positivity%20Rate%20of%20Cumulative%20SARS-CoV-2%20Cases%20in%20the%20District%20of%20Columbia" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/cluster-microbiome/&amp;title=Cluster%20Detection%20in%20PCoA%20Space%20using%20Kernel%20Density%20Estimation" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -884,7 +875,7 @@ widgetframe::frameWidget(lf, width=&#39;100%&#39;)</code></pre>
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Test%20Positivity%20Rate%20of%20Cumulative%20SARS-CoV-2%20Cases%20in%20the%20District%20of%20Columbia%20/post/covid-dc-test/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Cluster%20Detection%20in%20PCoA%20Space%20using%20Kernel%20Density%20Estimation%20/post/cluster-microbiome/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -897,7 +888,7 @@ widgetframe::frameWidget(lf, width=&#39;100%&#39;)</code></pre>
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/post/covid-dc-test/&amp;title=Test%20Positivity%20Rate%20of%20Cumulative%20SARS-CoV-2%20Cases%20in%20the%20District%20of%20Columbia" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/post/cluster-microbiome/&amp;title=Cluster%20Detection%20in%20PCoA%20Space%20using%20Kernel%20Density%20Estimation" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1129,6 +1120,8 @@ widgetframe::frameWidget(lf, width=&#39;100%&#39;)</code></pre>
   <div class="article-widget content-widget-hr">
     <h3>Related</h3>
     <ul>
+      
+      <li><a href="/post/covid-dc-test/">Test Positivity Rate of Cumulative SARS-CoV-2 Cases in the District of Columbia</a></li>
       
       <li><a href="/post/covid-dc/">Cumulative SARS-CoV-2 Cases in the District of Columbia by Health Planning Neighborhoods</a></li>
       
