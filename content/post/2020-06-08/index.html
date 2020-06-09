@@ -1,0 +1,229 @@
+---
+title: Animating Spatio-Temporal COVID-19 Data
+author: ~
+date: '2020-06-08'
+slug: covid-dc-animated
+categories: ["R"]
+tags: ["R Markdown", "R", "open data", "coronavirus", "ggplot2", "gganimate"]
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-06-08T20:43:18-04:00'
+featured: no
+image:
+  caption: 'Image credit: [**Ian Buller**](/)'
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>I present an update to my previous posts <a href="/post/covid-dc">#1</a> and <a href="/post/covid-dc-test">#2</a>. This update can also be found on a public <a href="https://github.com/idblr/coviDC" target="_blank">GitHub repository</a>.</p>
+<p>Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their <a href="https://coronavirus.dc.gov/page/coronavirus-data" target="_blank">coronavirus data portal</a>. Molly Tolzmann <a href="https://twitter.com/zmotoly" target="_blank">zmotoly</a> added this feature to her publicly available <a href="https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378" target="_blank">Google Sheet</a> presented at the <a href="https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods" target="_blank">DC health planning neighborhood level</a>.</p>
+<p>Here, I present the daily 5-day rolling average test positivity rate (TPR) for COVID-19 cases from May 25 to June 7, 2020 in an animated Graphics Interchange Format (GIF) using the open-source software language <a href="https://cran.r-project.org/" target="_blank">R</a>. A TPR is the proportion of positive tests for every administered test. For example, the World Health Organization <a href="https://coronavirus.jhu.edu/testing/testing-positivity" target="_blank">recommends</a> a test positivity rate below 5% (1 out of 20 tests, TPR = 0.05) before reopening. A 5-day rolling average is the mean value of a daily TPR and the TPR of the four days prior.</p>
+<p><strong>Important Note</strong>: There are missing data for certain dates. Case information is missing for May 22nd and 27th. Testing information is missing for May 22nd, 23rd, 24th, and 27th. Missing data are considered <code>NA</code> but included in the 5-day rolling averages. Therefore, 5-day rolling averages that include these dates are more unstable. Because reporting case information at the <a href="https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods" target="_blank">DC health planning neighborhood level</a> became available on May 7th, daily incident case information is available starting May 8th and 5-day rolling average cases are available starting May 12th. Because testing information became available on May 20th, daily testing information is available starting May 21st and 5-day averages are available starting May 25th.</p>
+<p>Necessary packages and settings for the exercise include:</p>
+<pre class="r"><code># Packages
+loadedPackages &lt;- c(&quot;broom&quot;, &quot;dplyr&quot;, &quot;geojsonio&quot;, &quot;gganimate&quot;, &quot;ggplot2&quot;, &quot;googlesheets4&quot;, &quot;sp&quot;, &quot;tidyr&quot;, &quot;transformr&quot;)
+invisible(lapply(loadedPackages, require, character.only = T))
+
+# Settings
+googlesheets4::gs4_deauth() # no Google authorization necessary because we are not reading a public repo</code></pre>
+<div id="data-importation" class="section level3">
+<h3>Data Importation</h3>
+<p>I merge the District of Columbia <a href="https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data" target="_blank">Health Planning Neighborhoods</a> boundaries and Molly Tolzmann’s <a href="https://twitter.com/zmotoly" target="_blank">zmotoly</a> <a href="https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378" target="_blank">collation</a> of the cumulative cases and tests from start of the SARS-CoV-2 outbreak. I clean up variable names that are easier for <a href="https://cran.r-project.org/" target="_blank">R</a> to use.</p>
+<pre class="r"><code># District of Columbia Health Planning Neighborhoods
+gis_path &lt;- &quot;https://opendata.arcgis.com/datasets/de63a68eb7674548ae0ac01867123f7e_13.geojson&quot;
+dc &lt;- geojsonio::geojson_read(gis_path,  what = &quot;sp&quot;)
+
+# District of Columbia SAR-CoV-2 Data prepared by @zmotoly
+covid_path &lt;- &quot;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&quot;
+covid &lt;- googlesheets4::read_sheet(ss = covid_path,
+                                   sheet = 2, # second sheet
+                                   skip = 1)  # skip 1st row of annotation
+
+# Fix column names
+names(covid) &lt;- sub(&quot;\n&quot;, &quot;&quot;, names(covid)) # remove extra line in column names
+names(covid) &lt;- gsub(&quot; &quot;, &quot;_&quot;, names(covid)) # replace spaces with underscore
+names(covid) &lt;- gsub(&quot;Total_cases&quot;, &quot;Cumulative&quot;, names(covid)) # Change to one word
+names(covid) &lt;- gsub(&quot;Total_tests&quot;, &quot;Tested_&quot;, names(covid)) # Change to one word
+names(covid) &lt;- gsub(&quot;Cases_per_1000&quot;, &quot;Case.Rate&quot;, names(covid)) # Change to one word
+names(covid) &lt;- gsub(&quot;Tests_per_1000&quot;, &quot;Test.Rate_&quot;, names(covid)) # Change to one word
+names(covid) &lt;- gsub(&quot;__&quot;, &quot;_&quot;, names(covid)) # replace double underscores
+
+# Merge
+dc_covid &lt;- sp::merge(dc, covid, by.x = &quot;CODE&quot;, by.y = &quot;NB_Code&quot;)
+
+# Spatial Projection
+## UTM zone 18N (Washington, DC)
+dc_covid_proj &lt;- sp::spTransform(dc_covid, CRS(&quot;+init=EPSG:32618&quot;))</code></pre>
+</div>
+<div id="data-management" class="section level3">
+<h3>Data Management</h3>
+<p>The 5-day rolling average test positivity rate is not provided in Molly Tolzmann’s <a href="https://twitter.com/zmotoly" target="_blank">zmotoly</a> <a href="https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378" target="_blank">Google Sheet</a> and I calculate it for every day data are available.
+First, I find the daily incident cases from the reported cumulative cases.</p>
+<pre class="r"><code># Uses ggplot2 package
+## helpful material: https://cengel.github.io/rspatial/4_Mapping.nb.html
+## Data preparation, ggplot2 requires a data.frame
+dc_covid_df &lt;- broom::tidy(dc_covid_proj) # convert to tidy data frame
+dc_covid_proj$polyID &lt;- sapply(slot(dc_covid_proj, &quot;polygons&quot;), function(x) slot(x, &quot;ID&quot;)) # preserve polygon id
+CoV_DC_df &lt;- sp::merge(dc_covid_df, dc_covid_proj, by.x = &quot;id&quot;, by.y=&quot;polyID&quot;) # merge data
+rm(dc_covid_proj, dc_covid_df, dc_covid, covid, dc) # conserve memory
+
+# Step 1) Daily incident cases
+CoV_DC_loop &lt;- CoV_DC_df %&gt;% dplyr::select(starts_with(&quot;cumulative&quot;))
+CoV_DC_loop &lt;- CoV_DC_loop[,rev(1:length(CoV_DC_loop))] # reorder dates in ascending order
+CoV_DC_loop$Cumulative_May_22 &lt;- NA # missing data
+CoV_DC_loop$Cumulative_May_27 &lt;- NA # missing data
+CoV_DC_loop &lt;- CoV_DC_loop[,c(1:15, 31, 16:19, 32, 20:30)] # reorder for consistent dates
+i &lt;- NULL # initiate indexing
+
+# Empty matrices
+mat_inc &lt;- matrix(ncol = length(CoV_DC_loop)-1, nrow = nrow(CoV_DC_loop)) # for values
+col_lab &lt;- vector(mode = &quot;character&quot;, length = length(CoV_DC_loop)-1)     # for names
+
+for (i in 1:length(CoV_DC_loop)-1) {
+  mat_inc[ , i] &lt;- ifelse(CoV_DC_loop[ , i+1] - CoV_DC_loop[ , i] &lt; 0, NA, CoV_DC_loop[ , i+1] - CoV_DC_loop[ , i])
+  col_lab[i] &lt;- paste(sub(&quot;Cumulative&quot;, names(CoV_DC_loop[i+1]), replacement = &quot;incident&quot;))
+  if(i == length(CoV_DC_loop))
+    mat_inc &lt;- data.frame(mat_inc)
+    colnames(mat_inc) &lt;- col_lab
+}
+
+CoV_DC_df &lt;- cbind(CoV_DC_df, mat_inc) # merge with original dataset</code></pre>
+<p>Then I calculate 5-day rolling average cases (rate included, too).</p>
+<pre class="r"><code># Step 2) 5-Day Average Incident Case and Case Rate
+CoV_DC_loop &lt;-  CoV_DC_df %&gt;% dplyr::select(starts_with(&quot;incident&quot;))
+i &lt;- NULL # reinitiate indexing
+
+# Empty matrices
+mat_5d &lt;- matrix(ncol = length(CoV_DC_loop)-4, nrow = nrow(CoV_DC_loop)) # for values
+mat_5dr &lt;- matrix(ncol = length(CoV_DC_loop)-4, nrow = nrow(CoV_DC_loop)) # for values
+col_lab &lt;- vector(mode = &quot;character&quot;, length = length(CoV_DC_loop)-4)     # for names
+col_labr &lt;- vector(mode = &quot;character&quot;, length = length(CoV_DC_loop)-4)    # for names
+
+for (i in 1:(length(CoV_DC_loop)-4)) {
+  mat_5d[ , i] &lt;- rowMeans(CoV_DC_loop[ , i:(i+4)], na.rm = T)
+  mat_5dr[ , i] &lt;-  mat_5d[ , i] / CoV_DC_df$`Population_(2018_ACS)` * 1000
+  col_lab[i] &lt;- paste(sub(&quot;incident&quot;, names(CoV_DC_loop[(i+4)]), replacement = &quot;average&quot;))
+  col_labr[i] &lt;- paste(sub(&quot;incident&quot;, names(CoV_DC_loop[(i+4)]), replacement = &quot;average.rate&quot;))
+  if(i == (length(CoV_DC_loop)-4))
+    mat_5d &lt;- data.frame(mat_5d)
+    mat_5dr &lt;- data.frame(mat_5dr)
+    colnames(mat_5d) &lt;- col_lab
+    colnames(mat_5dr) &lt;- col_labr
+    out &lt;- cbind(mat_5d, mat_5dr)
+}
+
+CoV_DC_df &lt;- cbind(CoV_DC_df, out) # merge with original dataset</code></pre>
+<p>I also find the daily tests administered from the reported cumulative tests (daily test positivity rate included, too), and hen I calculate a 5-day rolling average tests.</p>
+<pre class="r"><code># Step 3) Daily Tests
+CoV_DC_loop &lt;- CoV_DC_df %&gt;% dplyr::select(starts_with(&quot;Tested&quot;), starts_with(&quot;incident&quot;))
+CoV_DC_loop &lt;- CoV_DC_loop[,c(rev(1:15),28:46)]   # reorder dates in ascending order
+CoV_DC_loop$Tested_May_22 &lt;- NA # missing data
+CoV_DC_loop$Tested_May_23 &lt;- NA # missing data
+CoV_DC_loop$Tested_May_24 &lt;- NA # missing data
+CoV_DC_loop$Tested_May_27 &lt;- NA # missing data
+CoV_DC_loop &lt;- CoV_DC_loop[,c(1:2,35:37,3:4,38,5:34)] # reorder for consistent dates
+i &lt;- NULL # reinitiate indexing
+
+# Empty matrices
+mat_inc &lt;- matrix(ncol = length(CoV_DC_loop)/2-1, nrow = nrow(CoV_DC_loop))  # for values
+mat_inc2 &lt;- matrix(ncol = length(CoV_DC_loop)/2-1, nrow = nrow(CoV_DC_loop)) # for values
+col_lab &lt;- vector(mode = &quot;character&quot;, length = length(CoV_DC_loop)/2-1)      # for names
+col_lab2 &lt;- vector(mode = &quot;character&quot;, length = length(CoV_DC_loop)/2-1)     # for names
+
+for (i in 1:(length(CoV_DC_loop)/2-1)) {
+  mat_inc[ , i] &lt;- ifelse(CoV_DC_loop[ , (i+1)] - CoV_DC_loop[ , i] &lt; 0, NA, CoV_DC_loop[ , (i+1)] - CoV_DC_loop[ , i])
+  mat_inc2[ , i] &lt;-  CoV_DC_loop[ , (length(CoV_DC_loop)/2+i)] / mat_inc[ , i]
+  col_lab[i] &lt;- paste(sub(&quot;Tested&quot;, names(CoV_DC_loop[i+1]), replacement = &quot;testing&quot;))
+  col_lab2[i] &lt;- paste(sub(&quot;Tested&quot;, names(CoV_DC_loop[i+1]), replacement = &quot;positivity&quot;))
+  if(i == (length(CoV_DC_loop)/2-1))
+    mat_inc &lt;- data.frame(mat_inc)
+    mat_inc2 &lt;- data.frame(mat_inc2)
+    colnames(mat_inc) &lt;- col_lab
+    colnames(mat_inc2) &lt;- col_lab2
+    out &lt;- cbind(mat_inc, mat_inc2)
+}
+
+CoV_DC_df &lt;- cbind(CoV_DC_df, out) # merge with original dataset</code></pre>
+<p>A 5-day rolling average test positivity is calculated by dividing the 5-day rolling average cases by the 5-day rolling average tests.</p>
+<pre class="r"><code># Step 4) 5-day average testing and positivity
+CoV_DC_loop &lt;-  CoV_DC_df %&gt;% dplyr::select(starts_with(&quot;testing_&quot;),starts_with(&quot;average_&quot;))
+i &lt;- NULL # reinitiate indexing
+
+# Empty matrices
+mat_5d &lt;- matrix(ncol = 18-4, nrow = nrow(CoV_DC_loop))  # for values
+mat_5dr &lt;- matrix(ncol = 18-4, nrow = nrow(CoV_DC_loop)) # for values
+col_lab &lt;- vector(mode = &quot;character&quot;, length = 18-4)     # for names
+col_labr &lt;- vector(mode = &quot;character&quot;, length = 18-4)    # for names
+
+for (i in 1:(18-4)) {
+  mat_5d[ , i] &lt;- rowMeans(CoV_DC_loop[ , i:(i+4)], na.rm = T)
+  mat_5dr[ , i] &lt;-  CoV_DC_loop[ , 28+i] / mat_5d[ , i]
+  col_lab[i] &lt;- paste(sub(&quot;testing&quot;, names(CoV_DC_loop[(i+4)]), replacement = &quot;test.avg&quot;))
+  col_labr[i] &lt;- paste(sub(&quot;testing&quot;, names(CoV_DC_loop[(i+4)]), replacement = &quot;posit.avg&quot;))
+  if(i == (18-4))
+    mat_5d &lt;- data.frame(mat_5d)
+    mat_5dr &lt;- data.frame(mat_5dr)
+    colnames(mat_5d) &lt;- col_lab
+    colnames(mat_5dr) &lt;- col_labr
+    out &lt;- cbind(mat_5d, mat_5dr)
+}
+
+CoV_DC_df &lt;- cbind(CoV_DC_df, out) # merge with original dataset
+
+# Conserve memory
+rm(out, col_lab, col_labr, CoV_DC_loop, mat_5d, mat_5dr, mat_inc, mat_inc2)</code></pre>
+<p>I use the <a href="https://github.com/tidyverse/ggplot2" target="_blank">ggplot2</a> and <a href="https://github.com/thomasp85/gganimate" target="_blank">gganimate</a> packages to create a GIF of the daily 5-day rolling average TPR for COVID-19 cases from May 25 to June 7, 2020. The packages require converting the data from wide- to long-format.</p>
+<pre class="r"><code># Convert to long format
+CoV_DC_5dtest &lt;-  CoV_DC_df %&gt;% 
+                  dplyr::select(1:25,starts_with(&quot;posit.avg&quot;)) %&gt;%
+                  pivot_longer(cols = starts_with(&quot;posit.avg&quot;),
+                               values_to=&quot;posit.avg&quot;,
+                               names_to=c(&quot;Posit.Avg&quot;,&quot;month&quot;, &quot;day&quot;),
+                               names_sep = &quot;_&quot;) %&gt;%  
+                  tidyr::unite(&quot;date_reported&quot;, month:day) %&gt;%
+                  dplyr::select(-Posit.Avg) %&gt;%
+                  dplyr::mutate(date_reported = as.Date(date_reported, format=&quot;%B_%d&quot;))</code></pre>
+<p>Finally, some 5-day rolling average TPR are invalid for two possible reasons. If any district had zero (0) administered tests, then the TPR (a ratio) would be undefined. Also, if there were more reported positive cases than administered tests (e.g., reporting backlog) then the TPR would be above one (1.0). In these cases, I present these instances as NA values.</p>
+<pre class="r"><code># Clean-up
+## Any Inf values (zero tests in denominator) set as NA
+CoV_DC_5dtest$posit.avg &lt;- ifelse(is.infinite(CoV_DC_5dtest$posit.avg), NA, CoV_DC_5dtest$posit.avg)
+
+## Any values above 1.0 (more positive tests than werer administered) set as NA
+CoV_DC_5dtest$posit.avg &lt;- ifelse(CoV_DC_5dtest$posit.avg &gt; 1, NA, CoV_DC_5dtest$posit.avg)</code></pre>
+</div>
+<div id="animated-map" class="section level3">
+<h3>Animated Map</h3>
+<p>The following is the code to create a GIF of the daily 5-day rolling average TPR for COVID-19 cases from May 25 to June 7, 2020. I chose <a href="https://blog.mapbox.com/7-best-practices-for-mapping-a-pandemic-9f203576a132?gi=6907699c528e" target="_blank">non-alarmist colors</a> similar to previous posts <a href="/post/covid-dc">#1</a> and <a href="/post/covid-dc-test">#2</a>. Grey-colored areas have missing (<code>NA</code>) or no information.</p>
+<pre class="r"><code># 5-day average test positivity
+g1 &lt;- CoV_DC_5dtest %&gt;%                                         # data
+  ggplot2::ggplot() +                                           # initial plot
+  ggplot2::geom_polygon(ggplot2::aes(x = long, y = lat,
+                                     group = group, fill = posit.avg),
+                        color = NA) +                           # add polygons
+  ggplot2::scale_fill_gradient(name = &quot;5-day average rate&quot;,     # color fill
+                               low = &quot;lavenderblush&quot;,
+                               high = &quot;navyblue&quot;, 
+                               na.value = &quot;grey80&quot;,
+                               breaks = range(CoV_DC_5dtest$posit.avg, na.rm = T)) +                                                                                   
+  ggplot2::theme(line = ggplot2::element_blank(),               # remove axis lines
+                 axis.text = ggplot2::element_blank(),          # remove tickmarks
+                 axis.title = ggplot2::element_blank(),         # remove axis labels
+                 panel.background = ggplot2::element_blank(),   # remove gridlines
+                 panel.border = ggplot2::element_blank(),       # remove border
+                 legend.position = &quot;bottom&quot;,                    # legend position
+                 text = ggplot2::element_text(size = 15)) +     # set font size
+  ggplot2::coord_equal() +                                      # force equal dimensions
+  gganimate::transition_time(date_reported) +                   # animate by date
+  ggplot2::labs(title = &quot;5-Day Average SARS-CoV-2 Test Positivity\nDate: {frame_time}&quot;) # add title
+
+gganimate::animate(g1, end_pause = 30) # animate</code></pre>
+<p><img src="/post/2020-06-08/index_files/figure-html/animation-1.gif" style="display: block; margin: auto;" /></p>
+<p>Overall, my qualitative assessment of the daily 5-day rolling average TPR for COVID-19 cases from May 25 to June 7, 2020 is a decrease in TPR overtime, especially after June 3rd. Ward 4 (Northern-most section) appears to have consistently high 5-day rolling average TPR overtime.</p>
+<p><strong>The provided maps are not intended to inform decision-making</strong>. Instead, I provide the the <a href="https://github.com/idblr/coviDC" target="_blank">open-source code</a> to download, manage, and visualize publicly available data. Future steps (in addition to one listed in my <a href="/post/covid-dc">previous post</a>) include, displaying TPR above or below the the 5% WHO recommendation and conducting spatial statistical analysis such as, for example, assessing the presence of spatio-temporal clustering. Other values (e.g., daily TPR, incident cases per 1,000) can be animated by modifying the above code, which is also provided in my public <a href="https://github.com/idblr/coviDC" target="_blank">GitHub repository</a>.</p>
+<p>Thanks, again, to Molly Tolzmann <a href="https://twitter.com/zmotoly" target="_blank">zmotoly</a> for the data collation, management, and custodianship.</p>
+</div>
