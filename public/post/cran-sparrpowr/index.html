@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Personal website of Ian David Buller where I blog about spatial analysis in R. Opinions/Content/Views are my own.">
+  <meta name="description" content="My first R package is on CRAN named sparrpowR. It provides a statistical power calculation for the spatial relative risk function via the sparr package. See the public Github repository for more details.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/">
+  <link rel="alternate" hreflang="en-us" href="/post/cran-sparrpowr/">
 
   
 
@@ -246,18 +246,14 @@
 
   
   
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
 
-  
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Ian Buller">
   
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hue3c8c0abcde60b15cf7b3f1a8dee385e_56509_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hue3c8c0abcde60b15cf7b3f1a8dee385e_56509_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/post/cran-sparrpowr/">
 
   
   
@@ -275,29 +271,67 @@
   <meta property="twitter:creator" content="@idblr">
   
   <meta property="og:site_name" content="Ian Buller">
-  <meta property="og:url" content="/">
-  <meta property="og:title" content="Ian Buller">
-  <meta property="og:description" content="Personal website of Ian David Buller where I blog about spatial analysis in R. Opinions/Content/Views are my own."><meta property="og:image" content="/img/avatar.jpg">
-  <meta property="twitter:image" content="/img/avatar.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="/post/cran-sparrpowr/">
+  <meta property="og:title" content="New CRAN Package {sparrpowR} | Ian Buller">
+  <meta property="og:description" content="My first R package is on CRAN named sparrpowR. It provides a statistical power calculation for the spatial relative risk function via the sparr package. See the public Github repository for more details."><meta property="og:image" content="/post/cran-sparrpowr/featured.png">
+  <meta property="twitter:image" content="/post/cran-sparrpowr/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2020-06-10T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-06-10T09:30:04-04:00">
   
 
   
+
+
+    
+
+
+
+
+
+
+  
+
+
+
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/cran-sparrpowr/"
   },
-  "url": "/"
+  "headline": "New CRAN Package {sparrpowR}",
+  
+  "image": [
+    "/post/cran-sparrpowr/featured.png"
+  ],
+  
+  "datePublished": "2020-06-10T00:00:00Z",
+  "dateModified": "2020-06-10T09:30:04-04:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ian Buller"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ian Buller",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hue3c8c0abcde60b15cf7b3f1a8dee385e_56509_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "My first R package is on CRAN named sparrpowR. It provides a statistical power calculation for the spatial relative risk function via the sparr package. See the public Github repository for more details."
 }
 </script>
 
+  
 
   
 
@@ -341,11 +375,11 @@
 
 
 
-  <title>Ian Buller</title>
+  <title>New CRAN Package {sparrpowR} | Ian Buller</title>
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="dark">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -384,7 +418,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/"></a>
+      <a class="navbar-brand" href="/">Ian Buller</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -416,7 +450,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/post/"><span>Posts</span></a>
+          <a class="nav-link  active" href="/post/"><span>Posts</span></a>
         </li>
 
         
@@ -517,68 +551,7 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
-<span class="js-widget-page d-none"></span>
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="about" class="home-section wg-about   "  >
-    <div class="container">
-      
-
-
-
+  <article class="article">
 
   
 
@@ -591,396 +564,28 @@
 
 
 
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
 
-      
-      
-      <img class="avatar avatar-circle" src="/author/ian-buller/avatar_hu5b2ba62b097ffda33a078efdfaf3f593_120086_270x270_fill_q90_lanczos_center.jpg" alt="Ian Buller">
-      
 
-      <div class="portrait-title">
-        <h2>Ian Buller</h2>
-        <h3>Cancer Prevention Fellow</h3>
 
-        
-        <h3>
-          <a href="https://cpfp.cancer.gov/about-us/cpfp-fellow/ian-buller" target="_blank" rel="noopener">
-          <span>The National Cancer Institute</span>
-          </a>
-        </h3>
-        
-      </div>
 
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="/#contact" >
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://orcid.org/0000-0001-9477-8582" target="_blank" rel="noopener">
-            <i class="fab fa-orcid big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://www.researchgate.net/profile/Ian_Buller" target="_blank" rel="noopener">
-            <i class="fab fa-researchgate big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://scholar.google.com/citations?user=QajtftEAAAAJ&amp;hl=en" target="_blank" rel="noopener">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://profiles.impactstory.org/u/0000-0001-9477-8582" target="_blank" rel="noopener">
-            <i class="ai ai-impactstory big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://github.com/idblr" target="_blank" rel="noopener">
-            <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://stackoverflow.com/users/6784787/idblr?tab=profile" target="_blank" rel="noopener">
-            <i class="fab fa-stack-overflow big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://twitter.com/idblr" target="_blank" rel="noopener">
-            <i class="fab fa-twitter big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://www.linkedin.com/in/idblr/" target="_blank" rel="noopener">
-            <i class="fab fa-linkedin big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="/files/cv_0520.pdf" >
-            <i class="ai ai-cv big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
 
-    </div>
-  </div>
-  <div class="col-12 col-lg-8">
 
+
+
+
+
+  
+  
     
-    
-
-    <center>
-<p><em>Disclaimer: All content is my own and does not represent my employer</em></p>
- </center>
-<p>I am a Cancer Prevention Fellow in the 
-<a href="https://cpfp.cancer.gov/" target="_blank" rel="noopener">Cancer Prevention Fellowship Program</a> at the 
-<a href="https://www.cancer.gov/" target="_blank" rel="noopener">National Cancer Institute</a> (Preceptor: 
-<a href="https://dceg.cancer.gov/about/staff-directory/jones-rena" target="_blank" rel="noopener">Dr. Rena Jones</a>) within the 
-<a href="https://dceg.cancer.gov/about/organization/programs-ebp/oeeb" target="_blank" rel="noopener">Occupational and Enviornmental Epidemiology Branch</a> of the 
-<a href="https://dceg.cancer.gov/" target="_blank" rel="noopener">Division of Cancer Epidemiology and Genetics</a>, part of the 
-<a href="https://irp.nih.gov/" target="_blank" rel="noopener">Intramural Research Program at the National Institutes of Health</a>.</p>
-<p>I received a Ph.D. in 
-<a href="https://www.sph.emory.edu/departments/eh/degree-programs/phd/index.html" target="_blank" rel="noopener">Environmental Health Sciences</a> at 
-<a href="http://www.emory.edu" target="_blank" rel="noopener">Emory University</a> (Advisor: 
-<a href="https://sph.emory.edu/faculty/profile/index.php?FID=345" target="_blank" rel="noopener">Dr. Lance Waller</a>) after completing a concurrent B.A./M.A. in 
-<a href="https://www.colorado.edu/ebio/" target="_blank" rel="noopener">Ecology and Evolutionary Biolgy</a> from the 
-<a href="https://www.colorado.edu/" target="_blank" rel="noopener">University of Colorado at Boulder</a> (Advisor: 
-<a href="https://www.colorado.edu/ebio/pieter-johnson" target="_blank" rel="noopener">Dr. Pieter Johnson</a>). My 
-<a href="https://profiles.impactstory.org/u/0000-0001-9477-8582" target="_blank" rel="noopener">research</a> has been published in 
-<a href="https://esajournals.onlinelibrary.wiley.com/journal/19399170" target="_blank" rel="noopener">Ecology</a>.</p>
-
-
-    <div class="row">
-
-      
-      <div class="col-md-5">
-        <h3>Interests</h3>
-        <ul class="ul-interests">
-          
-          <li>Spatial Statistics</li>
-          
-          <li>Environmental Epidemiology</li>
-          
-          <li>Disease Ecology</li>
-          
-          <li>Open-Source Software Development</li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-md-7">
-        <h3>Education</h3>
-        <ul class="ul-edu fa-ul">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">PhD in Environmental Health Sciences, 2019</p>
-              <p class="institution">Emory University</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">BA/MA in Ecology and Evolutionary Biology, 2013</p>
-              <p class="institution">University of Colorado at Boulder</p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-
-    </div>
-  </section>
-
   
-  
-  
+
+
+<div class="article-container pt-3">
+  <h1>New CRAN Package {sparrpowR}</h1>
 
   
 
   
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="posts" class="home-section wg-pages   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Recent Posts</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-
-    
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/cran-sparrpowr/" >New CRAN Package {sparrpowR}</a>
-    </h3>
-
-    
-    <div class="article-style">
-      My first R package is on CRAN named sparrpowR. It provides a statistical power calculation for the spatial relative risk function via the sparr package. See the public Github repository for more details.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 <div class="article-metadata">
@@ -1022,235 +627,404 @@
 
 </div>
 
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/post/cran-sparrpowr/" >
-      <img src="/post/cran-sparrpowr/featured_hub6fcff648c128cc32974232e4058801b_2275518_150x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-
   
 
 
-<div class="media stream-item">
-  <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/covid-dc-animated/" >Animating Spatio-Temporal COVID-19 Data</a>
-    </h3>
 
-    
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 713px;">
+  <div style="position: relative">
+    <img src="/post/cran-sparrpowr/featured_hub6fcff648c128cc32974232e4058801b_2275518_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="/"><strong>Ian Buller</strong></a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
     <div class="article-style">
-      I present an update to my previous posts #1 and #2. This update can also be found on a public GitHub repository.
-Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their coronavirus data portal.
+      <p>My first R package is on 
+<a href="https://cran.r-project.org/" target="_blank" rel="noopener">CRAN</a> named 
+<a href="https://cran.r-project.org/web/packages/sparrpowR/index.html" target="_blank" rel="noopener">sparrpowR</a>. It provides a statistical power calculation for the spatial relative risk function via the 
+<a href="https://cran.r-project.org/web/packages/sparr/index.html" target="_blank" rel="noopener">sparr</a> package. See the public 
+<a href="https://github.com/machiela-lab/sparrpowR" target="_blank" rel="noopener">Github repository</a> for more details. The featured image comes from the package 
+<a href="https://cran.r-project.org/web/packages/sparrpowR/vignettes/vignette.html" target="_blank" rel="noopener">vignette</a>.</p>
+<p>Thanks to 
+<a href="https://dceg.cancer.gov/fellowship-training/what-our-fellows-do/meet-current-fellows/iteb-fellows#derek-brown-phd-postdoctoral-fellow" target="_blank" rel="noopener">Derek Brown, Ph.D., M.S.</a> as my co-first author as well as major contributions from 
+<a href="https://github.com/timyers" target="_blank" rel="noopener">Tim Myers, Ph.D.</a>, and 
+<a href="https://dceg.cancer.gov/about/staff-directory/machiela-mitchell" target="_blank" rel="noopener">Mitch Machiela, Sc.D., M.P.H.</a></p>
+<img src="/img/sparrpowR.png" width="300" align="center"/>
     </div>
+
     
 
-    <div class="stream-meta article-metadata">
 
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/cluster-detection/">cluster detection</a>
+  
+  <a class="badge badge-light" href="/tag/cran/">CRAN</a>
+  
+  <a class="badge badge-light" href="/tag/kernel-density-estimation/">kernel density estimation</a>
+  
+  <a class="badge badge-light" href="/tag/point-pattern/">point pattern</a>
+  
+  <a class="badge badge-light" href="/tag/power-calculation/">power calculation</a>
+  
+  <a class="badge badge-light" href="/tag/r/">R</a>
+  
+  <a class="badge badge-light" href="/tag/spatial-analysis/">spatial analysis</a>
+  
+  <a class="badge badge-light" href="/tag/spatial-relative-risk/">spatial relative risk</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
       
-
+      
       
         
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/cran-sparrpowr/&amp;text=New%20CRAN%20Package%20%7bsparrpowR%7d" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
     
       
-          Last updated on
       
-    
-    2020-06-08
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    9 min read
-  </span>
-  
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/post/covid-dc-animated/" >
-      <img src="/post/covid-dc-animated/featured_hu6aa2a73cc5ac70f1a7d9e8a5937e83b2_58570_150x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
       
         
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/frm1/" >A Place for Spatial Analysis in the Cancer Control Continuum</a>
-    </h3>
-
-    
-    <div class="article-style">
-      I gave an invited talk at the National Cancer Institute entitled &ldquo;A place for spatial analysis in the Cancer Control Continuum.&rdquo; The talk was an overview of my work in progress over the past year in the Cancer Prevention Fellowship Program.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
       
-
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/post/cran-sparrpowr/&amp;t=New%20CRAN%20Package%20%7bsparrpowR%7d" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
       
         
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=New%20CRAN%20Package%20%7bsparrpowR%7d&amp;body=/post/cran-sparrpowr/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
     
       
-          Last updated on
       
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/cran-sparrpowr/&amp;title=New%20CRAN%20Package%20%7bsparrpowR%7d" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
     
-    2020-06-07
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 min read
-  </span>
-  
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/talks/">talks</a></span>
-  
-
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=New%20CRAN%20Package%20%7bsparrpowR%7d%20/post/cran-sparrpowr/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/post/cran-sparrpowr/&amp;title=New%20CRAN%20Package%20%7bsparrpowR%7d" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+    
+    
+    
       
-    </div>
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/ian-buller/avatar_hu5b2ba62b097ffda33a078efdfaf3f593_120086_270x270_fill_q90_lanczos_center.jpg" alt="Ian Buller">
+      
 
+      <div class="media-body">
+        <h5 class="card-title"><a href="/">Ian Buller</a></h5>
+        <h6 class="card-subtitle">Cancer Prevention Fellow</h6>
+        <p class="card-text">I&rsquo;m a spatial statistician &amp; environmental epidemiologist who primarily codes in <a href="https://cran.r-project.org/">R</a>. <em>All content is my own and does not represent my employer</em>. he/him/his</p>
+        <ul class="network-icon" aria-hidden="true">
+  
     
-
-  </div>
-  <div class="ml-3">
     
     
-    
-    <a href="/post/frm1/" >
-      <img src="/post/frm1/featured_hued824e4f443c5acd4e645a77e44ffe62_808394_150x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
-</div>
-
       
     
-
     
-    <div class="see-all">
-      <a href="/post/">
-        See all posts
-        <i class="fas fa-angle-right"></i>
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
       </a>
-    </div>
+    </li>
+  
     
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0001-9477-8582" target="_blank" rel="noopener">
+        <i class="fab fa-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Ian_Buller" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=QajtftEAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://profiles.impactstory.org/u/0000-0001-9477-8582" target="_blank" rel="noopener">
+        <i class="ai ai-impactstory"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/idblr" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://stackoverflow.com/users/6784787/idblr?tab=profile" target="_blank" rel="noopener">
+        <i class="fab fa-stack-overflow"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/idblr" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/idblr/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/cv_0520.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/tools/">DCEG Informatics Tool Challenge Award</a></li>
+      
+      <li><a href="/post/pvalues-spatial-segregation/">Areas of a spatial segregation model significantly different from null expectations</a></li>
+      
+      <li><a href="/post/covid-dc-animated/">Animating Spatio-Temporal COVID-19 Data</a></li>
+      
+      <li><a href="/post/frm1/">A Place for Spatial Analysis in the Cancer Control Continuum</a></li>
+      
+      <li><a href="/post/cluster-microbiome/">Cluster Detection in PCoA Space using Kernel Density Estimation</a></li>
+      
+    </ul>
+  </div>
+  
+
+
 
   </div>
-</div>
-
-    </div>
-  </section>
-
-
+</article>
 
       
 
@@ -1339,18 +1113,6 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
     
 
     
-    
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
     
 
     
