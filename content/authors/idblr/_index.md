@@ -50,7 +50,7 @@ social:
   link: https://www.linkedin.com/in/idblr/  
 - icon: cv
   icon_pack: ai
-  link: "files/cv_0520.pdf"
+  link: "files/cv_0620.pdf"
 superuser: true
 title: Ian Buller
 user_groups:
