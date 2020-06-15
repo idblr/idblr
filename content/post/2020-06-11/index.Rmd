@@ -8,7 +8,7 @@ tags: ["R Markdown", "R", "point pattern"]
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2020-06-11T8:47:18-04:00'
+lastmod: '2020-06-15T9:03:18-04:00'
 featured: no
 image:
   caption: 'Image credit: [**Ian Buller**](/)'
@@ -23,6 +23,8 @@ knitr::opts_chunk$set(echo = TRUE, fig.align = "center", message = FALSE, warnin
 ```
 
 I present code to create the hexsticker for the [sparrpowR](https://github.com/machiela-lab/sparrpowR){target="_blank"} package using the [hexSticker](https://github.com/GuangchuangYu/hexSticker){target="_blank"} and [spatstat](https://github.com/spatstat/spatstat){target="_blank"} packages. The [sparrpowR](https://github.com/machiela-lab/sparrpowR){target="_blank"} calculated the statistical power for a spatial relative risk function from the [sparr](https://github.com/cran/sparr){target="_blank"} package. 
+
+<div align="center">* Update 06/15/2020: The {sparrpowR} sticker is posted in the [hexSticker](https://github.com/GuangchuangYu/hexSticker){target="_blank"} README.md file *</div>
 ```{r packages}
 # Packages
 loadedPackages <- c("hexSticker", "spatstat")
