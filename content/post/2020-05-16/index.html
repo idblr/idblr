@@ -51,7 +51,7 @@ dc &lt;- geojsonio::geojson_read(gis_path,  what = &quot;sp&quot;)
 covid_path &lt;- &quot;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&quot;
 covid &lt;- googlesheets4::read_sheet(ss = covid_path,
                                    sheet = 2, # second sheet
-                                   skip = 1)  # skip 1st row of annotation
+                                   skip = 2)  # skip 1st row of annotation
 names(covid) &lt;- sub(&quot;\n&quot;, &quot;&quot;, names(covid))   # remove extra line in column names
 names(covid) &lt;- gsub(&quot; &quot;, &quot;_&quot;, names(covid))  # replace spaces with underscore
 
