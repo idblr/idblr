@@ -19,24 +19,14 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "National Institutes for Minority Health and Health Disparities"
-  organization_url = "https://www.nimhd.nih.gov/"
-  title = "Coleman Research Innovation Award"
-  url = "https://www.nimhd.nih.gov/programs/intramural/research-award/index.html"
+  organization = "Division of Cancer Epidemiology and Genetics"
+  organization_url = "https://dceg.cancer.gov/"
+  title = "DCEG Informatics Tool Challenge"
+  url = "https://dceg.cancer.gov/news-events/news/2020/2020-informatics-tool-challenge"
   certificate_url = ""
-  date_start = "2020-04-30"
+  date_start = "2020-05-15"
   date_end = ""
-  description = "I am taking over the role of Principal Investigator from Dr. Joe Shearer on the project entitled 'Evaluating the impact of concentrated animal feeding operations on *Campylobacter jejuni* infections in rural agricultural communities.'"
-
-[[item]]
-  organization = "American Society of Tropical Medicine & Hygiene"
-  organization_url = "https://www.astmh.org/"
-  title = "Young Investigator Award, First-tier Mention"
-  url = "https://www.astmh.org/awards-fellowships-medals/awards-and-honors/young-investigator-award"
-  certificate_url = ""
-  date_start = "2018-11-05"
-  date_end = ""
-  description = "This award is given for work presented at the Annual ASTMH Meeting in recognition of young investigators and to encourage developing scientists to pursue careers in various aspects of tropical disease research."
+  description = "The competitive program has provided support for innovative approaches to epidemiological methods, data collection, analysis, and other research efforts using modern technology and informatics. Co-awarded with [Dr. Derek Brown](https://cpfp.cancer.gov/about-us/cpfp-fellow/derek-brown) for a project entitled 'sparrpowR: A flexible R package and webtool to estimate statistical power of a spatial cluster detection technique.'"
   
 [[item]]
   organization = "National Science Foundation"
