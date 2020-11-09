@@ -2,7 +2,7 @@
 title: NIMHD Research Innovation Award
 author: Ian Buller
 date: '2020-04-30'
-slug: coleman
+slug: coleman2020
 categories: ["awards"]
 tags: ["campylobacter", "rural health"]
 subtitle: ''
