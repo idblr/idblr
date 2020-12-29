@@ -44,7 +44,7 @@ social:
   link: https://stackoverflow.com/users/6784787/idblr?tab=profile
 - icon: publons
   icon_pack: ai
-  link: https://publons.com/researcher/3206095/ian-buller/
+  link: https://publons.com/researcher/3412558/ian-buller/
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/idblr
@@ -53,7 +53,7 @@ social:
   link: https://www.linkedin.com/in/idblr/  
 - icon: cv
   icon_pack: ai
-  link: "files/cv_0620.pdf"
+  link: "files/cv_1220.pdf"
 superuser: true
 title: Ian Buller
 user_groups:
