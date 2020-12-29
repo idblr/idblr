@@ -1,0 +1,75 @@
+---
+title: Creating a hexsticker for the {sparrpowR} package
+author: ~
+date: '2020-06-11'
+slug: hexsticker-sparrpowR
+categories: ["R"]
+tags: ["R Markdown", "R", "point pattern"]
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-06-15T9:03:18-04:00'
+featured: no
+image:
+  caption: 'Image credit: [**Ian Buller**](/)'
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>I present code to create the hexsticker for the <a href="https://github.com/machiela-lab/sparrpowR" target="_blank">sparrpowR</a> package using the <a href="https://github.com/GuangchuangYu/hexSticker" target="_blank">hexSticker</a> and <a href="https://github.com/spatstat/spatstat" target="_blank">spatstat</a> packages. The <a href="https://github.com/machiela-lab/sparrpowR" target="_blank">sparrpowR</a> calculated the statistical power for a spatial relative risk function from the <a href="https://github.com/cran/sparr" target="_blank">sparr</a> package.</p>
+<div align="center">
+<ul>
+<li>Update 06/15/2020: The {sparrpowR} sticker is posted in the <a href="https://github.com/GuangchuangYu/hexSticker" target="_blank">hexSticker</a> README.md file *
+</div></li>
+</ul>
+<pre class="r"><code># Packages
+loadedPackages &lt;- c(&quot;hexSticker&quot;, &quot;spatstat&quot;)
+invisible(lapply(loadedPackages, require, character.only = TRUE))
+set.seed(1234) # for reproducibility
+par(pty = &quot;s&quot;) # for equal proportions</code></pre>
+<p>The point pattern to plot within the hexsticker is created using the <a href="https://github.com/spatstat/spatstat" target="_blank">spatstat</a> package.</p>
+<pre class="r"><code># Create windows for separate point patterns
+angle &lt;- pi / 3
+x &lt;- c(0, 0.5, 0.5 * cos(angle), 0) + 1
+y &lt;- c(0, 0, 0.5 * sin(angle), 0) + 1
+y1 &lt;- c(0, 0, 0.5 * -sin(angle), 0) + 1
+x2 &lt;- c(1 - 0.33, 1.1, 1.25, 1.6, 1.5 + 0.33, 1 - 0.33)
+y2 &lt;- c(1.5, 1, 1.433013, 1, 1.5, 1.5)
+
+# Create point patterns
+g1 &lt;- spatstat::rsyst(nx = 20, win = spatstat::owin(poly = list(x = x, y = y)))
+g2 &lt;- spatstat::rsyst(nx = 20, win = spatstat::owin(poly = list(x = rev(x), y = rev(y1))))
+g3 &lt;- spatstat::rpoispp(lambda = 20, win = spatstat::owin(poly = list(x = x2, y = y2)))
+
+# Set marks for point patterns (for colors)
+spatstat::marks(g1) &lt;- 1
+spatstat::marks(g2) &lt;- 2
+spatstat::marks(g3) &lt;- 1
+
+# Combine point patterns and set marks to be factors
+g4 &lt;- spatstat::superimpose(g1, g2, g3)
+spatstat::marks(g4) &lt;- as.factor(spatstat::marks(g4))</code></pre>
+<p>I use the <a href="https://github.com/GuangchuangYu/hexSticker" target="_blank">hexSticker</a> package to create the hexsticker which layers the sticker elements into a hexagon window. In order to hide points within the <code>g4</code> object that reside outside the hexagon window I set the <code>white_around_sticker</code> argument as <code>TRUE</code>. I choose the <a href="https://www.color-hex.com/color-palette/14625" target="_blank">Balance Within</a> color palette.</p>
+<pre class="r"><code># Create hexSticker
+
+hexSticker::sticker(~spatstat::plot.ppp(g4, 
+                                        cols = c(&quot;#ee9a00&quot;, &quot;#698b69&quot;),
+                                        show.all = F, cex = 0.5,
+                                        pch = c(8, 8)),
+                    package = &quot;sparrpowR&quot;,
+                    p_size = 5,
+                    p_color = &quot;#ffe4b5&quot;,
+                    s_x = 0.7, s_y = 0.1,
+                    s_width = 3.33, s_height = 3.33,
+                    h_fill = &quot;#344960&quot;,
+                    h_color = &quot;#8b3a3a&quot;,
+                    dpi = 1000,
+                    white_around_sticker = TRUE)</code></pre>
+<p>After removing the white image background in your favorite image editor you can replicate the final hexsticker.</p>
+<p><img src="/img/sparrpowR.png" width="200" align="center"/></p>
+<p>And when you connect three stickers you can create a larger design:</p>
+<p><img src="/img/sparrpowR3.png" width="400" align="center"/></p>
