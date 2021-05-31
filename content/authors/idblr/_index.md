@@ -53,7 +53,7 @@ social:
   link: https://www.linkedin.com/in/idblr/  
 - icon: cv
   icon_pack: ai
-  link: "files/cv_1220.pdf"
+  link: "files/cv_0521.pdf"
 superuser: true
 title: Ian Buller
 user_groups:
@@ -69,4 +69,4 @@ user_groups:
 
 I am a Cancer Prevention Fellow in the [Cancer Prevention Fellowship Program](https://cpfp.cancer.gov/) at the [National Cancer Institute](https://www.cancer.gov/) (Preceptor: [Dr. Rena Jones](https://dceg.cancer.gov/about/staff-directory/jones-rena)) within the [Occupational and Enviornmental Epidemiology Branch](https://dceg.cancer.gov/about/organization/programs-ebp/oeeb) of the [Division of Cancer Epidemiology and Genetics](https://dceg.cancer.gov/), part of the [Intramural Research Program at the National Institutes of Health](https://irp.nih.gov/).
 
-I received a Ph.D. in [Environmental Health Sciences](https://www.sph.emory.edu/departments/eh/degree-programs/phd/index.html) at [Emory University](http://www.emory.edu) (Advisor: [Dr. Lance Waller](https://sph.emory.edu/faculty/profile/index.php?FID=345)) after completing a concurrent B.A./M.A. in [Ecology and Evolutionary Biolgy](https://www.colorado.edu/ebio/) from the [University of Colorado at Boulder](https://www.colorado.edu/) (Advisor: [Dr. Pieter Johnson](https://www.colorado.edu/ebio/pieter-johnson)). My [research](https://profiles.impactstory.org/u/0000-0001-9477-8582) has been published in [Ecology](https://esajournals.onlinelibrary.wiley.com/journal/19399170). 
+I received a Ph.D. in [Environmental Health Sciences](https://www.sph.emory.edu/departments/eh/degree-programs/phd/index.html) at [Emory University](http://www.emory.edu) (Advisor: [Dr. Lance Waller](https://sph.emory.edu/faculty/profile/index.php?FID=345)) after completing a concurrent B.A./M.A. in [Ecology and Evolutionary Biolgy](https://www.colorado.edu/ebio/) from the [University of Colorado at Boulder](https://www.colorado.edu/) (Advisor: [Dr. Pieter Johnson](https://www.colorado.edu/ebio/pieter-johnson)). My [research](https://pubmed.ncbi.nlm.nih.gov/?term=Buller%2C+Ian%5BFull+Author+Name%5D) has been published in [Ecology](https://esajournals.onlinelibrary.wiley.com/journal/19399170), [International Journal of Health Geographics](https://ij-healthgeographics.biomedcentral.com/), and [International Journal of Environmental Research and Health](https://www.mdpi.com/journal/ijerph).
