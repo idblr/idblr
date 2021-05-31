@@ -23,7 +23,7 @@ role: Cancer Prevention Fellow
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'
+  link: '/profile'
 - icon: orcid
   icon_pack: fab
   link: https://orcid.org/0000-0001-9477-8582
