@@ -20,6 +20,6 @@ projects: []
 
 My first R package is on [CRAN](https://cran.r-project.org/) named [sparrpowR](https://CRAN.R-project.org/package=sparrpowR). It provides a statistical power calculation for the spatial relative risk function via the [sparr](https://CRAN.R-project.org/package=sparr) package. See the public [Github repository](https://github.com/machiela-lab/sparrpowR) for more details. The featured image comes from the package [vignette](https://cran.r-project.org/web/packages/sparrpowR/vignettes/vignette.html). 
 
-Thanks to [Derek Brown, Ph.D., M.S.](https://dceg.cancer.gov/fellowship-training/what-our-fellows-do/meet-current-fellows/iteb-fellows#derek-brown-phd-postdoctoral-fellow) as my co-first author as well as major contributions from [Tim Myers, Ph.D.](https://github.com/timyers), and [Mitch Machiela, Sc.D., M.P.H.](https://dceg.cancer.gov/about/staff-directory/machiela-mitchell)
+Thanks to [Derek Brown, Ph.D., M.S.](https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek) as my co-first author as well as major contributions from [Tim Myers, Ph.D.](https://github.com/timyers), and [Mitch Machiela, Sc.D., M.P.H.](https://dceg.cancer.gov/about/staff-directory/machiela-mitchell)
 
 <img src="/img/sparrpowR.png" width="300" align="center"/>
