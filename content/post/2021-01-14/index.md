@@ -18,6 +18,6 @@ image:
 projects: []
 ---
 
-[Derek Brown, Ph.D., M.S.](https://dceg.cancer.gov/fellowship-training/what-our-fellows-do/meet-current-fellows/iteb-fellows#derek-brown-phd-postdoctoral-fellow) and I presented our "Spatial Power" webtool for the NCI [Division of Cancer Epidemiology and Genetics](https://dceg.cancer.gov/) January 2021 monthly [Geographic Analysis Working Group](https://dceg.cancer.gov/research/how-we-study/exposure-assessment/gis-environmental-exposure) meeting. Spatial Power is an upcomping webtool to calculate power for spatial statistics. Stay tuned for its launch.
+[Derek Brown, Ph.D., M.S.](https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek) and I presented our "Spatial Power" webtool for the NCI [Division of Cancer Epidemiology and Genetics](https://dceg.cancer.gov/) January 2021 monthly [Geographic Analysis Working Group](https://dceg.cancer.gov/research/how-we-study/exposure-assessment/gis-environmental-exposure) meeting. Spatial Power is an upcomping webtool to calculate power for spatial statistics. Stay tuned for its launch.
 
 **Update**: [Spatial Power](https://analysistools.cancer.gov/spatial-power) was successfully launched on May 20, 2021
