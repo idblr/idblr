@@ -22,11 +22,11 @@ date_format = "Jan 2006"
   organization = "National Institute on Minority Health and Health Disparities"
   organization_url = "https://www.nimhd.nih.gov/"
   title = "William G. Coleman Jr., Ph.D., Minority Health and Health Disparities Research Innovation Award"
-  url = "https://www.nimhd.nih.gov/programs/intramural/research-award/index.html"
+  url = "https://www.nimhd.nih.gov/programs/intramural/research-award/2021-awardees/awardees-group.html"
   certificate_url = ""
   date_start = "2020-11-02"
   date_end = ""
-  description = "The competitive program supports the development of innovative research ideas and concepts within the NIH Intramural Research Program that have the potential for high impact in any area of minority health and health disparities research. Co-awarded with Drs. [Jacqueline Vo](https://cpfp.cancer.gov/about-us/cpfp-fellow/jacqueline-vo), [Naoise Synnott](https://cpfp.cancer.gov/about-us/cpfp-fellow/naoise-synnott), and [Derek Brown](https://cpfp.cancer.gov/about-us/cpfp-fellow/derek-brown) for a project entitled 'HDoCS in PLCO: Health Disparities of Cancer Survivors in the Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial.'"
+  description = "The competitive program supports the development of innovative research ideas and concepts within the NIH Intramural Research Program that have the potential for high impact in any area of minority health and health disparities research. Co-awarded with Drs. [Jacqueline Vo](https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/reb/vo-jacqueline), [Naoise Synnott](https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/synnott-naoise), and [Derek Brown](https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek) for a project entitled 'HDoCS in PLCO: Health Disparities of Cancer Survivors in the Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial.'"
 
 [[item]]
   organization = "Division of Cancer Epidemiology and Genetics"
@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2020-05-15"
   date_end = ""
-  description = "The competitive program supports innovative approaches to epidemiological methods, data collection, analysis, and other research efforts using modern technology and informatics. Co-awarded with [Dr. Derek Brown](https://cpfp.cancer.gov/about-us/cpfp-fellow/derek-brown) for a project entitled 'sparrpowR: A flexible R package and webtool to estimate statistical power of a spatial cluster detection technique.'"
+  description = "The competitive program supports innovative approaches to epidemiological methods, data collection, analysis, and other research efforts using modern technology and informatics. Co-awarded with [Dr. Derek Brown](https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek) for a project entitled 'sparrpowR: A flexible R package and webtool to estimate statistical power of a spatial cluster detection technique.'"
   
 [[item]]
   organization = "National Science Foundation"

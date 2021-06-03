@@ -26,6 +26,16 @@ date_format = "Jan 2006"
   date_end = ""
   # description = """
   # Responsibilities include:"""
+  
+  [[experience]]
+  title = "National Science Foundation Graduate Research Fellow"
+  company = "Emory University"
+  company_url = "https://www.sph.emory.edu/departments/eh/degree-programs/phd/index.html"
+  location = "Atlanta, GA"
+  date_start = "2013-08-20"
+  date_end = "2019-05-31"
+  # description = """
+  # Responsibilities include:"""
 
 # [[experience]]
 #   title = "Professor"
