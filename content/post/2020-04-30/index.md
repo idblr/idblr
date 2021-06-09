@@ -1,5 +1,5 @@
 ---
-title: NIMHD Research Innovation Award
+title: 2020 William G. Coleman Minority Health and Health Disparities Research Innovation Award
 author: Ian Buller
 date: '2020-04-30'
 slug: coleman2020
