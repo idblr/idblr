@@ -1,9 +1,9 @@
 ---
 title: DCEG Informatics Tool Challenge Award
-author: Ian Buller
+author: ~
 date: '2020-06-02'
 slug: tools
-categories: ["awards"]
+categories: ["award"]
 tags: ["power", "spatial relative risk", "R", "webtool", "collaboration", "method development"]
 subtitle: ''
 summary: ''

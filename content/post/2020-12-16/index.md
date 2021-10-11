@@ -4,7 +4,7 @@ author: ~
 date: '2020-12-16'
 slug: ser-2020
 categories: ["poster"]
-tags: ["microbiome", "spatial analysis", "AHS"]
+tags: ["microbiome", "spatial analysis", "AHS", "conference"]
 subtitle: ''
 summary: ''
 authors: []

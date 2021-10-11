@@ -4,7 +4,7 @@ author: ~
 date: '2021-02-24'
 slug: niehs-2021
 categories: ["talk"]
-tags: ["microbiome", "spatial analysis", "NIH-AARP"]
+tags: ["microbiome", "spatial analysis", "NIH-AARP", "workshop"]
 subtitle: ''
 summary: ''
 authors: []

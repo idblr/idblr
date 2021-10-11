@@ -3,7 +3,7 @@ title: New Web Application "Spatial Power" launched
 author: ~
 date: '2021-05-20'
 slug: spatial-power
-categories: ["tools"]
+categories: ["tool"]
 tags: ["spatial analysis", "power calculation", "cluster detection", "point pattern", "kernel density estimation", 
 "spatial relative risk"]
 subtitle: ''

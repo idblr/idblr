@@ -1,9 +1,9 @@
 ---
 title: DCEG Fellows Award for Research Excellence
-author: Ian Buller
+author: ~
 date: '2020-10-27'
 slug: dfare
-categories: ["awards"]
+categories: ["award"]
 tags: ["microbiome", "NIH-AARP", "spatial analysis"]
 subtitle: ''
 summary: ''

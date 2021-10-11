@@ -3,7 +3,7 @@ title: New Publication in the International Journal of Health Geographics
 author: ~
 date: '2021-02-26'
 slug: ijhg-2021
-categories: ["publications"]
+categories: ["publication"]
 tags: ["spatial analysis", "power calculation", "cluster detection", "point pattern", "kernel density estimation", 
 "spatial relative risk"]
 subtitle: ''

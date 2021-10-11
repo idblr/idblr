@@ -1,6 +1,6 @@
 ---
 title: New CRAN Package {sparrpowR}
-author: Ian Buller
+author: ~
 date: '2020-06-10'
 slug: cran-sparrpowR
 categories: ["R"]

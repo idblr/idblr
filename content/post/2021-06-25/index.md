@@ -3,7 +3,7 @@ title: New Publication in the International Journal of Environmental Research an
 author: ~
 date: '2021-06-25'
 slug: ijerph-2021
-categories: ["publications"]
+categories: ["publication"]
 tags: ["proportional hazard", "drinking water", "diet", "nitrate", "nitrite", 
 "digestive cancer"]
 subtitle: ''

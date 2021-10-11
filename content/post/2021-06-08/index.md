@@ -1,9 +1,9 @@
 ---
 title: 2021 Cancer Prevention Fellowship Merit Award
-author: Ian Buller
+author: ~
 date: '2021-06-08'
 slug: merit2021
-categories: ["awards"]
+categories: ["award"]
 tags: ["service", "annual", "cancer", "prevention"]
 subtitle: ''
 summary: ''

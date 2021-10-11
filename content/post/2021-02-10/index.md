@@ -3,7 +3,7 @@ title: New Publication in the International Journal of Environmental Research an
 author: ~
 date: '2021-02-10'
 slug: ijerph-2021-special-issue
-categories: ["publications"]
+categories: ["publication"]
 tags: ["positional error", "geocoding", "spatial analysis", "point pattern", "kernel density estimation", 
 "spatial relative risk", "special issue"]
 subtitle: ''

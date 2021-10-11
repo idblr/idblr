@@ -1,6 +1,6 @@
 ---
 title: New CRAN Package {gateR}
-author: Ian Buller
+author: ~
 date: '2020-11-10'
 slug: cran-gateR
 categories: ["R"]

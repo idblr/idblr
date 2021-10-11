@@ -1,9 +1,9 @@
 ---
 title: 2021 William G. Coleman Minority Health and Health Disparities Research Innovation Award
-author: Ian Buller
+author: ~
 date: '2020-11-02'
-slug: coleman2021
-categories: ["awards"]
+slug: coleman-2021
+categories: ["award"]
 tags: ["PLCO", "health disparities", "cancer", "survivorship"]
 subtitle: ''
 summary: ''

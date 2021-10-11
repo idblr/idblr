@@ -1,14 +1,14 @@
 ---
 title: A Place for Spatial Analysis in the Cancer Control Continuum
 author: Ian Buller
-date: '2020-06-07'
+date: '2020-06-05'
 slug: frm1
-categories: ["talks"]
+categories: ["talk"]
 tags: ["work in progress", "environmental epidemiology", "spatial analysis"]
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2020-06-07T8:20:04-04:00'
+lastmod: '2020-06-05T8:20:04-04:00'
 featured: no
 image: 
   caption: 'Image credit: [**Ian Buller**](/)'

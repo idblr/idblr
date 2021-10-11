@@ -1,6 +1,6 @@
 ---
 title: New CRAN Package {envi}
-author: Ian Buller
+author: ~
 date: '2020-12-21'
 slug: cran-envi
 categories: ["R"]

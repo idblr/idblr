@@ -3,7 +3,7 @@ title: Invited Presentation for the DCEG Geospatial Analysis Working Group
 author: ~
 date: '2021-01-14'
 slug: gawg-2021
-categories: ["talks"]
+categories: ["talk"]
 tags: ["spatial analysis", "power calculation", "cluster detection", "point pattern", "kernel density estimation", 
 "spatial relative risk"]
 subtitle: ''

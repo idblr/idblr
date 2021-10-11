@@ -3,7 +3,7 @@ title: 2021 Trans-Fellowship Research Award Supplement
 author: ~
 date: '2021-02-09'
 slug: tfra-2021
-categories: ["awards"]
+categories: ["award"]
 tags: ["spatial analysis", "power calculation", "cluster detection", "point pattern", "kernel density estimation", 
 "spatial relative risk"]
 subtitle: ''

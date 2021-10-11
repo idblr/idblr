@@ -1,9 +1,9 @@
 ---
 title: 2020 William G. Coleman Minority Health and Health Disparities Research Innovation Award
-author: Ian Buller
+author: ~
 date: '2020-04-30'
-slug: coleman2020
-categories: ["awards"]
+slug: coleman-2020
+categories: ["award"]
 tags: ["campylobacter", "rural health"]
 subtitle: ''
 summary: ''
