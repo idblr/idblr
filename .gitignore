@@ -6,3 +6,6 @@
 .DS_Store
 public/ # if using Netlify
 *.Rproj
+Thumbs.db
+/public/
+/resources/

@@ -21,7 +21,7 @@ projects: []
 knitr::opts_chunk$set(echo = TRUE, fig.align = "center", message = FALSE, warning = FALSE, cache = FALSE)
 ```
 
-I present code to identify relative spatial clustering in multidimensional scaling / principal coordinate analysis (MDS/PCoA) space. I use a spatial relative risk function [risk](https://github.com/cran/sparr/blob/master/R/risk.R){target="_blank"} from the [sparr](https://github.com/cran/sparr){target="_blank"} package. I use a spatial segregation model  [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd){target="_blank"} from the [spatstat](https://github.com/spatstat/spatstat){target="_blank"} package. See my [previous post](/post/pvalues-spatial-segregation) about using the spatial segregation model.
+I present code to identify relative spatial clustering in multidimensional scaling / principal coordinate analysis (MDS/PCoA) space. I use a spatial relative risk function [risk](https://github.com/cran/sparr/blob/master/R/risk.R){target="_blank"} from the [sparr](https://github.com/cran/sparr){target="_blank"} package. I use a spatial segregation model [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd){target="_blank"} from the [spatstat](https://github.com/spatstat/spatstat){target="_blank"} package. See my [previous post](/post/pvalues-spatial-segregation) about using the spatial segregation model.
 
 I use microbiome data from the [dietswap](https://datadryad.org/stash/dataset/doi:10.5061/dryad.1mn1n) data set in the [microbiome](https://www.bioconductor.org/packages/release/bioc/html/microbiome.html){target="_blank"} package part of [Bioconductor](https://www.bioconductor.org/). The diet swap data set represents a study with African and African American groups undergoing a two-week diet swap reported in [O’Keefe et al. Nat. Comm. 6:6342, 2015](https://www.nature.com/articles/ncomms7342). I follow the [Ordination Analysis](https://microbiome.github.io/tutorials/Ordination.html) example by Leo Lahti, Sudarshan Shetty *et al.* 2020.
 
@@ -36,7 +36,7 @@ set.seed(4235421) # for reproducibility
 ```
 
 I prepare the data by choosing limiting to taxa with 90\% prevalence and a detection limit above 0.1\%. I then ordinate Bray-Curtis dissimilarity matrix by MDS/PCoA. 
-```{r data preparation}
+```{r data_preparation}
 # data
 data(dietswap)
 pseq <- dietswap
@@ -57,7 +57,7 @@ ord <- phyloseq::ordinate(pseq.core, "MDS", "bray")
 ### Two Group Comparison
 
 As an example of relative spatial clustering between two groups I compare the two levels of the `nationality` variable "AMR" (America) and "AFR" (Africa). A plot of the samples by the two groups is displayed below:
-```{r plot ordination two groups}
+```{r plot_ordination_two_groups}
 # Plot ordination
 phyloseq::plot_ordination(pseq.core, ord, color = "nationality") +
   ggplot2::geom_point(size = 1) + 
@@ -103,7 +103,7 @@ The African group has one significant cluster relative to the American Group (co
 ### Multi-Group Comparison
 
 As an example of relative spatial clustering between three groups I compare the two levels of the `bmi_group` variable "lean", "overweight' and "obese". A plot of the samples by the three groups is displayed below:
-```{r plot ordination three groups}
+```{r plot_ordination_three_groups}
 # Plot ordination
 phyloseq::plot_ordination(pseq.core, ord, color = "bmi_group") +
   ggplot2::geom_point(size = 1) +
@@ -116,7 +116,7 @@ phyloseq::plot_ordination(pseq.core, ord, color = "bmi_group") +
 
 To detect significant relative spatial clustering between three BMI groups, I use a spatial segregation model  [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd){target="_blank"} from the [spatstat](https://github.com/spatstat/spatstat){target="_blank"} package. The function requires data as a planar point process (`ppp`) object. Here, I use the default settings for the [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd){target="_blank"} function. I present 1) the most common BMI group across the MDS/PCoA space, and 2) areas that are significantly different from the null expectation for each BMI group. See my [previous post](/post/pvalues-spatial-segregation) about using the spatial segregation model.
 
-```{r spatial segregation}
+```{r spatial_segregation}
 # Convert to ppp object
 test_df <- data.frame("x" = ord$vectors[,1],
                       "y" = ord$vectors[,2],
@@ -147,7 +147,7 @@ spatstat.geom::plot.ppp(test_pp, add = TRUE, main = "",
 ```
 
 The "lean" BMI group appears most common in one area of the MDS/PCoA space (colored red), while the other two groups have numerous clusters. This plot *does not* indicate where eat group are significantly different from their null expectations. For example, our null expectation for the "lean" BMI group is a probability of about 0.25 (56/222). 
-```{r significant spatial segregation}
+```{r significant_spatial_segregation}
 #spatstat::plot.im(wh, main="Most common type", ribargs = list(las = 1))
 
 # Plot of significantly different areas

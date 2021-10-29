@@ -45,7 +45,7 @@ invisible(lapply(loadedPackages, require, character.only = T))
   spatstat.geom::plot.ppp(ppp_lansing, main = "Lansing Woods", cex = 0.5)
 ```
 
-```{r spatial segregration}
+```{r spatial_segregration}
 # Estimate nonparametric spatially-varying probabilities of type
   f1 <- spatstat.core::relrisk.ppp(ppp_lansing, casecontrol = F, diggle = T, se = T, sigma = bw.diggle)
   
