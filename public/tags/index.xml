@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Ian Buller</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <title>Tags | Ian Buller, Ph.D., M.A.</title>
+    <link>https://idblr.rbind.io/tags/</link>
+      <atom:link href="https://idblr.rbind.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2020 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Sat, 30 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Tue, 12 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpg</url>
+      <url>https://idblr.rbind.io/img/avatar.jpg</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>https://idblr.rbind.io/tags/</link>
     </image>
     
   </channel>

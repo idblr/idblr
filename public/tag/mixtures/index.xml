@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mixtures | Ian Buller, Ph.D., M.A.</title>
+    <link>https://idblr.rbind.io/tag/mixtures/</link>
+      <atom:link href="https://idblr.rbind.io/tag/mixtures/index.xml" rel="self" type="application/rss+xml" />
+    <description>mixtures</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Wed, 23 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://idblr.rbind.io/img/avatar.jpg</url>
+      <title>mixtures</title>
+      <link>https://idblr.rbind.io/tag/mixtures/</link>
+    </image>
+    
+    <item>
+      <title>Society for Epidemiologic Research 2021</title>
+      <link>https://idblr.rbind.io/post/ser-2021/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ser-2021/</guid>
+      <description>&lt;p&gt;I presented my invited talk entitled &amp;ldquo;Estimating environmental mixtures in a geospatial context&amp;rdquo; in a symposium entitled &amp;ldquo;Implementing geolocation-based exposure assessments&amp;rdquo; at the 
+&lt;a href=&#34;https://epiresearch.org/annual-meeting/2021-meeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Society for Epidemiologic Reserach 2021&lt;/a&gt; annual meeting held virtually due to the global 
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

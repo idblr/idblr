@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ian Buller, Ph.D., M.A.</title>
+    <link>https://idblr.rbind.io/author/ian-buller-ph.d.-m.a./</link>
+      <atom:link href="https://idblr.rbind.io/author/ian-buller-ph.d.-m.a./index.xml" rel="self" type="application/rss+xml" />
+    <description>Ian Buller, Ph.D., M.A.</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright>
+    <image>
+      <url>https://idblr.rbind.io/img/avatar.jpg</url>
+      <title>Ian Buller, Ph.D., M.A.</title>
+      <link>https://idblr.rbind.io/author/ian-buller-ph.d.-m.a./</link>
+    </image>
+    
+  </channel>
+</rss>

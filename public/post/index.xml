@@ -1,32 +1,640 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Ian Buller</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <title>Posts | Ian Buller, Ph.D., M.A.</title>
+    <link>https://idblr.rbind.io/post/</link>
+      <atom:link href="https://idblr.rbind.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2020 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Sat, 30 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Tue, 12 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpg</url>
+      <url>https://idblr.rbind.io/img/avatar.jpg</url>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>https://idblr.rbind.io/post/</link>
     </image>
     
     <item>
-      <title>Cluster Detection in PCoA Space using Kernel Density Estimation</title>
-      <link>/post/cluster-microbiome/</link>
-      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/cluster-microbiome/</guid>
+      <title>Hosted Dr. David Wheeler for the Cancer Prevention &amp; Control Colloquia Series</title>
+      <link>https://idblr.rbind.io/post/cpfp-colloquia/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/cpfp-colloquia/</guid>
+      <description>&lt;p&gt;I hosted 
+&lt;a href=&#34;https://medschool.vcu.edu/expertise/detail.html?id=dcwheeler&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. David Wheeler&lt;/a&gt;, Associate Professor in the Department of Biostatistics within the School of Medicine at Virginia Commonwealth University, for the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt; 
+&lt;a href=&#34;https://cpfp.cancer.gov/colloquia&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention and Control Colloquia Series&lt;/a&gt;. He gave a talk entitled, &amp;ldquo;Estimating Neighborhood Disadvantage Indices for Health Outcomes.&amp;rdquo; I moderated the hour-long virtual session.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>14th AACR Conference on The Science of Cancer Health Disparities in Racial/Ethnic Minorities and the Medically Underserved</title>
+      <link>https://idblr.rbind.io/post/aacr-2021/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/aacr-2021/</guid>
+      <description>&lt;p&gt;I was a co-author on a poster entitled &amp;ldquo;Comparing the association of self-reported race-ethnicity and genetic ancestry with all-cause mortality: A pan-cancer survivor analysis in the PLCO Screening Trial&amp;rdquo; at the 
+&lt;a href=&#34;https://www.aacr.org/meeting/aacr-virtual-conference-14th-aacr-conference-on-the-science-of-cancer-health-disparities-in-racial-ethnic-minorities-and-the-medically-underserved/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;14th AACR Conference on The Science of Cancer Health Disparities in Racial/Ethnic Minorities and the Medically Underserved&lt;/a&gt; by Drs. 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown&lt;/a&gt; and 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/reb/vo-jacqueline&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jacqueline Vo&lt;/a&gt; held virtually due to the global 
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic. This effort was funded by our 
+&lt;a href=&#34;https://idblr.rbind.io/post/coleman-2021&#34;&gt;2021 William G. Coleman Minority Health and Health Disparities Research Innovation Award&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021 FDA-NIH-NIST-USDA Joint Agency Microbiome (JAM) Symposium</title>
+      <link>https://idblr.rbind.io/post/jam-2021/</link>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/jam-2021/</guid>
+      <description>&lt;p&gt;I presented a poster entitled &amp;ldquo;Geographic variation in the oral microbiome of NIH-AARP Diet and Health Study participants&amp;rdquo; at the 
+&lt;a href=&#34;https://jam-2021.virtualpostersession.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2021 FDA-NIH-NIST-USDA Joint Agency Microbiome (JAM) Symposium&lt;/a&gt; held virtually due to the global 
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic. This poster was previously presented at the 
+&lt;a href=&#34;https://idblr.rbind.io/post/isee-2020&#34;&gt;International Society for Environmental Epidemiology 2020 Annual meeting&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>International Society for Environmental Epidemiology 2021</title>
+      <link>https://idblr.rbind.io/post/isee-2021/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/isee-2021/</guid>
+      <description>&lt;p&gt;I presented my oral abstract entitled &amp;ldquo;Roadway Proximity and Lung Cancer Risk in NIH-AARP Diet and Health Study Participants&amp;rdquo; at the 
+&lt;a href=&#34;https://www.isee2021.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;33rd Annual Conference of the International Society for Environmental Epidemiology&lt;/a&gt; held virtually due to the global 
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic. I was also a co-author on three abstracts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;ldquo;Residential proximity to animal feeding operations and mortality among postmenopausal women in the Iowa Women’s Health Study&amp;rdquo; led by 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/oeeb/madrigal-jessica&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jessica Madrigal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Residential proximity to animal feeding operations and risk of lymphohematopoietic cancers in the Iowa Women’s Health Study&amp;rdquo; led by 
+&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/fisher-jared&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jard Fisher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Ethylene oxide emissions and risk of breast cancer and Non-Hodgkin lymphoma in a large U.S. cohort&amp;rdquo; led by 
+&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/jones-rena&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Rena Jones&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Publication in the International Journal of Environmental Research and Public Health</title>
+      <link>https://idblr.rbind.io/post/ijerph-2021/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ijerph-2021/</guid>
+      <description>&lt;p&gt;I first authored an article in the 
+&lt;a href=&#34;https://www.mdpi.com/journal/ijerph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Journal of Environmental Research and Public Health&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.3390/ijerph18136822&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Ingestion of Nitrate and Nitrite and Risk of Stomach and Other Digestive System Cancers in the Iowa Women’s Health Study&amp;rdquo;&lt;/a&gt;. We assessed risk of certain digestive cancers and ingestion of nitrate and nitrite from diet and drinking water in a prospective cohort of post-menopausal women in Iowa, USA. This is my first epidemiologic analysis for the 
+&lt;a href=&#34;https://dceg.cancer.gov/about/organization/tdrp/oeeb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Occupational and Environmental Epidemiology Branch&lt;/a&gt; at the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Society for Epidemiologic Research 2021</title>
+      <link>https://idblr.rbind.io/post/ser-2021/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ser-2021/</guid>
+      <description>&lt;p&gt;I presented my invited talk entitled &amp;ldquo;Estimating environmental mixtures in a geospatial context&amp;rdquo; in a symposium entitled &amp;ldquo;Implementing geolocation-based exposure assessments&amp;rdquo; at the 
+&lt;a href=&#34;https://epiresearch.org/annual-meeting/2021-meeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Society for Epidemiologic Reserach 2021&lt;/a&gt; annual meeting held virtually due to the global 
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021 Cancer Prevention Fellowship Merit Award</title>
+      <link>https://idblr.rbind.io/post/merit2021/</link>
+      <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/merit2021/</guid>
+      <description>&lt;p&gt;I received an annual Merit Award from the National Cancer Institute (NCI) Division of Cancer Prevention 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt; (CPFP) that recognizes scientific productivity, leadership, and
+exemplary service to the CPFP, NCI, National Institutes of Health, and other outside organizations in cancer prevention. Three other postdoctoral Cancer Prevention Fellows also won an award this year: 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/reb/vo-jacqueline&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jacqueline Vo, Ph.D., R.N., M.P.H.&lt;/a&gt;, 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt;, and 
+&lt;a href=&#34;https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=33495932&amp;amp;name=Sydney-O%27Connor&amp;amp;bioType=flw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sydney O&amp;rsquo;Connor, Ph.D.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Web Application &#34;Spatial Power&#34; launched</title>
+      <link>https://idblr.rbind.io/post/spatial-power/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/spatial-power/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; is a web application that calculates the power for spatial statistics. Currently, the tool has one module for the spatial relative risk function. 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; and I co-designed the web application with a development team from the NCI 
+&lt;a href=&#34;https://datascience.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Biomedical Informatics &amp;amp; Information Technology&lt;/a&gt;. We received funding from a 
+&lt;a href=&#34;https://idblr.rbind.io/post/tools&#34;&gt;DCEG Informatics Tool Challenge Award&lt;/a&gt; and a 
+&lt;a href=&#34;https://idblr.rbind.io/post/tfra-2021&#34;&gt;DCP Trans-Fellowship Research Award Supplement&lt;/a&gt;. Please 
+&lt;a href=&#34;https://idblr.rbind.io/profile&#34;&gt;contact me&lt;/a&gt; or Dr. Brown with any suggestions for improvements, especially additional spatial statistics you would like to see in the web application.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Publication in the International Journal of Health Geographics</title>
+      <link>https://idblr.rbind.io/post/ijhg-2021/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ijhg-2021/</guid>
+      <description>&lt;p&gt;I co-first authored an article in the 
+&lt;a href=&#34;https://ij-healthgeographics.biomedcentral.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Journal of Health Geographics&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.1186/s12942-021-00267-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;sparrpowR: a flexible R package to estimate statistical power to identify spatial clustering of two groups and its application&amp;rdquo;&lt;/a&gt;. The article
+introduces the open-source R package 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt; and demonstrates how it can be used to calculate statistical power for the spatial relative risk function for etiologic and surveillance research questions. 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; is my fellow co-first author. See my 
+&lt;a href=&#34;https://idblr.rbind.io/post/cran-sparrpowr/&#34;&gt;earlier post&lt;/a&gt; about the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt; package that we co-developed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lightning Talk at NIEHS Workshop</title>
+      <link>https://idblr.rbind.io/post/niehs-2021/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/niehs-2021/</guid>
+      <description>&lt;p&gt;I presented a lightning talk entitled &amp;ldquo;Geographic Variation in the Oral Microbiome of NIH-AARP Diet and Health Study Participants&amp;rdquo; at a 
+&lt;a href=&#34;https://epiresearch.org/annual-meeting/2020-meeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institute of Environmental Health Sciences&lt;/a&gt; workshop entitled 
+&lt;a href=&#34;https://www.niehs.nih.gov/news/events/pastmtg/2021/ieemhh_2021/index.cfm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Impact of Environmental Exposures on the Microbiome and Human Health&lt;/a&gt; held virtually due to the global 
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Publication in the International Journal of Environmental Research and Public Health</title>
+      <link>https://idblr.rbind.io/post/ijerph-2021-special-issue/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ijerph-2021-special-issue/</guid>
+      <description>&lt;p&gt;I co-authored an article in the 
+&lt;a href=&#34;https://www.mdpi.com/journal/ijerph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Journal of Environmental Research and Public Health&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.3390/ijerph18041637&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Spatial Heterogeneity in Positional Errors: A Comparison of Two Residential Geocoding Efforts in the Agricultural Health Study&amp;rdquo;&lt;/a&gt;, which is included in the Special Issue 
+&lt;a href=&#34;https://www.mdpi.com/journal/ijerph/special_issues/Spatial_Uncertainty&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Data Uncertainty in Public Health Research&lt;/a&gt;. The article identifies areas with positional error in residential addresses between two geocoding efforts compared to Geographic Positioning System recordings in the 
+&lt;a href=&#34;https://aghealth.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Agricultural Health Study&lt;/a&gt;, a prospective cancer cohort of licensed pesticide applicators and their spouses in Iowa and North Carolina. My contribution was the data visualization and spatial analysis of the positional error such as a weighted spatial density estimation of the positional error to identify areas of significant improvement in positional accuracy between geocoding efforts while protecting personally identifiable information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021 Trans-Fellowship Research Award Supplement</title>
+      <link>https://idblr.rbind.io/post/tfra-2021/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/tfra-2021/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; and I received a Trans-Fellowship Research Award from the NCI Division of Cancer Prevention 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt; to supplement our 
+&lt;a href=&#34;https://idblr.rbind.io/post/tools&#34;&gt;2020 DCEG Informatics Tool Challenge Award&lt;/a&gt;. The award ($17,000) will be used to complete the development of our &amp;ldquo;Spatial Power&amp;rdquo; webtool for the NCI 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; and fund enhancements such as, for example, a Geographic Information System interface to see the calculated results displayed on an interactive map.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Invited Presentation for the DCEG Geospatial Analysis Working Group</title>
+      <link>https://idblr.rbind.io/post/gawg-2021/</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/gawg-2021/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; and I presented our &amp;ldquo;Spatial Power&amp;rdquo; webtool for the NCI 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; January 2021 monthly 
+&lt;a href=&#34;https://dceg.cancer.gov/research/how-we-study/exposure-assessment/gis-environmental-exposure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Geographic Analysis Working Group&lt;/a&gt; meeting. Spatial Power is an upcomping webtool to calculate power for spatial statistics. Stay tuned for its launch.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New CRAN Package {envi}</title>
+      <link>https://idblr.rbind.io/post/cran-envi/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/cran-envi/</guid>
+      <description>&lt;p&gt;My third R package is on 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=envi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;envi&lt;/a&gt;. It estimates the ecological niche using presence/absence data and the spatial relative risk function via the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. See the public 
+&lt;a href=&#34;https://github.com/Waller-SUSAN/envi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;Thanks to major contributions from Dr. 
+&lt;a href=&#34;https://sph.emory.edu/faculty/profile/index.php?FID=lance-waller-345&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lance Waller&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Society for Epidemiologic Research 2020</title>
+      <link>https://idblr.rbind.io/post/ser-2020/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ser-2020/</guid>
+      <description>&lt;p&gt;I presented my abstract entitled &amp;ldquo;Geographic variation in the oral microbiome of Agricultural Health Study applicators&amp;rdquo; at the 
+&lt;a href=&#34;https://epiresearch.org/annual-meeting/2020-meeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Society for Epidemiologic Reserach 2020&lt;/a&gt; annual meeting held virtually due to the global 
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New CRAN Package {gateR}</title>
+      <link>https://idblr.rbind.io/post/cran-gater/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/cran-gater/</guid>
+      <description>&lt;p&gt;My second R package is on 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=gateR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gateR&lt;/a&gt;. It estimates clustering of cytometry cells using markers and the spatial relative risk function via the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. See the public 
+&lt;a href=&#34;https://github.com/Waller-SUSAN/gateR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;Thanks to major contributions from Drs. 
+&lt;a href=&#34;https://medschool.cuanschutz.edu/immunology-and-microbiology/faculty/hsieh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Elena Hsieh&lt;/a&gt;, 
+&lt;a href=&#34;https://profiles.ucdenver.edu/display/7400934&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debashis Ghosh&lt;/a&gt;, and 
+&lt;a href=&#34;https://sph.emory.edu/faculty/profile/index.php?FID=lance-waller-345&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lance Waller&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021 William G. Coleman Minority Health and Health Disparities Research Innovation Award</title>
+      <link>https://idblr.rbind.io/post/coleman-2021/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/coleman-2021/</guid>
+      <description>&lt;p&gt;I received a 
+&lt;a href=&#34;https://www.nimhd.nih.gov/programs/intramural/research-award/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;William G. Coleman Minority Health and Health Disparities Research Innovation Award&lt;/a&gt; from the 
+&lt;a href=&#34;https://www.nimhd.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institute on Minority Health and Health Disparities&lt;/a&gt; for a joint research proposal entitled 
+&lt;a href=&#34;https://www.nimhd.nih.gov/programs/intramural/research-award/2021-awardees/awardees-group.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;HDoCS in PLCO: Health Disparities of Cancer Survivors in the Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial.&amp;quot;&lt;/a&gt; I join a stellar team of three co-awardees 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/reb/vo-jacqueline&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jacqueline Vo, Ph.D., R.N., M.P.H.&lt;/a&gt;, 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/synnott-naoise&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Naoise Synnott, Ph.D., M.P.H.&lt;/a&gt;, and 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; who are 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NCI Cancer Prevention Fellows&lt;/a&gt; in the intramural 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt;. NIMHD designed this competitive award to support the development of innovative research ideas and concepts contributed by post-doctoral fellows within the 
+&lt;a href=&#34;https://irp.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH Intramural Research Program&lt;/a&gt; who have the potential for high impact in any area of minority health and health disparities research.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DCEG Fellows Award for Research Excellence</title>
+      <link>https://idblr.rbind.io/post/dfare/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/dfare/</guid>
+      <description>&lt;p&gt;I received a DCEG Fellows Award for Research Excellence from the NCI 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; for an abstract entitled &amp;ldquo;Geographic variation in the oral microbiome of NIH-AARP Diet and Health Study participants.&amp;rdquo; I was one of nine recipients. The award provides funding for travel to scientific meetings or conferences to fellows who have made exceptional contributions to research projects at DCEG. The award was conferred virtually due to the coronavirus pandemic.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Co-Editor-in-Chief of DFEB</title>
+      <link>https://idblr.rbind.io/post/dfeb-2020/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/dfeb-2020/</guid>
+      <description>&lt;p&gt;I took over for 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iib/jackson-sarah&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Sarah Jackson&lt;/a&gt; as Co-Editor-in-Chief of the DCEG Fellows Editorial Board (DFEB). I join 
+&lt;a href=&#34;https://cpfp.cancer.gov/about-us/cpfp-fellow/maeve-bailey-whyte&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Maeve Bailey-Whyte&lt;/a&gt; in this role. DFEB is a fellow-led group that offers fellows a free scientific document-reviewing service and the opportunity to build scientific editing and review skills of their own. The group provides confidential, anonymous feedback on grammar, organization, and flow of scientific manuscripts, abstracts, proposals, posters, and slide decks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>International Society for Environmental Epidemiology 2020</title>
+      <link>https://idblr.rbind.io/post/isee-2020/</link>
+      <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/isee-2020/</guid>
+      <description>&lt;p&gt;I presented my abstract entitled &amp;ldquo;Geographic variation in the oral microbiome of NIH-AARP Diet and Health Study Participants&amp;rdquo; at the 
+&lt;a href=&#34;https://isee2020virtual.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;32nd Annual Conference of the International Society for Environmental Epidemiology&lt;/a&gt; held virtually due to the global 
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic. I was also a co-author on an abstract entitled &amp;ldquo;Ingestion of nitrate and nitrite from drinking water and diet and cancers of the gastrointestinal tract in Iowa women&amp;rdquo; led by 
+&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/ward-mary&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Mary Ward&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating a hexsticker for the {sparrpowR} package</title>
+      <link>https://idblr.rbind.io/post/hexsticker-sparrpowr/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/hexsticker-sparrpowr/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;p&gt;I present code to identify relative spatial clustering in multidimensional scaling / principal coordinate analysis (MDS/PCoA) space. I use a spatial relative risk function &lt;a href=&#34;https://github.com/cran/sparr/blob/master/R/risk.R&#34; target=&#34;_blank&#34;&gt;risk&lt;/a&gt; from the &lt;a href=&#34;https://github.com/cran/sparr&#34; target=&#34;_blank&#34;&gt;sparr&lt;/a&gt; package. I use a spatial segregation model &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34;&gt;relrisk&lt;/a&gt; from the &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34;&gt;spatstat&lt;/a&gt; package. See my &lt;a href=&#34;/post/pvalues-spatial-segregation&#34;&gt;previous post&lt;/a&gt; about using the spatial segregation model.&lt;/p&gt;
+&lt;p&gt;I present code to create the hexsticker for the &lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34; target=&#34;_blank&#34;&gt;sparrpowR&lt;/a&gt; package using the &lt;a href=&#34;https://github.com/GuangchuangYu/hexSticker&#34; target=&#34;_blank&#34;&gt;hexSticker&lt;/a&gt; and &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34;&gt;spatstat&lt;/a&gt; packages. The &lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34; target=&#34;_blank&#34;&gt;sparrpowR&lt;/a&gt; calculated the statistical power for a spatial relative risk function from the &lt;a href=&#34;https://github.com/cran/sparr&#34; target=&#34;_blank&#34;&gt;sparr&lt;/a&gt; package.&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;Update 06/15/2020: The {sparrpowR} sticker is posted in the &lt;a href=&#34;https://github.com/GuangchuangYu/hexSticker&#34; target=&#34;_blank&#34;&gt;hexSticker&lt;/a&gt; README.md file *
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Packages
+loadedPackages &amp;lt;- c(&amp;quot;hexSticker&amp;quot;, &amp;quot;spatstat&amp;quot;)
+invisible(lapply(loadedPackages, require, character.only = TRUE))
+set.seed(1234) # for reproducibility
+par(pty = &amp;quot;s&amp;quot;) # for equal proportions&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The point pattern to plot within the hexsticker is created using the &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34;&gt;spatstat&lt;/a&gt; package.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Create windows for separate point patterns
+angle &amp;lt;- pi / 3
+x &amp;lt;- c(0, 0.5, 0.5 * cos(angle), 0) + 1
+y &amp;lt;- c(0, 0, 0.5 * sin(angle), 0) + 1
+y1 &amp;lt;- c(0, 0, 0.5 * -sin(angle), 0) + 1
+x2 &amp;lt;- c(1 - 0.33, 1.1, 1.25, 1.6, 1.5 + 0.33, 1 - 0.33)
+y2 &amp;lt;- c(1.5, 1, 1.433013, 1, 1.5, 1.5)
+
+# Create point patterns
+g1 &amp;lt;- spatstat::rsyst(nx = 20, win = spatstat::owin(poly = list(x = x, y = y)))
+g2 &amp;lt;- spatstat::rsyst(nx = 20, win = spatstat::owin(poly = list(x = rev(x), y = rev(y1))))
+g3 &amp;lt;- spatstat::rpoispp(lambda = 20, win = spatstat::owin(poly = list(x = x2, y = y2)))
+
+# Set marks for point patterns (for colors)
+spatstat::marks(g1) &amp;lt;- 1
+spatstat::marks(g2) &amp;lt;- 2
+spatstat::marks(g3) &amp;lt;- 1
+
+# Combine point patterns and set marks to be factors
+g4 &amp;lt;- spatstat::superimpose(g1, g2, g3)
+spatstat::marks(g4) &amp;lt;- as.factor(spatstat::marks(g4))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I use the &lt;a href=&#34;https://github.com/GuangchuangYu/hexSticker&#34; target=&#34;_blank&#34;&gt;hexSticker&lt;/a&gt; package to create the hexsticker which layers the sticker elements into a hexagon window. In order to hide points within the &lt;code&gt;g4&lt;/code&gt; object that reside outside the hexagon window I set the &lt;code&gt;white_around_sticker&lt;/code&gt; argument as &lt;code&gt;TRUE&lt;/code&gt;. I choose the &lt;a href=&#34;https://www.color-hex.com/color-palette/14625&#34; target=&#34;_blank&#34;&gt;Balance Within&lt;/a&gt; color palette.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Create hexSticker
+
+hexSticker::sticker(~spatstat::plot.ppp(g4, 
+                                        cols = c(&amp;quot;#ee9a00&amp;quot;, &amp;quot;#698b69&amp;quot;),
+                                        show.all = F, cex = 0.5,
+                                        pch = c(8, 8)),
+                    package = &amp;quot;sparrpowR&amp;quot;,
+                    p_size = 5,
+                    p_color = &amp;quot;#ffe4b5&amp;quot;,
+                    s_x = 0.7, s_y = 0.1,
+                    s_width = 3.33, s_height = 3.33,
+                    h_fill = &amp;quot;#344960&amp;quot;,
+                    h_color = &amp;quot;#8b3a3a&amp;quot;,
+                    dpi = 1000,
+                    white_around_sticker = TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After removing the white image background in your favorite image editor you can replicate the final hexsticker.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/img/sparrpowR.png&#34; width=&#34;200&#34; align=&#34;center&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;And when you connect three stickers you can create a larger design:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/img/sparrpowR3.png&#34; width=&#34;400&#34; align=&#34;center&#34;/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New CRAN Package {sparrpowR}</title>
+      <link>https://idblr.rbind.io/post/cran-sparrpowr/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/cran-sparrpowr/</guid>
+      <description>&lt;p&gt;My first R package is on 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt;. It provides a statistical power calculation for the spatial relative risk function via the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. See the public 
+&lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt; for more details. The featured image comes from the package 
+&lt;a href=&#34;https://cran.r-project.org/web/packages/sparrpowR/vignettes/vignette.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vignette&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks to 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; as my co-first author as well as major contributions from 
+&lt;a href=&#34;https://github.com/timyers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tim Myers&lt;/a&gt;, and 
+&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/machiela-mitchell&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mitch Machiela, Sc.D., M.P.H.&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&#34;https://idblr.rbind.io/img/sparrpowR.png&#34; width=&#34;300&#34; align=&#34;center&#34;/&gt;</description>
+    </item>
+    
+    <item>
+      <title>Animating Spatio-Temporal COVID-19 Data</title>
+      <link>https://idblr.rbind.io/post/covid-dc-animated/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/covid-dc-animated/</guid>
+      <description>
+&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I present an update to my previous posts &lt;a href=&#34;https://idblr.rbind.io/post/covid-dc&#34;&gt;#1&lt;/a&gt; and &lt;a href=&#34;https://idblr.rbind.io/post/covid-dc-test&#34;&gt;#2&lt;/a&gt;. This update can also be found on a public &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their &lt;a href=&#34;https://coronavirus.dc.gov/page/coronavirus-data&#34; target=&#34;_blank&#34;&gt;coronavirus data portal&lt;/a&gt;. Molly Tolzmann &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; added this feature to her publicly available &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&#34; target=&#34;_blank&#34;&gt;Google Sheet&lt;/a&gt; presented at the &lt;a href=&#34;https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods&#34; target=&#34;_blank&#34;&gt;DC health planning neighborhood level&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here, I present the daily 5-day rolling average test positivity rate (TPR) for COVID-19 cases from May 25 to June 7, 2020 in an animated Graphics Interchange Format (GIF) using the open-source software language &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34;&gt;R&lt;/a&gt;. A TPR is the proportion of positive tests for every administered test. For example, the World Health Organization &lt;a href=&#34;https://coronavirus.jhu.edu/testing/testing-positivity&#34; target=&#34;_blank&#34;&gt;recommends&lt;/a&gt; a test positivity rate below 5% (1 out of 20 tests, TPR = 0.05) before reopening. A 5-day rolling average is the mean value of a daily TPR and the TPR of the four days prior.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Important Note&lt;/strong&gt;: There are missing data for certain dates. Case information is missing for May 22nd and 27th. Testing information is missing for May 22nd, 23rd, 24th, and 27th. Missing data are considered &lt;code&gt;NA&lt;/code&gt; but included in the 5-day rolling averages. Therefore, 5-day rolling averages that include these dates are more unstable. Because reporting case information at the &lt;a href=&#34;https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods&#34; target=&#34;_blank&#34;&gt;DC health planning neighborhood level&lt;/a&gt; became available on May 7th, daily incident case information is available starting May 8th and 5-day rolling average cases are available starting May 12th. Because testing information became available on May 20th, daily testing information is available starting May 21st and 5-day averages are available starting May 25th.&lt;/p&gt;
+&lt;p&gt;Necessary packages and settings for the exercise include:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Packages
+loadedPackages &amp;lt;- c(&amp;quot;broom&amp;quot;, &amp;quot;dplyr&amp;quot;, &amp;quot;geojsonio&amp;quot;, &amp;quot;gganimate&amp;quot;, &amp;quot;ggplot2&amp;quot;, &amp;quot;googlesheets4&amp;quot;, &amp;quot;sp&amp;quot;, &amp;quot;tidyr&amp;quot;, &amp;quot;transformr&amp;quot;)
+invisible(lapply(loadedPackages, require, character.only = T))
+
+# Settings
+googlesheets4::gs4_deauth() # no Google authorization necessary because we are not reading a public repo&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;data-importation&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Data Importation&lt;/h3&gt;
+&lt;p&gt;I merge the District of Columbia &lt;a href=&#34;https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data&#34; target=&#34;_blank&#34;&gt;Health Planning Neighborhoods&lt;/a&gt; boundaries and Molly Tolzmann’s &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&#34; target=&#34;_blank&#34;&gt;collation&lt;/a&gt; of the cumulative cases and tests from start of the SARS-CoV-2 outbreak. I clean up variable names that are easier for &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34;&gt;R&lt;/a&gt; to use.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# District of Columbia Health Planning Neighborhoods
+gis_path &amp;lt;- &amp;quot;https://opendata.arcgis.com/datasets/de63a68eb7674548ae0ac01867123f7e_13.geojson&amp;quot;
+dc &amp;lt;- geojsonio::geojson_read(gis_path,  what = &amp;quot;sp&amp;quot;)
+
+# District of Columbia SAR-CoV-2 Data prepared by @zmotoly
+covid_path &amp;lt;- &amp;quot;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&amp;quot;
+covid &amp;lt;- googlesheets4::read_sheet(ss = covid_path,
+                                   sheet = 2, # second sheet
+                                   skip = 1)  # skip 1st row of annotation
+
+# Fix column names
+names(covid) &amp;lt;- sub(&amp;quot;\n&amp;quot;, &amp;quot;&amp;quot;, names(covid)) # remove extra line in column names
+names(covid) &amp;lt;- gsub(&amp;quot; &amp;quot;, &amp;quot;_&amp;quot;, names(covid)) # replace spaces with underscore
+names(covid) &amp;lt;- gsub(&amp;quot;Total_cases&amp;quot;, &amp;quot;Cumulative&amp;quot;, names(covid)) # Change to one word
+names(covid) &amp;lt;- gsub(&amp;quot;Total_tests&amp;quot;, &amp;quot;Tested_&amp;quot;, names(covid)) # Change to one word
+names(covid) &amp;lt;- gsub(&amp;quot;Cases_per_1000&amp;quot;, &amp;quot;Case.Rate&amp;quot;, names(covid)) # Change to one word
+names(covid) &amp;lt;- gsub(&amp;quot;Tests_per_1000&amp;quot;, &amp;quot;Test.Rate_&amp;quot;, names(covid)) # Change to one word
+names(covid) &amp;lt;- gsub(&amp;quot;__&amp;quot;, &amp;quot;_&amp;quot;, names(covid)) # replace double underscores
+
+# Merge
+dc_covid &amp;lt;- sp::merge(dc, covid, by.x = &amp;quot;CODE&amp;quot;, by.y = &amp;quot;NB_Code&amp;quot;)
+
+# Spatial Projection
+## UTM zone 18N (Washington, DC)
+dc_covid_proj &amp;lt;- sp::spTransform(dc_covid, CRS(&amp;quot;+init=EPSG:32618&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-management&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Data Management&lt;/h3&gt;
+&lt;p&gt;The 5-day rolling average test positivity rate is not provided in Molly Tolzmann’s &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&#34; target=&#34;_blank&#34;&gt;Google Sheet&lt;/a&gt; and I calculate it for every day data are available.
+First, I find the daily incident cases from the reported cumulative cases.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Uses ggplot2 package
+## helpful material: https://cengel.github.io/rspatial/4_Mapping.nb.html
+## Data preparation, ggplot2 requires a data.frame
+dc_covid_df &amp;lt;- broom::tidy(dc_covid_proj) # convert to tidy data frame
+dc_covid_proj$polyID &amp;lt;- sapply(slot(dc_covid_proj, &amp;quot;polygons&amp;quot;), function(x) slot(x, &amp;quot;ID&amp;quot;)) # preserve polygon id
+CoV_DC_df &amp;lt;- sp::merge(dc_covid_df, dc_covid_proj, by.x = &amp;quot;id&amp;quot;, by.y=&amp;quot;polyID&amp;quot;) # merge data
+rm(dc_covid_proj, dc_covid_df, dc_covid, covid, dc) # conserve memory
+
+# Step 1) Daily incident cases
+CoV_DC_loop &amp;lt;- CoV_DC_df %&amp;gt;% dplyr::select(starts_with(&amp;quot;cumulative&amp;quot;))
+CoV_DC_loop &amp;lt;- CoV_DC_loop[,rev(1:length(CoV_DC_loop))] # reorder dates in ascending order
+CoV_DC_loop$Cumulative_May_22 &amp;lt;- NA # missing data
+CoV_DC_loop$Cumulative_May_27 &amp;lt;- NA # missing data
+CoV_DC_loop &amp;lt;- CoV_DC_loop[,c(1:15, 31, 16:19, 32, 20:30)] # reorder for consistent dates
+i &amp;lt;- NULL # initiate indexing
+
+# Empty matrices
+mat_inc &amp;lt;- matrix(ncol = length(CoV_DC_loop)-1, nrow = nrow(CoV_DC_loop)) # for values
+col_lab &amp;lt;- vector(mode = &amp;quot;character&amp;quot;, length = length(CoV_DC_loop)-1)     # for names
+
+for (i in 1:length(CoV_DC_loop)-1) {
+  mat_inc[ , i] &amp;lt;- ifelse(CoV_DC_loop[ , i+1] - CoV_DC_loop[ , i] &amp;lt; 0, NA, CoV_DC_loop[ , i+1] - CoV_DC_loop[ , i])
+  col_lab[i] &amp;lt;- paste(sub(&amp;quot;Cumulative&amp;quot;, names(CoV_DC_loop[i+1]), replacement = &amp;quot;incident&amp;quot;))
+  if(i == length(CoV_DC_loop))
+    mat_inc &amp;lt;- data.frame(mat_inc)
+    colnames(mat_inc) &amp;lt;- col_lab
+}
+
+CoV_DC_df &amp;lt;- cbind(CoV_DC_df, mat_inc) # merge with original dataset&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then I calculate 5-day rolling average cases (rate included, too).&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Step 2) 5-Day Average Incident Case and Case Rate
+CoV_DC_loop &amp;lt;-  CoV_DC_df %&amp;gt;% dplyr::select(starts_with(&amp;quot;incident&amp;quot;))
+i &amp;lt;- NULL # reinitiate indexing
+
+# Empty matrices
+mat_5d &amp;lt;- matrix(ncol = length(CoV_DC_loop)-4, nrow = nrow(CoV_DC_loop)) # for values
+mat_5dr &amp;lt;- matrix(ncol = length(CoV_DC_loop)-4, nrow = nrow(CoV_DC_loop)) # for values
+col_lab &amp;lt;- vector(mode = &amp;quot;character&amp;quot;, length = length(CoV_DC_loop)-4)     # for names
+col_labr &amp;lt;- vector(mode = &amp;quot;character&amp;quot;, length = length(CoV_DC_loop)-4)    # for names
+
+for (i in 1:(length(CoV_DC_loop)-4)) {
+  mat_5d[ , i] &amp;lt;- rowMeans(CoV_DC_loop[ , i:(i+4)], na.rm = T)
+  mat_5dr[ , i] &amp;lt;-  mat_5d[ , i] / CoV_DC_df$`Population_(2018_ACS)` * 1000
+  col_lab[i] &amp;lt;- paste(sub(&amp;quot;incident&amp;quot;, names(CoV_DC_loop[(i+4)]), replacement = &amp;quot;average&amp;quot;))
+  col_labr[i] &amp;lt;- paste(sub(&amp;quot;incident&amp;quot;, names(CoV_DC_loop[(i+4)]), replacement = &amp;quot;average.rate&amp;quot;))
+  if(i == (length(CoV_DC_loop)-4))
+    mat_5d &amp;lt;- data.frame(mat_5d)
+    mat_5dr &amp;lt;- data.frame(mat_5dr)
+    colnames(mat_5d) &amp;lt;- col_lab
+    colnames(mat_5dr) &amp;lt;- col_labr
+    out &amp;lt;- cbind(mat_5d, mat_5dr)
+}
+
+CoV_DC_df &amp;lt;- cbind(CoV_DC_df, out) # merge with original dataset&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I also find the daily tests administered from the reported cumulative tests (daily test positivity rate included, too), and hen I calculate a 5-day rolling average tests.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Step 3) Daily Tests
+CoV_DC_loop &amp;lt;- CoV_DC_df %&amp;gt;% dplyr::select(starts_with(&amp;quot;Tested&amp;quot;), starts_with(&amp;quot;incident&amp;quot;))
+CoV_DC_loop &amp;lt;- CoV_DC_loop[,c(rev(1:15),28:46)]   # reorder dates in ascending order
+CoV_DC_loop$Tested_May_22 &amp;lt;- NA # missing data
+CoV_DC_loop$Tested_May_23 &amp;lt;- NA # missing data
+CoV_DC_loop$Tested_May_24 &amp;lt;- NA # missing data
+CoV_DC_loop$Tested_May_27 &amp;lt;- NA # missing data
+CoV_DC_loop &amp;lt;- CoV_DC_loop[,c(1:2,35:37,3:4,38,5:34)] # reorder for consistent dates
+i &amp;lt;- NULL # reinitiate indexing
+
+# Empty matrices
+mat_inc &amp;lt;- matrix(ncol = length(CoV_DC_loop)/2-1, nrow = nrow(CoV_DC_loop))  # for values
+mat_inc2 &amp;lt;- matrix(ncol = length(CoV_DC_loop)/2-1, nrow = nrow(CoV_DC_loop)) # for values
+col_lab &amp;lt;- vector(mode = &amp;quot;character&amp;quot;, length = length(CoV_DC_loop)/2-1)      # for names
+col_lab2 &amp;lt;- vector(mode = &amp;quot;character&amp;quot;, length = length(CoV_DC_loop)/2-1)     # for names
+
+for (i in 1:(length(CoV_DC_loop)/2-1)) {
+  mat_inc[ , i] &amp;lt;- ifelse(CoV_DC_loop[ , (i+1)] - CoV_DC_loop[ , i] &amp;lt; 0, NA, CoV_DC_loop[ , (i+1)] - CoV_DC_loop[ , i])
+  mat_inc2[ , i] &amp;lt;-  CoV_DC_loop[ , (length(CoV_DC_loop)/2+i)] / mat_inc[ , i]
+  col_lab[i] &amp;lt;- paste(sub(&amp;quot;Tested&amp;quot;, names(CoV_DC_loop[i+1]), replacement = &amp;quot;testing&amp;quot;))
+  col_lab2[i] &amp;lt;- paste(sub(&amp;quot;Tested&amp;quot;, names(CoV_DC_loop[i+1]), replacement = &amp;quot;positivity&amp;quot;))
+  if(i == (length(CoV_DC_loop)/2-1))
+    mat_inc &amp;lt;- data.frame(mat_inc)
+    mat_inc2 &amp;lt;- data.frame(mat_inc2)
+    colnames(mat_inc) &amp;lt;- col_lab
+    colnames(mat_inc2) &amp;lt;- col_lab2
+    out &amp;lt;- cbind(mat_inc, mat_inc2)
+}
+
+CoV_DC_df &amp;lt;- cbind(CoV_DC_df, out) # merge with original dataset&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A 5-day rolling average test positivity is calculated by dividing the 5-day rolling average cases by the 5-day rolling average tests.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Step 4) 5-day average testing and positivity
+CoV_DC_loop &amp;lt;-  CoV_DC_df %&amp;gt;% dplyr::select(starts_with(&amp;quot;testing_&amp;quot;),starts_with(&amp;quot;average_&amp;quot;))
+i &amp;lt;- NULL # reinitiate indexing
+
+# Empty matrices
+mat_5d &amp;lt;- matrix(ncol = 18-4, nrow = nrow(CoV_DC_loop))  # for values
+mat_5dr &amp;lt;- matrix(ncol = 18-4, nrow = nrow(CoV_DC_loop)) # for values
+col_lab &amp;lt;- vector(mode = &amp;quot;character&amp;quot;, length = 18-4)     # for names
+col_labr &amp;lt;- vector(mode = &amp;quot;character&amp;quot;, length = 18-4)    # for names
+
+for (i in 1:(18-4)) {
+  mat_5d[ , i] &amp;lt;- rowMeans(CoV_DC_loop[ , i:(i+4)], na.rm = T)
+  mat_5dr[ , i] &amp;lt;-  CoV_DC_loop[ , 28+i] / mat_5d[ , i]
+  col_lab[i] &amp;lt;- paste(sub(&amp;quot;testing&amp;quot;, names(CoV_DC_loop[(i+4)]), replacement = &amp;quot;test.avg&amp;quot;))
+  col_labr[i] &amp;lt;- paste(sub(&amp;quot;testing&amp;quot;, names(CoV_DC_loop[(i+4)]), replacement = &amp;quot;posit.avg&amp;quot;))
+  if(i == (18-4))
+    mat_5d &amp;lt;- data.frame(mat_5d)
+    mat_5dr &amp;lt;- data.frame(mat_5dr)
+    colnames(mat_5d) &amp;lt;- col_lab
+    colnames(mat_5dr) &amp;lt;- col_labr
+    out &amp;lt;- cbind(mat_5d, mat_5dr)
+}
+
+CoV_DC_df &amp;lt;- cbind(CoV_DC_df, out) # merge with original dataset
+
+# Conserve memory
+rm(out, col_lab, col_labr, CoV_DC_loop, mat_5d, mat_5dr, mat_inc, mat_inc2)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I use the &lt;a href=&#34;https://github.com/tidyverse/ggplot2&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt; and &lt;a href=&#34;https://github.com/thomasp85/gganimate&#34; target=&#34;_blank&#34;&gt;gganimate&lt;/a&gt; packages to create a GIF of the daily 5-day rolling average TPR for COVID-19 cases from May 25 to June 7, 2020. The packages require converting the data from wide- to long-format.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Convert to long format
+CoV_DC_5dtest &amp;lt;-  CoV_DC_df %&amp;gt;% 
+                  dplyr::select(1:25,starts_with(&amp;quot;posit.avg&amp;quot;)) %&amp;gt;%
+                  pivot_longer(cols = starts_with(&amp;quot;posit.avg&amp;quot;),
+                               values_to=&amp;quot;posit.avg&amp;quot;,
+                               names_to=c(&amp;quot;Posit.Avg&amp;quot;,&amp;quot;month&amp;quot;, &amp;quot;day&amp;quot;),
+                               names_sep = &amp;quot;_&amp;quot;) %&amp;gt;%  
+                  tidyr::unite(&amp;quot;date_reported&amp;quot;, month:day) %&amp;gt;%
+                  dplyr::select(-Posit.Avg) %&amp;gt;%
+                  dplyr::mutate(date_reported = as.Date(date_reported, format=&amp;quot;%B_%d&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finally, some 5-day rolling average TPR are invalid for two possible reasons. If any district had zero (0) administered tests, then the TPR (a ratio) would be undefined. Also, if there were more reported positive cases than administered tests (e.g., reporting backlog) then the TPR would be above one (1.0). In these cases, I present these instances as NA values.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Clean-up
+## Any Inf values (zero tests in denominator) set as NA
+CoV_DC_5dtest$posit.avg &amp;lt;- ifelse(is.infinite(CoV_DC_5dtest$posit.avg), NA, CoV_DC_5dtest$posit.avg)
+
+## Any values above 1.0 (more positive tests than werer administered) set as NA
+CoV_DC_5dtest$posit.avg &amp;lt;- ifelse(CoV_DC_5dtest$posit.avg &amp;gt; 1, NA, CoV_DC_5dtest$posit.avg)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;animated-map&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Animated Map&lt;/h3&gt;
+&lt;p&gt;The following is the code to create a GIF of the daily 5-day rolling average TPR for COVID-19 cases from May 25 to June 7, 2020. I chose &lt;a href=&#34;https://blog.mapbox.com/7-best-practices-for-mapping-a-pandemic-9f203576a132?gi=6907699c528e&#34; target=&#34;_blank&#34;&gt;non-alarmist colors&lt;/a&gt; similar to previous posts &lt;a href=&#34;https://idblr.rbind.io/post/covid-dc&#34;&gt;#1&lt;/a&gt; and &lt;a href=&#34;https://idblr.rbind.io/post/covid-dc-test&#34;&gt;#2&lt;/a&gt;. Grey-colored areas have missing (&lt;code&gt;NA&lt;/code&gt;) or no information.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# 5-day average test positivity
+g1 &amp;lt;- CoV_DC_5dtest %&amp;gt;%                                         # data
+  ggplot2::ggplot() +                                           # initial plot
+  ggplot2::geom_polygon(ggplot2::aes(x = long, y = lat,
+                                     group = group, fill = posit.avg),
+                        color = NA) +                           # add polygons
+  ggplot2::scale_fill_gradient(name = &amp;quot;5-day average rate&amp;quot;,     # color fill
+                               low = &amp;quot;lavenderblush&amp;quot;,
+                               high = &amp;quot;navyblue&amp;quot;, 
+                               na.value = &amp;quot;grey80&amp;quot;,
+                               breaks = range(CoV_DC_5dtest$posit.avg, na.rm = T)) +                                                                                   
+  ggplot2::theme(line = ggplot2::element_blank(),               # remove axis lines
+                 axis.text = ggplot2::element_blank(),          # remove tickmarks
+                 axis.title = ggplot2::element_blank(),         # remove axis labels
+                 panel.background = ggplot2::element_blank(),   # remove gridlines
+                 panel.border = ggplot2::element_blank(),       # remove border
+                 legend.position = &amp;quot;bottom&amp;quot;,                    # legend position
+                 text = ggplot2::element_text(size = 15)) +     # set font size
+  ggplot2::coord_equal() +                                      # force equal dimensions
+  gganimate::transition_time(date_reported) +                   # animate by date
+  ggplot2::labs(title = &amp;quot;5-Day Average SARS-CoV-2 Test Positivity\nDate: {frame_time}&amp;quot;) # add title
+
+gganimate::animate(g1, end_pause = 30) # animate&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/2020-06-08/index_files/figure-html/animation-1.gif&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Overall, my qualitative assessment of the daily 5-day rolling average TPR for COVID-19 cases from May 25 to June 7, 2020 is a decrease in TPR overtime, especially after June 3rd. Ward 4 (Northern-most section) appears to have consistently high 5-day rolling average TPR overtime.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The provided maps are not intended to inform decision-making&lt;/strong&gt;. Instead, I provide the the &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34;&gt;open-source code&lt;/a&gt; to download, manage, and visualize publicly available data. Future steps (in addition to one listed in my &lt;a href=&#34;https://idblr.rbind.io/post/covid-dc&#34;&gt;previous post&lt;/a&gt;) include, displaying TPR above or below the the 5% WHO recommendation and conducting spatial statistical analysis such as, for example, assessing the presence of spatio-temporal clustering. Other values (e.g., daily TPR, incident cases per 1,000) can be animated by modifying the above code, which is also provided in my public &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks, again, to Molly Tolzmann &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; for the data collation, management, and custodianship.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Place for Spatial Analysis in the Cancer Control Continuum</title>
+      <link>https://idblr.rbind.io/post/frm1/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/frm1/</guid>
+      <description>&lt;p&gt;I gave an invited talk at the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; entitled &amp;ldquo;A place for spatial analysis in the Cancer Control Continuum.&amp;rdquo; The talk was an overview of my work in progress over the past year in the 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt;. The talk was recorded, so please 
+&lt;a href=&#34;https://idblr.rbind.io/profile&#34;&gt;contact me&lt;/a&gt; if you are interested in viewing the talk.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DCEG Informatics Tool Challenge Award</title>
+      <link>https://idblr.rbind.io/post/tools/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/tools/</guid>
+      <description>&lt;p&gt;I received an 
+&lt;a href=&#34;https://dceg.cancer.gov/news-events/news/2020/2020-informatics-tool-challenge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Informatics Tool Challenge Award&lt;/a&gt; from the NCI 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; for a project entitled &amp;ldquo;sparrpowR: A flexible R package and webtool to estimate statistical power of a spatial cluster detection technique.&amp;rdquo; My co-Principal Investigator, 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; (DCEG/OEEB), is another postdoctoral 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellow&lt;/a&gt; and we are joined by our supervisors 
+&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/jones-rena&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rena Jones, Ph.D., M.S.&lt;/a&gt; (DCEG/OEEB) and 
+&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/machiela-mitchell&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mitch Machiela, Sc.D., M.P.H.&lt;/a&gt; (DCEG/ITEB), respectively, as well as Tim Myers (DCEG/ITEB). The funds ($20,000) will be used by the NCI 
+&lt;a href=&#34;https://datascience.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Biomedical Informatics &amp;amp; Information Technology&lt;/a&gt; to develop a web application of our R package called 
+&lt;a href=&#34;https://cran.r-project.org/web/packages/sparrpowR/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cluster Detection in PCoA Space using Kernel Density Estimation</title>
+      <link>https://idblr.rbind.io/post/cluster-microbiome/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/cluster-microbiome/</guid>
+      <description>
+&lt;script src=&#34;https://idblr.rbind.io/post/cluster-microbiome/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I present code to identify relative spatial clustering in multidimensional scaling / principal coordinate analysis (MDS/PCoA) space. I use a spatial relative risk function &lt;a href=&#34;https://github.com/cran/sparr/blob/master/R/risk.R&#34; target=&#34;_blank&#34;&gt;risk&lt;/a&gt; from the &lt;a href=&#34;https://github.com/cran/sparr&#34; target=&#34;_blank&#34;&gt;sparr&lt;/a&gt; package. I use a spatial segregation model &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34;&gt;relrisk&lt;/a&gt; from the &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34;&gt;spatstat&lt;/a&gt; package. See my &lt;a href=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation&#34;&gt;previous post&lt;/a&gt; about using the spatial segregation model.&lt;/p&gt;
 &lt;p&gt;I use microbiome data from the &lt;a href=&#34;https://datadryad.org/stash/dataset/doi:10.5061/dryad.1mn1n&#34;&gt;dietswap&lt;/a&gt; data set in the &lt;a href=&#34;https://www.bioconductor.org/packages/release/bioc/html/microbiome.html&#34; target=&#34;_blank&#34;&gt;microbiome&lt;/a&gt; package part of &lt;a href=&#34;https://www.bioconductor.org/&#34;&gt;Bioconductor&lt;/a&gt;. The diet swap data set represents a study with African and African American groups undergoing a two-week diet swap reported in &lt;a href=&#34;https://www.nature.com/articles/ncomms7342&#34;&gt;O’Keefe et al. Nat. Comm. 6:6342, 2015&lt;/a&gt;. I follow the &lt;a href=&#34;https://microbiome.github.io/tutorials/Ordination.html&#34;&gt;Ordination Analysis&lt;/a&gt; example by Leo Lahti, Sudarshan Shetty &lt;em&gt;et al.&lt;/em&gt; 2020.&lt;/p&gt;
 &lt;p&gt;MDS/PCoA summarizes and attempts to represent inter-object dissimilarity in a low-dimensional space, not necessarily using Euclidean Distances (used by Principal Component Analysis)&lt;/p&gt;
 &lt;p&gt;Necessary packages and settings for the exercise include:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Packages
-loadedPackages &amp;lt;- c(&amp;quot;ggplot2&amp;quot;, &amp;quot;maptools&amp;quot;, &amp;quot;microbiome&amp;quot;, &amp;quot;phyloseq&amp;quot;, &amp;quot;sp&amp;quot;, &amp;quot;spatstat&amp;quot;)
+loadedPackages &amp;lt;- c(&amp;quot;ggplot2&amp;quot;, &amp;quot;maptools&amp;quot;, &amp;quot;microbiome&amp;quot;, &amp;quot;phyloseq&amp;quot;, &amp;quot;sp&amp;quot;, &amp;quot;spatstat.core&amp;quot;, &amp;quot;spatstat.geom&amp;quot;, &amp;quot;spatstat.data&amp;quot;, &amp;quot;spatstat&amp;quot;)
 invisible(lapply(loadedPackages, require, character.only = T))
 set.seed(4235421) # for reproducibility&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I prepare the data by choosing limiting to taxa with 90% prevalence and a detection limit above 0.1%. I then ordinate Bray-Curtis dissimilarity matrix by MDS/PCoA.&lt;/p&gt;
@@ -38,30 +646,30 @@ pseq &amp;lt;- dietswap
 pseq.rel &amp;lt;- microbiome::transform(pseq, &amp;quot;compositional&amp;quot;)
 
 # Pick core taxa with with the given prevalence and detection limits
-pseq.core &amp;lt;- core(pseq.rel, detection = 0.1/100, prevalence = 90/100)
+pseq.core &amp;lt;- microbiome::core(pseq.rel, detection = 0.1/100, prevalence = 90/100)
 
 # Use relative abundances for the core
 pseq.core &amp;lt;- microbiome::transform(pseq.core, &amp;quot;compositional&amp;quot;)
 
 # Ordinate the data
-ord &amp;lt;- ordinate(pseq.core, &amp;quot;MDS&amp;quot;, &amp;quot;bray&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+ord &amp;lt;- phyloseq::ordinate(pseq.core, &amp;quot;MDS&amp;quot;, &amp;quot;bray&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;div id=&#34;two-group-comparison&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Two Group Comparison&lt;/h3&gt;
 &lt;p&gt;As an example of relative spatial clustering between two groups I compare the two levels of the &lt;code&gt;nationality&lt;/code&gt; variable “AMR” (America) and “AFR” (Africa). A plot of the samples by the two groups is displayed below:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Plot ordination
-plot_ordination(pseq.core, ord, color = &amp;quot;nationality&amp;quot;) +
-  geom_point(size = 1) + 
-  theme(panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank(),
-        panel.background = element_blank(),
-        axis.line = element_line(colour = &amp;quot;black&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-30/index_files/figure-html/plot%20ordination%20two%20groups-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+phyloseq::plot_ordination(pseq.core, ord, color = &amp;quot;nationality&amp;quot;) +
+  ggplot2::geom_point(size = 1) + 
+  ggplot2::theme(panel.grid.major = ggplot2::element_blank(),
+                 panel.grid.minor = ggplot2::element_blank(),
+                 panel.background = ggplot2::element_blank(),
+                 axis.line = ggplot2::element_line(colour = &amp;quot;black&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/cluster-microbiome/index_files/figure-html/plot%20ordination%20two%20groups-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;To detect significant relative spatial clustering between the two nationalities, I use the &lt;a href=&#34;https://github.com/cran/sparr/blob/master/R/risk.R&#34; target=&#34;_blank&#34;&gt;risk&lt;/a&gt; function from the &lt;a href=&#34;https://github.com/cran/sparr&#34; target=&#34;_blank&#34;&gt;sparr&lt;/a&gt; package. The function requires data as a planar point process (&lt;code&gt;ppp&lt;/code&gt;) object. Here, I use the default settings for the &lt;a href=&#34;https://github.com/cran/sparr/blob/master/R/risk.R&#34; target=&#34;_blank&#34;&gt;risk&lt;/a&gt; function except I use adaptive-bandwidth selection. Significant areas are defined as areas that exceed a two-tailed 0.05 alpha level.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Convert to ppp object
 test_df &amp;lt;- data.frame(&amp;quot;x&amp;quot; = ord$vectors[,1],
                       &amp;quot;y&amp;quot; = ord$vectors[,2],
                       &amp;quot;g&amp;quot; = pseq@sam_data@.Data[[3]])
-coordinates(test_df) &amp;lt;- ~ x + y
+sp::coordinates(test_df) &amp;lt;- ~ x + y
 test_pp &amp;lt;- as(test_df, &amp;quot;ppp&amp;quot;)
 
 # Spatial Relative Risk Function
@@ -72,62 +680,62 @@ f0_p &amp;lt;- f0$P
 f0_p$v &amp;lt;- factor(ifelse(f0_p$v &amp;lt; 0.025, &amp;quot;AAM&amp;quot;,
                         ifelse(f0_p$v &amp;gt; 0.975, &amp;quot;AFR&amp;quot;,&amp;quot;insignificant&amp;quot;)),
                  levels = c(&amp;quot;AFR&amp;quot;, &amp;quot;insignificant&amp;quot;, &amp;quot;AAM&amp;quot;))
-plot.ppp(test_pp, ann = TRUE, axes = TRUE,
-         leg.side = &amp;quot;left&amp;quot;,
-         xlab = &amp;quot;Axis.1 [54.5%]&amp;quot;,
-         ylab = &amp;quot;Axis.2 [20.4%]&amp;quot;,
-         main = &amp;quot;Significant area, adaptive bandwidth, alpha = 0.05&amp;quot;,
-         cols = c(&amp;quot;coral1&amp;quot;, &amp;quot;cadetblue3&amp;quot;),
-         pch = 16)
-plot.im(f0_p, add = TRUE, show.all = TRUE, main = &amp;quot;&amp;quot;,
-        col = c(&amp;quot;cadetblue4&amp;quot;,&amp;quot;grey80&amp;quot;,&amp;quot;coral4&amp;quot;))
-plot.ppp(test_pp, add = TRUE, main = &amp;quot;&amp;quot;,
-         cols = c(&amp;quot;coral1&amp;quot;, &amp;quot;cadetblue3&amp;quot;),
-         pch = 16)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-30/index_files/figure-html/sparr-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+spatstat.geom::plot.ppp(test_pp, ann = TRUE, axes = TRUE,
+                        leg.side = &amp;quot;left&amp;quot;,
+                        xlab = &amp;quot;Axis.1 [54.5%]&amp;quot;,
+                        ylab = &amp;quot;Axis.2 [20.4%]&amp;quot;,
+                        main = &amp;quot;Significant area, adaptive bandwidth, alpha = 0.05&amp;quot;,
+                        cols = c(&amp;quot;coral1&amp;quot;, &amp;quot;cadetblue3&amp;quot;),
+                        pch = 16)
+spatstat.geom::plot.im(f0_p, add = TRUE, show.all = TRUE, main = &amp;quot;&amp;quot;,
+                       col = c(&amp;quot;cadetblue4&amp;quot;,&amp;quot;grey80&amp;quot;,&amp;quot;coral4&amp;quot;))
+spatstat.geom::plot.ppp(test_pp, add = TRUE, main = &amp;quot;&amp;quot;,
+                        cols = c(&amp;quot;coral1&amp;quot;, &amp;quot;cadetblue3&amp;quot;),
+                        pch = 16)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/cluster-microbiome/index_files/figure-html/sparr-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The African group has one significant cluster relative to the American Group (colored blue), which has two significant clusters (colored red). The areas in grey are where the African and American groups spatially covary together that is indiscernible from spatial randomness.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;multi-group-comparison&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Multi-Group Comparison&lt;/h3&gt;
-&lt;p&gt;As an example of relative spatial clustering between three groups I compare the two levels of the &lt;code&gt;bmi_group&lt;/code&gt; variable “lean”, “overweight’ and”obese&#34;. A plot of the samples by the three groups is displayed below:&lt;/p&gt;
+&lt;p&gt;As an example of relative spatial clustering between three groups I compare the two levels of the &lt;code&gt;bmi_group&lt;/code&gt; variable “lean”, “overweight’ and”obese”. A plot of the samples by the three groups is displayed below:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Plot ordination
-plot_ordination(pseq.core, ord, color = &amp;quot;bmi_group&amp;quot;) +
-  geom_point(size = 1) +
-  labs(color = &amp;quot;BMI Group&amp;quot;) +
-  theme(panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank(),
-        panel.background = element_blank(),
-        axis.line = element_line(colour = &amp;quot;black&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-30/index_files/figure-html/plot%20ordination%20three%20groups-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;To detect significant relative spatial clustering between three BMI groups, I use a spatial segregation model &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34;&gt;relrisk&lt;/a&gt; from the &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34;&gt;spatstat&lt;/a&gt; package. The function requires data as a planar point process (&lt;code&gt;ppp&lt;/code&gt;) object. Here, I use the default settings for the &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34;&gt;relrisk&lt;/a&gt; function. I present 1) the most common BMI group across the MDS/PCoA space, and 2) areas that are significantly different from the null expectation for each BMI group. See my &lt;a href=&#34;/post/pvalues-spatial-segregation&#34;&gt;previous post&lt;/a&gt; about using the spatial segregation model.&lt;/p&gt;
+phyloseq::plot_ordination(pseq.core, ord, color = &amp;quot;bmi_group&amp;quot;) +
+  ggplot2::geom_point(size = 1) +
+  ggplot2::labs(color = &amp;quot;BMI Group&amp;quot;) +
+  ggplot2::theme(panel.grid.major = ggplot2::element_blank(),
+        panel.grid.minor = ggplot2::element_blank(),
+        panel.background = ggplot2::element_blank(),
+        axis.line = ggplot2::element_line(colour = &amp;quot;black&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/cluster-microbiome/index_files/figure-html/plot%20ordination%20three%20groups-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;To detect significant relative spatial clustering between three BMI groups, I use a spatial segregation model &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34;&gt;relrisk&lt;/a&gt; from the &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34;&gt;spatstat&lt;/a&gt; package. The function requires data as a planar point process (&lt;code&gt;ppp&lt;/code&gt;) object. Here, I use the default settings for the &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34;&gt;relrisk&lt;/a&gt; function. I present 1) the most common BMI group across the MDS/PCoA space, and 2) areas that are significantly different from the null expectation for each BMI group. See my &lt;a href=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation&#34;&gt;previous post&lt;/a&gt; about using the spatial segregation model.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Convert to ppp object
 test_df &amp;lt;- data.frame(&amp;quot;x&amp;quot; = ord$vectors[,1],
                       &amp;quot;y&amp;quot; = ord$vectors[,2],
                       &amp;quot;g&amp;quot; = pseq@sam_data@.Data[[8]])
-coordinates(test_df) &amp;lt;- ~ x + y
+sp::coordinates(test_df) &amp;lt;- ~ x + y
 test_pp &amp;lt;- as(test_df, &amp;quot;ppp&amp;quot;)
 
 # Spatial Segregation model
-f1 &amp;lt;- spatstat::relrisk.ppp(test_pp, se = T)
+f1 &amp;lt;- spatstat.core::relrisk.ppp(test_pp, se = T)
 
 # Plot of most common BMI Group
-wh &amp;lt;- spatstat::im.apply(f1$estimate, which.max)
-types &amp;lt;- levels(spatstat::marks(test_pp))
-wh &amp;lt;- spatstat::eval.im(types[wh]) # most common 
+wh &amp;lt;- spatstat.geom::im.apply(f1$estimate, which.max)
+types &amp;lt;- levels(spatstat.geom::marks(test_pp))
+wh &amp;lt;- spatstat.geom::eval.im(types[wh]) # most common 
 
-plot.ppp(test_pp, ann = TRUE, axes = TRUE,
-         leg.side = &amp;quot;left&amp;quot;,
-         xlab = &amp;quot;Axis.1 [54.5%]&amp;quot;,
-         ylab = &amp;quot;Axis.2 [20.4%]&amp;quot;,
-         main = &amp;quot;Most common type&amp;quot;,
-         cols = c(&amp;quot;coral1&amp;quot;, &amp;quot;chartreuse3&amp;quot;, &amp;quot;cadetblue3&amp;quot;),
-         pch = 16)
-plot.im(wh, add = TRUE, show.all = TRUE, main = &amp;quot;&amp;quot;,
-        col = c(&amp;quot;coral4&amp;quot;,&amp;quot;cadetblue4&amp;quot;,&amp;quot;chartreuse4&amp;quot;))
-plot.ppp(test_pp, add = TRUE, main = &amp;quot;&amp;quot;,
-         cols = c(&amp;quot;coral1&amp;quot;, &amp;quot;chartreuse3&amp;quot;, &amp;quot;cadetblue3&amp;quot;),
-         pch = 16)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-30/index_files/figure-html/spatial%20segregation-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+spatstat.geom::plot.ppp(test_pp, ann = TRUE, axes = TRUE,
+                        leg.side = &amp;quot;left&amp;quot;,
+                        xlab = &amp;quot;Axis.1 [54.5%]&amp;quot;,
+                        ylab = &amp;quot;Axis.2 [20.4%]&amp;quot;,
+                        main = &amp;quot;Most common type&amp;quot;,
+                        cols = c(&amp;quot;coral1&amp;quot;, &amp;quot;chartreuse3&amp;quot;, &amp;quot;cadetblue3&amp;quot;),
+                        pch = 16)
+spatstat.geom::plot.im(wh, add = TRUE, show.all = TRUE, main = &amp;quot;&amp;quot;,
+                       col = c(&amp;quot;coral4&amp;quot;,&amp;quot;cadetblue4&amp;quot;,&amp;quot;chartreuse4&amp;quot;))
+spatstat.geom::plot.ppp(test_pp, add = TRUE, main = &amp;quot;&amp;quot;,
+                        cols = c(&amp;quot;coral1&amp;quot;, &amp;quot;chartreuse3&amp;quot;, &amp;quot;cadetblue3&amp;quot;),
+                        pch = 16)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/cluster-microbiome/index_files/figure-html/spatial%20segregation-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The “lean” BMI group appears most common in one area of the MDS/PCoA space (colored red), while the other two groups have numerous clusters. This plot &lt;em&gt;does not&lt;/em&gt; indicate where eat group are significantly different from their null expectations. For example, our null expectation for the “lean” BMI group is a probability of about 0.25 (56/222).&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#spatstat::plot.im(wh, main=&amp;quot;Most common type&amp;quot;, ribargs = list(las = 1))
 
@@ -136,7 +744,7 @@ alpha &amp;lt;- 0.05                           # alpha
 z &amp;lt;- qnorm(alpha/2, lower.tail = F)     # z-statistic
 f1$u &amp;lt;- f1$estimate + z*f1$SE           # Upper CIs
 f1$l &amp;lt;- f1$estimate - z*f1$SE           # Lower CIs
-mu_0 &amp;lt;- as.vector(table(spatstat::marks(test_pp))/test_pp$n) # null expectations by type
+mu_0 &amp;lt;- as.vector(table(spatstat.geom::marks(test_pp))/test_pp$n) # null expectations by type
 f1$p &amp;lt;- f1$estimate # copy structure of pixels, replace values
 for (i in 1:length(f1$p)) {
   f1$p[[i]]$v &amp;lt;- factor(ifelse(mu_0[i] &amp;gt; f1$u[[i]]$v, &amp;quot;lower&amp;quot;,
@@ -146,25 +754,25 @@ for (i in 1:length(f1$p)) {
 
 # Plot significant p-values
 plot(f1$p, main = &amp;quot;Significant difference from null?&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-30/index_files/figure-html/significant%20spatial%20segregation-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The “lean” BMI group is significantly higher than expected in one large cluster. The “overweight” BMI group is significantly higher than expected in one large cluster and one small cluster. The “obese” BMI group is significantly higher is numerous small clusters.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/cluster-microbiome/index_files/figure-html/significant%20spatial%20segregation-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The “lean” BMI group is significantly higher than expected in one large cluster. The “overweight” BMI group is significantly higher than expected in one large cluster and one small cluster. The “obese” BMI group is significantly higher in numerous small clusters.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Test Positivity Rate of Cumulative SARS-CoV-2 Cases in the District of Columbia</title>
-      <link>/post/covid-dc-test/</link>
+      <link>https://idblr.rbind.io/post/covid-dc-test/</link>
       <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/covid-dc-test/</guid>
+      <guid>https://idblr.rbind.io/post/covid-dc-test/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;p&gt;I present an update to my &lt;a href=&#34;/post/covid-dc&#34;&gt;previous post&lt;/a&gt;. Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their &lt;a href=&#34;https://coronavirus.dc.gov/page/coronavirus-data&#34; target=&#34;_blank&#34;&gt;coronavirus data portal&lt;/a&gt;. Molly Tolzmann &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; added this feature to her publicly available &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&#34; target=&#34;_blank&#34;&gt;Google Sheet&lt;/a&gt; presented at the &lt;a href=&#34;https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods&#34; target=&#34;_blank&#34;&gt;DC health planning neighborhood level&lt;/a&gt;. The update here can also be found on a public &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I present an update to my &lt;a href=&#34;https://idblr.rbind.io/post/covid-dc&#34;&gt;previous post&lt;/a&gt;. Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their &lt;a href=&#34;https://coronavirus.dc.gov/page/coronavirus-data&#34; target=&#34;_blank&#34;&gt;coronavirus data portal&lt;/a&gt;. Molly Tolzmann &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; added this feature to her publicly available &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&#34; target=&#34;_blank&#34;&gt;Google Sheet&lt;/a&gt; presented at the &lt;a href=&#34;https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods&#34; target=&#34;_blank&#34;&gt;DC health planning neighborhood level&lt;/a&gt;. The update here can also be found on a public &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Here, I present the test positivity rate (TPR) for cumulative COVID-19 cases as of May 21, 2020. A TPR is the proportion of positive tests for every administered test. For example, the World Health Organization &lt;a href=&#34;https://coronavirus.jhu.edu/testing/testing-positivity&#34; target=&#34;_blank&#34;&gt;recommends&lt;/a&gt; a test positivity rate below 5% (1 out of 20 tests, TPR = 0.05) before reopening.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Important Note&lt;/strong&gt;: The following show cumulative case rate per 1,000 since the beginning of the COVID-19 outbreak in DC. Therefore, the the stats do not reflect the number of people currently infected with SARS-CoV-2.&lt;/p&gt;
 &lt;p&gt;Necessary packages and settings for the exercise include:&lt;/p&gt;
@@ -225,7 +833,7 @@ ggplot2::ggplot() +                                             # initialize ggp
                  panel.background = ggplot2::element_blank(),   # remove background gridlines
                  text = ggplot2::element_text(size = 10)) +     # set font size
   ggplot2::coord_equal()                                        # both axes the same scale&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-23/index_files/figure-html/static-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/2020-05-23/index_files/figure-html/static-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;And an interactive map with the &lt;a href=&#34;https://github.com/rstudio/leaflet&#34; target=&#34;_blank&#34;&gt;leaflet package&lt;/a&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Work with unprojected spatialpolygonsdataframe
 ## Project to WGS84 EPSG:4326
@@ -295,7 +903,7 @@ widgetframe::frameWidget(lf, width=&amp;#39;100%&amp;#39;)&lt;/code&gt;&lt;/pre&
 &lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:100%;height:480px;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
 &lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;/post/2020-05-23/index_files/figure-html//widgets/widget_interactive.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
 &lt;p&gt;As of May 21, 2020 the highest positive testing rate of cumulative SARS-CoV-2 cases has occurred in the Stadium Armory (almost 1 out of 2 tests return positive). The DC Jail is located in the Stadium Armory as &lt;a href=&#34;https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053&#34; target=&#34;_blank&#34;&gt;previously noted&lt;/a&gt;. An East/West divide is evident in the case rate after accounting for testing. Also, no neighborhood is below the 5% WHO recommendation; however, this metric is more appropriately used for incident (or recent) tests such as, for example, a 7 day average than for cumulative cases, so interpret these findings with caution.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The provided maps are not intended to inform decision-making&lt;/strong&gt;. Instead, I provide the the &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34;&gt;open-source code&lt;/a&gt; to download, manage, and visualize publicly available data. Future steps are similar to my &lt;a href=&#34;/post/covid-dc&#34;&gt;previous post&lt;/a&gt;, linking other demographic information to each DC Health Planning Neighborhood (e.g., housing occupancy) and assessing their relationships with disease occurrence or creating an automatic workflow to update these figures daily.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The provided maps are not intended to inform decision-making&lt;/strong&gt;. Instead, I provide the the &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34;&gt;open-source code&lt;/a&gt; to download, manage, and visualize publicly available data. Future steps are similar to my &lt;a href=&#34;https://idblr.rbind.io/post/covid-dc&#34;&gt;previous post&lt;/a&gt;, linking other demographic information to each DC Health Planning Neighborhood (e.g., housing occupancy) and assessing their relationships with disease occurrence or creating an automatic workflow to update these figures daily.&lt;/p&gt;
 &lt;p&gt;Thanks, again, to Molly Tolzmann &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; for the data management.&lt;/p&gt;
 &lt;/div&gt;
 </description>
@@ -303,14 +911,14 @@ widgetframe::frameWidget(lf, width=&amp;#39;100%&amp;#39;)&lt;/code&gt;&lt;/pre&
     
     <item>
       <title>Cumulative SARS-CoV-2 Cases in the District of Columbia by Health Planning Neighborhoods</title>
-      <link>/post/covid-dc/</link>
+      <link>https://idblr.rbind.io/post/covid-dc/</link>
       <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/covid-dc/</guid>
+      <guid>https://idblr.rbind.io/post/covid-dc/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;After moving to DC last year, &lt;a href=&#34;https://twitter.com/PoPville&#34; target=&#34;_blank&#34;&gt;PoPville&lt;/a&gt; has been a personal favorite for local scoop. A post on &lt;a href=&#34;https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053&#34; target=&#34;_blank&#34;&gt;May 11, 2020&lt;/a&gt; captured my attention. Molly Tolzmann &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; adjusted the daily &lt;a href=&#34;https://coronavirus.dc.gov/page/coronavirus-data&#34; target=&#34;_blank&#34;&gt;coronavirus data&lt;/a&gt; publicly released by the DC Mayoral Office at the &lt;a href=&#34;https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods&#34; target=&#34;_blank&#34;&gt;DC health planning neighborhood level&lt;/a&gt; by the 2018 American Community Survey (ACS) census tract data and demographic data from &lt;a href=&#34;https://opendata.dc.gov/&#34; target=&#34;_blank&#34;&gt;Open Data DC&lt;/a&gt;. This post is a replication of the data visualization using &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34;&gt;R&lt;/a&gt; and can be found on a public &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
@@ -341,7 +949,7 @@ dc &amp;lt;- geojsonio::geojson_read(gis_path,  what = &amp;quot;sp&amp;quot;)
 covid_path &amp;lt;- &amp;quot;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&amp;quot;
 covid &amp;lt;- googlesheets4::read_sheet(ss = covid_path,
                                    sheet = 2, # second sheet
-                                   skip = 1)  # skip 1st row of annotation
+                                   skip = 2)  # skip 1st row of annotation
 names(covid) &amp;lt;- sub(&amp;quot;\n&amp;quot;, &amp;quot;&amp;quot;, names(covid))   # remove extra line in column names
 names(covid) &amp;lt;- gsub(&amp;quot; &amp;quot;, &amp;quot;_&amp;quot;, names(covid))  # replace spaces with underscore
 
@@ -380,7 +988,7 @@ ggplot2::ggplot() +                                             # initialize ggp
                  panel.background = ggplot2::element_blank(),   # remove background gridlines
                  text = ggplot2::element_text(size = 10)) +     # set font size
   ggplot2::coord_equal()                                        # both axes the same scale&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-16/index_files/figure-html/cumulative%20rate-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/2020-05-16/index_files/figure-html/cumulative%20rate-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;interactive-map&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Interactive Map&lt;/h3&gt;
@@ -439,51 +1047,52 @@ widgetframe::frameWidget(lf, width=&amp;#39;100%&amp;#39;)&lt;/code&gt;&lt;/pre&
     
     <item>
       <title>Areas of a spatial segregation model significantly different from null expectations</title>
-      <link>/post/pvalues-spatial-segregation/</link>
+      <link>https://idblr.rbind.io/post/pvalues-spatial-segregation/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/pvalues-spatial-segregation/</guid>
+      <guid>https://idblr.rbind.io/post/pvalues-spatial-segregation/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;I present code to identify areas of a spatial segregation model that exceed our null expectations using the &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34;&gt;relrisk&lt;/a&gt; function in the &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34;&gt;spatstat&lt;/a&gt; package and an assumption of normality of the estimated probabilities. A spatial segregation model was originally proposed by &lt;a href=&#34;https://doi.org/10.1111/j.1467-9876.2005.05373.x&#34; target=&#34;_blank&#34;&gt;Diggle, Zheng, &amp;amp; Durr in 2005&lt;/a&gt; which estimates spatially-varying probabilities of an event of a certain type to occur in an area accounting for other types. The original method uses a Monte Carlo-based simulation, which is computationally expensive. Instead, &lt;a href=&#34;https://github.com/baddstats&#34; target=&#34;_blank&#34;&gt;Adrian Baddeley&lt;/a&gt; and the spatstat team adapted the &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34;&gt;relrisk&lt;/a&gt; function for a multitype (m &amp;gt; 2) point pattern that has an option to compute the standard error of the probability estimates based on asymptotic theory, assuming a Poisson process.&lt;/p&gt;
 &lt;p&gt;Here, I use the standard errors to compute a 95% confidence interval (CI) at all gridded pixels (“knots”) for each type. Knots with a CI that does not capture the null expectation for each type are identified. I use the provided &lt;code&gt;lansing&lt;/code&gt; dataset from the &lt;a href=&#34;https://github.com/spatstat/spatstat.data&#34; target=&#34;_blank&#34;&gt;spatstat.data&lt;/a&gt; package. Created with assistance from &lt;a href=&#34;https://sph.emory.edu/faculty/profile/index.php?FID=345&#34; target=&#34;_blank&#34;&gt;Dr. Lance Waller&lt;/a&gt; and &lt;a href=&#34;http://barry.rowlingson.com/&#34; target=&#34;_blank&#34;&gt;Barry Rowlingson&lt;/a&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Packages
-  library(spatstat)&lt;/code&gt;&lt;/pre&gt;
+loadedPackages &amp;lt;- c(&amp;quot;spatstat.core&amp;quot;, &amp;quot;spatstat.geom&amp;quot;, &amp;quot;spatstat.data&amp;quot;, &amp;quot;spatstat&amp;quot;)
+invisible(lapply(loadedPackages, require, character.only = T))&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Data
   spatstat.data::lansing&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Marked planar point pattern: 2251 points
 ## Multitype, with levels = blackoak, hickory, maple, misc, redoak, whiteoak 
 ## window: rectangle = [0, 1] x [0, 1] units (one unit = 924 feet)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Convert the lansing data to a ppp object
-  ppp_lansing &amp;lt;- spatstat::ppp(x = spatstat.data::lansing$x, 
+  ppp_lansing &amp;lt;- spatstat.geom::ppp(x = spatstat.data::lansing$x, 
                              y = spatstat.data::lansing$y,
-                             window = spatstat::unit.square(),
-                             marks = as.factor(spatstat::marks(spatstat.data::lansing)))
+                             window = spatstat.geom::unit.square(),
+                             marks = as.factor(spatstat.geom::marks(spatstat.data::lansing)))
 
 # Plot input
-  spatstat::plot.ppp(ppp_lansing, main = &amp;quot;Lansing Woods&amp;quot;, cex = 0.5)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/index_files/figure-html/data-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+  spatstat.geom::plot.ppp(ppp_lansing, main = &amp;quot;Lansing Woods&amp;quot;, cex = 0.5)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/figure-html/data-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Estimate nonparametric spatially-varying probabilities of type
-  f1 &amp;lt;- spatstat::relrisk.ppp(ppp_lansing, casecontrol = F, diggle = T, se = T, sigma = bw.diggle)
+  f1 &amp;lt;- spatstat.core::relrisk.ppp(ppp_lansing, casecontrol = F, diggle = T, se = T, sigma = bw.diggle)
   
 # Default plots
   plot(f1$estimate, main = &amp;quot;Probability of an event by type&amp;quot;, zlim = c(0,1)) # probabilities&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/index_files/figure-html/spatial%20segregration-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/figure-html/spatial%20segregration-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  plot(f1$SE, main = &amp;quot;Standard error of probability&amp;quot;, zlim = c(0,0.03)) # standard errors&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/index_files/figure-html/spatial%20segregration-2.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  wh &amp;lt;- spatstat::im.apply(f1$estimate, which.max)
-  types &amp;lt;- levels(spatstat::marks(spatstat.data::lansing))
-  wh &amp;lt;- spatstat::eval.im(types[wh]) # most common 
-  spatstat::plot.im(wh, main=&amp;quot;Most common species&amp;quot;, ribargs = list(las = 1))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/index_files/figure-html/spatial%20segregration-3.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/figure-html/spatial%20segregration-2.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  wh &amp;lt;- spatstat.geom::im.apply(f1$estimate, which.max)
+  types &amp;lt;- levels(spatstat.geom::marks(spatstat.data::lansing))
+  wh &amp;lt;- spatstat.geom::eval.im(types[wh]) # most common 
+  spatstat.geom::plot.im(wh, main=&amp;quot;Most common species&amp;quot;, ribargs = list(las = 1))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/figure-html/spatial%20segregration-3.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Significant p-values assumming normality of the Poisson process
 ## relrisk() computes standard errors based on asymptotic theory, assuming a Poisson process
   alpha &amp;lt;- 0.05                           # alpha
   z &amp;lt;- qnorm(alpha/2, lower.tail = F)     # z-statistic
   f1$u &amp;lt;- f1$estimate + z*f1$SE           # Upper CIs
   f1$l &amp;lt;- f1$estimate - z*f1$SE           # Lower CIs
-  mu_0 &amp;lt;- as.vector(table(spatstat::marks(ppp_lansing))/ppp_lansing$n) # null expectations by type
+  mu_0 &amp;lt;- as.vector(table(spatstat.geom::marks(ppp_lansing))/ppp_lansing$n) # null expectations by type
   f1$p &amp;lt;- f1$estimate # copy structure of pixels, replace values
   for (i in 1:length(f1$p)) {
     f1$p[[i]]$v &amp;lt;- factor(ifelse(mu_0[i] &amp;gt; f1$u[[i]]$v, &amp;quot;lower&amp;quot;,
@@ -493,19 +1102,57 @@ widgetframe::frameWidget(lf, width=&amp;#39;100%&amp;#39;)&lt;/code&gt;&lt;/pre&
 
   # Plot significant p-values
   plot(f1$p, main = &amp;quot;Significant difference from null?&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/index_files/figure-html/spatial%20segregration-4.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The final plot identifies where the spatially-varying probabilities exceed the null expected probability of each type. Areas of higher-than-expected probability could be considered “hot-spots” and areas of lower-than-expected probability could be considered “cold-spots.” Areas that are not significantly different from the null expectation could suggest additional sampling is necessary to determine if these areas are hot are cold spots.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/figure-html/spatial%20segregration-4.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The final plot identifies where the spatially-varying probabilities exceed the null expected probability of each type. Areas of higher-than-expected probability could be considered “hot-spots” and areas of lower-than-expected probability could be considered “cold-spots.” Areas that are not significantly different from the null expectation could suggest additional sampling is necessary to determine if these areas are hot or cold spots.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>NIMHD Research Innovation Award</title>
-      <link>/post/coleman/</link>
+      <title>2020 William G. Coleman Minority Health and Health Disparities Research Innovation Award</title>
+      <link>https://idblr.rbind.io/post/coleman-2020/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/post/coleman/</guid>
+      <guid>https://idblr.rbind.io/post/coleman-2020/</guid>
       <description>&lt;p&gt;I will be taking over Dr. Joseph Shearer&amp;rsquo;s project entiled &amp;ldquo;Evaluating the impact of concentrated animal feeding operations on &lt;em&gt;Campylobacter jejuni&lt;/em&gt; infections in rural agricultural communities&amp;rdquo; as he is departing the NCI. The project is funded by a 2020 
 &lt;a href=&#34;https://www.nimhd.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institute for Minority Health and Health Disparities&lt;/a&gt; 
 &lt;a href=&#34;https://www.nimhd.nih.gov/programs/intramural/research-award/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;William G. Coleman Jr., Ph.D., Minority Health and Health Disparities Research Innovation Award&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interim Co-Editor-in-Chief of DFEB</title>
+      <link>https://idblr.rbind.io/post/dfeb-2019/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/dfeb-2019/</guid>
+      <description>&lt;p&gt;I took over for 
+&lt;a href=&#34;https://cpfp.cancer.gov/about-us/cpfp-fellow/maeve-bailey-whyte&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Maeve Bailey-Whyte&lt;/a&gt; as Interim Co-Editor-in-Chief of the DCEG Fellows Editorial Board (DFEB) while she is on maternity leave until March 2020. I join 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iib/jackson-sarah&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Sarah Jackson&lt;/a&gt; in this role. DFEB is a fellow-led group that offers fellows a free scientific document-reviewing service and the opportunity to build scientific editing and review skills of their own. The group provides confidential, anonymous feedback on grammar, organization, and flow of scientific manuscripts, abstracts, proposals, posters, and slide decks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Postdoctoral Mentor</title>
+      <link>https://idblr.rbind.io/post/oeeb-2019/</link>
+      <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/oeeb-2019/</guid>
+      <description>&lt;p&gt;I started working with 
+&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/jones-rena&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Rena Jones&lt;/a&gt; in the 
+&lt;a href=&#34;https://dceg.cancer.gov/about/organization/tdrp/oeeb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Occupational and Environmental Epidemiology Branch&lt;/a&gt; within the 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; at the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; part of the 
+&lt;a href=&#34;https://www.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institutes of Health&lt;/a&gt; 
+&lt;a href=&#34;https://irp.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Intramural Research Program&lt;/a&gt; as my 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt; preceptor.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Postdoctoral Cancer Prevention Fellow</title>
+      <link>https://idblr.rbind.io/post/cpfp-2019/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/cpfp-2019/</guid>
+      <description>&lt;p&gt;I started as a Postdoctoral Cancer Prevention Fellow in the 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt; at the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

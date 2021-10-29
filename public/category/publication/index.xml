@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>publication | Ian Buller, Ph.D., M.A.</title>
+    <link>https://idblr.rbind.io/category/publication/</link>
+      <atom:link href="https://idblr.rbind.io/category/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>publication</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://idblr.rbind.io/img/avatar.jpg</url>
+      <title>publication</title>
+      <link>https://idblr.rbind.io/category/publication/</link>
+    </image>
+    
+    <item>
+      <title>New Publication in the International Journal of Environmental Research and Public Health</title>
+      <link>https://idblr.rbind.io/post/ijerph-2021/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ijerph-2021/</guid>
+      <description>&lt;p&gt;I first authored an article in the 
+&lt;a href=&#34;https://www.mdpi.com/journal/ijerph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Journal of Environmental Research and Public Health&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.3390/ijerph18136822&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Ingestion of Nitrate and Nitrite and Risk of Stomach and Other Digestive System Cancers in the Iowa Women’s Health Study&amp;rdquo;&lt;/a&gt;. We assessed risk of certain digestive cancers and ingestion of nitrate and nitrite from diet and drinking water in a prospective cohort of post-menopausal women in Iowa, USA. This is my first epidemiologic analysis for the 
+&lt;a href=&#34;https://dceg.cancer.gov/about/organization/tdrp/oeeb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Occupational and Environmental Epidemiology Branch&lt;/a&gt; at the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Publication in the International Journal of Health Geographics</title>
+      <link>https://idblr.rbind.io/post/ijhg-2021/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ijhg-2021/</guid>
+      <description>&lt;p&gt;I co-first authored an article in the 
+&lt;a href=&#34;https://ij-healthgeographics.biomedcentral.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Journal of Health Geographics&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.1186/s12942-021-00267-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;sparrpowR: a flexible R package to estimate statistical power to identify spatial clustering of two groups and its application&amp;rdquo;&lt;/a&gt;. The article
+introduces the open-source R package 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt; and demonstrates how it can be used to calculate statistical power for the spatial relative risk function for etiologic and surveillance research questions. 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; is my fellow co-first author. See my 
+&lt;a href=&#34;https://idblr.rbind.io/post/cran-sparrpowr/&#34;&gt;earlier post&lt;/a&gt; about the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt; package that we co-developed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Publication in the International Journal of Environmental Research and Public Health</title>
+      <link>https://idblr.rbind.io/post/ijerph-2021-special-issue/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ijerph-2021-special-issue/</guid>
+      <description>&lt;p&gt;I co-authored an article in the 
+&lt;a href=&#34;https://www.mdpi.com/journal/ijerph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Journal of Environmental Research and Public Health&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.3390/ijerph18041637&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Spatial Heterogeneity in Positional Errors: A Comparison of Two Residential Geocoding Efforts in the Agricultural Health Study&amp;rdquo;&lt;/a&gt;, which is included in the Special Issue 
+&lt;a href=&#34;https://www.mdpi.com/journal/ijerph/special_issues/Spatial_Uncertainty&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Data Uncertainty in Public Health Research&lt;/a&gt;. The article identifies areas with positional error in residential addresses between two geocoding efforts compared to Geographic Positioning System recordings in the 
+&lt;a href=&#34;https://aghealth.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Agricultural Health Study&lt;/a&gt;, a prospective cancer cohort of licensed pesticide applicators and their spouses in Iowa and North Carolina. My contribution was the data visualization and spatial analysis of the positional error such as a weighted spatial density estimation of the positional error to identify areas of significant improvement in positional accuracy between geocoding efforts while protecting personally identifiable information.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>collaboration | Ian Buller, Ph.D., M.A.</title>
+    <link>https://idblr.rbind.io/tag/collaboration/</link>
+      <atom:link href="https://idblr.rbind.io/tag/collaboration/index.xml" rel="self" type="application/rss+xml" />
+    <description>collaboration</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://idblr.rbind.io/img/avatar.jpg</url>
+      <title>collaboration</title>
+      <link>https://idblr.rbind.io/tag/collaboration/</link>
+    </image>
+    
+    <item>
+      <title>DCEG Informatics Tool Challenge Award</title>
+      <link>https://idblr.rbind.io/post/tools/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/tools/</guid>
+      <description>&lt;p&gt;I received an 
+&lt;a href=&#34;https://dceg.cancer.gov/news-events/news/2020/2020-informatics-tool-challenge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Informatics Tool Challenge Award&lt;/a&gt; from the NCI 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; for a project entitled &amp;ldquo;sparrpowR: A flexible R package and webtool to estimate statistical power of a spatial cluster detection technique.&amp;rdquo; My co-Principal Investigator, 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; (DCEG/OEEB), is another postdoctoral 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellow&lt;/a&gt; and we are joined by our supervisors 
+&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/jones-rena&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rena Jones, Ph.D., M.S.&lt;/a&gt; (DCEG/OEEB) and 
+&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/machiela-mitchell&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mitch Machiela, Sc.D., M.P.H.&lt;/a&gt; (DCEG/ITEB), respectively, as well as Tim Myers (DCEG/ITEB). The funds ($20,000) will be used by the NCI 
+&lt;a href=&#34;https://datascience.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Biomedical Informatics &amp;amp; Information Technology&lt;/a&gt; to develop a web application of our R package called 
+&lt;a href=&#34;https://cran.r-project.org/web/packages/sparrpowR/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

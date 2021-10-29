@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>biogeography | Ian Buller, Ph.D., M.A.</title>
+    <link>https://idblr.rbind.io/tag/biogeography/</link>
+      <atom:link href="https://idblr.rbind.io/tag/biogeography/index.xml" rel="self" type="application/rss+xml" />
+    <description>biogeography</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Mon, 21 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://idblr.rbind.io/img/avatar.jpg</url>
+      <title>biogeography</title>
+      <link>https://idblr.rbind.io/tag/biogeography/</link>
+    </image>
+    
+    <item>
+      <title>New CRAN Package {envi}</title>
+      <link>https://idblr.rbind.io/post/cran-envi/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/cran-envi/</guid>
+      <description>&lt;p&gt;My third R package is on 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=envi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;envi&lt;/a&gt;. It estimates the ecological niche using presence/absence data and the spatial relative risk function via the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. See the public 
+&lt;a href=&#34;https://github.com/Waller-SUSAN/envi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;Thanks to major contributions from Dr. 
+&lt;a href=&#34;https://sph.emory.edu/faculty/profile/index.php?FID=lance-waller-345&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lance Waller&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

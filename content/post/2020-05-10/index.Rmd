@@ -8,7 +8,7 @@ tags: ["R Markdown", "point pattern", "R"]
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2021-10-28T8:47:18-04:00'
+lastmod: '2021-10-29T8:47:18-04:00'
 featured: no
 image:
   caption: 'Image credit: [**Ian Buller**](/)'

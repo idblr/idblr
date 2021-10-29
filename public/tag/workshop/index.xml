@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workshop | Ian Buller, Ph.D., M.A.</title>
+    <link>https://idblr.rbind.io/tag/workshop/</link>
+      <atom:link href="https://idblr.rbind.io/tag/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <description>workshop</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://idblr.rbind.io/img/avatar.jpg</url>
+      <title>workshop</title>
+      <link>https://idblr.rbind.io/tag/workshop/</link>
+    </image>
+    
+    <item>
+      <title>Lightning Talk at NIEHS Workshop</title>
+      <link>https://idblr.rbind.io/post/niehs-2021/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/niehs-2021/</guid>
+      <description>&lt;p&gt;I presented a lightning talk entitled &amp;ldquo;Geographic Variation in the Oral Microbiome of NIH-AARP Diet and Health Study Participants&amp;rdquo; at a 
+&lt;a href=&#34;https://epiresearch.org/annual-meeting/2020-meeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institute of Environmental Health Sciences&lt;/a&gt; workshop entitled 
+&lt;a href=&#34;https://www.niehs.nih.gov/news/events/pastmtg/2021/ieemhh_2021/index.cfm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Impact of Environmental Exposures on the Microbiome and Human Health&lt;/a&gt; held virtually due to the global 
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

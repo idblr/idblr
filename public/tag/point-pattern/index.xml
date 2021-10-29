@@ -1,64 +1,253 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>point pattern | Ian Buller</title>
-    <link>/tag/point-pattern/</link>
-      <atom:link href="/tag/point-pattern/index.xml" rel="self" type="application/rss+xml" />
+    <title>point pattern | Ian Buller, Ph.D., M.A.</title>
+    <link>https://idblr.rbind.io/tag/point-pattern/</link>
+      <atom:link href="https://idblr.rbind.io/tag/point-pattern/index.xml" rel="self" type="application/rss+xml" />
     <description>point pattern</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2020 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpg</url>
+      <url>https://idblr.rbind.io/img/avatar.jpg</url>
       <title>point pattern</title>
-      <link>/tag/point-pattern/</link>
+      <link>https://idblr.rbind.io/tag/point-pattern/</link>
     </image>
     
     <item>
-      <title>Areas of a spatial segregation model significantly different from null expectations</title>
-      <link>/post/pvalues-spatial-segregation/</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/pvalues-spatial-segregation/</guid>
+      <title>New Web Application &#34;Spatial Power&#34; launched</title>
+      <link>https://idblr.rbind.io/post/spatial-power/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/spatial-power/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; is a web application that calculates the power for spatial statistics. Currently, the tool has one module for the spatial relative risk function. 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; and I co-designed the web application with a development team from the NCI 
+&lt;a href=&#34;https://datascience.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Biomedical Informatics &amp;amp; Information Technology&lt;/a&gt;. We received funding from a 
+&lt;a href=&#34;https://idblr.rbind.io/post/tools&#34;&gt;DCEG Informatics Tool Challenge Award&lt;/a&gt; and a 
+&lt;a href=&#34;https://idblr.rbind.io/post/tfra-2021&#34;&gt;DCP Trans-Fellowship Research Award Supplement&lt;/a&gt;. Please 
+&lt;a href=&#34;https://idblr.rbind.io/profile&#34;&gt;contact me&lt;/a&gt; or Dr. Brown with any suggestions for improvements, especially additional spatial statistics you would like to see in the web application.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Publication in the International Journal of Health Geographics</title>
+      <link>https://idblr.rbind.io/post/ijhg-2021/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ijhg-2021/</guid>
+      <description>&lt;p&gt;I co-first authored an article in the 
+&lt;a href=&#34;https://ij-healthgeographics.biomedcentral.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Journal of Health Geographics&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.1186/s12942-021-00267-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;sparrpowR: a flexible R package to estimate statistical power to identify spatial clustering of two groups and its application&amp;rdquo;&lt;/a&gt;. The article
+introduces the open-source R package 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt; and demonstrates how it can be used to calculate statistical power for the spatial relative risk function for etiologic and surveillance research questions. 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; is my fellow co-first author. See my 
+&lt;a href=&#34;https://idblr.rbind.io/post/cran-sparrpowr/&#34;&gt;earlier post&lt;/a&gt; about the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt; package that we co-developed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Publication in the International Journal of Environmental Research and Public Health</title>
+      <link>https://idblr.rbind.io/post/ijerph-2021-special-issue/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ijerph-2021-special-issue/</guid>
+      <description>&lt;p&gt;I co-authored an article in the 
+&lt;a href=&#34;https://www.mdpi.com/journal/ijerph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Journal of Environmental Research and Public Health&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.3390/ijerph18041637&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Spatial Heterogeneity in Positional Errors: A Comparison of Two Residential Geocoding Efforts in the Agricultural Health Study&amp;rdquo;&lt;/a&gt;, which is included in the Special Issue 
+&lt;a href=&#34;https://www.mdpi.com/journal/ijerph/special_issues/Spatial_Uncertainty&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Data Uncertainty in Public Health Research&lt;/a&gt;. The article identifies areas with positional error in residential addresses between two geocoding efforts compared to Geographic Positioning System recordings in the 
+&lt;a href=&#34;https://aghealth.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Agricultural Health Study&lt;/a&gt;, a prospective cancer cohort of licensed pesticide applicators and their spouses in Iowa and North Carolina. My contribution was the data visualization and spatial analysis of the positional error such as a weighted spatial density estimation of the positional error to identify areas of significant improvement in positional accuracy between geocoding efforts while protecting personally identifiable information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021 Trans-Fellowship Research Award Supplement</title>
+      <link>https://idblr.rbind.io/post/tfra-2021/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/tfra-2021/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; and I received a Trans-Fellowship Research Award from the NCI Division of Cancer Prevention 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt; to supplement our 
+&lt;a href=&#34;https://idblr.rbind.io/post/tools&#34;&gt;2020 DCEG Informatics Tool Challenge Award&lt;/a&gt;. The award ($17,000) will be used to complete the development of our &amp;ldquo;Spatial Power&amp;rdquo; webtool for the NCI 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; and fund enhancements such as, for example, a Geographic Information System interface to see the calculated results displayed on an interactive map.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Invited Presentation for the DCEG Geospatial Analysis Working Group</title>
+      <link>https://idblr.rbind.io/post/gawg-2021/</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/gawg-2021/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; and I presented our &amp;ldquo;Spatial Power&amp;rdquo; webtool for the NCI 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; January 2021 monthly 
+&lt;a href=&#34;https://dceg.cancer.gov/research/how-we-study/exposure-assessment/gis-environmental-exposure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Geographic Analysis Working Group&lt;/a&gt; meeting. Spatial Power is an upcomping webtool to calculate power for spatial statistics. Stay tuned for its launch.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New CRAN Package {envi}</title>
+      <link>https://idblr.rbind.io/post/cran-envi/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/cran-envi/</guid>
+      <description>&lt;p&gt;My third R package is on 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=envi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;envi&lt;/a&gt;. It estimates the ecological niche using presence/absence data and the spatial relative risk function via the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. See the public 
+&lt;a href=&#34;https://github.com/Waller-SUSAN/envi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;Thanks to major contributions from Dr. 
+&lt;a href=&#34;https://sph.emory.edu/faculty/profile/index.php?FID=lance-waller-345&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lance Waller&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New CRAN Package {gateR}</title>
+      <link>https://idblr.rbind.io/post/cran-gater/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/cran-gater/</guid>
+      <description>&lt;p&gt;My second R package is on 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=gateR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gateR&lt;/a&gt;. It estimates clustering of cytometry cells using markers and the spatial relative risk function via the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. See the public 
+&lt;a href=&#34;https://github.com/Waller-SUSAN/gateR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;Thanks to major contributions from Drs. 
+&lt;a href=&#34;https://medschool.cuanschutz.edu/immunology-and-microbiology/faculty/hsieh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Elena Hsieh&lt;/a&gt;, 
+&lt;a href=&#34;https://profiles.ucdenver.edu/display/7400934&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debashis Ghosh&lt;/a&gt;, and 
+&lt;a href=&#34;https://sph.emory.edu/faculty/profile/index.php?FID=lance-waller-345&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lance Waller&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating a hexsticker for the {sparrpowR} package</title>
+      <link>https://idblr.rbind.io/post/hexsticker-sparrpowr/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/hexsticker-sparrpowr/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I present code to create the hexsticker for the &lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34; target=&#34;_blank&#34;&gt;sparrpowR&lt;/a&gt; package using the &lt;a href=&#34;https://github.com/GuangchuangYu/hexSticker&#34; target=&#34;_blank&#34;&gt;hexSticker&lt;/a&gt; and &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34;&gt;spatstat&lt;/a&gt; packages. The &lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34; target=&#34;_blank&#34;&gt;sparrpowR&lt;/a&gt; calculated the statistical power for a spatial relative risk function from the &lt;a href=&#34;https://github.com/cran/sparr&#34; target=&#34;_blank&#34;&gt;sparr&lt;/a&gt; package.&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;Update 06/15/2020: The {sparrpowR} sticker is posted in the &lt;a href=&#34;https://github.com/GuangchuangYu/hexSticker&#34; target=&#34;_blank&#34;&gt;hexSticker&lt;/a&gt; README.md file *
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Packages
+loadedPackages &amp;lt;- c(&amp;quot;hexSticker&amp;quot;, &amp;quot;spatstat&amp;quot;)
+invisible(lapply(loadedPackages, require, character.only = TRUE))
+set.seed(1234) # for reproducibility
+par(pty = &amp;quot;s&amp;quot;) # for equal proportions&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The point pattern to plot within the hexsticker is created using the &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34;&gt;spatstat&lt;/a&gt; package.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Create windows for separate point patterns
+angle &amp;lt;- pi / 3
+x &amp;lt;- c(0, 0.5, 0.5 * cos(angle), 0) + 1
+y &amp;lt;- c(0, 0, 0.5 * sin(angle), 0) + 1
+y1 &amp;lt;- c(0, 0, 0.5 * -sin(angle), 0) + 1
+x2 &amp;lt;- c(1 - 0.33, 1.1, 1.25, 1.6, 1.5 + 0.33, 1 - 0.33)
+y2 &amp;lt;- c(1.5, 1, 1.433013, 1, 1.5, 1.5)
+
+# Create point patterns
+g1 &amp;lt;- spatstat::rsyst(nx = 20, win = spatstat::owin(poly = list(x = x, y = y)))
+g2 &amp;lt;- spatstat::rsyst(nx = 20, win = spatstat::owin(poly = list(x = rev(x), y = rev(y1))))
+g3 &amp;lt;- spatstat::rpoispp(lambda = 20, win = spatstat::owin(poly = list(x = x2, y = y2)))
+
+# Set marks for point patterns (for colors)
+spatstat::marks(g1) &amp;lt;- 1
+spatstat::marks(g2) &amp;lt;- 2
+spatstat::marks(g3) &amp;lt;- 1
+
+# Combine point patterns and set marks to be factors
+g4 &amp;lt;- spatstat::superimpose(g1, g2, g3)
+spatstat::marks(g4) &amp;lt;- as.factor(spatstat::marks(g4))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I use the &lt;a href=&#34;https://github.com/GuangchuangYu/hexSticker&#34; target=&#34;_blank&#34;&gt;hexSticker&lt;/a&gt; package to create the hexsticker which layers the sticker elements into a hexagon window. In order to hide points within the &lt;code&gt;g4&lt;/code&gt; object that reside outside the hexagon window I set the &lt;code&gt;white_around_sticker&lt;/code&gt; argument as &lt;code&gt;TRUE&lt;/code&gt;. I choose the &lt;a href=&#34;https://www.color-hex.com/color-palette/14625&#34; target=&#34;_blank&#34;&gt;Balance Within&lt;/a&gt; color palette.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Create hexSticker
+
+hexSticker::sticker(~spatstat::plot.ppp(g4, 
+                                        cols = c(&amp;quot;#ee9a00&amp;quot;, &amp;quot;#698b69&amp;quot;),
+                                        show.all = F, cex = 0.5,
+                                        pch = c(8, 8)),
+                    package = &amp;quot;sparrpowR&amp;quot;,
+                    p_size = 5,
+                    p_color = &amp;quot;#ffe4b5&amp;quot;,
+                    s_x = 0.7, s_y = 0.1,
+                    s_width = 3.33, s_height = 3.33,
+                    h_fill = &amp;quot;#344960&amp;quot;,
+                    h_color = &amp;quot;#8b3a3a&amp;quot;,
+                    dpi = 1000,
+                    white_around_sticker = TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After removing the white image background in your favorite image editor you can replicate the final hexsticker.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/img/sparrpowR.png&#34; width=&#34;200&#34; align=&#34;center&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;And when you connect three stickers you can create a larger design:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/img/sparrpowR3.png&#34; width=&#34;400&#34; align=&#34;center&#34;/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New CRAN Package {sparrpowR}</title>
+      <link>https://idblr.rbind.io/post/cran-sparrpowr/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/cran-sparrpowr/</guid>
+      <description>&lt;p&gt;My first R package is on 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt;. It provides a statistical power calculation for the spatial relative risk function via the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. See the public 
+&lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt; for more details. The featured image comes from the package 
+&lt;a href=&#34;https://cran.r-project.org/web/packages/sparrpowR/vignettes/vignette.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vignette&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks to 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; as my co-first author as well as major contributions from 
+&lt;a href=&#34;https://github.com/timyers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tim Myers&lt;/a&gt;, and 
+&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/machiela-mitchell&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mitch Machiela, Sc.D., M.P.H.&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&#34;https://idblr.rbind.io/img/sparrpowR.png&#34; width=&#34;300&#34; align=&#34;center&#34;/&gt;</description>
+    </item>
+    
+    <item>
+      <title>Areas of a spatial segregation model significantly different from null expectations</title>
+      <link>https://idblr.rbind.io/post/pvalues-spatial-segregation/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/pvalues-spatial-segregation/</guid>
+      <description>
+&lt;script src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;I present code to identify areas of a spatial segregation model that exceed our null expectations using the &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34;&gt;relrisk&lt;/a&gt; function in the &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34;&gt;spatstat&lt;/a&gt; package and an assumption of normality of the estimated probabilities. A spatial segregation model was originally proposed by &lt;a href=&#34;https://doi.org/10.1111/j.1467-9876.2005.05373.x&#34; target=&#34;_blank&#34;&gt;Diggle, Zheng, &amp;amp; Durr in 2005&lt;/a&gt; which estimates spatially-varying probabilities of an event of a certain type to occur in an area accounting for other types. The original method uses a Monte Carlo-based simulation, which is computationally expensive. Instead, &lt;a href=&#34;https://github.com/baddstats&#34; target=&#34;_blank&#34;&gt;Adrian Baddeley&lt;/a&gt; and the spatstat team adapted the &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34;&gt;relrisk&lt;/a&gt; function for a multitype (m &amp;gt; 2) point pattern that has an option to compute the standard error of the probability estimates based on asymptotic theory, assuming a Poisson process.&lt;/p&gt;
 &lt;p&gt;Here, I use the standard errors to compute a 95% confidence interval (CI) at all gridded pixels (“knots”) for each type. Knots with a CI that does not capture the null expectation for each type are identified. I use the provided &lt;code&gt;lansing&lt;/code&gt; dataset from the &lt;a href=&#34;https://github.com/spatstat/spatstat.data&#34; target=&#34;_blank&#34;&gt;spatstat.data&lt;/a&gt; package. Created with assistance from &lt;a href=&#34;https://sph.emory.edu/faculty/profile/index.php?FID=345&#34; target=&#34;_blank&#34;&gt;Dr. Lance Waller&lt;/a&gt; and &lt;a href=&#34;http://barry.rowlingson.com/&#34; target=&#34;_blank&#34;&gt;Barry Rowlingson&lt;/a&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Packages
-  library(spatstat)&lt;/code&gt;&lt;/pre&gt;
+loadedPackages &amp;lt;- c(&amp;quot;spatstat.core&amp;quot;, &amp;quot;spatstat.geom&amp;quot;, &amp;quot;spatstat.data&amp;quot;, &amp;quot;spatstat&amp;quot;)
+invisible(lapply(loadedPackages, require, character.only = T))&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Data
   spatstat.data::lansing&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Marked planar point pattern: 2251 points
 ## Multitype, with levels = blackoak, hickory, maple, misc, redoak, whiteoak 
 ## window: rectangle = [0, 1] x [0, 1] units (one unit = 924 feet)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Convert the lansing data to a ppp object
-  ppp_lansing &amp;lt;- spatstat::ppp(x = spatstat.data::lansing$x, 
+  ppp_lansing &amp;lt;- spatstat.geom::ppp(x = spatstat.data::lansing$x, 
                              y = spatstat.data::lansing$y,
-                             window = spatstat::unit.square(),
-                             marks = as.factor(spatstat::marks(spatstat.data::lansing)))
+                             window = spatstat.geom::unit.square(),
+                             marks = as.factor(spatstat.geom::marks(spatstat.data::lansing)))
 
 # Plot input
-  spatstat::plot.ppp(ppp_lansing, main = &amp;quot;Lansing Woods&amp;quot;, cex = 0.5)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/index_files/figure-html/data-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+  spatstat.geom::plot.ppp(ppp_lansing, main = &amp;quot;Lansing Woods&amp;quot;, cex = 0.5)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/figure-html/data-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Estimate nonparametric spatially-varying probabilities of type
-  f1 &amp;lt;- spatstat::relrisk.ppp(ppp_lansing, casecontrol = F, diggle = T, se = T, sigma = bw.diggle)
+  f1 &amp;lt;- spatstat.core::relrisk.ppp(ppp_lansing, casecontrol = F, diggle = T, se = T, sigma = bw.diggle)
   
 # Default plots
   plot(f1$estimate, main = &amp;quot;Probability of an event by type&amp;quot;, zlim = c(0,1)) # probabilities&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/index_files/figure-html/spatial%20segregration-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/figure-html/spatial%20segregration-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  plot(f1$SE, main = &amp;quot;Standard error of probability&amp;quot;, zlim = c(0,0.03)) # standard errors&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/index_files/figure-html/spatial%20segregration-2.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  wh &amp;lt;- spatstat::im.apply(f1$estimate, which.max)
-  types &amp;lt;- levels(spatstat::marks(spatstat.data::lansing))
-  wh &amp;lt;- spatstat::eval.im(types[wh]) # most common 
-  spatstat::plot.im(wh, main=&amp;quot;Most common species&amp;quot;, ribargs = list(las = 1))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/index_files/figure-html/spatial%20segregration-3.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/figure-html/spatial%20segregration-2.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;  wh &amp;lt;- spatstat.geom::im.apply(f1$estimate, which.max)
+  types &amp;lt;- levels(spatstat.geom::marks(spatstat.data::lansing))
+  wh &amp;lt;- spatstat.geom::eval.im(types[wh]) # most common 
+  spatstat.geom::plot.im(wh, main=&amp;quot;Most common species&amp;quot;, ribargs = list(las = 1))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/figure-html/spatial%20segregration-3.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Significant p-values assumming normality of the Poisson process
 ## relrisk() computes standard errors based on asymptotic theory, assuming a Poisson process
   alpha &amp;lt;- 0.05                           # alpha
   z &amp;lt;- qnorm(alpha/2, lower.tail = F)     # z-statistic
   f1$u &amp;lt;- f1$estimate + z*f1$SE           # Upper CIs
   f1$l &amp;lt;- f1$estimate - z*f1$SE           # Lower CIs
-  mu_0 &amp;lt;- as.vector(table(spatstat::marks(ppp_lansing))/ppp_lansing$n) # null expectations by type
+  mu_0 &amp;lt;- as.vector(table(spatstat.geom::marks(ppp_lansing))/ppp_lansing$n) # null expectations by type
   f1$p &amp;lt;- f1$estimate # copy structure of pixels, replace values
   for (i in 1:length(f1$p)) {
     f1$p[[i]]$v &amp;lt;- factor(ifelse(mu_0[i] &amp;gt; f1$u[[i]]$v, &amp;quot;lower&amp;quot;,
@@ -68,8 +257,8 @@
 
   # Plot significant p-values
   plot(f1$p, main = &amp;quot;Significant difference from null?&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-05-10/index_files/figure-html/spatial%20segregration-4.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The final plot identifies where the spatially-varying probabilities exceed the null expected probability of each type. Areas of higher-than-expected probability could be considered “hot-spots” and areas of lower-than-expected probability could be considered “cold-spots.” Areas that are not significantly different from the null expectation could suggest additional sampling is necessary to determine if these areas are hot are cold spots.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/figure-html/spatial%20segregration-4.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The final plot identifies where the spatially-varying probabilities exceed the null expected probability of each type. Areas of higher-than-expected probability could be considered “hot-spots” and areas of lower-than-expected probability could be considered “cold-spots.” Areas that are not significantly different from the null expectation could suggest additional sampling is necessary to determine if these areas are hot or cold spots.&lt;/p&gt;
 </description>
     </item>
     

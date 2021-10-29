@@ -8,13 +8,12 @@ tags: ["cpfp"]
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2021-10-28T10:36:04-04:00'
+lastmod: '2021-10-29T10:36:04-04:00'
 featured: no
 image: 
   caption: 'Image credit: [**DCEG**](https://dceg.cancer.gov/about/staff-directory/jones-rena)'
   focal_point: ''
   preview_only: no
-  width: 5 
 projects: []
 ---
 

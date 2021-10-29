@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tool | Ian Buller, Ph.D., M.A.</title>
+    <link>https://idblr.rbind.io/category/tool/</link>
+      <atom:link href="https://idblr.rbind.io/category/tool/index.xml" rel="self" type="application/rss+xml" />
+    <description>tool</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://idblr.rbind.io/img/avatar.jpg</url>
+      <title>tool</title>
+      <link>https://idblr.rbind.io/category/tool/</link>
+    </image>
+    
+    <item>
+      <title>New Web Application &#34;Spatial Power&#34; launched</title>
+      <link>https://idblr.rbind.io/post/spatial-power/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/spatial-power/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; is a web application that calculates the power for spatial statistics. Currently, the tool has one module for the spatial relative risk function. 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; and I co-designed the web application with a development team from the NCI 
+&lt;a href=&#34;https://datascience.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Biomedical Informatics &amp;amp; Information Technology&lt;/a&gt;. We received funding from a 
+&lt;a href=&#34;https://idblr.rbind.io/post/tools&#34;&gt;DCEG Informatics Tool Challenge Award&lt;/a&gt; and a 
+&lt;a href=&#34;https://idblr.rbind.io/post/tfra-2021&#34;&gt;DCP Trans-Fellowship Research Award Supplement&lt;/a&gt;. Please 
+&lt;a href=&#34;https://idblr.rbind.io/profile&#34;&gt;contact me&lt;/a&gt; or Dr. Brown with any suggestions for improvements, especially additional spatial statistics you would like to see in the web application.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

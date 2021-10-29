@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>work in progress | Ian Buller, Ph.D., M.A.</title>
+    <link>https://idblr.rbind.io/tag/work-in-progress/</link>
+      <atom:link href="https://idblr.rbind.io/tag/work-in-progress/index.xml" rel="self" type="application/rss+xml" />
+    <description>work in progress</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Fri, 05 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://idblr.rbind.io/img/avatar.jpg</url>
+      <title>work in progress</title>
+      <link>https://idblr.rbind.io/tag/work-in-progress/</link>
+    </image>
+    
+    <item>
+      <title>A Place for Spatial Analysis in the Cancer Control Continuum</title>
+      <link>https://idblr.rbind.io/post/frm1/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/frm1/</guid>
+      <description>&lt;p&gt;I gave an invited talk at the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; entitled &amp;ldquo;A place for spatial analysis in the Cancer Control Continuum.&amp;rdquo; The talk was an overview of my work in progress over the past year in the 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt;. The talk was recorded, so please 
+&lt;a href=&#34;https://idblr.rbind.io/profile&#34;&gt;contact me&lt;/a&gt; if you are interested in viewing the talk.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

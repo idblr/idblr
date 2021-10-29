@@ -1,248 +1,381 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>/courses/example/example1/</loc>
+    <loc>https://idblr.rbind.io/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/example/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/example/example2/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/example/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-05-30T03:14:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/cluster-microbiome/</loc>
-    <lastmod>2020-05-30T03:14:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/microbiome/</loc>
-    <lastmod>2020-05-30T03:14:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/open-data/</loc>
-    <lastmod>2020-05-30T03:14:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-05-30T03:14:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/r/</loc>
-    <lastmod>2020-05-30T03:14:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/r/</loc>
-    <lastmod>2020-05-30T03:14:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/r-markdown/</loc>
-    <lastmod>2020-05-30T03:14:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-05-30T03:14:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/coronavirus/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/categories/</loc>
+    <lastmod>2021-10-29T10:36:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/disparity/</loc>
+    <lastmod>2021-10-12T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/cpfp-colloquia/</loc>
+    <lastmod>2021-10-12T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/category/moderating/</loc>
+    <lastmod>2021-10-12T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/</loc>
+    <lastmod>2021-10-29T10:36:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/spatial-analysis/</loc>
+    <lastmod>2021-10-12T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tags/</loc>
+    <lastmod>2021-10-29T10:36:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/aacr-2021/</loc>
+    <lastmod>2021-10-08T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/cancer-survivor/</loc>
+    <lastmod>2021-10-08T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/conference/</loc>
+    <lastmod>2021-10-08T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/linkages/</loc>
+    <lastmod>2021-10-08T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/plco/</loc>
+    <lastmod>2021-10-08T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/category/poster/</loc>
+    <lastmod>2021-10-08T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/jam-2021/</loc>
+    <lastmod>2021-08-30T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/microbiome/</loc>
+    <lastmod>2021-10-29T03:14:18-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/nih-aarp/</loc>
+    <lastmod>2021-08-30T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/isee-2021/</loc>
+    <lastmod>2021-08-26T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/roadway/</loc>
+    <lastmod>2021-08-26T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/category/talk/</loc>
+    <lastmod>2021-08-26T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/diet/</loc>
+    <lastmod>2021-06-25T07:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/digestive-cancer/</loc>
+    <lastmod>2021-06-25T07:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/drinking-water/</loc>
+    <lastmod>2021-06-25T07:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/ijerph-2021/</loc>
+    <lastmod>2021-06-25T07:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/nitrate/</loc>
+    <lastmod>2021-06-25T07:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/nitrite/</loc>
+    <lastmod>2021-06-25T07:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/proportional-hazard/</loc>
+    <lastmod>2021-06-25T07:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/category/publication/</loc>
+    <lastmod>2021-06-25T07:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/mixtures/</loc>
+    <lastmod>2021-06-23T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/ser-2021/</loc>
+    <lastmod>2021-06-23T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/merit2021/</loc>
+    <lastmod>2021-06-08T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/annual/</loc>
+    <lastmod>2021-06-08T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/category/award/</loc>
+    <lastmod>2021-06-08T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/cancer/</loc>
+    <lastmod>2021-06-08T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/prevention/</loc>
+    <lastmod>2021-06-08T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/service/</loc>
+    <lastmod>2021-10-29T10:36:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/cluster-detection/</loc>
+    <lastmod>2021-05-20T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/kernel-density-estimation/</loc>
+    <lastmod>2021-05-20T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/spatial-power/</loc>
+    <lastmod>2021-05-20T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/point-pattern/</loc>
+    <lastmod>2021-10-29T08:47:18-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/power-calculation/</loc>
+    <lastmod>2021-05-20T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/spatial-relative-risk/</loc>
+    <lastmod>2021-05-20T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/category/tool/</loc>
+    <lastmod>2021-05-20T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/ijhg-2021/</loc>
+    <lastmod>2021-02-26T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/niehs-2021/</loc>
+    <lastmod>2021-02-24T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/workshop/</loc>
+    <lastmod>2021-02-24T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/geocoding/</loc>
+    <lastmod>2021-02-10T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/ijerph-2021-special-issue/</loc>
+    <lastmod>2021-02-10T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/positional-error/</loc>
+    <lastmod>2021-02-10T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/special-issue/</loc>
+    <lastmod>2021-02-10T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/tfra-2021/</loc>
+    <lastmod>2021-02-09T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/gawg-2021/</loc>
+    <lastmod>2021-01-14T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/biogeography/</loc>
+    <lastmod>2020-12-21T09:30:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/cran/</loc>
+    <lastmod>2020-12-21T09:30:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/cran-envi/</loc>
+    <lastmod>2020-12-21T09:30:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/niche/</loc>
+    <lastmod>2020-12-21T09:30:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/r/</loc>
+    <lastmod>2021-10-29T08:47:18-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/category/r/</loc>
+    <lastmod>2021-10-29T08:47:18-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/ahs/</loc>
+    <lastmod>2020-12-16T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/ser-2020/</loc>
+    <lastmod>2020-12-16T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/cytometry/</loc>
+    <lastmod>2020-11-10T09:30:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/cran-gater/</loc>
+    <lastmod>2020-11-10T09:30:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/coleman-2021/</loc>
+    <lastmod>2020-11-02T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/health-disparities/</loc>
+    <lastmod>2020-11-02T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/survivorship/</loc>
+    <lastmod>2020-11-02T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/dfare/</loc>
+    <lastmod>2020-10-29T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/dfeb-2020/</loc>
+    <lastmod>2021-10-29T10:36:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/category/service/</loc>
+    <lastmod>2021-10-29T10:36:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/isee-2020/</loc>
+    <lastmod>2020-08-26T14:41:03-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/hexsticker-sparrpowr/</loc>
+    <lastmod>2020-06-15T09:03:18-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/r-markdown/</loc>
+    <lastmod>2021-10-29T08:47:18-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/cran-sparrpowr/</loc>
+    <lastmod>2020-06-10T09:30:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/covid-dc-animated/</loc>
+    <lastmod>2020-06-08T20:43:18-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/coronavirus/</loc>
+    <lastmod>2020-06-08T20:43:18-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/gganimate/</loc>
+    <lastmod>2020-06-08T20:43:18-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/ggplot2/</loc>
+    <lastmod>2020-06-08T20:43:18-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/open-data/</loc>
+    <lastmod>2021-10-29T03:14:18-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/frm1/</loc>
+    <lastmod>2020-06-05T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/environmental-epidemiology/</loc>
+    <lastmod>2020-06-05T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/work-in-progress/</loc>
+    <lastmod>2020-06-05T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/collaboration/</loc>
+    <lastmod>2020-06-02T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/tools/</loc>
+    <lastmod>2020-06-02T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/method-development/</loc>
+    <lastmod>2020-06-02T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/power/</loc>
+    <lastmod>2020-06-02T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/webtool/</loc>
+    <lastmod>2020-06-02T08:20:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/cluster-microbiome/</loc>
+    <lastmod>2021-10-29T03:14:18-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/leaflet/</loc>
     <lastmod>2020-05-22T23:23:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/leaflet/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/covid-dc-test/</loc>
     <lastmod>2020-05-22T23:23:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/covid-dc-test/</loc>
-    <lastmod>2020-05-22T23:23:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/covid-dc/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/covid-dc/</loc>
     <lastmod>2020-05-17T08:43:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/pvalues-spatial-segregation/</loc>
-    <lastmod>2020-05-12T08:47:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/point-pattern/</loc>
-    <lastmod>2020-05-12T08:47:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/awards/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/pvalues-spatial-segregation/</loc>
+    <lastmod>2021-10-29T08:47:18-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/coleman-2020/</loc>
     <lastmod>2020-05-10T10:36:04-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/campylobacter/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/campylobacter/</loc>
     <lastmod>2020-05-10T10:36:04-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/coleman/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/rural-health/</loc>
     <lastmod>2020-05-10T10:36:04-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/rural-health/</loc>
-    <lastmod>2020-05-10T10:36:04-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/dfeb-2019/</loc>
+    <lastmod>2021-10-29T10:36:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/cpfp/</loc>
+    <lastmod>2021-10-29T10:36:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/category/job/</loc>
+    <lastmod>2021-10-29T10:36:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/oeeb-2019/</loc>
+    <lastmod>2021-10-29T10:36:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/post/cpfp-2019/</loc>
+    <lastmod>2021-10-29T10:36:04-04:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/3/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/publication-type/3/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/admin/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/author/admin/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/preprint/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/publication/preprint/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/authors/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/publication_types/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/publication/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/source-themes/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/example/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/license/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/license/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/deep-learning/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/demo/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/tag/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/external-project/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/internal-project/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/2/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/publication-type/2/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/journal-article/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/publication/journal-article/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/robert-ford/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/author/robert-ford/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/1/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/publication-type/1/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/conference-paper/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/profile/</loc>
+  </url><url>
+    <loc>https://idblr.rbind.io/author/ian-buller-ph.d.-m.a./</loc>
   </url>
-  
-  <url>
-    <loc>/profile/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/ian-buller/</loc>
-  </url>
-  
 </urlset>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>power calculation | Ian Buller, Ph.D., M.A.</title>
+    <link>https://idblr.rbind.io/tag/power-calculation/</link>
+      <atom:link href="https://idblr.rbind.io/tag/power-calculation/index.xml" rel="self" type="application/rss+xml" />
+    <description>power calculation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://idblr.rbind.io/img/avatar.jpg</url>
+      <title>power calculation</title>
+      <link>https://idblr.rbind.io/tag/power-calculation/</link>
+    </image>
+    
+    <item>
+      <title>New Web Application &#34;Spatial Power&#34; launched</title>
+      <link>https://idblr.rbind.io/post/spatial-power/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/spatial-power/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; is a web application that calculates the power for spatial statistics. Currently, the tool has one module for the spatial relative risk function. 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; and I co-designed the web application with a development team from the NCI 
+&lt;a href=&#34;https://datascience.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Biomedical Informatics &amp;amp; Information Technology&lt;/a&gt;. We received funding from a 
+&lt;a href=&#34;https://idblr.rbind.io/post/tools&#34;&gt;DCEG Informatics Tool Challenge Award&lt;/a&gt; and a 
+&lt;a href=&#34;https://idblr.rbind.io/post/tfra-2021&#34;&gt;DCP Trans-Fellowship Research Award Supplement&lt;/a&gt;. Please 
+&lt;a href=&#34;https://idblr.rbind.io/profile&#34;&gt;contact me&lt;/a&gt; or Dr. Brown with any suggestions for improvements, especially additional spatial statistics you would like to see in the web application.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Publication in the International Journal of Health Geographics</title>
+      <link>https://idblr.rbind.io/post/ijhg-2021/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ijhg-2021/</guid>
+      <description>&lt;p&gt;I co-first authored an article in the 
+&lt;a href=&#34;https://ij-healthgeographics.biomedcentral.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Journal of Health Geographics&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.1186/s12942-021-00267-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;sparrpowR: a flexible R package to estimate statistical power to identify spatial clustering of two groups and its application&amp;rdquo;&lt;/a&gt;. The article
+introduces the open-source R package 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt; and demonstrates how it can be used to calculate statistical power for the spatial relative risk function for etiologic and surveillance research questions. 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; is my fellow co-first author. See my 
+&lt;a href=&#34;https://idblr.rbind.io/post/cran-sparrpowr/&#34;&gt;earlier post&lt;/a&gt; about the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt; package that we co-developed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021 Trans-Fellowship Research Award Supplement</title>
+      <link>https://idblr.rbind.io/post/tfra-2021/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/tfra-2021/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; and I received a Trans-Fellowship Research Award from the NCI Division of Cancer Prevention 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt; to supplement our 
+&lt;a href=&#34;https://idblr.rbind.io/post/tools&#34;&gt;2020 DCEG Informatics Tool Challenge Award&lt;/a&gt;. The award ($17,000) will be used to complete the development of our &amp;ldquo;Spatial Power&amp;rdquo; webtool for the NCI 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; and fund enhancements such as, for example, a Geographic Information System interface to see the calculated results displayed on an interactive map.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Invited Presentation for the DCEG Geospatial Analysis Working Group</title>
+      <link>https://idblr.rbind.io/post/gawg-2021/</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/gawg-2021/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; and I presented our &amp;ldquo;Spatial Power&amp;rdquo; webtool for the NCI 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; January 2021 monthly 
+&lt;a href=&#34;https://dceg.cancer.gov/research/how-we-study/exposure-assessment/gis-environmental-exposure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Geographic Analysis Working Group&lt;/a&gt; meeting. Spatial Power is an upcomping webtool to calculate power for spatial statistics. Stay tuned for its launch.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New CRAN Package {sparrpowR}</title>
+      <link>https://idblr.rbind.io/post/cran-sparrpowr/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/cran-sparrpowr/</guid>
+      <description>&lt;p&gt;My first R package is on 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt;. It provides a statistical power calculation for the spatial relative risk function via the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. See the public 
+&lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt; for more details. The featured image comes from the package 
+&lt;a href=&#34;https://cran.r-project.org/web/packages/sparrpowR/vignettes/vignette.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vignette&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks to 
+&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; as my co-first author as well as major contributions from 
+&lt;a href=&#34;https://github.com/timyers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tim Myers&lt;/a&gt;, and 
+&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/machiela-mitchell&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mitch Machiela, Sc.D., M.P.H.&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&#34;https://idblr.rbind.io/img/sparrpowR.png&#34; width=&#34;300&#34; align=&#34;center&#34;/&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
