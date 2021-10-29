@@ -54,7 +54,7 @@ phyloseq::plot_ordination(pseq.core, ord, color = &quot;nationality&quot;) +
                  panel.grid.minor = ggplot2::element_blank(),
                  panel.background = ggplot2::element_blank(),
                  axis.line = ggplot2::element_line(colour = &quot;black&quot;))</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/plot%20ordination%20two%20groups-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="staticplot%20ordination%20two%20groups-1.png" width="672" style="display: block; margin: auto;" /></p>
 <p>To detect significant relative spatial clustering between the two nationalities, I use the <a href="https://github.com/cran/sparr/blob/master/R/risk.R" target="_blank">risk</a> function from the <a href="https://github.com/cran/sparr" target="_blank">sparr</a> package. The function requires data as a planar point process (<code>ppp</code>) object. Here, I use the default settings for the <a href="https://github.com/cran/sparr/blob/master/R/risk.R" target="_blank">risk</a> function except I use adaptive-bandwidth selection. Significant areas are defined as areas that exceed a two-tailed 0.05 alpha level.</p>
 <pre class="r"><code># Convert to ppp object
 test_df &lt;- data.frame(&quot;x&quot; = ord$vectors[,1],
@@ -83,7 +83,7 @@ spatstat.geom::plot.im(f0_p, add = TRUE, show.all = TRUE, main = &quot;&quot;,
 spatstat.geom::plot.ppp(test_pp, add = TRUE, main = &quot;&quot;,
                         cols = c(&quot;coral1&quot;, &quot;cadetblue3&quot;),
                         pch = 16)</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/sparr-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="staticsparr-1.png" width="672" style="display: block; margin: auto;" /></p>
 <p>The African group has one significant cluster relative to the American Group (colored blue), which has two significant clusters (colored red). The areas in grey are where the African and American groups spatially covary together that is indiscernible from spatial randomness.</p>
 </div>
 <div id="multi-group-comparison" class="section level3">
@@ -97,7 +97,7 @@ phyloseq::plot_ordination(pseq.core, ord, color = &quot;bmi_group&quot;) +
         panel.grid.minor = ggplot2::element_blank(),
         panel.background = ggplot2::element_blank(),
         axis.line = ggplot2::element_line(colour = &quot;black&quot;))</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/plot%20ordination%20three%20groups-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="staticplot%20ordination%20three%20groups-1.png" width="672" style="display: block; margin: auto;" /></p>
 <p>To detect significant relative spatial clustering between three BMI groups, I use a spatial segregation model <a href="https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd" target="_blank">relrisk</a> from the <a href="https://github.com/spatstat/spatstat" target="_blank">spatstat</a> package. The function requires data as a planar point process (<code>ppp</code>) object. Here, I use the default settings for the <a href="https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd" target="_blank">relrisk</a> function. I present 1) the most common BMI group across the MDS/PCoA space, and 2) areas that are significantly different from the null expectation for each BMI group. See my <a href="/post/pvalues-spatial-segregation">previous post</a> about using the spatial segregation model.</p>
 <pre class="r"><code># Convert to ppp object
 test_df &lt;- data.frame(&quot;x&quot; = ord$vectors[,1],
@@ -126,7 +126,7 @@ spatstat.geom::plot.im(wh, add = TRUE, show.all = TRUE, main = &quot;&quot;,
 spatstat.geom::plot.ppp(test_pp, add = TRUE, main = &quot;&quot;,
                         cols = c(&quot;coral1&quot;, &quot;chartreuse3&quot;, &quot;cadetblue3&quot;),
                         pch = 16)</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/spatial%20segregation-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="staticspatial%20segregation-1.png" width="672" style="display: block; margin: auto;" /></p>
 <p>The “lean” BMI group appears most common in one area of the MDS/PCoA space (colored red), while the other two groups have numerous clusters. This plot <em>does not</em> indicate where eat group are significantly different from their null expectations. For example, our null expectation for the “lean” BMI group is a probability of about 0.25 (56/222).</p>
 <pre class="r"><code>#spatstat::plot.im(wh, main=&quot;Most common type&quot;, ribargs = list(las = 1))
 
@@ -145,6 +145,6 @@ for (i in 1:length(f1$p)) {
 
 # Plot significant p-values
 plot(f1$p, main = &quot;Significant difference from null?&quot;)</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/significant%20spatial%20segregation-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="staticsignificant%20spatial%20segregation-1.png" width="672" style="display: block; margin: auto;" /></p>
 <p>The “lean” BMI group is significantly higher than expected in one large cluster. The “overweight” BMI group is significantly higher than expected in one large cluster and one small cluster. The “obese” BMI group is significantly higher in numerous small clusters.</p>
 </div>

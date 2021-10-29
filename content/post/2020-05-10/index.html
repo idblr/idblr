@@ -38,20 +38,20 @@ invisible(lapply(loadedPackages, require, character.only = T))</code></pre>
 
 # Plot input
   spatstat.geom::plot.ppp(ppp_lansing, main = &quot;Lansing Woods&quot;, cex = 0.5)</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/data-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="staticdata-1.png" width="672" style="display: block; margin: auto;" /></p>
 <pre class="r"><code># Estimate nonparametric spatially-varying probabilities of type
   f1 &lt;- spatstat.core::relrisk.ppp(ppp_lansing, casecontrol = F, diggle = T, se = T, sigma = bw.diggle)
   
 # Default plots
   plot(f1$estimate, main = &quot;Probability of an event by type&quot;, zlim = c(0,1)) # probabilities</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/spatial%20segregration-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="staticspatial%20segregration-1.png" width="672" style="display: block; margin: auto;" /></p>
 <pre class="r"><code>  plot(f1$SE, main = &quot;Standard error of probability&quot;, zlim = c(0,0.03)) # standard errors</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/spatial%20segregration-2.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="staticspatial%20segregration-2.png" width="672" style="display: block; margin: auto;" /></p>
 <pre class="r"><code>  wh &lt;- spatstat.geom::im.apply(f1$estimate, which.max)
   types &lt;- levels(spatstat.geom::marks(spatstat.data::lansing))
   wh &lt;- spatstat.geom::eval.im(types[wh]) # most common 
   spatstat.geom::plot.im(wh, main=&quot;Most common species&quot;, ribargs = list(las = 1))</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/spatial%20segregration-3.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="staticspatial%20segregration-3.png" width="672" style="display: block; margin: auto;" /></p>
 <pre class="r"><code># Significant p-values assumming normality of the Poisson process
 ## relrisk() computes standard errors based on asymptotic theory, assuming a Poisson process
   alpha &lt;- 0.05                           # alpha
@@ -68,5 +68,5 @@ invisible(lapply(loadedPackages, require, character.only = T))</code></pre>
 
   # Plot significant p-values
   plot(f1$p, main = &quot;Significant difference from null?&quot;)</code></pre>
-<p><img src="{{< blogdown/postref >}}index_files/figure-html/spatial%20segregration-4.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="staticspatial%20segregration-4.png" width="672" style="display: block; margin: auto;" /></p>
 <p>The final plot identifies where the spatially-varying probabilities exceed the null expected probability of each type. Areas of higher-than-expected probability could be considered “hot-spots” and areas of lower-than-expected probability could be considered “cold-spots.” Areas that are not significantly different from the null expectation could suggest additional sampling is necessary to determine if these areas are hot or cold spots.</p>

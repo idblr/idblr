@@ -18,7 +18,7 @@ projects: []
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, fig.align = "center", message = FALSE, warning = FALSE, cache = FALSE)
+knitr::opts_chunk$set(echo = TRUE, fig.align = "center", message = FALSE, warning = FALSE, cache = FALSE, fig.path = "static")
 ```
 
 I present code to identify relative spatial clustering in multidimensional scaling / principal coordinate analysis (MDS/PCoA) space. I use a spatial relative risk function [risk](https://github.com/cran/sparr/blob/master/R/risk.R){target="_blank"} from the [sparr](https://github.com/cran/sparr){target="_blank"} package. I use a spatial segregation model  [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd){target="_blank"} from the [spatstat](https://github.com/spatstat/spatstat){target="_blank"} package. See my [previous post](/post/pvalues-spatial-segregation) about using the spatial segregation model.
