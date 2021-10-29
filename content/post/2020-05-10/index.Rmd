@@ -8,7 +8,7 @@ tags: ["R Markdown", "point pattern", "R"]
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2020-05-12T8:47:18-04:00'
+lastmod: '2021-10-28T8:47:18-04:00'
 featured: no
 image:
   caption: 'Image credit: [**Ian Buller**](/)'
@@ -27,7 +27,8 @@ Here, I use the standard errors to compute a 95\% confidence interval (CI) at al
 
 ```{r packages}
 # Packages
-  library(spatstat)
+loadedPackages <- c("spatstat.core", "spatstat.geom", "spatstat.data", "spatstat")
+invisible(lapply(loadedPackages, require, character.only = T))
 ```
 
 ```{r data}
@@ -35,27 +36,27 @@ Here, I use the standard errors to compute a 95\% confidence interval (CI) at al
   spatstat.data::lansing
 
 # Convert the lansing data to a ppp object
-  ppp_lansing <- spatstat::ppp(x = spatstat.data::lansing$x, 
+  ppp_lansing <- spatstat.geom::ppp(x = spatstat.data::lansing$x, 
                              y = spatstat.data::lansing$y,
-                             window = spatstat::unit.square(),
-                             marks = as.factor(spatstat::marks(spatstat.data::lansing)))
+                             window = spatstat.geom::unit.square(),
+                             marks = as.factor(spatstat.geom::marks(spatstat.data::lansing)))
 
 # Plot input
-  spatstat::plot.ppp(ppp_lansing, main = "Lansing Woods", cex = 0.5)
+  spatstat.geom::plot.ppp(ppp_lansing, main = "Lansing Woods", cex = 0.5)
 ```
 
 ```{r spatial segregration}
 # Estimate nonparametric spatially-varying probabilities of type
-  f1 <- spatstat::relrisk.ppp(ppp_lansing, casecontrol = F, diggle = T, se = T, sigma = bw.diggle)
+  f1 <- spatstat.core::relrisk.ppp(ppp_lansing, casecontrol = F, diggle = T, se = T, sigma = bw.diggle)
   
 # Default plots
   plot(f1$estimate, main = "Probability of an event by type", zlim = c(0,1)) # probabilities
   plot(f1$SE, main = "Standard error of probability", zlim = c(0,0.03)) # standard errors
   
-  wh <- spatstat::im.apply(f1$estimate, which.max)
-  types <- levels(spatstat::marks(spatstat.data::lansing))
-  wh <- spatstat::eval.im(types[wh]) # most common 
-  spatstat::plot.im(wh, main="Most common species", ribargs = list(las = 1))
+  wh <- spatstat.geom::im.apply(f1$estimate, which.max)
+  types <- levels(spatstat.geom::marks(spatstat.data::lansing))
+  wh <- spatstat.geom::eval.im(types[wh]) # most common 
+  spatstat.geom::plot.im(wh, main="Most common species", ribargs = list(las = 1))
   
 # Significant p-values assumming normality of the Poisson process
 ## relrisk() computes standard errors based on asymptotic theory, assuming a Poisson process
@@ -63,7 +64,7 @@ Here, I use the standard errors to compute a 95\% confidence interval (CI) at al
   z <- qnorm(alpha/2, lower.tail = F)     # z-statistic
   f1$u <- f1$estimate + z*f1$SE           # Upper CIs
   f1$l <- f1$estimate - z*f1$SE           # Lower CIs
-  mu_0 <- as.vector(table(spatstat::marks(ppp_lansing))/ppp_lansing$n) # null expectations by type
+  mu_0 <- as.vector(table(spatstat.geom::marks(ppp_lansing))/ppp_lansing$n) # null expectations by type
   f1$p <- f1$estimate # copy structure of pixels, replace values
   for (i in 1:length(f1$p)) {
     f1$p[[i]]$v <- factor(ifelse(mu_0[i] > f1$u[[i]]$v, "lower",
@@ -75,4 +76,4 @@ Here, I use the standard errors to compute a 95\% confidence interval (CI) at al
   plot(f1$p, main = "Significant difference from null?")
 ```
 
-The final plot identifies where the spatially-varying probabilities exceed the null expected probability of each type. Areas of higher-than-expected probability could be considered "hot-spots" and areas of lower-than-expected probability could be considered "cold-spots." Areas that are not significantly different from the null expectation could suggest additional sampling is necessary to determine if these areas are hot are cold spots. 
+The final plot identifies where the spatially-varying probabilities exceed the null expected probability of each type. Areas of higher-than-expected probability could be considered "hot-spots" and areas of lower-than-expected probability could be considered "cold-spots." Areas that are not significantly different from the null expectation could suggest additional sampling is necessary to determine if these areas are hot or cold spots. 
