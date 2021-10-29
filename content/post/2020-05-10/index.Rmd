@@ -18,7 +18,7 @@ projects: []
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, fig.align = "center", message = FALSE, warning = FALSE, fig.path = "static")
+knitr::opts_chunk$set(echo = TRUE, fig.align = "center", message = FALSE, warning = FALSE)
 ```
 
 I present code to identify areas of a spatial segregation model that exceed our null expectations using the [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd){target="_blank"} function in the [spatstat](https://github.com/spatstat/spatstat){target="_blank"} package and an assumption of normality of the estimated probabilities. A spatial segregation model was originally proposed by [Diggle, Zheng, & Durr in 2005]( https://doi.org/10.1111/j.1467-9876.2005.05373.x){target="_blank"} which estimates spatially-varying probabilities of an event of a certain type to occur in an area accounting for other types. The original method uses a Monte Carlo-based simulation, which is computationally expensive. Instead, [Adrian Baddeley](https://github.com/baddstats){target="_blank"} and the spatstat team adapted the [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd){target="_blank"} function for a multitype (m > 2) point pattern that has an option to compute the standard error of the probability estimates based on asymptotic theory, assuming a Poisson process. 
