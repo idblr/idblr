@@ -2,7 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-blogdown
+/blogdown
 .DS_Store
 public/ # if using Netlify
 *.Rproj
