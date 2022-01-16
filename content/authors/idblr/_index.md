@@ -54,7 +54,7 @@ social:
   link: https://www.linkedin.com/in/idblr/  
 - icon: cv
   icon_pack: ai
-  link: "files/cv_0521.pdf"
+  link: "files/cv_0122.pdf"
 superuser: true
 title: Ian Buller, Ph.D., M.A.
 user_groups:
