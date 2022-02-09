@@ -20,4 +20,4 @@ projects: []
 
 My second R package is on [CRAN](https://cran.r-project.org/) named [gateR](https://CRAN.R-project.org/package=gateR). It estimates clustering of cytometry cells using markers and the spatial relative risk function via the [sparr](https://CRAN.R-project.org/package=sparr) package. See the public [Github repository](https://github.com/Waller-SUSAN/gateR) for more details.
 
-Thanks to major contributions from Drs. [Elena Hsieh](https://medschool.cuanschutz.edu/immunology-and-microbiology/faculty/hsieh), [Debashis Ghosh](https://profiles.ucdenver.edu/display/7400934), and [Lance Waller](https://sph.emory.edu/faculty/profile/index.php?FID=lance-waller-345).
+Thanks to major contributions from [Elena Hsieh, MD](https://orcid.org/0000-0003-3969-6597), [Debashis Ghosh](https://orcid.org/0000-0001-6618-1316, PhD), and [Lance Waller, PhD](https://orcid.org/0000-0001-5002-8886).

@@ -1,6 +1,6 @@
 ---
 title: A Place for Spatial Analysis in the Cancer Control Continuum
-author: Ian Buller
+author: ~
 date: '2020-06-05'
 slug: frm1
 categories: ["talk"]

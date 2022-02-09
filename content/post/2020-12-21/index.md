@@ -20,4 +20,4 @@ projects: []
 
 My third R package is on [CRAN](https://cran.r-project.org/) named [envi](https://CRAN.R-project.org/package=envi). It estimates the ecological niche using presence/absence data and the spatial relative risk function via the [sparr](https://CRAN.R-project.org/package=sparr) package. See the public [Github repository](https://github.com/Waller-SUSAN/envi) for more details.
 
-Thanks to major contributions from Dr. [Lance Waller](https://sph.emory.edu/faculty/profile/index.php?FID=lance-waller-345).
+Thanks to major contributions from Dr. [Lance Waller](https://orcid.org/0000-0001-5002-8886).
