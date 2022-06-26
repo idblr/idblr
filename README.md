@@ -1,4 +1,4 @@
-<img align = "right" src = "static/img/US_Neighbors.png" width = "450">
+<img align = "right" src = "static/img/US_Neighbors.png" width = "400">
 
 Welcome to my GitHub! Please check out my [personal website](https://idblr.rbind.io/) to learn more about me and my work.
 
