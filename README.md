@@ -1,5 +1,5 @@
 
-<center>
+<p style="text-align: center;">
 <a href="https://github.com/idblr/geo_US_lung_cancer_and_smoking"><img 
 src="https://github.com/idblr/geo_US_lung_cancer_and_smoking/blob/main/hex/hex.png?raw=true" height="120"></a>
 <a href="https://github.com/idblr/NCI_Cancer_Center_Catchment_Areas"><img 
@@ -10,7 +10,8 @@ src="https://github.com/Waller-SUSAN/envi/blob/master/man/figures/envi.png?raw=t
 src="https://github.com/Waller-SUSAN/gateR/blob/master/man/figures/gateR.png?raw=true" height="120"></a>
 <a href="https://github.com/machiela-lab/sparrpowR"><img 
 src="https://github.com/idblr/idblr/blob/master/static/img/sparrpowR.png?raw=true" height="120"></a>
-</center>
+</p>
+<br>
 
 Welcome to my GitHub! Please check out my [personal website](https://idblr.rbind.io/) to learn more about me and my work.
 
