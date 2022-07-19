@@ -1,25 +1,15 @@
 
-<div class="row">
-<div class="column">
+<div style="text-align:center">
 <a href="https://github.com/idblr/geo_US_lung_cancer_and_smoking"><img 
-src="https://github.com/idblr/geo_US_lung_cancer_and_smoking/blob/main/hex/hex.png?raw=true" alt="geo_US_lung_cancer_and_smoking" height="120"></a>
-</div>
-<div class="column">
+src="https://github.com/idblr/geo_US_lung_cancer_and_smoking/blob/main/hex/hex.png?raw=true" height="120"></a>
 <a href="https://github.com/idblr/NCI_Cancer_Center_Catchment_Areas"><img 
-src="https://github.com/idblr/NCI_Cancer_Center_Catchment_Areas/blob/main/hex/hex.png?raw=true" alt="NCI_Cancer_Center_Catchment_Areas" height="120"></a>
-</div>
-<div class="column">
+src="https://github.com/idblr/NCI_Cancer_Center_Catchment_Areas/blob/main/hex/hex.png?raw=true" height="120"></a>
 <a href="https://github.com/Waller-SUSAN/envi"><img 
-src="https://github.com/Waller-SUSAN/envi/blob/master/man/figures/envi.png?raw=true" alt="envi" height="120"></a>
-</div>
-<div class="column">
+src="https://github.com/Waller-SUSAN/envi/blob/master/man/figures/envi.png?raw=true" height="120"></a>
 <a href="https://github.com/Waller-SUSAN/gateR"><img 
-src="https://github.com/Waller-SUSAN/gateR/blob/master/man/figures/gateR.png?raw=true" alt="gateR" height="120"></a>
-</div>
-<div class="column">
+src="https://github.com/Waller-SUSAN/gateR/blob/master/man/figures/gateR.png?raw=true" height="120"></a>
 <a href="https://github.com/machiela-lab/sparrpowR"><img 
-src="https://github.com/idblr/idblr/blob/master/static/img/sparrpowR.png?raw=true" alt="sparrpowR" height="120"></a>
-</div>
+src="https://github.com/idblr/idblr/blob/master/static/img/sparrpowR.png?raw=true" height="120"></a>
 </div>
 <br>
 
