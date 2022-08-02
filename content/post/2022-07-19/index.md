@@ -8,7 +8,7 @@ tags: ["esophageal cancer", "nitrate", "sodium", "drinking water", "Iran"]
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2022-07-19T07:41:03-04:00'
+lastmod: '2022-08-02T07:41:03-04:00'
 featured: no
 image:
   caption: 'Image credit: [**Environ. Res. article**](https://doi.org/10.1016/j.envres.2022.113906)'
