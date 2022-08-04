@@ -1,7 +1,7 @@
 
 <div style="text-align:center">
 <a href="https://github.com/idblr/ndi"><img 
-src="https://github.com/idblr/envi/blob/main/man/figures/ndi.png?raw=true" height="120"></a>
+src="https://github.com/idblr/ndi/blob/main/man/figures/ndi.png?raw=true" height="120"></a>
 <a href="https://github.com/idblr/geo_US_lung_cancer_and_smoking"><img 
 src="https://github.com/idblr/geo_US_lung_cancer_and_smoking/blob/main/hex/hex.png?raw=true" height="120"></a>
 <a href="https://github.com/idblr/NCI_Cancer_Center_Catchment_Areas"><img 
