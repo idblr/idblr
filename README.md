@@ -1,13 +1,15 @@
 
 <div style="text-align:center">
+<a href="https://github.com/idblr/ndi"><img 
+src="https://github.com/idblr/envi/blob/main/man/figures/ndi.png?raw=true" height="120"></a>
 <a href="https://github.com/idblr/geo_US_lung_cancer_and_smoking"><img 
 src="https://github.com/idblr/geo_US_lung_cancer_and_smoking/blob/main/hex/hex.png?raw=true" height="120"></a>
 <a href="https://github.com/idblr/NCI_Cancer_Center_Catchment_Areas"><img 
 src="https://github.com/idblr/NCI_Cancer_Center_Catchment_Areas/blob/main/hex/hex.png?raw=true" height="120"></a>
 <a href="https://github.com/Waller-SUSAN/envi"><img 
-src="https://github.com/Waller-SUSAN/envi/blob/master/man/figures/envi.png?raw=true" height="120"></a>
+src="https://github.com/Waller-SUSAN/envi/blob/main/man/figures/envi.png?raw=true" height="120"></a>
 <a href="https://github.com/Waller-SUSAN/gateR"><img 
-src="https://github.com/Waller-SUSAN/gateR/blob/master/man/figures/gateR.png?raw=true" height="120"></a>
+src="https://github.com/Waller-SUSAN/gateR/blob/main/man/figures/gateR.png?raw=true" height="120"></a>
 <a href="https://github.com/machiela-lab/sparrpowR"><img 
 src="https://github.com/idblr/idblr/blob/master/static/img/sparrpowR.png?raw=true" height="120"></a>
 </div>
