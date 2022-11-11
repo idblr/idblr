@@ -77,3 +77,10 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+# Adds rel support to social links
+[[params.social]]
+  name = "Example"
+  url = "//example.com"
+  rel = "me"
+    
