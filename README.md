@@ -1,5 +1,7 @@
 
 <div style="text-align:center">
+<a href="https://github.com/machiela-lab/UKBBcleanR"><img 
+src="https://github.com/machiela-lab/UKBBcleanR/blob/main/man/figures/UKBBcleanR.png?raw=true" height="120"></a>
 <a href="https://github.com/idblr/ndi"><img 
 src="https://github.com/idblr/ndi/blob/main/man/figures/ndi.png?raw=true" height="120"></a>
 <a href="https://github.com/idblr/geo_US_lung_cancer_and_smoking"><img 
