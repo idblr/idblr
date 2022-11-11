@@ -34,9 +34,6 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=QajtftEAAAAJ&hl=en
-- icon: impactstory
-  icon_pack: ai
-  link: https://profiles.impactstory.org/u/0000-0001-9477-8582
 - icon: github
   icon_pack: fab
   link: https://github.com/idblr
@@ -45,13 +42,16 @@ social:
   link: https://stackoverflow.com/users/6784787/idblr?tab=profile
 - icon: publons
   icon_pack: ai
-  link: https://publons.com/researcher/3412558/ian-buller/
-- icon: twitter
+  link: https://www.webofscience.com/wos/author/rid/AAM-5483-2020
+- icon: mastodon
   icon_pack: fab
-  link: https://twitter.com/idblr
+  link: https://mastodon.social/@idblr
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/idblr/  
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/idblr
 - icon: cv
   icon_pack: ai
   link: "files/cv_0922.pdf"
