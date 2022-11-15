@@ -1,5 +1,5 @@
 ---
-title: Find me on Mastadon
+title: Find me on Mastodon
 author: ~
 date: '2022-10-29'
 slug: mastodon
@@ -8,7 +8,7 @@ tags: ["social"]
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2022-11-09T9:30:04-04:00'
+lastmod: '2022-11-15T9:30:04-04:00'
 featured: no
 projects: []
 ---
