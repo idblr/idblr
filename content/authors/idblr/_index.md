@@ -46,6 +46,7 @@ social:
 - icon: mastodon
   icon_pack: fab
   link: https://mastodon.social/@idblr
+  rel: "me"
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/idblr/  
