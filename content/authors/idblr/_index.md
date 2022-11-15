@@ -46,7 +46,6 @@ social:
 - icon: mastodon
   icon_pack: fab
   link: https://mastodon.social/@idblr
-  rel: "me"
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/idblr/  
@@ -72,3 +71,5 @@ user_groups:
 I am a Postdoctoral Cancer Prevention Fellow in the [Cancer Prevention Fellowship Program](https://cpfp.cancer.gov/) at the [National Cancer Institute](https://www.cancer.gov/) (Preceptor: [Rena Jones, PhD, MS](https://orcid.org/0000-0003-1294-1679)) working within the [Occupational and Enviornmental Epidemiology Branch](https://dceg.cancer.gov/about/organization/programs-ebp/oeeb) of the [Division of Cancer Epidemiology and Genetics](https://dceg.cancer.gov/), part of the [Intramural Research Program](https://irp.nih.gov/) at the [National Institutes of Health](https://www.nih.gov/).
 
 I received a Ph.D. in [Environmental Health Sciences](https://www.sph.emory.edu/departments/eh/degree-programs/phd/index.html) at [Emory University](http://www.emory.edu) (Advisor: [Lance Waller, PhD](https://orcid.org/0000-0001-5002-8886)) after completing a concurrent B.A./M.A. in [Ecology and Evolutionary Biology](https://www.colorado.edu/ebio/) from the [University of Colorado at Boulder](https://www.colorado.edu/) (Advisor: [Pieter Johnson, PhD](https://orcid.org/0000-0003-1294-1679)). My [research](https://www.ncbi.nlm.nih.gov/myncbi/ian.buller.1/bibliography/public/) has been published in the [American Journal of Epidemiology](https://academic.oup.com/aje), [Cancer Epidemiology, Biomarkers & Prevention](https://cebp.aacrjournals.org/), [Ecology](https://esajournals.onlinelibrary.wiley.com/journal/19399170), [Environmental Research](https://www.journals.elsevier.com/environmental-research), [International Journal of Environmental Research and Health](https://www.mdpi.com/journal/ijerph), and [International Journal of Health Geographics](https://ij-healthgeographics.biomedcentral.com/).
+
+<a rel="me" style="display: none;" href="https://mastodon.social/@idblr">Mastodon Verification</a>
