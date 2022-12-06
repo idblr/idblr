@@ -48,14 +48,14 @@ date_format = "Jan 2006"
   date_end = "2021-05-15"
   description = "The competitive program supports innovative approaches to epidemiological methods, data collection, analysis, and other research efforts using modern technology and informatics. Co-awarded with [Dr. Derek Brown](https://orcid.org/0000-0001-8393-1713) for a project entitled 'sparrpowR: A flexible R package and webtool to estimate statistical power of a spatial cluster detection technique.'"
   
-# [[item]]
-#   organization = "National Science Foundation"
-#   organization_url = "https://www.nsf.gov/"
-#   title = "Graduate Research Fellowship Program"
-#   url = "https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=6201"
-#   certificate_url = ""
-#   date_start = "2014-07-01"
-#   date_end = "2019-04-30"
-#   description = "This award recognizes and supports individuals early in their graduate training in Science, Technology, Engineering, and Mathematics (STEM) fields. In 2017, I received a supplimental NSF [Graduate Research Internship Program](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505127) to work with Dr. [Sarah Bevins](https://www.aphis.usda.gov/aphis/ourfocus/wildlifedamage/programs/nwrc/research-areas/sa_scientists/ct_bevins) at the [U.S. Department of Agriculture Animal and Plant Health Inspection Service](https://www.aphis.usda.gov/aphis/home/) [Wildlife Disease Program](https://www.aphis.usda.gov/aphis/ourfocus/wildlifedamage/programs/nwrc/nwdp/ct_nwdp)."
+[[item]]
+  organization = "National Science Foundation"
+  organization_url = "https://www.nsf.gov/"
+  title = "Graduate Research Fellowship Program"
+  url = "https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=6201"
+  certificate_url = ""
+  date_start = "2014-07-01"
+  date_end = "2018-06-30"
+  description = "This award recognizes and supports individuals early in their graduate training in Science, Technology, Engineering, and Mathematics (STEM) fields. In 2017, I received a supplemental NSF [Graduate Research Internship Program](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505127) to work with Dr. [Sarah Bevins](https://www.aphis.usda.gov/aphis/ourfocus/wildlifedamage/programs/nwrc/research-areas/sa_scientists/ct_bevins) at the [U.S. Department of Agriculture Animal and Plant Health Inspection Service](https://www.aphis.usda.gov/aphis/home/) [Wildlife Disease Program](https://www.aphis.usda.gov/aphis/ourfocus/wildlifedamage/programs/nwrc/nwdp/ct_nwdp)."
 
 +++

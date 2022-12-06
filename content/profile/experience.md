@@ -18,16 +18,26 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Postdoctoral Cancer Prevention Fellow"
-  company = "The National Cancer Institute"
-  company_url = "https://cpfp.cancer.gov/about-us/cpfp-fellow/ian-buller"
-  location = "Rockville, MD"
-  date_start = "2019-06-10"
+  title = "Epidemiologist"
+  company = "Social & Scientific Systems, Inc., a division of DLH Corporation"
+  company_url = "https://www.dlhcorp.com/"
+  location = "Silver Springs, MD"
+  date_start = "2022-12-05"
   date_end = ""
   # description = """
   # Responsibilities include:"""
   
-  [[experience]]
+[[experience]]
+  title = "Postdoctoral Cancer Prevention Fellow"
+  company = "The National Cancer Institute"
+  company_url = "https://cpfp.cancer.gov"
+  location = "Rockville, MD"
+  date_start = "2019-06-10"
+  date_end = "2022-12-04"
+  # description = """
+  # Responsibilities include:"""
+  
+[[experience]]
   title = "National Science Foundation Graduate Research Fellow"
   company = "Emory University"
   company_url = "https://www.sph.emory.edu/departments/eh/degree-programs/phd/index.html"

@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Personal website of Ian David Buller where I blog about spatial analysis in R. Opinions/Content/Views are my own."
+description = "Personal website of Ian D. Buller where I blog about my professional accomplishments and (geo)spatial analysis in R. Opinions/Content/Views are my own."
 
 ############################
 ## Site Features
@@ -81,19 +81,19 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "ian.d.buller@gmail.com"
+email = "ian.d.buller@alumni.emory.edu"
 phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "9609 Medical Center Drive, 6E124", city = "Rockville", region = "MD", postcode = "20850", country = "United States", country_code = "US"}
+address = {street = "8757 Georgia Avenue, Suite 1200", city = "Silver Spring", region = "MD", postcode = "20910", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "39.1033", longitude = "-77.1974"}
+coordinates = {latitude = "38.998640", longitude = "-77.030490"}
 
 # Directions for visitors to locate you.
-directions = "See the [NCI visitor instructions](https://www.cancer.gov/about-nci/visit)"
+directions = "12th Floor"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
