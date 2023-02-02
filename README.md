@@ -25,3 +25,5 @@ My [research](https://www.ncbi.nlm.nih.gov/myncbi/ian.buller.1/bibliography/publ
 
 | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats-idblr.vercel.app/api?username=idblr&show_icons=true&include_all_commits=true&theme=dark&hide_border=true" alt="Ian D Buller's GitHub stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats-idblr.vercel.app/api/top-langs/?username=idblr&layout=compact&theme=dark&hide_border=true&langs_count=4&hide=css,html,javascript,scss" /></a> 
 | ------------- | ------------- |
+
+<link rel="me" href="https://mastodon.social/@idblr">
