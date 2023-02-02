@@ -8,7 +8,7 @@ tags: ["deprivation", "R", "CRAN", "census", "principal component analysis", "so
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2022-08-18T9:30:04-04:00'
+lastmod: '2023-02-01T9:30:04-04:00'
 featured: no
 image: 
   caption: 'Image credit: [**Ian Buller**](/)'
@@ -34,3 +34,15 @@ Both are a decomposition of various demographic characteristics from the U.S. Ce
 And retrieves the Gini Index based on [Gini (1921)](https://www.doi.org/10.2307/2223319).
 
 **Update** - 2022-08-18: The package link was added to the [NCI](https://www.cancer.gov/) [GIS Portal for Cancer Research](https://gis.cancer.gov/) [Accumulating Data to Optimally Predict Obesity Treatment (ADOPT) Core Measures](https://www.nhlbi.nih.gov/science/adopt) [Environmental Domain site](https://gis.cancer.gov/research/adopt.html) under the "Socioeconomic Deprivation" tab.
+
+**Update** - 2022-10-01: The package computes an additional metric using ACS-5 data (2009-2020) to compute the Index of Concentration at the Extremes (ICE) based on [Feldman et al. (2015)](https://www.doi.org/10.1136/jech-2015-205728) and [Krieger et al. (2016)](https://www.doi.org/10.2105/AJPH.2015.302955)
+
+**Update** - 2022-12-01: The package computes an additional metric using ACS-5 data (2009-2020) to compute the Dissimilarity Index (DI) based on [Duncan & Duncan (1955)](https://doi.org/10.2307/2088328)
+
+**Update** - 2023-02-01: The package computes two additional metrics using ACS-5 data (2009-2020): 
+
+1. the aspatial income or racial/ethnic Atkinson Index (AI) based on [Atkinson (1970)](https://doi.org/10.1016/0022-0531(70)90039-6) for specified counties/tracts 2009 onward
+2. the aspatial racial/ethnic Isolation Index (II) based on Shevky & Williams (1949; ISBN-13:978-0837156378) and [Bell (1954)](https://doi.org/10.2307/2574118)
+3. the aspatial racial/ethnic Correlation Ratio (V) based on [Bell (1954)](https://doi.org/10.2307/2574118) and [White (1986)](https://doi.org/10.2307/3644339)
+4. the aspatial racial/ethnic Location Quotient (LQ) based on [Merton (1939)](https://doi.org/10.2307/2084686) and [Sudano et al. (2013)](https://doi.org/10.1016/j.healthplace.2012.09.015)
+5. the aspatial racial/ethnic Local Exposure and Isolation metric (LEx/Is) based on [Bemanian & Beyer (2017)](https://doi.org/10.1158/1055-9965.EPI-16-0926)
