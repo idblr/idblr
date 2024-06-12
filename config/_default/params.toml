@@ -86,14 +86,14 @@ phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "8757 Georgia Avenue, Suite 1200", city = "Silver Spring", region = "MD", postcode = "20910", country = "United States", country_code = "US"}
+address = {street = "6720B Rockledge Drive, Suite 777", city = "Bethesda", region = "MD", postcode = "20817", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "38.998640", longitude = "-77.030490"}
+coordinates = {latitude = "39.029384", longitude = "-77.137355"}
 
 # Directions for visitors to locate you.
-directions = "12th Floor"
+directions = "Fully Remote"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
