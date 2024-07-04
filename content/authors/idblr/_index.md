@@ -83,3 +83,4 @@ My [research](https://www.ncbi.nlm.nih.gov/myncbi/ian.buller.1/bibliography/publ
 -  [Journal of Exposure Science & Environmental Epidemiology](https://www.nature.com/jes/)
 -  [Journal of the National Cancer Institute](https://academic.oup.com/jnci)
 -  [Proceedings of the National Academy of Sciences](https://www.pnas.org)
+-  [Science of the Total Environment](https://www.sciencedirect.com/journal/science-of-the-total-environment)
