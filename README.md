@@ -1,5 +1,7 @@
 
 <div style="text-align:center">
+<a href="https://github.com/idblr/geomethylation"><img 
+src="https://github.com/idblr/geomethylation/blob/main/hex/geomethylation.png?raw=true" height="120"></a>
 <a href="https://github.com/machiela-lab/UKBBcleanR"><img 
 src="https://github.com/machiela-lab/UKBBcleanR/blob/main/man/figures/UKBBcleanR.png?raw=true" height="120"></a>
 <a href="https://github.com/idblr/ndi"><img 
@@ -19,9 +21,9 @@ src="https://github.com/idblr/idblr/blob/master/static/img/sparrpowR.png?raw=tru
 
 Welcome to my GitHub! Please check out my [personal website](https://idblr.rbind.io/) to learn more about me and my work.
 
-I am an Epidemiologist at Social and Scientific Systems, Inc. a division of [DLH Corporation](https://www.dlhcorp.com).
+I am an Epidemiologist at [DLH Corporation](https://www.dlhcorp.com) (formerly Social and Scientific Systems, Inc.). Disclaimer: All content is my own & does not represent my employer.
 
-My [research](https://www.ncbi.nlm.nih.gov/myncbi/ian.buller.1/bibliography/public/) focuses on the (geo)spatial and environmental epidemiology of cancer and infectious disease. Here, you will find public repositories for packages on the [Comprehensive R Archive Network](https://cran.r-project.org/) and coding companions for peer-reviewed manuscripts.
+My [research](https://www.ncbi.nlm.nih.gov/myncbi/ian.buller.1/bibliography/public/) focuses on (geo)spatial and environmental epidemiology, primarily within Climate & Health. Here, you will find public repositories for packages on the [Comprehensive R Archive Network](https://cran.r-project.org/) and coding companions for peer-reviewed manuscripts.
 
 | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats-idblr.vercel.app/api?username=idblr&show_icons=true&include_all_commits=true&theme=dark&hide_border=true" alt="Ian D Buller's GitHub stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats-idblr.vercel.app/api/top-langs/?username=idblr&layout=compact&theme=dark&hide_border=true&langs_count=4&hide=css,html,javascript,scss" /></a> 
 | ------------- | ------------- |
