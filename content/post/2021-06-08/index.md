@@ -18,4 +18,4 @@ projects: []
 ---
 
 I received an annual Merit Award from the National Cancer Institute (NCI) Division of Cancer Prevention [Cancer Prevention Fellowship Program](https://cpfp.cancer.gov/) (CPFP) that recognizes scientific productivity, leadership, and
-exemplary service to the CPFP, NCI, National Institutes of Health, and other outside organizations in cancer prevention. Three other postdoctoral Cancer Prevention Fellows also won an award this year: [Jacqueline Vo, PhD, RN, MPH](https://orcid.org/0000-0001-8891-4437), [Derek Brown, PhD, MS](https://orcid.org/0000-0001-8393-1713), and [Sydney O'Connor, PhD](https://orcid.org/0000-0003-0146-562X)
+exemplary service to the CPFP, NCI, National Institutes of Health, and other outside organizations in cancer prevention. Three other postdoctoral Cancer Prevention Fellows also won an award this year: [Dr. Jacqueline Vo](https://orcid.org/0000-0001-8891-4437), [Dr. Derek Brown](https://orcid.org/0000-0001-8393-1713), and [Dr. Sydney O'Connor](https://orcid.org/0000-0003-0146-562X)

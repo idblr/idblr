@@ -17,4 +17,4 @@ image:
 projects: []
 ---
 
-I started working with [Rena Jones, PhD, MS](https://orcid.org/0000-0003-1294-1679) in the [Occupational and Environmental Epidemiology Branch](https://dceg.cancer.gov/about/organization/tdrp/oeeb) within the [Division of Cancer Epidemiology and Genetics](https://dceg.cancer.gov/) at the [National Cancer Institute](https://www.cancer.gov/) part of the [National Institutes of Health](https://www.nih.gov/) [Intramural Research Program](https://irp.nih.gov/) as my [Cancer Prevention Fellowship Program](https://cpfp.cancer.gov/) preceptor.
+I started working with [Dr. Rena Jones](https://orcid.org/0000-0003-1294-1679) in the [Occupational and Environmental Epidemiology Branch](https://dceg.cancer.gov/about/organization/tdrp/oeeb) within the [Division of Cancer Epidemiology and Genetics](https://dceg.cancer.gov/) at the [National Cancer Institute](https://www.cancer.gov/) part of the [National Institutes of Health](https://www.nih.gov/) [Intramural Research Program](https://irp.nih.gov/) as my [Cancer Prevention Fellowship Program](https://cpfp.cancer.gov/) preceptor.

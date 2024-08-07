@@ -17,4 +17,4 @@ image:
 projects: []
 ---
 
-I received a DCEG Fellows Award for Research Excellence from the NCI [Division of Cancer Epidemiology and Genetics](https://dceg.cancer.gov/) for an abstract entitled "Geographic variation in the oral microbiome of NIH-AARP Diet and Health Study participants." I was one of nine recipients. The award provides funding for travel to scientific meetings or conferences to fellows who have made exceptional contributions to research projects at DCEG. The award was conferred virtually due to the coronavirus pandemic. 
+I received a DCEG Fellows Award for Research Excellence from the NCI [Division of Cancer Epidemiology and Genetics](https://dceg.cancer.gov/) for an abstract entitled "Geographic variation in the oral microbiome of NIH-AARP Diet and Health Study participants." I was one of nine recipients. The award provides funding for travel to scientific meetings or conferences to fellows who have made exceptional contributions to research projects at DCEG. The award was conferred virtually due to the coronavirus pandemic.

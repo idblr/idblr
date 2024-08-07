@@ -17,7 +17,7 @@ image:
 projects: []
 ---
 
-My fourth R package is on [CRAN](https://cran.r-project.org/) named [ndi](https://CRAN.R-project.org/package=ndi). It computes various geospatial neighborhood deprivation indices (NDI) and other metrics of social vulnerability in the United States. 
+My fourth R package is published in the [Comprehensive R Archive Network](https://cran.r-project.org/) named [*ndi*](https://CRAN.R-project.org/package=ndi). It computes various geospatial neighborhood deprivation indices (NDI) and other metrics of social vulnerability in the United States. 
 
 Two types of NDI are available in the initial version: 
 

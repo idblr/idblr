@@ -13,4 +13,4 @@ featured: no
 projects: []
 ---
 
-I presented a poster entitled "Geographic variation in the oral microbiome of NIH-AARP Diet and Health Study participants" at the [2021 FDA-NIH-NIST-USDA Joint Agency Microbiome (JAM) Symposium](https://jam-2021.virtualpostersession.org/) held virtually due to the global [COVID-19](https://www.cdc.gov/coronavirus/2019-ncov/index.html) pandemic. This poster was previously presented at the [International Society for Environmental Epidemiology 2020 Annual meeting](/post/isee-2020)
+I presented a poster entitled "Geographic variation in the oral microbiome of NIH-AARP Diet and Health Study participants" at the [2021 FDA-NIH-NIST-USDA Joint Agency Microbiome (JAM) Symposium](https://jam-2021.virtualpostersession.org/) held virtually due to the global [COVID-19](https://www.cdc.gov/coronavirus/2019-ncov/index.html) pandemic. This poster was previously presented at the [International Society for Environmental Epidemiology 2020 Annual meeting](/post/isee-2020).

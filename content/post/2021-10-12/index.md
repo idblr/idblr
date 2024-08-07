@@ -13,4 +13,4 @@ featured: no
 projects: []
 ---
 
-I hosted [David Wheeler, PhD, MPH, MAS, MA](https://medschool.vcu.edu/expertise/detail.html?id=dcwheeler), Associate Professor in the Department of Biostatistics within the School of Medicine at Virginia Commonwealth University, for the [National Cancer Institute](https://www.cancer.gov/) [Cancer Prevention Fellowship Program](https://cpfp.cancer.gov/) [Cancer Prevention and Control Colloquia Series](https://cpfp.cancer.gov/colloquia). He gave a talk entitled, "Estimating Neighborhood Disadvantage Indices for Health Outcomes." I moderated the hour-long virtual session.
+I hosted [Dr. David Wheeler](https://medschool.vcu.edu/expertise/detail.html?id=dcwheeler), Associate Professor in the Department of Biostatistics within the School of Medicine at Virginia Commonwealth University, for the [National Cancer Institute](https://www.cancer.gov/) [Cancer Prevention Fellowship Program](https://cpfp.cancer.gov/) [Cancer Prevention and Control Colloquia Series](https://cpfp.cancer.gov/colloquia). He gave a talk entitled, "Estimating Neighborhood Disadvantage Indices for Health Outcomes." I moderated the hour-long virtual session.

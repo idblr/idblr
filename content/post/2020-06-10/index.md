@@ -18,8 +18,8 @@ image:
 projects: []
 ---
 
-My first R package is on [CRAN](https://cran.r-project.org/) named [sparrpowR](https://CRAN.R-project.org/package=sparrpowR). It provides a statistical power calculation for the spatial relative risk function via the [sparr](https://CRAN.R-project.org/package=sparr) package. See the public [Github repository](https://github.com/machiela-lab/sparrpowR) for more details. The featured image comes from the package [vignette](https://cran.r-project.org/web/packages/sparrpowR/vignettes/vignette.html). 
+My first R package is in the [Comprehensive R Archive Network](https://cran.r-project.org/) named [*sparrpowR*](https://CRAN.R-project.org/package=sparrpowR). It provides a statistical power calculation for the spatial relative risk function via the [*sparr*](https://CRAN.R-project.org/package=sparr) package. See the public [Github repository](https://github.com/machiela-lab/sparrpowR) for more details. The featured image comes from the package [vignette](https://cran.r-project.org/web/packages/sparrpowR/vignettes/vignette.html). 
 
-Thanks to [Derek Brown, PhD, MS](https://orcid.org/0000-0001-8393-1713) as my co-first author as well as major contributions from [Tim Myers](https://github.com/timyers), and [Mitch Machiela, ScD, MPH](https://orcid.org/0000-0001-6538-9705)
+Thanks to [Dr. Derek Brown](https://orcid.org/0000-0001-8393-1713) as my co-first author as well as major contributions from [Tim Myers](https://github.com/timyers), and [Dr. Mitch Machiela](https://orcid.org/0000-0001-6538-9705)
 
 <img src="/img/sparrpowR.png" width="300" align="center"/>
