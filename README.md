@@ -1,5 +1,7 @@
 
 <div style="text-align:center">
+<a href="https://github.com/idblr/Plague_Coyote_Climate"><img 
+src="https://github.com/idblr/Plague_Coyote_Climate/blob/main/hex/hex.png?raw=true" height="120"></a>
 <a href="https://github.com/idblr/geomethylation"><img 
 src="https://github.com/idblr/geomethylation/blob/main/hex/geomethylation.png?raw=true" height="120"></a>
 <a href="https://github.com/machiela-lab/UKBBcleanR"><img 
