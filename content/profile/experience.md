@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Epidemiologist"
-  company = "DLH Corporation (formerly Social & Scientific Systems, Inc.)"
+  company = "DLH, LLC (formerly Social & Scientific Systems, Inc.)"
   company_url = "https://www.dlhcorp.com/"
   location = "Bethesda, MD"
   date_start = "2022-12-05"

@@ -23,7 +23,7 @@ src="https://github.com/idblr/idblr/blob/master/static/img/sparrpowR.png?raw=tru
 
 Welcome to my GitHub! Please check out my [personal website](https://idblr.rbind.io/) to learn more about me and my work.
 
-I am an Epidemiologist at [DLH Corporation](https://www.dlhcorp.com) (formerly Social and Scientific Systems, Inc.). Disclaimer: All content is my own & does not represent my employer.
+I am an Epidemiologist at [DLH, LLC](https://www.dlhcorp.com) (formerly Social and Scientific Systems, Inc.). Disclaimer: All content is my own & does not represent my employer.
 
 My [research](https://www.ncbi.nlm.nih.gov/myncbi/ian.buller.1/bibliography/public/) focuses on (geo)spatial and environmental epidemiology, primarily within Climate & Health. Here, you will find public repositories for packages on the [Comprehensive R Archive Network](https://cran.r-project.org/) and coding companions for peer-reviewed manuscripts.
 
