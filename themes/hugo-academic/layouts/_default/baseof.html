@@ -3,6 +3,24 @@
 <html lang="{{$language_code}}" {{ if in site.Data.i18n.rtl.rtl $language_code }}dir="rtl"{{end}}>
 
 {{ partial "site_head" . }}
+<head>
+  <!-- Vercel Analytics -->
+{{ if site.Params.vercel_analytics.enable }}
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+{{ end }}
+
+<!-- Vercel Speed Insights -->
+{{ if site.Params.vercel_speed_insights.enable }}
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+{{ end }}
+</head>
+
 <body id="top" data-spy="scroll" data-offset="70" data-target="{{ if or .IsHome (eq .Type "widget_page") }}#navbar-main{{else}}#TableOfContents{{end}}" {{ if not (.Scratch.Get "light") }}class="dark"{{end}}>
 
   {{ partial "search" . }}

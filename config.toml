@@ -77,4 +77,11 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+  
+# Vercel Analytics
+[params.vercel_analytics]
+  enable = true
+  
+[params.vercel_speed_insights]
+  enable = true
     
