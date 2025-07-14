@@ -69,7 +69,7 @@ user_groups:
  
  </center>
 
-I am an Epidemiologist at [DLH, LLC](https://www.dlhcorp.com) (formerly known as Social and Scientific Systems, Inc.) within [Public Health & Scientific Research](https://www.dlhcorp.com/public-health-research/) focusing on the (geo)spatial and environmental epidemiology of various health outcomes, including cancer and infectious disease.
+I am an Epidemiologist within [Public Health & Scientific Research](https://www.dlhcorp.com/public-health-research/) at [DLH, LLC](https://www.dlhcorp.com) (formerly known as Social and Scientific Systems, Inc.), focusing on the (geo)spatial and environmental epidemiology of various health outcomes, including cancer and infectious disease.
 
 I was a Postdoctoral Cancer Prevention Fellow in the [Cancer Prevention Fellowship Program](https://cpfp.cancer.gov/) at the [National Cancer Institute](https://www.cancer.gov) (Preceptor: [Rena Jones, PhD, MS](https://orcid.org/0000-0003-1294-1679)) working within the [Occupational and Enviornmental Epidemiology Branch](https://dceg.cancer.gov/about/organization/tdrp/oeeb) of the [Division of Cancer Epidemiology and Genetics](https://dceg.cancer.gov), part of the [Intramural Research Program](https://irp.nih.gov) at the [National Institutes of Health](https://www.nih.gov). I received a PhD in [Environmental Health Sciences](https://www.sph.emory.edu/departments/eh/degree-programs/phd/index.html) at [Emory University](http://www.emory.edu) (Advisor: [Lance Waller, PhD](https://orcid.org/0000-0001-5002-8886)) after completing a concurrent BA/MA in [Ecology and Evolutionary Biology](https://www.colorado.edu/ebio/) from the [University of Colorado at Boulder](https://www.colorado.edu) (Advisor: [Pieter Johnson, PhD](https://orcid.org/0000-0002-7997-5390)). 
 
@@ -81,6 +81,7 @@ My [research](https://www.ncbi.nlm.nih.gov/myncbi/ian.buller.1/bibliography/publ
 -  [*Ecology*](https://esajournals.onlinelibrary.wiley.com/journal/19399170)
 -  [*Environmental Research*](https://www.journals.elsevier.com/environmental-research)
 -  [*Epidemiology*](http://www.epidem.com/)
+-  [*Frontiers in Public Health*](https://www.frontiersin.org/journals/public-health)
 -  [*International Journal of Environmental Research and Health*](https://www.mdpi.com/journal/ijerph)
 -  [*International Journal of Health Geographics*](https://ij-healthgeographics.biomedcentral.com/)
 -  [*Journal of Agricultural, Biological and Environmental Statistics*](https://www.springer.com/journal/13253)
