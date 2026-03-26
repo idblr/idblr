@@ -1,19 +1,17 @@
 ---
 title: Society for Epidemiologic Research 2020
-author: ~
+authors: ["idblr"]
 date: '2020-12-16'
 slug: ser-2020
 categories: ["poster"]
-tags: ["microbiome", "spatial analysis", "AHS", "conference"]
+tags: ["microbiome", "spatial analysis", "AHS", "conference", "CPFP"]
 subtitle: ''
 summary: ''
-authors: []
-lastmod: '2020-12-16T14:41:03-04:00'
 featured: no
 image:
   caption: 'Image credit: [**SER2020**](https://epiresearch.org/annual-meeting/2020-meeting/)'
   focal_point: ''
-  preview_only: no
+  preview_only: false
 projects: []
 ---
 

@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>job | Ian Buller, Ph.D., M.A.</title>
+    <title>Job | Ian Buller, Ph.D., M.A.</title>
     <link>https://idblr.rbind.io/category/job/</link>
       <atom:link href="https://idblr.rbind.io/category/job/index.xml" rel="self" type="application/rss+xml" />
-    <description>job</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Sat, 10 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <description>Job</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://idblr.rbind.io/img/avatar.jpg</url>
-      <title>job</title>
+      <title>Job</title>
       <link>https://idblr.rbind.io/category/job/</link>
     </image>
+    
+    <item>
+      <title>New Affiliation</title>
+      <link>https://idblr.rbind.io/post/new-affiliation-2022/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/new-affiliation-2022/</guid>
+      <description>&lt;p&gt;I completed my postdoctoral fellowship at the 
+&lt;a href=&#34;https://www.cancer.gov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; through the 
+&lt;a href=&#34;https://cpfp.cancer.gov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt; working with 
+&lt;a href=&#34;https://orcid.org/0000-0003-1294-1679&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Rena Jones&lt;/a&gt; and 
+&lt;a href=&#34;https://orcid.org/0000-0001-7584-8856&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Mary Ward&lt;/a&gt; in the 
+&lt;a href=&#34;https://dceg.cancer.gov/about/organization/tdrp/oeeb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Occupational and Environmental Epidemiology Branch&lt;/a&gt; in the 
+&lt;a href=&#34;https://dceg.cancer.gov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; in Rockville, Maryland.&lt;/p&gt;
+&lt;p&gt;I am now an Epidemiologist at 
+&lt;a href=&#34;https://www.dlhcorp.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DLH, LLC&lt;/a&gt; (formerly Social and Scientific Systems, Inc.), in Bethesda, Maryland.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>New Postdoctoral Mentor</title>
@@ -18,7 +34,7 @@
       <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/oeeb-2019/</guid>
       <description>&lt;p&gt;I started working with 
-&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/jones-rena&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Rena Jones&lt;/a&gt; in the 
+&lt;a href=&#34;https://orcid.org/0000-0003-1294-1679&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Rena Jones&lt;/a&gt; in the 
 &lt;a href=&#34;https://dceg.cancer.gov/about/organization/tdrp/oeeb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Occupational and Environmental Epidemiology Branch&lt;/a&gt; within the 
 &lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; at the 
 &lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; part of the 

@@ -1,14 +1,12 @@
 ---
 title: 2021 FDA-NIH-NIST-USDA Joint Agency Microbiome (JAM) Symposium
-author: ~
+authors: ["idblr"]
 date: '2021-08-30'
 slug: jam-2021
 categories: ["poster"]
-tags: ["microbiome", "spatial analysis", "NIH-AARP", "conference"]
+tags: ["microbiome", "spatial analysis", "NIH-AARP", "conference", "CPFP"]
 subtitle: ''
 summary: ''
-authors: []
-lastmod: '2021-08-30T14:41:03-04:00'
 featured: no
 projects: []
 ---

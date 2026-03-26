@@ -1,20 +1,18 @@
 ---
 title: New CRAN Package {sparrpowR}
-author: ~
+authors: ["idblr"]
 date: '2020-06-10'
 slug: cran-sparrpowR
 categories: ["R"]
 tags: ["spatial analysis", "R", "CRAN", "power calculation", "cluster detection", "point pattern", "kernel density estimation", 
-"spatial relative risk"]
+"spatial relative risk", "CPFP"]
 subtitle: ''
 summary: ''
-authors: []
-lastmod: '2020-06-10T9:30:04-04:00'
 featured: no
 image: 
   caption: 'Image credit: [**Ian Buller**](/)'
   focal_point: ''
-  preview_only: no
+  preview_only: false
 projects: []
 ---
 

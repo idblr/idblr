@@ -1,16 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>environmental epidemiology | Ian Buller, Ph.D., M.A.</title>
+    <title>Environmental Epidemiology | Ian Buller, Ph.D., M.A.</title>
     <link>https://idblr.rbind.io/tag/environmental-epidemiology/</link>
       <atom:link href="https://idblr.rbind.io/tag/environmental-epidemiology/index.xml" rel="self" type="application/rss+xml" />
-    <description>environmental epidemiology</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Fri, 05 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <description>Environmental Epidemiology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Wed, 28 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://idblr.rbind.io/img/avatar.jpg</url>
-      <title>environmental epidemiology</title>
+      <title>Environmental Epidemiology</title>
       <link>https://idblr.rbind.io/tag/environmental-epidemiology/</link>
     </image>
+    
+    <item>
+      <title>New Publication in Environmental Research</title>
+      <link>https://idblr.rbind.io/post/environres-2025/</link>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/environres-2025/</guid>
+      <description>&lt;p&gt;I co-authored an article in 
+&lt;a href=&#34;https://www.sciencedirect.com/journal/environmental-research&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Environmental Research&lt;/em&gt;&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.1016/j.envres.2025.121965&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Ambient air pollution in critical windows of exposure and spontaneous miscarriage in a preconception cohort&amp;rdquo;&lt;/a&gt; led by 
+&lt;a href=&#34;https://orcid.org/0000-0001-8635-9505&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Anne Marie Jukic&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We assessed the potential relationship between ambient air pollution and risk of spontaneous pregnancy loss for participants within the 
+&lt;a href=&#34;https://www.med.unc.edu/timetoconceive/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Time to Conceive&lt;/a&gt; study. We linked the 
+&lt;a href=&#34;https://www.epa.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;U.S. Environmental Protection Agency&lt;/a&gt; (EPA) 
+&lt;a href=&#34;https://www.epa.gov/cmaq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Community Multi-Scale Air Quality&lt;/a&gt; model (CMAQ) and 
+&lt;a href=&#34;https://www.epa.gov/hesc/rsig-related-downloadable-data-files&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fused Air Quality Surface Using Downscaling&lt;/a&gt; model for ambient air pollutant concentrations during multiple exposure windows during conception cycles to participant residential addresses at study enrollment. We found that residing in areas with higher ozone concentrations were associated with a small increase in spontaneous pregnancy loss risk. Ozone, carbon monoxide, and nitric oxide had stronger associations with spontaneous pregnancy loss risk among those with low vitamin D. Mixtures of ambient air pollutants were weakly associated with spontaneous pregnancy loss risk.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>New Publication in the Science of The Total Environment</title>
+      <link>https://idblr.rbind.io/post/stoten-2025/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/stoten-2025/</guid>
+      <description>&lt;p&gt;I co-authored an article in the 
+&lt;a href=&#34;https://www.sciencedirect.com/journal/science-of-the-total-environment&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Science of The Total Environment&lt;/em&gt;&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.1016/j.scitotenv.2025.179335&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Prevalence of cardiovascular disease risk factors associated with residential natural hazard risk&amp;rdquo;&lt;/a&gt; led by 
+&lt;a href=&#34;https://orcid.org/0000-0002-8360-9326&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Kaitlyn Lawrence&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We assessed the potential relationship between CVD-related risk factors (i.e., diabetes, obesity, hypertension) and risk of natural hazards for participants within the 
+&lt;a href=&#34;https://gulfstudy.nih.gov/en/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gulf Long-Term Follow-up Study&lt;/a&gt;. We linked the 
+&lt;a href=&#34;https://www.fema.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Federal Emergency Management Agency &lt;/a&gt; (FEMA) 
+&lt;a href=&#34;https://hazards.fema.gov/nri/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Risk Index&lt;/a&gt; (NRI) for Natural Hazards to participant residential addresses at home visit. We found that residing in areas prone to all or specific natural disasters is associated with higher prevalence of cardiovascular disease risk factors.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>New Publication in the Journal of the National Cancer Institute</title>
+      <link>https://idblr.rbind.io/post/jnci-2023/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/jnci-2023/</guid>
+      <description>&lt;p&gt;I co-authored an article in the 
+&lt;a href=&#34;https://academic.oup.com/jnci&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Journal of the National Cancer Institute&lt;/em&gt;&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.1093/jnci/djad004&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Ethylene oxide emissions and incident breast cancer and non-Hodgkin lymphoma in a U.S. cohort&amp;rdquo;&lt;/a&gt; led by 
+&lt;a href=&#34;https://orcid.org/0000-0003-1294-1679&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Rena Jones&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We constructed two GIS-based exposure metrics of ethylene oxide (EtO) from the 
+&lt;a href=&#34;https://www.epa.gov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;U.S. Environmental Protection Agency&lt;/a&gt; 
+&lt;a href=&#34;https://www.epa.gov/toxics-release-inventory-tri-program&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Toxics Release Inventory&lt;/a&gt; to estimate the risk of incident breast cancer and non-Hodgkin lymphoma (NHL) in the  
+&lt;a href=&#34;https://dceg.cancer.gov/research/who-we-study/nih-aarp-diet-health-study&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH-AARP Diet and Health Study&lt;/a&gt;. We observed an increased risk of breast cancer associated with EtO-emitting facilities within 10 kilometers of residence (stronger for &lt;em&gt;in situ&lt;/em&gt; than invasive disease) and higher risk of breast cancer &lt;em&gt;in situ&lt;/em&gt; in top exposure quartiles. No differences in breast cancer risk were observed by tumor estrogen receptor status and we found no clear pattern of increased NHL risk.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Putting Cancer and Environmental Exposures in (Geo)spatial Perspective</title>
+      <link>https://idblr.rbind.io/post/epa-2022/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/epa-2022/</guid>
+      <description>&lt;p&gt;I gave an invited talk at the Center for Science and Technology in the Radiation Protection Division of the Office of Air and Radiation of the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;U.S. Environmental Protection Agency&lt;/a&gt; entitled &amp;ldquo;Putting cancer and environmental exposures in (geo)spatial perspective.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The talk was an overview of my work in progress over the past year in the 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>A Place for Spatial Analysis in the Cancer Control Continuum</title>
@@ -18,10 +75,10 @@
       <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/frm1/</guid>
       <description>&lt;p&gt;I gave an invited talk at the 
-&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; entitled &amp;ldquo;A place for spatial analysis in the Cancer Control Continuum.&amp;rdquo; The talk was an overview of my work in progress over the past year in the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; entitled &amp;ldquo;A place for spatial analysis in the Cancer Control Continuum.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The talk was an overview of my work in progress over the past year in the 
 &lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt;. The talk was recorded, so please 
-&lt;a href=&#34;https://idblr.rbind.io/profile&#34;&gt;contact me&lt;/a&gt; if you are interested in viewing the talk.&lt;/p&gt;
-</description>
+&lt;a href=&#34;https://idblr.rbind.io/profile&#34;&gt;contact me&lt;/a&gt; if you are interested in viewing the talk.&lt;/p&gt;</description>
     </item>
     
   </channel>

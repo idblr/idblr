@@ -1,29 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>award | Ian Buller, Ph.D., M.A.</title>
+    <title>Award | Ian Buller, Ph.D., M.A.</title>
     <link>https://idblr.rbind.io/category/award/</link>
       <atom:link href="https://idblr.rbind.io/category/award/index.xml" rel="self" type="application/rss+xml" />
-    <description>award</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Tue, 08 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <description>Award</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Mon, 14 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://idblr.rbind.io/img/avatar.jpg</url>
-      <title>award</title>
+      <title>Award</title>
       <link>https://idblr.rbind.io/category/award/</link>
     </image>
     
     <item>
+      <title>2021 NCI Director&#39;s Award for Emerging Leader</title>
+      <link>https://idblr.rbind.io/post/ncidirector-2021/</link>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ncidirector-2021/</guid>
+      <description>&lt;p&gt;I received a 2021 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; (NCI) Director&amp;rsquo;s Award for Emerging Leader along with the other members of the Fellows Advisory Board of the 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt; (CPFP) in recognition of spearheading innovative opportunities for fellows to develop skills and community during the COVID-19 pandemic.&lt;/p&gt;
+&lt;p&gt;We were nominated by the CPFP Director, 
+&lt;a href=&#34;https://orcid.org/0000-0002-0904-6350&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Lisa Signorello&lt;/a&gt;, and were the only recipients of a 2021 NCI Director&amp;rsquo;s Award within the 
+&lt;a href=&#34;https://prevention.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Prevention&lt;/a&gt; (DCP). 
+&lt;a href=&#34;https://mynci.cancer.gov/2021-director-awards/dcp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Watch the recorded announcement&lt;/a&gt; by 
+&lt;a href=&#34;https://prevention.cancer.gov/about-dcp/staff-search/philip-e-castle-phd-mph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DCP Director Dr. Philip Castle&lt;/a&gt; if you have access to the 
+&lt;a href=&#34;https://mynci.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;myNCI portal&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2022 NCI Director Intramural Innovation Award Program Career Development Award</title>
+      <link>https://idblr.rbind.io/post/ncidiia-2022/</link>
+      <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ncidiia-2022/</guid>
+      <description>&lt;p&gt;I received an annual 
+&lt;a href=&#34;https://dceg.cancer.gov/news-events/news/2022/innovation-awards&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Career Development Award&lt;/a&gt; from the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; (NCI) Director Intramural Innovation Award Program that is designed to support development of highly innovative approaches and technology aimed at significant cancer–related problems.&lt;/p&gt;
+&lt;p&gt;Winning proposals showed potential for significant scientific or public health impact, as well as approach, innovation, and programmatic relevance to the mission of the NCI 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; (DCEG). Recipients will use their award in fiscal year 2022 with an upper limit of $15,000. Four other fellows and staff scientists within DCEG received an award.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>2021 Cancer Prevention Fellowship Merit Award</title>
-      <link>https://idblr.rbind.io/post/merit2021/</link>
+      <link>https://idblr.rbind.io/post/merit-2021/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://idblr.rbind.io/post/merit2021/</guid>
-      <description>&lt;p&gt;I received an annual Merit Award from the National Cancer Institute (NCI) Division of Cancer Prevention 
-&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt; (CPFP) that recognizes scientific productivity, leadership, and
-exemplary service to the CPFP, NCI, National Institutes of Health, and other outside organizations in cancer prevention. Three other postdoctoral Cancer Prevention Fellows also won an award this year: 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/reb/vo-jacqueline&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jacqueline Vo, Ph.D., R.N., M.P.H.&lt;/a&gt;, 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt;, and 
-&lt;a href=&#34;https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=33495932&amp;amp;name=Sydney-O%27Connor&amp;amp;bioType=flw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sydney O&amp;rsquo;Connor, Ph.D.&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://idblr.rbind.io/post/merit-2021/</guid>
+      <description>&lt;p&gt;I received an annual Merit Award from the 
+&lt;a href=&#34;https://www.cancer.gov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; (NCI) 
+&lt;a href=&#34;https://prevention.cancer.gov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Prevention&lt;/a&gt; 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt; (CPFP) that recognizes scientific productivity, leadership, and exemplary service to the CPFP, NCI, 
+&lt;a href=&#34;https://www.nih.gov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institutes of Health&lt;/a&gt;, and other outside organizations in cancer prevention.&lt;/p&gt;
+&lt;p&gt;Three other postdoctoral Cancer Prevention Fellows also won an award this year: 
+&lt;a href=&#34;https://orcid.org/0000-0001-8891-4437&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jacqueline Vo&lt;/a&gt;, 
+&lt;a href=&#34;https://orcid.org/0000-0001-8393-1713&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Derek Brown&lt;/a&gt;, and 
+&lt;a href=&#34;https://orcid.org/0000-0003-0146-562X&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Sydney O&amp;rsquo;Connor&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,13 +62,16 @@ exemplary service to the CPFP, NCI, National Institutes of Health, and other out
       <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/tfra-2021/</guid>
       <description>&lt;p&gt;
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; and I received a Trans-Fellowship Research Award from the NCI Division of Cancer Prevention 
-&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt; to supplement our 
-&lt;a href=&#34;https://idblr.rbind.io/post/tools&#34;&gt;2020 DCEG Informatics Tool Challenge Award&lt;/a&gt;. The award ($17,000) will be used to complete the development of our &amp;ldquo;Spatial Power&amp;rdquo; webtool for the NCI 
+&lt;a href=&#34;https://orcid.org/0000-0001-8393-1713&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Derek Brown&lt;/a&gt; and I received a Trans-Fellowship Research Award from the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; (NCI) 
+&lt;a href=&#34;https://prevention.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Prevention&lt;/a&gt; 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt; (CPFP) to supplement our 
+&lt;a href=&#34;https://idblr.rbind.io/post/tools&#34;&gt;2020 DCEG Informatics Tool Challenge Award&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The award ($17,000) will be used to complete the development of our &amp;ldquo;Spatial Power&amp;rdquo; webtool for the NCI 
 &lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; and fund enhancements such as, for example, a Geographic Information System interface to see the calculated results displayed on an interactive map.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 
-&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021&lt;/p&gt;
-</description>
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021. 
+&lt;a href=&#34;https://idblr.rbind.io/post/spatial-power&#34;&gt;See more details&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -47,45 +80,50 @@ exemplary service to the CPFP, NCI, National Institutes of Health, and other out
       <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/coleman-2021/</guid>
       <description>&lt;p&gt;I received a 
-&lt;a href=&#34;https://www.nimhd.nih.gov/programs/intramural/research-award/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;William G. Coleman Minority Health and Health Disparities Research Innovation Award&lt;/a&gt; from the 
-&lt;a href=&#34;https://www.nimhd.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institute on Minority Health and Health Disparities&lt;/a&gt; for a joint research proposal entitled 
-&lt;a href=&#34;https://www.nimhd.nih.gov/programs/intramural/research-award/2021-awardees/awardees-group.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;HDoCS in PLCO: Health Disparities of Cancer Survivors in the Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial.&amp;quot;&lt;/a&gt; I join a stellar team of three co-awardees 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/reb/vo-jacqueline&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jacqueline Vo, Ph.D., R.N., M.P.H.&lt;/a&gt;, 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/synnott-naoise&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Naoise Synnott, Ph.D., M.P.H.&lt;/a&gt;, and 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; who are 
+&lt;a href=&#34;https://www.nimhd.nih.gov/programs/intramural/research-innovation-award/2021-awardees/awardees-group.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;William G. Coleman Minority Health and Health Disparities Research Innovation Award&lt;/a&gt; from the 
+&lt;a href=&#34;https://www.nimhd.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institute on Minority Health and Health Disparities&lt;/a&gt; (NIMHD) for a joint research proposal entitled 
+&lt;a href=&#34;https://www.nimhd.nih.gov/programs/intramural/research-innovation-award/2021-awardees/awardees-group.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;HDoCS in PLCO: Health Disparities of Cancer Survivors in the Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial.&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I join a stellar team of three co-awardees 
+&lt;a href=&#34;https://orcid.org/0000-0001-8891-4437&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jacqueline Vo&lt;/a&gt;, 
+&lt;a href=&#34;https://orcid.org/0000-0001-8331-1143&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Naoise Synnott&lt;/a&gt;, and 
+&lt;a href=&#34;https://orcid.org/0000-0001-8393-1713&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Derek Brown&lt;/a&gt; who are also 
 &lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NCI Cancer Prevention Fellows&lt;/a&gt; in the intramural 
 &lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt;. NIMHD designed this competitive award to support the development of innovative research ideas and concepts contributed by post-doctoral fellows within the 
-&lt;a href=&#34;https://irp.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH Intramural Research Program&lt;/a&gt; who have the potential for high impact in any area of minority health and health disparities research.&lt;/p&gt;
-</description>
+&lt;a href=&#34;https://irp.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH Intramural Research Program&lt;/a&gt; who have the potential for high impact in any area of minority health and health disparities research.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>DCEG Fellows Award for Research Excellence</title>
-      <link>https://idblr.rbind.io/post/dfare/</link>
+      <link>https://idblr.rbind.io/post/dfare-2020/</link>
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://idblr.rbind.io/post/dfare/</guid>
+      <guid>https://idblr.rbind.io/post/dfare-2020/</guid>
       <description>&lt;p&gt;I received a DCEG Fellows Award for Research Excellence from the NCI 
-&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; for an abstract entitled &amp;ldquo;Geographic variation in the oral microbiome of NIH-AARP Diet and Health Study participants.&amp;rdquo; I was one of nine recipients. The award provides funding for travel to scientific meetings or conferences to fellows who have made exceptional contributions to research projects at DCEG. The award was conferred virtually due to the coronavirus pandemic.&lt;/p&gt;
-</description>
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; for an abstract entitled &amp;ldquo;Geographic variation in the oral microbiome of NIH-AARP Diet and Health Study participants.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I was one of nine recipients. The award provides funding for travel to scientific meetings or conferences to fellows who have made exceptional contributions to research projects at DCEG. The award was conferred virtually due to the coronavirus pandemic.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>DCEG Informatics Tool Challenge Award</title>
-      <link>https://idblr.rbind.io/post/tools/</link>
+      <link>https://idblr.rbind.io/post/tools-2020/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://idblr.rbind.io/post/tools/</guid>
+      <guid>https://idblr.rbind.io/post/tools-2020/</guid>
       <description>&lt;p&gt;I received an 
 &lt;a href=&#34;https://dceg.cancer.gov/news-events/news/2020/2020-informatics-tool-challenge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Informatics Tool Challenge Award&lt;/a&gt; from the NCI 
-&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; for a project entitled &amp;ldquo;sparrpowR: A flexible R package and webtool to estimate statistical power of a spatial cluster detection technique.&amp;rdquo; My co-Principal Investigator, 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; (DCEG/OEEB), is another postdoctoral 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; for a project entitled &amp;ldquo;sparrpowR: A flexible R package and webtool to estimate statistical power of a spatial cluster detection technique.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;My co-Principal Investigator, 
+&lt;a href=&#34;https://orcid.org/0000-0001-8393-1713&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Derek Brown&lt;/a&gt; (DCEG/OEEB), is another postdoctoral 
 &lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellow&lt;/a&gt; and we are joined by our supervisors 
-&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/jones-rena&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rena Jones, Ph.D., M.S.&lt;/a&gt; (DCEG/OEEB) and 
-&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/machiela-mitchell&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mitch Machiela, Sc.D., M.P.H.&lt;/a&gt; (DCEG/ITEB), respectively, as well as Tim Myers (DCEG/ITEB). The funds ($20,000) will be used by the NCI 
+&lt;a href=&#34;https://orcid.org/0000-0003-1294-1679&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Rena Jones&lt;/a&gt; (DCEG/OEEB) and 
+&lt;a href=&#34;https://orcid.org/0000-0001-6538-9705&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Mitch Machiela&lt;/a&gt; (DCEG/ITEB), respectively, as well as Tim Myers (DCEG/ITEB). The funds ($20,000) will be used by the NCI 
 &lt;a href=&#34;https://datascience.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Biomedical Informatics &amp;amp; Information Technology&lt;/a&gt; to develop a web application of our R package called 
-&lt;a href=&#34;https://cran.r-project.org/web/packages/sparrpowR/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 
-&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021&lt;/p&gt;
-</description>
+&lt;a href=&#34;https://cran.r-project.org/web/packages/sparrpowR/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;sparrpowR&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update #1&lt;/strong&gt;: 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;sparrpowR&lt;/em&gt;&lt;/a&gt; was successfully published in the 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comprehensive R Archive Network&lt;/a&gt; on June 10, 2020. 
+&lt;a href=&#34;https://idblr.rbind.io/post/cran-sparrpowR&#34;&gt;See more details&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update #2&lt;/strong&gt;: 
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021. 
+&lt;a href=&#34;https://idblr.rbind.io/post/spatial-power&#34;&gt;See more details&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -93,10 +131,12 @@ exemplary service to the CPFP, NCI, National Institutes of Health, and other out
       <link>https://idblr.rbind.io/post/coleman-2020/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/coleman-2020/</guid>
-      <description>&lt;p&gt;I will be taking over Dr. Joseph Shearer&amp;rsquo;s project entiled &amp;ldquo;Evaluating the impact of concentrated animal feeding operations on &lt;em&gt;Campylobacter jejuni&lt;/em&gt; infections in rural agricultural communities&amp;rdquo; as he is departing the NCI. The project is funded by a 2020 
+      <description>&lt;p&gt;I will be taking over a project entitled &amp;ldquo;Evaluating the impact of concentrated animal feeding operations on &lt;em&gt;Campylobacter jejuni&lt;/em&gt; infections in rural agricultural communities&amp;rdquo; previously led by 
+&lt;a href=&#34;https://orcid.org/0000-0002-1443-7428&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Joseph Shearer&lt;/a&gt; as he is departing the 
+&lt;a href=&#34;https://www.cancer.gov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The project is funded by a 2020 
 &lt;a href=&#34;https://www.nimhd.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institute for Minority Health and Health Disparities&lt;/a&gt; 
-&lt;a href=&#34;https://www.nimhd.nih.gov/programs/intramural/research-award/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;William G. Coleman Jr., Ph.D., Minority Health and Health Disparities Research Innovation Award&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;a href=&#34;https://www.nimhd.nih.gov/programs/intramural/research-award/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;William G. Coleman Jr., Ph.D., Minority Health and Health Disparities Research Innovation Award&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

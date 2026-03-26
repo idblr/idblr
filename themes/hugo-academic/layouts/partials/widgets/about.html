@@ -4,9 +4,15 @@
 {{ $author := "" }}
 {{ if .author }}
   {{ $author = .author }}
+{{ else if (and .page.Params.authors (ne (index .page.Params.authors 0) "authors")) }}
+  {{ $author = index .page.Params.authors 0 }}
 {{ else }}
-  {{ $author = $page.Params.author }}
-{{end}}
+  {{ $author = .page.Params.author | default "idblr" }}
+{{ end }}
+
+{{ if eq $author "authors" }}
+  {{ $author = "idblr" }}
+{{ end }}
 
 {{ $person_page_path := (printf "/authors/%s" $author) }}
 {{ $person_page := site.GetPage $person_page_path }}

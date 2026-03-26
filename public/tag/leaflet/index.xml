@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>leaflet | Ian Buller, Ph.D., M.A.</title>
+    <title>Leaflet | Ian Buller, Ph.D., M.A.</title>
     <link>https://idblr.rbind.io/tag/leaflet/</link>
       <atom:link href="https://idblr.rbind.io/tag/leaflet/index.xml" rel="self" type="application/rss+xml" />
-    <description>leaflet</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
+    <description>Leaflet</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://idblr.rbind.io/img/avatar.jpg</url>
-      <title>leaflet</title>
+      <title>Leaflet</title>
       <link>https://idblr.rbind.io/tag/leaflet/</link>
     </image>
     
@@ -17,33 +17,51 @@
       <link>https://idblr.rbind.io/post/covid-dc-test/</link>
       <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/covid-dc-test/</guid>
-      <description>
-&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;p&gt;I present an update to my &lt;a href=&#34;https://idblr.rbind.io/post/covid-dc&#34;&gt;previous post&lt;/a&gt;. Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their &lt;a href=&#34;https://coronavirus.dc.gov/page/coronavirus-data&#34; target=&#34;_blank&#34;&gt;coronavirus data portal&lt;/a&gt;. Molly Tolzmann &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; added this feature to her publicly available &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&#34; target=&#34;_blank&#34;&gt;Google Sheet&lt;/a&gt; presented at the &lt;a href=&#34;https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods&#34; target=&#34;_blank&#34;&gt;DC health planning neighborhood level&lt;/a&gt;. The update here can also be found on a public &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Here, I present the test positivity rate (TPR) for cumulative COVID-19 cases as of May 21, 2020. A TPR is the proportion of positive tests for every administered test. For example, the World Health Organization &lt;a href=&#34;https://coronavirus.jhu.edu/testing/testing-positivity&#34; target=&#34;_blank&#34;&gt;recommends&lt;/a&gt; a test positivity rate below 5% (1 out of 20 tests, TPR = 0.05) before reopening.&lt;/p&gt;
+      <description>&lt;script src=&#34;https://idblr.rbind.io/post/covid-dc-test/index_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/post/covid-dc-test/index_files/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/post/covid-dc-test/index_files/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;I present an update to my 
+&lt;a href=&#34;https://idblr.rbind.io/post/covid-dc&#34;&gt;previous post&lt;/a&gt;. Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their 
+&lt;a href=&#34;https://coronavirus.dc.gov/page/coronavirus-data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;coronavirus data portal&lt;/a&gt;. Molly Tolzmann 
+&lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zmotoly&lt;/a&gt; added this feature to her publicly available 
+&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Sheet&lt;/a&gt; presented at the 
+&lt;a href=&#34;https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DC health planning neighborhood level&lt;/a&gt;. The update here can also be found on a public 
+&lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here, I present the test positivity rate (TPR) for cumulative COVID-19 cases as of May 21, 2020. A TPR is the proportion of positive tests for every administered test. For example, the World Health Organization 
+&lt;a href=&#34;https://coronavirus.jhu.edu/testing/testing-positivity&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;recommends&lt;/a&gt; a test positivity rate below 5% (1 out of 20 tests, TPR = 0.05) before reopening.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Important Note&lt;/strong&gt;: The following show cumulative case rate per 1,000 since the beginning of the COVID-19 outbreak in DC. Therefore, the the stats do not reflect the number of people currently infected with SARS-CoV-2.&lt;/p&gt;
 &lt;p&gt;Necessary packages and settings for the exercise include:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Packages
-loadedPackages &amp;lt;- c(&amp;quot;broom&amp;quot;, &amp;quot;geojsonio&amp;quot;, &amp;quot;ggplot2&amp;quot;, &amp;quot;googlesheets4&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;sp&amp;quot;, &amp;quot;stringr&amp;quot;, &amp;quot;widgetframe&amp;quot;)
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Packages
+loadedPackages &amp;lt;- c(&amp;quot;dplyr&amp;quot;, &amp;quot;ggplot2&amp;quot;, &amp;quot;googlesheets4&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;sf&amp;quot;, &amp;quot;stringr&amp;quot;, &amp;quot;widgetframe&amp;quot;)
 invisible(lapply(loadedPackages, require, character.only = T))
 
 # Settings
-googlesheets4::gs4_deauth() # no Google authorization necessary because we are not reading a public repo&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I merged the District of Columbia &lt;a href=&#34;https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data&#34; target=&#34;_blank&#34;&gt;Health Planning Neighborhoods&lt;/a&gt; boundaries and Molly Tolzmann’s &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&#34; target=&#34;_blank&#34;&gt;collation&lt;/a&gt; of the cumulative cases and tests from start of the SARS-CoV-2 outbreak. I created a new variable for the test positivity rate &lt;code&gt;test_positivity_May_21&lt;/code&gt;.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# District of Columbia Health Planning Neighborhoods
+gs4_deauth() # no Google authorization necessary because we are not reading a public repo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I merged the District of Columbia 
+&lt;a href=&#34;https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Health Planning Neighborhoods&lt;/a&gt; boundaries and Molly Tolzmann’s 
+&lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zmotoly&lt;/a&gt; 
+&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;collation&lt;/a&gt; of the cumulative cases and tests from start of the SARS-CoV-2 outbreak. I created a new variable for the test positivity rate &lt;code&gt;test_positivity_May_21&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# District of Columbia Health Planning Neighborhoods
 gis_path &amp;lt;- &amp;quot;https://opendata.arcgis.com/datasets/de63a68eb7674548ae0ac01867123f7e_13.geojson&amp;quot;
-dc &amp;lt;- geojsonio::geojson_read(gis_path,  what = &amp;quot;sp&amp;quot;)
-
-# District of Columbia SAR-CoV-2 Data prepared by @zmotoly
+dc &amp;lt;- st_read(gis_path)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Reading layer `DC_Health_Planning_Neighborhoods&#39; from data source 
+##   `https://opendata.arcgis.com/datasets/de63a68eb7674548ae0ac01867123f7e_13.geojson&#39; 
+##   using driver `GeoJSON&#39;
+## Simple feature collection with 51 features and 9 fields
+## Geometry type: POLYGON
+## Dimension:     XY
+## Bounding box:  xmin: -77.11976 ymin: 38.79165 xmax: -76.9094 ymax: 38.99556
+## Geodetic CRS:  WGS 84
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# District of Columbia SAR-CoV-2 Data prepared by @zmotoly
 covid_path &amp;lt;- &amp;quot;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&amp;quot;
-covid &amp;lt;- googlesheets4::read_sheet(ss = covid_path,
-                                   sheet = 2, # second sheet
-                                   skip = 1)  # skip 1st row of annotation
+covid &amp;lt;- read_sheet(
+  ss = covid_path,
+  sheet = 2, # second sheet
+  skip = 2 # skip 1st row of annotation
+)  
 names(covid) &amp;lt;- sub(&amp;quot;\n&amp;quot;, &amp;quot;&amp;quot;, names(covid))   # remove extra line in column names
 names(covid) &amp;lt;- gsub(&amp;quot; &amp;quot;, &amp;quot;_&amp;quot;, names(covid))  # replace spaces with underscore
 
@@ -51,113 +69,200 @@ names(covid) &amp;lt;- gsub(&amp;quot; &amp;quot;, &amp;quot;_&amp;quot;, names(
 covid$test_positivity_May_21 &amp;lt;- covid$Total_cases_May_21 / covid$Total_tests_May_21
 
 # Merge
-dc_covid &amp;lt;- sp::merge(dc, covid, by.x = &amp;quot;CODE&amp;quot;, by.y = &amp;quot;NB_Code&amp;quot;)
+dc_covid &amp;lt;- left_join(dc, covid, by = join_by(&amp;quot;CODE&amp;quot; == &amp;quot;NB_Code&amp;quot;))
 
 # Spatial Projection
 ## UTM zone 18N (Washington, DC)
-dc_covid_proj &amp;lt;- sp::spTransform(dc_covid, CRS(&amp;quot;+init=EPSG:32618&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;div id=&#34;static-map&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Static Map&lt;/h3&gt;
-&lt;p&gt;I use the &lt;a href=&#34;https://github.com/tidyverse/ggplot2&#34; target=&#34;_blank&#34;&gt;ggplot2 package&lt;/a&gt; to plot the test positivity rate (as of May 21).&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Uses ggplot2 package
+dc_covid_proj &amp;lt;- st_transform(dc_covid, crs = 32618)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;static-map&#34;&gt;Static Map&lt;/h3&gt;
+&lt;p&gt;I use the 
+&lt;a href=&#34;https://github.com/tidyverse/ggplot2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ggplot2 package&lt;/a&gt; to plot the test positivity rate (as of May 21).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Uses ggplot2 package
 ## helpful material: https://cengel.github.io/rspatial/4_Mapping.nb.html
-## Data preparation, ggplot2 requires a data.frame
-dc_covid_df &amp;lt;- broom::tidy(dc_covid_proj) # convert to tidy data frame
-dc_covid_proj$polyID &amp;lt;- sapply(slot(dc_covid_proj, &amp;quot;polygons&amp;quot;), function(x) slot(x, &amp;quot;ID&amp;quot;)) # preserve polygon id
-CoV_DC_df &amp;lt;- merge(dc_covid_df, dc_covid_proj, by.x = &amp;quot;id&amp;quot;, by.y=&amp;quot;polyID&amp;quot;) # merge data
-
 ## Plot of cumulative cases per 1,000
-ggplot2::ggplot() +                                             # initialize ggplot object
-  ggplot2::geom_polygon(                                        # make a polygon
-    data = CoV_DC_df,                                           # data frame
-    ggplot2::aes(x = long, y = lat, group = group,              # coordinates, and group them by polygons
-                 fill = ggplot2::cut_interval(test_positivity_May_21, 5)),       # variable to use for filling
-    colour = &amp;quot;white&amp;quot;) +                                         # color of polygon borders
-  ggplot2::scale_fill_brewer(&amp;quot;Test positivity rate&amp;quot;,      # title of colorkey 
-                             palette = &amp;quot;Purples&amp;quot;,               # fill with brewer colors 
-                             na.value = &amp;quot;grey67&amp;quot;,               # color for NA (The National Mall)
-                             direction = 1,                     # reverse colors in colorkey
-                             guide = ggplot2::guide_legend(reverse = T)) +  # reverse order of colokey
-  ggplot2::ggtitle(&amp;quot;Test Positivity Rate of cumulative SARS-CoV-2 cases as of May 21, 2020&amp;quot;) + # add title
-  ggplot2::theme(line = ggplot2::element_blank(),               # remove axis lines
-                 axis.text = ggplot2::element_blank(),          # remove tickmarks
-                 axis.title = ggplot2::element_blank(),         # remove axis labels
-                 panel.background = ggplot2::element_blank(),   # remove background gridlines
-                 text = ggplot2::element_text(size = 10)) +     # set font size
-  ggplot2::coord_equal()                                        # both axes the same scale&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/2020-05-23/index_files/figure-html/static-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;And an interactive map with the &lt;a href=&#34;https://github.com/rstudio/leaflet&#34; target=&#34;_blank&#34;&gt;leaflet package&lt;/a&gt;.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Work with unprojected spatialpolygonsdataframe
+ggplot() +                                                # initialize ggplot object
+  geom_sf(                                                # make a polygon
+    data = dc_covid_proj,                                     # data frame
+    aes(fill = cut_interval(test_positivity_May_21, 5)),  # variable to use for filling
+    colour = &amp;quot;white&amp;quot;
+  ) +                                     # color of polygon borders
+  scale_fill_brewer(
+    &amp;quot;Test positivity rate&amp;quot;,               # title of colorkey 
+    palette = &amp;quot;Purples&amp;quot;,                  # fill with brewer colors 
+    na.value = &amp;quot;grey67&amp;quot;,                  # color for NA (The National Mall)
+    direction = 1,                        # reverse colors in colorkey
+    guide = guide_legend(reverse = T)     # reverse order of colokey
+  ) +  
+  ggtitle(
+    &amp;quot;Test Positivity Rate of cumulative SARS-CoV-2 cases as of May 21, 2020&amp;quot;
+  ) +                                     # add title
+  theme(
+    line = element_blank(),               # remove axis lines
+    axis.text = element_blank(),          # remove tickmarks
+    axis.title = element_blank(),         # remove axis labels
+    panel.background = element_blank(),   # remove background gridlines
+    text = element_text(size = 10)
+  ) +                                     # set font size
+  coord_sf()                              # both axes the same scale
+&lt;/code&gt;&lt;/pre&gt;
+&lt;img src=&#34;https://idblr.rbind.io/post/covid-dc-test/index_files/figure-html/static-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;p&gt;And an interactive map with the 
+&lt;a href=&#34;https://github.com/rstudio/leaflet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;leaflet package&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Work with unprojected spatialpolygonsdataframe
 ## Project to WGS84 EPSG:4326
-CoV_DC_WGS84 &amp;lt;- sp::spTransform(dc_covid_proj, CRS(&amp;quot;+init=epsg:4326&amp;quot;))
+CoV_DC_WGS84 &amp;lt;- st_transform(dc_covid_proj, crs = 4326)
 
 ## Create Popups
-dc_health &amp;lt;- stringr::str_to_title(CoV_DC_WGS84$Neighborhood_Name)
-dc_health[c(11,25,41,49)] &amp;lt;- c(&amp;quot;DC Medical Center&amp;quot;, &amp;quot;GWU&amp;quot;, &amp;quot;National Mall&amp;quot;, &amp;quot;SW/Waterfront&amp;quot; )
-CoV_DC_WGS84$popup1 &amp;lt;- paste(dc_health, &amp;quot;: &amp;quot;,
-                             format(round(CoV_DC_WGS84$Total_cases_May_21, digits = 0), big.mark = &amp;quot;,&amp;quot;, trim = T),
-                             &amp;quot; cumulative cases&amp;quot;, sep = &amp;quot;&amp;quot;)
-CoV_DC_WGS84$popup2 &amp;lt;- paste(dc_health, &amp;quot;: &amp;quot;,
-                             format(round(CoV_DC_WGS84$Cases_per_1000_May_21, digits = 0), big.mark = &amp;quot;,&amp;quot;, trim = T),
-                             &amp;quot; cumulative cases per 1,000&amp;quot;, sep = &amp;quot;&amp;quot;)
-CoV_DC_WGS84$popup3 &amp;lt;- paste(dc_health, &amp;quot;: &amp;quot;,
-                             format(round(CoV_DC_WGS84$test_positivity_May_21, digits = 2), big.mark = &amp;quot;,&amp;quot;, trim = T),
-                             &amp;quot; test positivity rate&amp;quot;, sep = &amp;quot;&amp;quot;)
+dc_health &amp;lt;- str_to_title(CoV_DC_WGS84$Neighborhood_Name)
+dc_health[c(11, 25, 41, 49)] &amp;lt;- c(
+  &amp;quot;DC Medical Center&amp;quot;, &amp;quot;GWU&amp;quot;, &amp;quot;National Mall&amp;quot;, &amp;quot;SW/Waterfront&amp;quot;
+)
+CoV_DC_WGS84$popup1 &amp;lt;- paste(
+  dc_health, 
+  &amp;quot;: &amp;quot;,
+  format(round(CoV_DC_WGS84$Total_cases_May_21, digits = 0), big.mark = &amp;quot;,&amp;quot;, trim = T),
+  &amp;quot; cumulative cases&amp;quot;,
+  sep = &amp;quot;&amp;quot;
+)
+CoV_DC_WGS84$popup2 &amp;lt;- paste(
+  dc_health, 
+  &amp;quot;: &amp;quot;,
+  format(round(CoV_DC_WGS84$Cases_per_1000_May_21, digits = 0), big.mark = &amp;quot;,&amp;quot;, trim = T),
+  &amp;quot; cumulative cases per 1,000&amp;quot;, 
+  sep = &amp;quot;&amp;quot;
+)
+CoV_DC_WGS84$popup3 &amp;lt;- paste(
+  dc_health, 
+  &amp;quot;: &amp;quot;,
+  format(round(CoV_DC_WGS84$test_positivity_May_21, digits = 2), big.mark = &amp;quot;,&amp;quot;, trim = T),
+  &amp;quot; test positivity rate&amp;quot;, 
+  sep = &amp;quot;&amp;quot;
+)
 
 ## Set Palettes
-pal_cum &amp;lt;- leaflet::colorNumeric(palette = &amp;quot;Purples&amp;quot;,
-                                 domain = CoV_DC_WGS84$Total_cases_May_21,
-                                 na.color = &amp;quot;#555555&amp;quot;)
-pal_rate &amp;lt;- leaflet::colorNumeric(palette = &amp;quot;Purples&amp;quot;,
-                                  domain = CoV_DC_WGS84$Cases_per_1000_May_21,
-                                  na.color = &amp;quot;#555555&amp;quot;)
-pal_test &amp;lt;- leaflet::colorNumeric(palette = &amp;quot;Purples&amp;quot;,
-                                  domain = CoV_DC_WGS84$Tests_per_1000_May_21,
-                                  na.color = &amp;quot;#555555&amp;quot;)
-pal_weight &amp;lt;- leaflet::colorNumeric(palette = &amp;quot;Purples&amp;quot;,
-                                  domain = CoV_DC_WGS84$test_positivity_May_21,
-                                  na.color = &amp;quot;#555555&amp;quot;)
-
+pal_cum &amp;lt;- colorNumeric(
+  palette = &amp;quot;Purples&amp;quot;, domain = CoV_DC_WGS84$Total_cases_May_21, na.color = &amp;quot;#555555&amp;quot;
+)
+pal_rate &amp;lt;- colorNumeric(
+  palette = &amp;quot;Purples&amp;quot;, domain = CoV_DC_WGS84$Cases_per_1000_May_21, na.color = &amp;quot;#555555&amp;quot;
+)
+pal_test &amp;lt;- colorNumeric(
+  palette = &amp;quot;Purples&amp;quot;, domain = CoV_DC_WGS84$Tests_per_1000_May_21, na.color = &amp;quot;#555555&amp;quot;
+)
+pal_weight &amp;lt;- colorNumeric(
+  palette = &amp;quot;Purples&amp;quot;, domain = CoV_DC_WGS84$test_positivity_May_21, na.color = &amp;quot;#555555&amp;quot;
+)
 
 ## Create leaflet plot
-lf &amp;lt;- leaflet::leaflet(CoV_DC_WGS84) %&amp;gt;%                        # initial data
-  leaflet::setView(lng = -77, lat = 38.9, zoom = 11) %&amp;gt;%                  # starting coordinates
-  leaflet::addTiles() %&amp;gt;% # basemap
-  leaflet::addPolygons(data = CoV_DC_WGS84, color = &amp;quot;black&amp;quot;, weight = 1, smoothFactor = 0.5, opacity = 1,
-                       fillOpacity = 0.67, fillColor = ~pal_cum(Total_cases_May_21), popup = ~popup1,
-                       highlightOptions = highlightOptions(color = &amp;quot;white&amp;quot;, weight = 2, bringToFront = TRUE),
-                       group = &amp;quot;Cases&amp;quot;) %&amp;gt;%
-  leaflet::addPolygons(data = CoV_DC_WGS84, color = &amp;quot;black&amp;quot;, weight = 1, smoothFactor = 0.5, opacity = 1,
-                       fillOpacity = 0.67, fillColor = ~pal_rate(Cases_per_1000_May_21), popup = ~popup2,
-                       highlightOptions = highlightOptions(color = &amp;quot;white&amp;quot;, weight = 2, bringToFront = TRUE),
-                       group = &amp;quot;Cases per 1,000&amp;quot;) %&amp;gt;%
-  leaflet::addPolygons(data = CoV_DC_WGS84, color = &amp;quot;black&amp;quot;, weight = 1, smoothFactor = 0.5, opacity = 1,
-                       fillOpacity = 0.67, fillColor = ~pal_test(Tests_per_1000_May_21), popup = ~popup3,
-                       highlightOptions = highlightOptions(color = &amp;quot;white&amp;quot;, weight = 2, bringToFront = TRUE),
-                       group = &amp;quot;Tests per 1,000&amp;quot;) %&amp;gt;%
-  leaflet::addPolygons(data = CoV_DC_WGS84, color = &amp;quot;black&amp;quot;, weight = 1, smoothFactor = 0.5, opacity = 1,
-                       fillOpacity = 0.67, fillColor = ~pal_weight(test_positivity_May_21), popup = ~popup3,
-                       highlightOptions = highlightOptions(color = &amp;quot;white&amp;quot;, weight = 2, bringToFront = TRUE),
-                       group = &amp;quot;Test positivity rate&amp;quot;) %&amp;gt;%
-  leaflet::addLayersControl(overlayGroups = c(&amp;quot;Cases&amp;quot;, &amp;quot;Cases per 1,000&amp;quot;, &amp;quot;Tests per 1,000&amp;quot;, &amp;quot;Test positivity rate&amp;quot;), # layer selection
-                            options = layersControlOptions(collapsed = FALSE)) %&amp;gt;%     
-  addLegend(&amp;quot;topright&amp;quot;, pal = pal_cum, values = ~Total_cases_May_21,                  # legend for cases
-            title = &amp;quot;Cumulative COVID-19 cases&amp;quot;, opacity = 1, na.label = &amp;quot;No Data&amp;quot;, group = &amp;quot;Cases&amp;quot;) %&amp;gt;%
-  addLegend(&amp;quot;topright&amp;quot;, pal = pal_rate, values = ~Cases_per_1000_May_21,              # legend for rate
-            title = &amp;quot;Cumulative cases per 1,000&amp;quot;, opacity = 1, na.label = &amp;quot;No Data&amp;quot;, group = &amp;quot;Cases per 1,000&amp;quot;) %&amp;gt;%
-  addLegend(&amp;quot;topright&amp;quot;, pal = pal_test, values = ~Tests_per_1000_May_21,              # legend for test positivity rate
-            title = &amp;quot;Cumulative tests per 1,000&amp;quot;, opacity = 1, na.label = &amp;quot;No Data&amp;quot;, group = &amp;quot;Tests per 1,000&amp;quot;) %&amp;gt;%
-  addLegend(&amp;quot;topright&amp;quot;, pal = pal_weight, values = ~test_positivity_May_21,              # legend for test positivity rate
-            title = &amp;quot;Cumulative test positivity rate&amp;quot;, opacity = 1, na.label = &amp;quot;No Data&amp;quot;, group = &amp;quot;Test positivity rate&amp;quot;) %&amp;gt;%
-  leaflet::hideGroup(c(&amp;quot;Cases&amp;quot;, &amp;quot;Cases per 1,000&amp;quot;, &amp;quot;Tests per 1,000&amp;quot;, &amp;quot;Test positivity rate&amp;quot;)) %&amp;gt;% # no data shown (default)
-  leaflet::addMiniMap(position = &amp;quot;bottomleft&amp;quot;) # add mini map
-widgetframe::frameWidget(lf, width=&amp;#39;100%&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+lf &amp;lt;- leaflet(CoV_DC_WGS84) %&amp;gt;%                        # initial data
+  setView(lng = -77, lat = 38.9, zoom = 11) %&amp;gt;%                  # starting coordinates
+  addTiles() %&amp;gt;% # basemap
+  addPolygons(
+    data = CoV_DC_WGS84,
+    color = &amp;quot;black&amp;quot;, 
+    weight = 1, 
+    smoothFactor = 0.5, 
+    opacity = 1,
+    fillOpacity = 0.67, 
+    fillColor = ~pal_cum(Total_cases_May_21), 
+    popup = ~popup1,
+    highlightOptions = highlightOptions(color = &amp;quot;white&amp;quot;, weight = 2, bringToFront = TRUE),
+    group = &amp;quot;Cases&amp;quot;
+  ) %&amp;gt;%
+  addPolygons(
+    data = CoV_DC_WGS84, 
+    color = &amp;quot;black&amp;quot;, 
+    weight = 1, 
+    smoothFactor = 0.5, 
+    opacity = 1,
+    fillOpacity = 0.67, 
+    fillColor = ~pal_rate(Cases_per_1000_May_21), 
+    popup = ~popup2,
+    highlightOptions = highlightOptions(color = &amp;quot;white&amp;quot;, weight = 2, bringToFront = TRUE),
+    group = &amp;quot;Cases per 1,000&amp;quot;
+  ) %&amp;gt;%
+  addPolygons(
+    data = CoV_DC_WGS84, 
+    color = &amp;quot;black&amp;quot;, 
+    weight = 1, 
+    smoothFactor = 0.5, 
+    opacity = 1,
+    fillOpacity = 0.67, 
+    fillColor = ~pal_test(Tests_per_1000_May_21), popup = ~popup3,
+    highlightOptions = highlightOptions(color = &amp;quot;white&amp;quot;, weight = 2, bringToFront = TRUE),
+    group = &amp;quot;Tests per 1,000&amp;quot;
+  ) %&amp;gt;%
+  addPolygons(
+    data = CoV_DC_WGS84, 
+    color = &amp;quot;black&amp;quot;, 
+    weight = 1, 
+    smoothFactor = 0.5, 
+    opacity = 1,
+    fillOpacity = 0.67, 
+    fillColor = ~pal_weight(test_positivity_May_21), 
+    popup = ~popup3,
+    highlightOptions = highlightOptions(color = &amp;quot;white&amp;quot;, weight = 2, bringToFront = TRUE),
+    group = &amp;quot;Test positivity rate&amp;quot;
+  ) %&amp;gt;%
+  addLayersControl(
+    overlayGroups = c(
+      &amp;quot;Cases&amp;quot;, &amp;quot;Cases per 1,000&amp;quot;, &amp;quot;Tests per 1,000&amp;quot;, &amp;quot;Test positivity rate&amp;quot;
+    ), # layer selection
+    options = layersControlOptions(collapsed = FALSE)
+  ) %&amp;gt;%     
+  addLegend(
+    &amp;quot;topright&amp;quot;, 
+    pal = pal_cum, 
+    values = ~Total_cases_May_21,                  # legend for cases
+    title = &amp;quot;Cumulative COVID-19 cases&amp;quot;, 
+    opacity = 1, 
+    na.label = &amp;quot;No Data&amp;quot;, 
+    group = &amp;quot;Cases&amp;quot;
+  ) %&amp;gt;%
+  addLegend(
+    &amp;quot;topright&amp;quot;, 
+    pal = pal_rate, 
+    values = ~Cases_per_1000_May_21,              # legend for rate
+    title = &amp;quot;Cumulative cases per 1,000&amp;quot;, 
+    opacity = 1, 
+    na.label = &amp;quot;No Data&amp;quot;, 
+    group = &amp;quot;Cases per 1,000&amp;quot;
+  ) %&amp;gt;%
+  addLegend(
+    &amp;quot;topright&amp;quot;, 
+    pal = pal_test, 
+    values = ~Tests_per_1000_May_21,              # legend for test positivity rate
+    title = &amp;quot;Cumulative tests per 1,000&amp;quot;, 
+    opacity = 1, 
+    na.label = &amp;quot;No Data&amp;quot;, 
+    group = &amp;quot;Tests per 1,000&amp;quot;
+  ) %&amp;gt;%
+  addLegend(
+    &amp;quot;topright&amp;quot;, 
+    pal = pal_weight, 
+    values = ~test_positivity_May_21,              # legend for test positivity rate
+    title = &amp;quot;Cumulative test positivity rate&amp;quot;, 
+    opacity = 1, 
+    na.label = &amp;quot;No Data&amp;quot;, 
+    group = &amp;quot;Test positivity rate&amp;quot;
+  ) %&amp;gt;%
+  hideGroup(
+    c(&amp;quot;Cases&amp;quot;, &amp;quot;Cases per 1,000&amp;quot;, &amp;quot;Tests per 1,000&amp;quot;, &amp;quot;Test positivity rate&amp;quot;)
+  ) %&amp;gt;% # no data shown (default)
+  addMiniMap(position = &amp;quot;bottomleft&amp;quot;) # add mini map
+
+frameWidget(lf, width=&#39;100%&#39;)
+&lt;/code&gt;&lt;/pre&gt;
 &lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:100%;height:480px;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
-&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;/post/2020-05-23/index_files/figure-html//widgets/widget_interactive.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
-&lt;p&gt;As of May 21, 2020 the highest positive testing rate of cumulative SARS-CoV-2 cases has occurred in the Stadium Armory (almost 1 out of 2 tests return positive). The DC Jail is located in the Stadium Armory as &lt;a href=&#34;https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053&#34; target=&#34;_blank&#34;&gt;previously noted&lt;/a&gt;. An East/West divide is evident in the case rate after accounting for testing. Also, no neighborhood is below the 5% WHO recommendation; however, this metric is more appropriately used for incident (or recent) tests such as, for example, a 7 day average than for cumulative cases, so interpret these findings with caution.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The provided maps are not intended to inform decision-making&lt;/strong&gt;. Instead, I provide the the &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34;&gt;open-source code&lt;/a&gt; to download, manage, and visualize publicly available data. Future steps are similar to my &lt;a href=&#34;https://idblr.rbind.io/post/covid-dc&#34;&gt;previous post&lt;/a&gt;, linking other demographic information to each DC Health Planning Neighborhood (e.g., housing occupancy) and assessing their relationships with disease occurrence or creating an automatic workflow to update these figures daily.&lt;/p&gt;
-&lt;p&gt;Thanks, again, to Molly Tolzmann &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; for the data management.&lt;/p&gt;
-&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;index_files/figure-html//widgets/widget_interactive.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;p&gt;As of May 21, 2020 the highest positive testing rate of cumulative SARS-CoV-2 cases has occurred in the Stadium Armory (almost 1 out of 2 tests return positive). The DC Jail is located in the Stadium Armory as 
+&lt;a href=&#34;https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;previously noted&lt;/a&gt;. An East/West divide is evident in the case rate after accounting for testing. Also, no neighborhood is below the 5% WHO recommendation; however, this metric is more appropriately used for incident (or recent) tests such as, for example, a 7 day average than for cumulative cases, so interpret these findings with caution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The provided maps are not intended to inform decision-making&lt;/strong&gt;. Instead, I provide the the 
+&lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;open-source code&lt;/a&gt; to download, manage, and visualize publicly available data. Future steps are similar to my 
+&lt;a href=&#34;https://idblr.rbind.io/post/covid-dc&#34;&gt;previous post&lt;/a&gt;, linking other demographic information to each DC Health Planning Neighborhood (e.g., housing occupancy) and assessing their relationships with disease occurrence or creating an automatic workflow to update these figures daily.&lt;/p&gt;
+&lt;p&gt;Thanks, again, to Molly Tolzmann 
+&lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zmotoly&lt;/a&gt; for the data management.&lt;/p&gt;
 </description>
     </item>
     
@@ -166,134 +271,206 @@ widgetframe::frameWidget(lf, width=&amp;#39;100%&amp;#39;)&lt;/code&gt;&lt;/pre&
       <link>https://idblr.rbind.io/post/covid-dc/</link>
       <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/covid-dc/</guid>
-      <description>
-&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://idblr.rbind.io/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;p&gt;After moving to DC last year, &lt;a href=&#34;https://twitter.com/PoPville&#34; target=&#34;_blank&#34;&gt;PoPville&lt;/a&gt; has been a personal favorite for local scoop. A post on &lt;a href=&#34;https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053&#34; target=&#34;_blank&#34;&gt;May 11, 2020&lt;/a&gt; captured my attention. Molly Tolzmann &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; adjusted the daily &lt;a href=&#34;https://coronavirus.dc.gov/page/coronavirus-data&#34; target=&#34;_blank&#34;&gt;coronavirus data&lt;/a&gt; publicly released by the DC Mayoral Office at the &lt;a href=&#34;https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods&#34; target=&#34;_blank&#34;&gt;DC health planning neighborhood level&lt;/a&gt; by the 2018 American Community Survey (ACS) census tract data and demographic data from &lt;a href=&#34;https://opendata.dc.gov/&#34; target=&#34;_blank&#34;&gt;Open Data DC&lt;/a&gt;. This post is a replication of the data visualization using &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34;&gt;R&lt;/a&gt; and can be found on a public &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;script src=&#34;https://idblr.rbind.io/post/covid-dc/index_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/post/covid-dc/index_files/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://idblr.rbind.io/post/covid-dc/index_files/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;After moving to DC last year, 
+&lt;a href=&#34;https://twitter.com/PoPville&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PoPville&lt;/a&gt; has been a personal favorite for local scoop. A post on 
+&lt;a href=&#34;https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;May 11, 2020&lt;/a&gt; captured my attention. Molly Tolzmann 
+&lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zmotoly&lt;/a&gt; adjusted the daily 
+&lt;a href=&#34;https://coronavirus.dc.gov/page/coronavirus-data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;coronavirus data&lt;/a&gt; publicly released by the DC Mayoral Office at the 
+&lt;a href=&#34;https://opendata.dc.gov/datasets/dc-health-planning-neighborhoods&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DC health planning neighborhood level&lt;/a&gt; by the 2018 American Community Survey (ACS) census tract data and demographic data from 
+&lt;a href=&#34;https://opendata.dc.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Data DC&lt;/a&gt;. This post is a replication of the data visualization using 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; and can be found on a public 
+&lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Imporant Notes&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The following show cumulative case rate per 1,000 since the beginning of the COVID-19 outbreak in DC. Therefore, the the stats do not reflect the number of people currently infected with SARS-CoV-2.&lt;/li&gt;
 &lt;li&gt;The following &lt;em&gt;does not&lt;/em&gt; account for the degree of COVID-19 testing in each neighborhood.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;center&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://s26552.pcdn.co/wp-content/uploads/2020/05/IMAGE-May-9-DC-neighborhood-COVID-positive-rate.jpg&#34; width=&#34;400&#34; alt=&#34;&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;COVID-19 in DC by Molly Tolzmann&lt;/p&gt;
-&lt;/div&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://s26552.pcdn.co/wp-content/uploads/2020/05/IMAGE-May-9-DC-neighborhood-COVID-positive-rate.jpg&#34; width=&#34;400&#34; alt=&#34;COVID-19 in DC by Molly Tolzmann&#34; /&gt;
+&lt;figcaption aria-hidden=&#34;true&#34;&gt;COVID-19 in DC by Molly Tolzmann&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;/center&gt;
 &lt;p&gt;The following are the necessary packages and settings for the exercise.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Packages
-loadedPackages &amp;lt;- c(&amp;quot;broom&amp;quot;, &amp;quot;geojsonio&amp;quot;, &amp;quot;ggplot2&amp;quot;, &amp;quot;googlesheets4&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;sp&amp;quot;, &amp;quot;stringr&amp;quot;, &amp;quot;widgetframe&amp;quot;)
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Packages
+loadedPackages &amp;lt;- c(&amp;quot;dplyr&amp;quot;, &amp;quot;ggplot2&amp;quot;, &amp;quot;googlesheets4&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;sf&amp;quot;, &amp;quot;stringr&amp;quot;, &amp;quot;widgetframe&amp;quot;)
 invisible(lapply(loadedPackages, require, character.only = T))
 
 # Settings
-googlesheets4::gs4_deauth() # no Google authorization necessary because we are not reading a public repo&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;We import the District of Columbia &lt;a href=&#34;https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data&#34; target=&#34;_blank&#34;&gt;Health Planning Neighborhoods&lt;/a&gt; boundaries and Molly Tolzmann’s &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; collation of the cumulative cases from start of the SARS-CoV-2 outbreak. The latter is hosted on a public &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&#34; target=&#34;_blank&#34;&gt;Google Sheet&lt;/a&gt; and is accessible in &lt;code&gt;R&lt;/code&gt; using the &lt;a href=&#34;https://github.com/tidyverse/googlesheets4&#34; target=&#34;_blank&#34;&gt;googlesheets4 package&lt;/a&gt;. After cleaning up the column names of the disease data, we merge the two data sets together and spatially project the polygons contained in the data to &lt;a href=&#34;https://epsg.io/32618&#34; target=&#34;_blank&#34;&gt;EPSG:32618&lt;/a&gt;.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# District of Columbia Health Planning Neighborhoods
+gs4_deauth() # no Google authorization necessary because we are not reading a public repo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We import the District of Columbia 
+&lt;a href=&#34;https://opendata.dc.gov/datasets/acs-2018-population-variables-tract/data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Health Planning Neighborhoods&lt;/a&gt; boundaries and Molly Tolzmann’s 
+&lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zmotoly&lt;/a&gt; collation of the cumulative cases from start of the SARS-CoV-2 outbreak. The latter is hosted on a public 
+&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Sheet&lt;/a&gt; and is accessible in &lt;code&gt;R&lt;/code&gt; using the 
+&lt;a href=&#34;https://github.com/tidyverse/googlesheets4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;googlesheets4 package&lt;/a&gt;. After cleaning up the column names of the disease data, we merge the two data sets together and spatially project the polygons contained in the data to 
+&lt;a href=&#34;https://epsg.io/32618&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPSG:32618&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# District of Columbia Health Planning Neighborhoods
 gis_path &amp;lt;- &amp;quot;https://opendata.arcgis.com/datasets/de63a68eb7674548ae0ac01867123f7e_13.geojson&amp;quot;
-dc &amp;lt;- geojsonio::geojson_read(gis_path,  what = &amp;quot;sp&amp;quot;)
-
-# District of Columbia SAR-CoV-2 Data prepared by @zmotoly
+dc &amp;lt;- st_read(gis_path)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Reading layer `DC_Health_Planning_Neighborhoods&#39; from data source 
+##   `https://opendata.arcgis.com/datasets/de63a68eb7674548ae0ac01867123f7e_13.geojson&#39; 
+##   using driver `GeoJSON&#39;
+## Simple feature collection with 51 features and 9 fields
+## Geometry type: POLYGON
+## Dimension:     XY
+## Bounding box:  xmin: -77.11976 ymin: 38.79165 xmax: -76.9094 ymax: 38.99556
+## Geodetic CRS:  WGS 84
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# District of Columbia SAR-CoV-2 Data prepared by @zmotoly
 covid_path &amp;lt;- &amp;quot;https://docs.google.com/spreadsheets/d/1u-FlJe2B1rYV0obEosHBks9utkU30-C2TSkHka6AVS8/edit#gid=1923705378&amp;quot;
-covid &amp;lt;- googlesheets4::read_sheet(ss = covid_path,
-                                   sheet = 2, # second sheet
-                                   skip = 2)  # skip 1st row of annotation
+covid &amp;lt;- read_sheet(
+  ss = covid_path,
+  sheet = 2, # second sheet
+  skip = 2 # skip 1st row of annotation
+)  
 names(covid) &amp;lt;- sub(&amp;quot;\n&amp;quot;, &amp;quot;&amp;quot;, names(covid))   # remove extra line in column names
 names(covid) &amp;lt;- gsub(&amp;quot; &amp;quot;, &amp;quot;_&amp;quot;, names(covid))  # replace spaces with underscore
 
 # Merge
-dc_covid &amp;lt;- sp::merge(dc, covid, by.x = &amp;quot;CODE&amp;quot;, by.y = &amp;quot;NB_Code&amp;quot;)
+dc_covid &amp;lt;- left_join(dc, covid, by = join_by(&amp;quot;CODE&amp;quot; == &amp;quot;NB_Code&amp;quot;))
 
 # Spatial Projection
 ## UTM zone 18N (Washington, DC)
-dc_covid_proj &amp;lt;- sp::spTransform(dc_covid, CRS(&amp;quot;+init=EPSG:32618&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;div id=&#34;static-map&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Static Map&lt;/h3&gt;
-&lt;p&gt;We can then plot the cumulative rate using various plotting techniques. Here, I demonstrate the &lt;a href=&#34;https://github.com/tidyverse/ggplot2&#34; target=&#34;_blank&#34;&gt;ggplot2 package&lt;/a&gt;. First, we convert the &lt;code&gt;dc_covid_proj&lt;/code&gt; object of class &lt;code&gt;SpatialPolygonsDataFrame&lt;/code&gt; to a class &lt;code&gt;tibble&lt;/code&gt;.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Uses ggplot2 package
-## helpful material: https://cengel.github.io/rspatial/4_Mapping.nb.html
-## Data preparation, ggplot2 requires a data.frame
-dc_covid_df &amp;lt;- broom::tidy(dc_covid_proj) # convert to tidy data frame
-dc_covid_proj$polyID &amp;lt;- sapply(slot(dc_covid_proj, &amp;quot;polygons&amp;quot;), function(x) slot(x, &amp;quot;ID&amp;quot;)) # preserve polygon id
-CoV_DC_df &amp;lt;- merge(dc_covid_df, dc_covid_proj, by.x = &amp;quot;id&amp;quot;, by.y=&amp;quot;polyID&amp;quot;) # merge data&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then we can customize our plot in various ways. Here I present cumulative cases per 1,000 (May 15, since start of the outbreak) choosing a &lt;a href=&#34;https://blog.mapbox.com/7-best-practices-for-mapping-a-pandemic-9f203576a132?gi=6907699c528e&#34; target=&#34;_blank&#34;&gt;non-alarmist color palette&lt;/a&gt; from &lt;a href=&#34;https://colorbrewer2.org/&#34; target=&#34;_blank&#34;&gt;ColorBrewer2.0&lt;/a&gt;.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;## Plot of cumulative cases per 1,000
-ggplot2::ggplot() +                                             # initialize ggplot object
-  ggplot2::geom_polygon(                                        # make a polygon
-    data = CoV_DC_df,                                           # data frame
-    ggplot2::aes(x = long, y = lat, group = group,              # coordinates, and group them by polygons
-                 fill = ggplot2::cut_interval(Cases_per_1000_May_15, 10)),       # variable to use for filling
-    colour = &amp;quot;white&amp;quot;) +                                         # color of polygon borders
-  ggplot2::scale_fill_brewer(&amp;quot;Cumulative cases per 1,000&amp;quot;,      # title of colorkey 
-                             palette = &amp;quot;Purples&amp;quot;,               # fill with brewer colors 
-                             na.value = &amp;quot;grey67&amp;quot;,               # color for NA (The National Mall)
-                             direction = 1,                     # reverse colors in colorkey
-                             guide = ggplot2::guide_legend(reverse = T)) +  # reverse order of colokey
-  ggplot2::ggtitle(&amp;quot;Cumulative SARS-CoV-2 cases per 1,000 in Washington, D.C. as of May 15, 2020&amp;quot;) + # add title
-  ggplot2::theme(line = ggplot2::element_blank(),               # remove axis lines
-                 axis.text = ggplot2::element_blank(),          # remove tickmarks
-                 axis.title = ggplot2::element_blank(),         # remove axis labels
-                 panel.background = ggplot2::element_blank(),   # remove background gridlines
-                 text = ggplot2::element_text(size = 10)) +     # set font size
-  ggplot2::coord_equal()                                        # both axes the same scale&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://idblr.rbind.io/post/2020-05-16/index_files/figure-html/cumulative%20rate-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;interactive-map&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Interactive Map&lt;/h3&gt;
-&lt;p&gt;In addition to a static map, the &lt;a href=&#34;https://github.com/rstudio/leaflet&#34; target=&#34;_blank&#34;&gt;leaflet package&lt;/a&gt; provides capabilities to create an interactive map with customizable features such as basemaps and overlapping layers. First, we need to spatially project the data to &lt;a href=&#34;https://epsg.io/4326&#34; target=&#34;_blank&#34;&gt;EPSG:4326&lt;/a&gt;. We can also create custom popups when scrolling mouse over each neighborhood. Here, I use the same color palette as the static map and provide an example of the raw cumulative cases (May 15, 2020) in DC to demonstrate the layer overlapping feature of the &lt;code&gt;leaflet&lt;/code&gt; package.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Work with unprojected spatialpolygonsdataframe
+dc_covid_proj &amp;lt;- st_transform(dc_covid, crs = 32618)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;static-map&#34;&gt;Static Map&lt;/h3&gt;
+&lt;p&gt;We can then plot the cumulative rate using various plotting techniques. Here, I demonstrate the 
+&lt;a href=&#34;https://github.com/tidyverse/ggplot2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ggplot2 package&lt;/a&gt;. We can customize our plot in various ways. Here I present cumulative cases per 1,000 (May 15, since start of the outbreak) choosing a 
+&lt;a href=&#34;https://blog.mapbox.com/7-best-practices-for-mapping-a-pandemic-9f203576a132?gi=6907699c528e&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;non-alarmist color palette&lt;/a&gt; from 
+&lt;a href=&#34;https://colorbrewer2.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ColorBrewer2.0&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;## Plot of cumulative cases per 1,000
+ggplot() +                                                    # initialize ggplot object
+  geom_sf(                                                    # make a polygon
+    data = dc_covid_proj,                                     # data frame
+    aes(fill = cut_interval(Cases_per_1000_May_15, 10)),      # variable to use for filling
+    colour = &amp;quot;white&amp;quot;) +                                       # color of polygon borders
+  scale_fill_brewer(
+    &amp;quot;Cumulative cases per 1,000&amp;quot;,         # title of colorkey 
+    palette = &amp;quot;Purples&amp;quot;,                  # fill with brewer colors 
+    na.value = &amp;quot;grey67&amp;quot;,                  # color for NA (The National Mall)
+    direction = 1,                        # reverse colors in colorkey
+    guide = guide_legend(reverse = T)) +  # reverse order of colokey
+  ggtitle(
+    &amp;quot;Cumulative SARS-CoV-2 cases per 1,000 in Washington, D.C. as of May 15, 2020&amp;quot;
+  ) +                                     # add title
+  theme(
+    line = element_blank(),               # remove axis lines
+    axis.text = element_blank(),          # remove tickmarks
+    axis.title = element_blank(),         # remove axis labels
+    panel.background = element_blank(),   # remove background gridlines
+    text = element_text(size = 10)) +     # set font size
+  coord_sf()                              # both axes the same scale
+&lt;/code&gt;&lt;/pre&gt;
+&lt;img src=&#34;https://idblr.rbind.io/post/covid-dc/index_files/figure-html/cumulative rate-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;h3 id=&#34;interactive-map&#34;&gt;Interactive Map&lt;/h3&gt;
+&lt;p&gt;In addition to a static map, the 
+&lt;a href=&#34;https://github.com/rstudio/leaflet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;leaflet package&lt;/a&gt; provides capabilities to create an interactive map with customizable features such as basemaps and overlapping layers. First, we need to spatially project the data to 
+&lt;a href=&#34;https://epsg.io/4326&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPSG:4326&lt;/a&gt;. We can also create custom popups when scrolling mouse over each neighborhood. Here, I use the same color palette as the static map and provide an example of the raw cumulative cases (May 15, 2020) in DC to demonstrate the layer overlapping feature of the &lt;code&gt;leaflet&lt;/code&gt; package.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Work with unprojected spatialpolygonsdataframe
 ## Project to WGS84 EPSG:4326
-CoV_DC_WGS84 &amp;lt;- sp::spTransform(dc_covid_proj, CRS(&amp;quot;+init=epsg:4326&amp;quot;))
+CoV_DC_WGS84 &amp;lt;- st_transform(dc_covid_proj, crs = 4326)
 
 ## Create Popups
-dc_health &amp;lt;- stringr::str_to_title(CoV_DC_WGS84$Neighborhood_Name)
-dc_health[c(11,25,41,49)] &amp;lt;- c(&amp;quot;DC Medical Center&amp;quot;, &amp;quot;GWU&amp;quot;, &amp;quot;National Mall&amp;quot;, &amp;quot;SW/Waterfront&amp;quot; )
-CoV_DC_WGS84$popup1 &amp;lt;- paste(dc_health, &amp;quot;: &amp;quot;,
-                             format(round(CoV_DC_WGS84$Total_cases_May_15, digits = 0), big.mark = &amp;quot;,&amp;quot;, trim = T),
-                             &amp;quot; cumulative cases&amp;quot;, sep = &amp;quot;&amp;quot;)
-CoV_DC_WGS84$popup2 &amp;lt;- paste(dc_health, &amp;quot;: &amp;quot;,
-                             format(round(CoV_DC_WGS84$Cases_per_1000_May_15, digits = 0), big.mark = &amp;quot;,&amp;quot;, trim = T),
-                             &amp;quot; cumulative cases per 1,000&amp;quot;, sep = &amp;quot;&amp;quot;)
+dc_health &amp;lt;- str_to_title(CoV_DC_WGS84$Neighborhood_Name)
+dc_health[c(11, 25, 41, 49)] &amp;lt;- c(
+  &amp;quot;DC Medical Center&amp;quot;, &amp;quot;GWU&amp;quot;, &amp;quot;National Mall&amp;quot;, &amp;quot;SW/Waterfront&amp;quot;
+)
+CoV_DC_WGS84$popup1 &amp;lt;- paste(
+  dc_health, 
+  &amp;quot;: &amp;quot;, 
+  format(round(CoV_DC_WGS84$Total_cases_May_15, digits = 0), big.mark = &amp;quot;,&amp;quot;, trim = T),
+  &amp;quot; cumulative cases&amp;quot;,
+  sep = &amp;quot;&amp;quot;
+)
+CoV_DC_WGS84$popup2 &amp;lt;- paste(
+  dc_health, 
+  &amp;quot;: &amp;quot;,
+  format(round(CoV_DC_WGS84$Cases_per_1000_May_15, digits = 0), big.mark = &amp;quot;,&amp;quot;, trim = T),
+  &amp;quot; cumulative cases per 1,000&amp;quot;,
+  sep = &amp;quot;&amp;quot;
+)
 
 ## Set Palettes
-pal_cum &amp;lt;- leaflet::colorNumeric(palette = &amp;quot;Purples&amp;quot;,
-                                 domain = CoV_DC_WGS84$Total_cases_May_15,
-                                 na.color = &amp;quot;#555555&amp;quot;)
-pal_rate &amp;lt;- leaflet::colorNumeric(palette = &amp;quot;Purples&amp;quot;,
-                                  domain = CoV_DC_WGS84$Cases_per_1000_May_15,
-                                  na.color = &amp;quot;#555555&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+pal_cum &amp;lt;- colorNumeric(
+  palette = &amp;quot;Purples&amp;quot;,
+  domain = CoV_DC_WGS84$Total_cases_May_15,
+  na.color = &amp;quot;#555555&amp;quot;
+)
+pal_rate &amp;lt;- colorNumeric(
+  palette = &amp;quot;Purples&amp;quot;,
+  domain = CoV_DC_WGS84$Cases_per_1000_May_15,
+  na.color = &amp;quot;#555555&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The following is code for the leaflet plot. I set the starting parameters including available basemaps and then add each layer of COVID-19 data as polygons. After specifying the legend for each layer I finish up with a mini map to show scale.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;## Create leaflet plot
-lf &amp;lt;- leaflet::leaflet(CoV_DC_WGS84) %&amp;gt;%                        # initial data
-  leaflet::setView(lng = -77, lat = 38.9, zoom = 11) %&amp;gt;%                  # starting coordinates
-  leaflet::addTiles() %&amp;gt;% # basemap
-  leaflet::addPolygons(data = CoV_DC_WGS84, color = &amp;quot;black&amp;quot;, weight = 1, smoothFactor = 0.5, opacity = 1,
-                       fillOpacity = 0.67, fillColor = ~pal_cum(Total_cases_May_15), popup = ~popup1,
-                       highlightOptions = highlightOptions(color = &amp;quot;white&amp;quot;, weight = 2, bringToFront = TRUE),
-                       group = &amp;quot;Cumulative Cases&amp;quot;) %&amp;gt;%
-  leaflet::addPolygons(data = CoV_DC_WGS84, color = &amp;quot;black&amp;quot;, weight = 1, smoothFactor = 0.5, opacity = 1,
-                       fillOpacity = 0.67, fillColor = ~pal_rate(Cases_per_1000_May_15), popup = ~popup2,
-                       highlightOptions = highlightOptions(color = &amp;quot;white&amp;quot;, weight = 2, bringToFront = TRUE),
-                       group = &amp;quot;Cumulative Rate&amp;quot;) %&amp;gt;%
-  leaflet::addLayersControl(overlayGroups = c(&amp;quot;Cumulative Cases&amp;quot;, &amp;quot;Cumulative Rate&amp;quot;), # layer selection
-                            options = layersControlOptions(collapsed = FALSE)) %&amp;gt;%     
-  addLegend(&amp;quot;topright&amp;quot;, pal = pal_cum, values = ~Total_cases_May_15,                  # legend for cases
-            title = &amp;quot;Cumulative Cases&amp;quot;, opacity = 1, group = &amp;quot;Cumulative Cases&amp;quot;) %&amp;gt;%
-  addLegend(&amp;quot;topright&amp;quot;, pal = pal_rate, values = ~Cases_per_1000_May_15,              # legend for rate
-            title = &amp;quot;Cumulative Rate per 1,000&amp;quot;, opacity = 1, group = &amp;quot;Cumulative Rate&amp;quot;) %&amp;gt;%
-  leaflet::hideGroup(c(&amp;quot;Cumulative Cases&amp;quot;, &amp;quot;Cumulative Rate&amp;quot;)) %&amp;gt;% # no data shown (default)
-  leaflet::addMiniMap(position = &amp;quot;bottomleft&amp;quot;) # add mini map
-widgetframe::frameWidget(lf, width=&amp;#39;100%&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;## Create leaflet plot
+lf &amp;lt;- leaflet(CoV_DC_WGS84) %&amp;gt;%                        # initial data
+  setView(lng = -77, lat = 38.9, zoom = 11) %&amp;gt;%                  # starting coordinates
+  addTiles() %&amp;gt;% # basemap
+  addPolygons(
+    data = CoV_DC_WGS84, 
+    color = &amp;quot;black&amp;quot;, 
+    weight = 1, 
+    smoothFactor = 0.5, 
+    opacity = 1,
+    fillOpacity = 0.67, 
+    fillColor = ~pal_cum(Total_cases_May_15), 
+    popup = ~popup1,
+    highlightOptions = highlightOptions(color = &amp;quot;white&amp;quot;, weight = 2, bringToFront = TRUE),
+    group = &amp;quot;Cumulative Cases&amp;quot;
+  ) %&amp;gt;%
+  addPolygons(
+    data = CoV_DC_WGS84, 
+    color = &amp;quot;black&amp;quot;, 
+    weight = 1, 
+    smoothFactor = 0.5, 
+    opacity = 1,
+    fillOpacity = 0.67, 
+    fillColor = ~pal_rate(Cases_per_1000_May_15), 
+    popup = ~popup2,
+    highlightOptions = highlightOptions(color = &amp;quot;white&amp;quot;, weight = 2, bringToFront = TRUE),
+    group = &amp;quot;Cumulative Rate&amp;quot;
+  ) %&amp;gt;%
+  addLayersControl(
+    overlayGroups = c(&amp;quot;Cumulative Cases&amp;quot;, &amp;quot;Cumulative Rate&amp;quot;), # layer selection
+    options = layersControlOptions(collapsed = FALSE)
+  ) %&amp;gt;%     
+  addLegend(
+    &amp;quot;topright&amp;quot;,
+    pal = pal_cum,
+    values = ~Total_cases_May_15,                  # legend for cases
+    title = &amp;quot;Cumulative Cases&amp;quot;, 
+    opacity = 1, 
+    group = &amp;quot;Cumulative Cases&amp;quot;
+  ) %&amp;gt;%
+  addLegend(
+    &amp;quot;topright&amp;quot;, 
+    pal = pal_rate, 
+    values = ~Cases_per_1000_May_15,              # legend for rate
+    title = &amp;quot;Cumulative Rate per 1,000&amp;quot;, 
+    opacity = 1, 
+    group = &amp;quot;Cumulative Rate&amp;quot;
+  ) %&amp;gt;%
+  hideGroup(c(&amp;quot;Cumulative Cases&amp;quot;, &amp;quot;Cumulative Rate&amp;quot;)) %&amp;gt;% # no data shown (default)
+  addMiniMap(position = &amp;quot;bottomleft&amp;quot;) # add mini map
+
+frameWidget(lf, width=&#39;100%&#39;)
+&lt;/code&gt;&lt;/pre&gt;
 &lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:100%;height:480px;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
-&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;/post/2020-05-16/index_files/figure-html//widgets/widget_leaflet.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
-&lt;p&gt;As of May 15, 2020 the highest cumulative rate of SARS-CoV-2 cases have occurred in the Stadium Armory and Molly Tolzmann &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; noted the DC Jail is located in this neighborhood in &lt;a href=&#34;https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053&#34; target=&#34;_blank&#34;&gt;her original post&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The provided maps are not intended to inform decision-making&lt;/strong&gt;. Instead, I provide the the &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34;&gt;open-source code&lt;/a&gt; to download, manage, and visualize publicly available data. Future steps include linking other demographic information to each DC Health Planning Neighborhood (e.g., housing occupancy) and assessing their relationships with disease occurrence or creating an automatic workflow to update these figures daily.&lt;/p&gt;
-&lt;p&gt;Thanks, again, to Molly Tolzmann &lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34;&gt;zmotoly&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/PoPville&#34; target=&#34;_blank&#34;&gt;PoPville&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;index_files/figure-html//widgets/widget_leaflet.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;p&gt;As of May 15, 2020 the highest cumulative rate of SARS-CoV-2 cases have occurred in the Stadium Armory and Molly Tolzmann 
+&lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zmotoly&lt;/a&gt; noted the DC Jail is located in this neighborhood in 
+&lt;a href=&#34;https://www.popville.com/2020/05/dc-neighborhood-covid-coronavirus-map-population/#more-234053&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;her original post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The provided maps are not intended to inform decision-making&lt;/strong&gt;. Instead, I provide the the 
+&lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;open-source code&lt;/a&gt; to download, manage, and visualize publicly available data. Future steps include linking other demographic information to each DC Health Planning Neighborhood (e.g., housing occupancy) and assessing their relationships with disease occurrence or creating an automatic workflow to update these figures daily.&lt;/p&gt;
+&lt;p&gt;Thanks, again, to Molly Tolzmann 
+&lt;a href=&#34;https://twitter.com/zmotoly&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zmotoly&lt;/a&gt; and 
+&lt;a href=&#34;https://twitter.com/PoPville&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PoPville&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

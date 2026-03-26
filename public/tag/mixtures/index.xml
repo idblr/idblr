@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mixtures | Ian Buller, Ph.D., M.A.</title>
+    <title>Mixtures | Ian Buller, Ph.D., M.A.</title>
     <link>https://idblr.rbind.io/tag/mixtures/</link>
       <atom:link href="https://idblr.rbind.io/tag/mixtures/index.xml" rel="self" type="application/rss+xml" />
-    <description>mixtures</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Wed, 23 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <description>Mixtures</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://idblr.rbind.io/img/avatar.jpg</url>
-      <title>mixtures</title>
+      <title>Mixtures</title>
       <link>https://idblr.rbind.io/tag/mixtures/</link>
     </image>
+    
+    <item>
+      <title>2022 NCI Director Intramural Innovation Award Program Career Development Award</title>
+      <link>https://idblr.rbind.io/post/ncidiia-2022/</link>
+      <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ncidiia-2022/</guid>
+      <description>&lt;p&gt;I received an annual 
+&lt;a href=&#34;https://dceg.cancer.gov/news-events/news/2022/innovation-awards&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Career Development Award&lt;/a&gt; from the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; (NCI) Director Intramural Innovation Award Program that is designed to support development of highly innovative approaches and technology aimed at significant cancer–related problems.&lt;/p&gt;
+&lt;p&gt;Winning proposals showed potential for significant scientific or public health impact, as well as approach, innovation, and programmatic relevance to the mission of the NCI 
+&lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; (DCEG). Recipients will use their award in fiscal year 2022 with an upper limit of $15,000. Four other fellows and staff scientists within DCEG received an award.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Society for Epidemiologic Research 2021</title>

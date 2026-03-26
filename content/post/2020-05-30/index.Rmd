@@ -1,101 +1,121 @@
 ---
 title: Cluster Detection in PCoA Space using Kernel Density Estimation
-author: ~
+authors: ["idblr"]
 date: '2020-05-30'
 slug: cluster-microbiome
 categories: ["R"]
 tags: ["R Markdown", "R", "open data", "microbiome"]
 subtitle: ''
 summary: ''
-authors: []
-lastmod: '2021-10-29T3:14:18-04:00'
 featured: no
 image:
   caption: 'Image credit: [**Ian Buller**](/)'
   focal_point: ''
-  preview_only: no
+  preview_only: false
 projects: []
+output:
+  blogdown::html_page:
+    pandoc_args: ["--lua-filter=external-links.lua"]
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, fig.align = "center", message = FALSE, warning = FALSE, cache = FALSE)
 ```
 
-I present code to identify relative spatial clustering in multidimensional scaling / principal coordinate analysis (MDS/PCoA) space. I use a spatial relative risk function [risk](https://github.com/cran/sparr/blob/master/R/risk.R){target="_blank"} from the [sparr](https://github.com/cran/sparr){target="_blank"} package. I use a spatial segregation model [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd){target="_blank"} from the [spatstat](https://github.com/spatstat/spatstat){target="_blank"} package. See my [previous post](/post/pvalues-spatial-segregation) about using the spatial segregation model.
+I present code to identify relative spatial clustering in multidimensional scaling / principal coordinate analysis (MDS/PCoA) space. I use a spatial relative risk function [risk](https://github.com/cran/sparr/blob/master/R/risk.R) from the [sparr](https://github.com/cran/sparr) package. I use a spatial segregation model [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd) from the [spatstat](https://github.com/spatstat/spatstat) package. 
 
-I use microbiome data from the [dietswap](https://datadryad.org/stash/dataset/doi:10.5061/dryad.1mn1n) data set in the [microbiome](https://www.bioconductor.org/packages/release/bioc/html/microbiome.html){target="_blank"} package part of [Bioconductor](https://www.bioconductor.org/). The diet swap data set represents a study with African and African American groups undergoing a two-week diet swap reported in [O’Keefe et al. Nat. Comm. 6:6342, 2015](https://www.nature.com/articles/ncomms7342). I follow the [Ordination Analysis](https://microbiome.github.io/tutorials/Ordination.html) example by Leo Lahti, Sudarshan Shetty *et al.* 2020.
+See my [previous post](/post/pvalues-spatial-segregation) about using the spatial segregation model.
+
+I use microbiome data from the [dietswap](https://datadryad.org/stash/dataset/doi:10.5061/dryad.1mn1n) data set in the [microbiome](https://www.bioconductor.org/packages/release/bioc/html/microbiome.html) package part of [Bioconductor](https://www.bioconductor.org/). The diet swap data set represents a study with African and African American groups undergoing a two-week diet swap reported in [O’Keefe et al. Nat. Comm. 6:6342, 2015](https://www.nature.com/articles/ncomms7342). I follow the [Ordination Analysis](https://microbiome.github.io/tutorials/Ordination.html) example by Leo Lahti, Sudarshan Shetty *et al.* 2020.
 
 MDS/PCoA summarizes and attempts to represent inter-object dissimilarity in a low-dimensional space, not necessarily using Euclidean Distances (used by Principal Component Analysis)
 
 Necessary packages and settings for the exercise include:
+
 ```{r packages}
 # Packages
-loadedPackages <- c("ggplot2", "maptools", "microbiome", "phyloseq", "sp", "spatstat.core", "spatstat.geom", "spatstat.data", "spatstat")
+loadedPackages <- c("ggplot2", "microbiome", "phyloseq", "sf", "sparr", "spatstat")
 invisible(lapply(loadedPackages, require, character.only = T))
 set.seed(4235421) # for reproducibility
 ```
 
 I prepare the data by choosing limiting to taxa with 90\% prevalence and a detection limit above 0.1\%. I then ordinate Bray-Curtis dissimilarity matrix by MDS/PCoA. 
+
 ```{r data_preparation}
 # data
 data(dietswap)
 pseq <- dietswap
 
 # Convert to compositional data
-pseq.rel <- microbiome::transform(pseq, "compositional")
+pseq.rel <- transform(pseq, "compositional")
 
 # Pick core taxa with with the given prevalence and detection limits
-pseq.core <- microbiome::core(pseq.rel, detection = 0.1/100, prevalence = 90/100)
+pseq.core <- core(pseq.rel, detection = 0.1/100, prevalence = 90/100)
 
 # Use relative abundances for the core
-pseq.core <- microbiome::transform(pseq.core, "compositional")
+pseq.core <- transform(pseq.core, "compositional")
 
 # Ordinate the data
-ord <- phyloseq::ordinate(pseq.core, "MDS", "bray")
+ord <- ordinate(pseq.core, "MDS", "bray")
 ```
 
 ### Two Group Comparison
 
 As an example of relative spatial clustering between two groups I compare the two levels of the `nationality` variable "AMR" (America) and "AFR" (Africa). A plot of the samples by the two groups is displayed below:
+
 ```{r plot_ordination_two_groups}
 # Plot ordination
-phyloseq::plot_ordination(pseq.core, ord, color = "nationality") +
-  ggplot2::geom_point(size = 1) + 
-  ggplot2::theme(panel.grid.major = ggplot2::element_blank(),
-                 panel.grid.minor = ggplot2::element_blank(),
-                 panel.background = ggplot2::element_blank(),
-                 axis.line = ggplot2::element_line(colour = "black"))
+plot_ordination(pseq.core, ord, color = "nationality") +
+  geom_point(size = 1) + 
+  theme(
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    panel.background = element_blank(),
+    axis.line = element_line(colour = "black")
+  )
 ```
 
-To detect significant relative spatial clustering between the two nationalities, I use the [risk](https://github.com/cran/sparr/blob/master/R/risk.R){target="_blank"} function from the [sparr](https://github.com/cran/sparr){target="_blank"} package. The function requires data as a planar point process (`ppp`) object. Here, I use the default settings for the [risk](https://github.com/cran/sparr/blob/master/R/risk.R){target="_blank"} function except I use adaptive-bandwidth selection. Significant areas are defined as areas that exceed a two-tailed 0.05 alpha level.
+To detect significant relative spatial clustering between the two nationalities, I use the [risk](https://github.com/cran/sparr/blob/master/R/risk.R) function from the [sparr](https://github.com/cran/sparr) package. The function requires data as a planar point process (`ppp`) object. Here, I use the default settings for the [risk](https://github.com/cran/sparr/blob/master/R/risk.R) function except I use adaptive-bandwidth selection. Significant areas are defined as areas that exceed a two-tailed 0.05 alpha level.
+
 ```{r sparr}
 # Convert to ppp object
-test_df <- data.frame("x" = ord$vectors[,1],
-                      "y" = ord$vectors[,2],
-                      "g" = pseq@sam_data@.Data[[3]])
-sp::coordinates(test_df) <- ~ x + y
-test_pp <- as(test_df, "ppp")
+test_df <- data.frame(
+  "x" = ord$vectors[, 1],
+  "y" = ord$vectors[, 2],
+  "g" = pseq@sam_data@.Data[[3]]
+)
+test_sf <- st_as_sf(test_df, coords = c("x", "y"))
+test_pp <- as.ppp(test_sf)
 
 # Spatial Relative Risk Function
-f0 <- sparr::risk(test_pp, tolerate = TRUE, adapt = TRUE)
+f0 <- risk(f = test_pp, tolerate = TRUE, adapt = TRUE)
 
 # Plot of significant areas
 f0_p <- f0$P
-f0_p$v <- factor(ifelse(f0_p$v < 0.025, "AAM",
-                        ifelse(f0_p$v > 0.975, "AFR","insignificant")),
-                 levels = c("AFR", "insignificant", "AAM"))
-spatstat.geom::plot.ppp(test_pp, ann = TRUE, axes = TRUE,
-                        leg.side = "left",
-                        xlab = "Axis.1 [54.5%]",
-                        ylab = "Axis.2 [20.4%]",
-                        main = "Significant area, adaptive bandwidth, alpha = 0.05",
-                        cols = c("coral1", "cadetblue3"),
-                        pch = 16)
-spatstat.geom::plot.im(f0_p, add = TRUE, show.all = TRUE, main = "",
-                       col = c("cadetblue4","grey80","coral4"))
-spatstat.geom::plot.ppp(test_pp, add = TRUE, main = "",
-                        cols = c("coral1", "cadetblue3"),
-                        pch = 16)
+f0_p$v <- factor(
+  ifelse(
+    f0_p$v < 0.025, 
+    "AAM",
+    ifelse(f0_p$v > 0.975, "AFR","insignificant")
+  ),
+  levels = c("AFR", "insignificant", "AAM"))
+plot.ppp(
+  test_pp, 
+  ann = TRUE, 
+  axes = TRUE,
+  leg.side = "left",
+  xlab = "Axis.1 [54.5%]",
+  ylab = "Axis.2 [20.4%]",
+  main = "Significant area, adaptive bandwidth, alpha = 0.05",
+  cols = c("coral1", "cadetblue3"),
+  pch = 16
+)
+plot.im(
+  f0_p, add = TRUE, show.all = TRUE, main = "", col = c("cadetblue4","grey80","coral4")
+)
+plot.ppp(
+  test_pp, add = TRUE, main = "", cols = c("coral1", "cadetblue3"), pch = 16
+)
 ```
 
 The African group has one significant cluster relative to the American Group (colored blue), which has two significant clusters (colored red). The areas in grey are where the African and American groups spatially covary together that is indiscernible from spatial randomness. 
@@ -103,64 +123,79 @@ The African group has one significant cluster relative to the American Group (co
 ### Multi-Group Comparison
 
 As an example of relative spatial clustering between three groups I compare the two levels of the `bmi_group` variable "lean", "overweight' and "obese". A plot of the samples by the three groups is displayed below:
+
 ```{r plot_ordination_three_groups}
 # Plot ordination
-phyloseq::plot_ordination(pseq.core, ord, color = "bmi_group") +
-  ggplot2::geom_point(size = 1) +
-  ggplot2::labs(color = "BMI Group") +
-  ggplot2::theme(panel.grid.major = ggplot2::element_blank(),
-        panel.grid.minor = ggplot2::element_blank(),
-        panel.background = ggplot2::element_blank(),
-        axis.line = ggplot2::element_line(colour = "black"))
+plot_ordination(pseq.core, ord, color = "bmi_group") +
+  geom_point(size = 1) +
+  labs(color = "BMI Group") +
+  theme(
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    panel.background = element_blank(),
+    axis.line = element_line(colour = "black")
+  )
 ```
 
-To detect significant relative spatial clustering between three BMI groups, I use a spatial segregation model  [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd){target="_blank"} from the [spatstat](https://github.com/spatstat/spatstat){target="_blank"} package. The function requires data as a planar point process (`ppp`) object. Here, I use the default settings for the [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd){target="_blank"} function. I present 1) the most common BMI group across the MDS/PCoA space, and 2) areas that are significantly different from the null expectation for each BMI group. See my [previous post](/post/pvalues-spatial-segregation) about using the spatial segregation model.
+To detect significant relative spatial clustering between three BMI groups, I use a spatial segregation model  [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd) from the [spatstat](https://github.com/spatstat/spatstat) package. The function requires data as a planar point process (`ppp`) object. Here, I use the default settings for the [relrisk](https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd) function. I present 1) the most common BMI group across the MDS/PCoA space, and 2) areas that are significantly different from the null expectation for each BMI group. See my [previous post](/post/pvalues-spatial-segregation) about using the spatial segregation model.
 
 ```{r spatial_segregation}
 # Convert to ppp object
-test_df <- data.frame("x" = ord$vectors[,1],
-                      "y" = ord$vectors[,2],
-                      "g" = pseq@sam_data@.Data[[8]])
-sp::coordinates(test_df) <- ~ x + y
-test_pp <- as(test_df, "ppp")
+test_df <- data.frame(
+  "x" = ord$vectors[, 1],
+  "y" = ord$vectors[, 2],
+  "g" = pseq@sam_data@.Data[[8]]
+)
+test_sf <- st_as_sf(test_df, coords = c("x", "y"))
+test_pp <- as.ppp(test_sf)
 
 # Spatial Segregation model
-f1 <- spatstat.core::relrisk.ppp(test_pp, se = T)
+f1 <- relrisk.ppp(test_pp, se = T)
 
 # Plot of most common BMI Group
-wh <- spatstat.geom::im.apply(f1$estimate, which.max)
-types <- levels(spatstat.geom::marks(test_pp))
-wh <- spatstat.geom::eval.im(types[wh]) # most common 
+wh <- im.apply(f1$estimate, which.max)
+types <- levels(marks(test_pp))
+wh <- eval.im(types[wh]) # most common 
 
-spatstat.geom::plot.ppp(test_pp, ann = TRUE, axes = TRUE,
-                        leg.side = "left",
-                        xlab = "Axis.1 [54.5%]",
-                        ylab = "Axis.2 [20.4%]",
-                        main = "Most common type",
-                        cols = c("coral1", "chartreuse3", "cadetblue3"),
-                        pch = 16)
-spatstat.geom::plot.im(wh, add = TRUE, show.all = TRUE, main = "",
-                       col = c("coral4","cadetblue4","chartreuse4"))
-spatstat.geom::plot.ppp(test_pp, add = TRUE, main = "",
-                        cols = c("coral1", "chartreuse3", "cadetblue3"),
-                        pch = 16)
+plot.ppp(
+  test_pp,
+  ann = TRUE,
+  axes = TRUE,
+  leg.side = "left",
+  xlab = "Axis.1 [54.5%]",
+  ylab = "Axis.2 [20.4%]",
+  main = "Most common type",
+  cols = c("coral1", "chartreuse3", "cadetblue3"),
+  pch = 16)
+plot.im(
+  wh, add = TRUE, show.all = TRUE, main = "", col = c("coral4","cadetblue4","chartreuse4")
+)
+plot.ppp(
+  test_pp, add = TRUE, main = "", cols = c("coral1", "chartreuse3", "cadetblue3"), pch = 16
+)
 ```
 
 The "lean" BMI group appears most common in one area of the MDS/PCoA space (colored red), while the other two groups have numerous clusters. This plot *does not* indicate where eat group are significantly different from their null expectations. For example, our null expectation for the "lean" BMI group is a probability of about 0.25 (56/222). 
+
 ```{r significant_spatial_segregation}
-#spatstat::plot.im(wh, main="Most common type", ribargs = list(las = 1))
+# plot.im(wh, main="Most common type", ribargs = list(las = 1))
 
 # Plot of significantly different areas
 alpha <- 0.05                           # alpha
 z <- qnorm(alpha/2, lower.tail = F)     # z-statistic
 f1$u <- f1$estimate + z*f1$SE           # Upper CIs
 f1$l <- f1$estimate - z*f1$SE           # Lower CIs
-mu_0 <- as.vector(table(spatstat.geom::marks(test_pp))/test_pp$n) # null expectations by type
+mu_0 <- as.vector(table(marks(test_pp))/test_pp$n) # null expectations by type
 f1$p <- f1$estimate # copy structure of pixels, replace values
 for (i in 1:length(f1$p)) {
-  f1$p[[i]]$v <- factor(ifelse(mu_0[i] > f1$u[[i]]$v, "lower",
-                               ifelse( mu_0[i] < f1$l[[i]]$v, "higher", "none")),
-                        levels = c("lower", "none", "higher"))
+  f1$p[[i]]$v <- factor(
+    ifelse(
+      mu_0[i] > f1$u[[i]]$v,
+      "lower",
+      ifelse( mu_0[i] < f1$l[[i]]$v, "higher", "none")
+    ),
+    levels = c("lower", "none", "higher")
+  )
 }
 
 # Plot significant p-values

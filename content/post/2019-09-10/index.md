@@ -1,19 +1,17 @@
 ---
 title: New Postdoctoral Mentor
-author: ~
+authors: ["idblr"]
 date: '2019-08-10'
 slug: oeeb-2019
 categories: ["job"]
-tags: ["cpfp"]
+tags: ["CPFP"]
 subtitle: ''
 summary: ''
-authors: []
-lastmod: '2021-10-29T10:36:04-04:00'
 featured: no
 image: 
   caption: 'Image credit: [**DCEG**](https://dceg.cancer.gov/about/staff-directory/jones-rena)'
   focal_point: ''
-  preview_only: no
+  preview_only: false
 projects: []
 ---
 

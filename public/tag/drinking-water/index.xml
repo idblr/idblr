@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>drinking water | Ian Buller, Ph.D., M.A.</title>
+    <title>Drinking Water | Ian Buller, Ph.D., M.A.</title>
     <link>https://idblr.rbind.io/tag/drinking-water/</link>
       <atom:link href="https://idblr.rbind.io/tag/drinking-water/index.xml" rel="self" type="application/rss+xml" />
-    <description>drinking water</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <description>Drinking Water</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://idblr.rbind.io/img/avatar.jpg</url>
-      <title>drinking water</title>
+      <title>Drinking Water</title>
       <link>https://idblr.rbind.io/tag/drinking-water/</link>
     </image>
+    
+    <item>
+      <title>New Publication in Environmental Research</title>
+      <link>https://idblr.rbind.io/post/environres-2022/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/environres-2022/</guid>
+      <description>&lt;p&gt;I co-authored an article in 
+&lt;a href=&#34;https://www.sciencedirect.com/journal/environmental-research&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Environmental Research&lt;/em&gt;&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.1016/j.envres.2022.113906&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Urinary nitrate and sodium in a high-risk area for upper gastrointestinal cancers: Golestan Cohort Study&amp;rdquo;&lt;/a&gt; led by 
+&lt;a href=&#34;https://orcid.org/0000-0002-3458-1072&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Arash Etemadi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We found urinary nitrate was associated with living at a higher elevation and using groundwater for drinking and a positive correlation between median urinary nitrate and sodium and esophageal cancer incidence rates in a rural population in northeastern Iran. My contribution included testing the data for spatial autocorrelation, evaluating elevation and precipitation, formulating the random intercept model, and consulting on the design of Figure 1. This is my first career international study and first international study as a 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellow&lt;/a&gt; at the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>New Publication in the International Journal of Environmental Research and Public Health</title>
@@ -18,11 +32,11 @@
       <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/ijerph-2021/</guid>
       <description>&lt;p&gt;I first authored an article in the 
-&lt;a href=&#34;https://www.mdpi.com/journal/ijerph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Journal of Environmental Research and Public Health&lt;/a&gt; entitled 
-&lt;a href=&#34;https://doi.org/10.3390/ijerph18136822&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Ingestion of Nitrate and Nitrite and Risk of Stomach and Other Digestive System Cancers in the Iowa Women’s Health Study&amp;rdquo;&lt;/a&gt;. We assessed risk of certain digestive cancers and ingestion of nitrate and nitrite from diet and drinking water in a prospective cohort of post-menopausal women in Iowa, USA. This is my first epidemiologic analysis for the 
+&lt;a href=&#34;https://www.mdpi.com/journal/ijerph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;International Journal of Environmental Research and Public Health&lt;/em&gt;&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.3390/ijerph18136822&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Ingestion of Nitrate and Nitrite and Risk of Stomach and Other Digestive System Cancers in the Iowa Women’s Health Study.&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We assessed risk of certain digestive cancers and ingestion of nitrate and nitrite from diet and drinking water in a prospective cohort of post-menopausal women in Iowa, USA. This is my first epidemiologic analysis for the 
 &lt;a href=&#34;https://dceg.cancer.gov/about/organization/tdrp/oeeb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Occupational and Environmental Epidemiology Branch&lt;/a&gt; at the 
-&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

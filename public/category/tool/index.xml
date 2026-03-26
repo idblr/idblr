@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tool | Ian Buller, Ph.D., M.A.</title>
+    <title>Tool | Ian Buller, Ph.D., M.A.</title>
     <link>https://idblr.rbind.io/category/tool/</link>
       <atom:link href="https://idblr.rbind.io/category/tool/index.xml" rel="self" type="application/rss+xml" />
-    <description>tool</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate>
+    <description>Tool</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://idblr.rbind.io/img/avatar.jpg</url>
-      <title>tool</title>
+      <title>Tool</title>
       <link>https://idblr.rbind.io/category/tool/</link>
     </image>
+    
+    <item>
+      <title>New Web Application &#34;Catchment Areas of NCI-Designated Cancer Centers&#34; launched</title>
+      <link>https://idblr.rbind.io/post/nci-catchment/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/nci-catchment/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://gis.cancer.gov/ncicatchment/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Catchment Areas of NCI-Designated Cancer Centers&lt;/a&gt; is a web-based application that serves as a visualization tool for the geographically defined catchment areas of NCI-Designated Cancer Centers.&lt;/p&gt;
+&lt;p&gt;The web application provides a geographic scope for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;monitoring cancer trends&lt;/li&gt;
+&lt;li&gt;identifying pronounced socioeconomic- and health-related disparities&lt;/li&gt;
+&lt;li&gt;informing high-impact translational science&lt;/li&gt;
+&lt;li&gt;guiding the implementation of evidence-based interventions in clinical and community settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The web application will continue to evolve, geographically linking Cancer Centers’ catchment areas to publicly available data sources to aggregate sociodemographic and epidemiologic characteristics across the 
+&lt;a href=&#34;https://cancercenters.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NCI Cancer Centers Program&lt;/a&gt;. I co-led the tool development with 
+&lt;a href=&#34;https://orcid.org/0000-0002-8149-9004&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Peter DelNero&lt;/a&gt; with guidance from 
+&lt;a href=&#34;https://surveillance.cancer.gov/about/bios/tatalovichz.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Zaria Tatalovich&lt;/a&gt; and 
+&lt;a href=&#34;https://staffprofiles.cancer.gov/brp/prgmStaffProfile.do?contactId=33399217&amp;amp;name=Robin-Vanderpool&amp;amp;bioType=stf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Robin Vanderpool&lt;/a&gt; and technical assistance from 
+&lt;a href=&#34;https://www.imsweb.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Information Management Services, Inc.&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>New Web Application &#34;Spatial Power&#34; launched</title>
@@ -18,13 +40,14 @@
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/spatial-power/</guid>
       <description>&lt;p&gt;
-&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; is a web application that calculates the power for spatial statistics. Currently, the tool has one module for the spatial relative risk function. 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; and I co-designed the web application with a development team from the NCI 
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; is a web application that calculates the power for spatial statistics. Currently, the tool has one module for the spatial relative risk function.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://orcid.org/0000-0001-8393-1713&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Derek Brown&lt;/a&gt; and I co-designed the web application with a development team from the NCI 
 &lt;a href=&#34;https://datascience.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Biomedical Informatics &amp;amp; Information Technology&lt;/a&gt;. We received funding from a 
-&lt;a href=&#34;https://idblr.rbind.io/post/tools&#34;&gt;DCEG Informatics Tool Challenge Award&lt;/a&gt; and a 
+&lt;a href=&#34;https://idblr.rbind.io/post/tools-2020&#34;&gt;DCEG Informatics Tool Challenge Award&lt;/a&gt; and a 
 &lt;a href=&#34;https://idblr.rbind.io/post/tfra-2021&#34;&gt;DCP Trans-Fellowship Research Award Supplement&lt;/a&gt;. Please 
-&lt;a href=&#34;https://idblr.rbind.io/profile&#34;&gt;contact me&lt;/a&gt; or Dr. Brown with any suggestions for improvements, especially additional spatial statistics you would like to see in the web application.&lt;/p&gt;
-</description>
+&lt;a href=&#34;https://idblr.rbind.io/profile&#34;&gt;contact me&lt;/a&gt; or 
+&lt;a href=&#34;mailto:derek9@gwmail.gwu.edu&#34;&gt;Dr. Brown&lt;/a&gt; with any suggestions for improvements, especially additional spatial statistics you would like to see in the web application.&lt;/p&gt;</description>
     </item>
     
   </channel>
