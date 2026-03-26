@@ -1,19 +1,17 @@
 ---
 title: New CRAN Package {ndi}
-author: ~
+authors: ["idblr"]
 date: '2022-08-13'
 slug: cran-ndi
 categories: ["R"]
-tags: ["deprivation", "R", "CRAN", "census", "principal component analysis", "socio-economic indicators"]
+tags: ["deprivation", "R", "CRAN", "census", "principal component analysis", "socio-economic indicators", "CPFP"]
 subtitle: ''
 summary: ''
-authors: []
-lastmod: '2023-02-01T9:30:04-04:00'
 featured: no
 image: 
   caption: 'Image credit: [**Ian Buller**](/)'
   focal_point: ''
-  preview_only: no
+  preview_only: false
 projects: []
 ---
 

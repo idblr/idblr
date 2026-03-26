@@ -1,16 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>talk | Ian Buller, Ph.D., M.A.</title>
+    <title>Talk | Ian Buller, Ph.D., M.A.</title>
     <link>https://idblr.rbind.io/category/talk/</link>
       <atom:link href="https://idblr.rbind.io/category/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>talk</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <description>Talk</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://idblr.rbind.io/img/avatar.jpg</url>
-      <title>talk</title>
+      <title>Talk</title>
       <link>https://idblr.rbind.io/category/talk/</link>
     </image>
+    
+    <item>
+      <title>American Geophysical Union 2024</title>
+      <link>https://idblr.rbind.io/post/agu-2024/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/agu-2024/</guid>
+      <description>&lt;p&gt;I presented a lightning talk at the 
+&lt;a href=&#34;https://www.agu.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;American Geophysical Union&lt;/a&gt; 
+&lt;a href=&#34;https://www.agu.org/annual-meeting-2024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Annual Meeting 2024&lt;/a&gt; entitled &amp;ldquo;Ambient PM2.5 exposure and risk of non-Hodgkin lymphoma in a large U.S.-based cohort.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I presented initial results from a project conducted by 
+&lt;a href=&#34;https://www.linkedin.com/in/inam-ghulamhussain&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Inam Ghulamhussain&lt;/a&gt; who I mentored while I was a postdoctoral 
+&lt;a href=&#34;https://prevention.cancer.gov/research-areas/networks-consortia-programs/cpfp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellow&lt;/a&gt; and he was a 
+&lt;a href=&#34;https://www.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institutes of Health&lt;/a&gt; 
+&lt;a href=&#34;https://www.training.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Summer Intern&lt;/a&gt; at the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Society for Epidemiologic Research 2024</title>
+      <link>https://idblr.rbind.io/post/ser-2024/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ser-2024/</guid>
+      <description>&lt;p&gt;I co-instructed a 
+&lt;a href=&#34;https://epiresearch.org/annual-meeting/2024-meeting/2024-workshops/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;workshop&lt;/a&gt; at the 
+&lt;a href=&#34;https://epiresearch.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Society for Epidemiologic Research&lt;/a&gt; 
+&lt;a href=&#34;https://epiresearch.org/annual-meeting/2024-meeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Annual Meeting 2024&lt;/a&gt; entitled &amp;ldquo;Git’n up to speed on versioning control.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The workshop was an introduction to the Git language and other Git-enabled technology for epidemiologists to version control their software code. I developed the course with other DLHers, including 
+&lt;a href=&#34;https://orcid.org/0000-0002-6921-5742&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Ghassan Hamra&lt;/a&gt;, 
+&lt;a href=&#34;https://orcid.org/0000-0002-8748-2692&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Nat MacNell&lt;/a&gt;, and Audrey Brown.&lt;/p&gt;
+&lt;p&gt;I was also a co-author on a 
+&lt;a href=&#34;https://epiresearch.org/wp-content/uploads/2024/06/Book-Cover-and-Abstract.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;poster abstract&lt;/a&gt; entitled &amp;ldquo;Revisiting the modifiable areal unit problem in the era of exposome-wide association studies: Assessing the performance of the CDC/ATSDR Social Vulnerability Index at privacy-protecting spatial scales&amp;rdquo; led by 
+&lt;a href=&#34;https://orcid.org/0009-0008-0025-7435&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jonathan Lewis&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Accessible geospatial socio-economic metrics</title>
+      <link>https://idblr.rbind.io/post/nci-2023/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/nci-2023/</guid>
+      <description>&lt;p&gt;I gave an invited talk at the 
+&lt;a href=&#34;https://www.cancer.gov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; 
+&lt;a href=&#34;https://prevention.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Prevention&lt;/a&gt; 
+&lt;a href=&#34;https://prevention.cancer.gov/major-programs/mcd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Multi-Cancer Detection&lt;/a&gt; Working Group entitled &amp;ldquo;Accessible geospatial socio-economic metrics.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The talk was an introduction to my open-source R package in the 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comprehensive R Archive Network&lt;/a&gt; (CRAN) named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=ndi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;ndi&lt;/em&gt;&lt;/a&gt; that I developed as a postdoctoral 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellow&lt;/a&gt;. The host, 
+&lt;a href=&#34;https://orcid.org/0000-0002-3654-9076&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Amanda Skarlupka&lt;/a&gt;, performed a tutorial of the package and how it can be used for the evaluation and design of clinical trial recruitment. 
+&lt;a href=&#34;https://idblr.rbind.io/post/cran-ndi&#34;&gt;See more details about the &lt;em&gt;ndi&lt;/em&gt; package&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Putting Cancer and Environmental Exposures in (Geo)spatial Perspective</title>
+      <link>https://idblr.rbind.io/post/epa-2022/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/epa-2022/</guid>
+      <description>&lt;p&gt;I gave an invited talk at the Center for Science and Technology in the Radiation Protection Division of the Office of Air and Radiation of the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;U.S. Environmental Protection Agency&lt;/a&gt; entitled &amp;ldquo;Putting cancer and environmental exposures in (geo)spatial perspective.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The talk was an overview of my work in progress over the past year in the 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>International Society for Environmental Epidemiology 2021</title>
@@ -19,16 +80,16 @@
       <guid>https://idblr.rbind.io/post/isee-2021/</guid>
       <description>&lt;p&gt;I presented my oral abstract entitled &amp;ldquo;Roadway Proximity and Lung Cancer Risk in NIH-AARP Diet and Health Study Participants&amp;rdquo; at the 
 &lt;a href=&#34;https://www.isee2021.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;33rd Annual Conference of the International Society for Environmental Epidemiology&lt;/a&gt; held virtually due to the global 
-&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic. I was also a co-author on three abstracts:&lt;/p&gt;
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic.&lt;/p&gt;
+&lt;p&gt;I was also a co-author on three abstracts:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&amp;ldquo;Residential proximity to animal feeding operations and mortality among postmenopausal women in the Iowa Women’s Health Study&amp;rdquo; led by 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/oeeb/madrigal-jessica&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jessica Madrigal&lt;/a&gt;&lt;/li&gt;
+&lt;a href=&#34;https://orcid.org/0000-0001-5303-5109&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jessica Madrigal&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Residential proximity to animal feeding operations and risk of lymphohematopoietic cancers in the Iowa Women’s Health Study&amp;rdquo; led by 
-&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/fisher-jared&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jard Fisher&lt;/a&gt;&lt;/li&gt;
+&lt;a href=&#34;https://orcid.org/0000-0001-9203-5742&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jared Fisher&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Ethylene oxide emissions and risk of breast cancer and Non-Hodgkin lymphoma in a large U.S. cohort&amp;rdquo; led by 
-&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/jones-rena&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Rena Jones&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+&lt;a href=&#34;https://orcid.org/0000-0003-1294-1679&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Rena Jones&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -48,7 +109,7 @@
       <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/niehs-2021/</guid>
       <description>&lt;p&gt;I presented a lightning talk entitled &amp;ldquo;Geographic Variation in the Oral Microbiome of NIH-AARP Diet and Health Study Participants&amp;rdquo; at a 
-&lt;a href=&#34;https://epiresearch.org/annual-meeting/2020-meeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institute of Environmental Health Sciences&lt;/a&gt; workshop entitled 
+&lt;a href=&#34;https://www.niehs.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institute of Environmental Health Sciences&lt;/a&gt; workshop entitled 
 &lt;a href=&#34;https://www.niehs.nih.gov/news/events/pastmtg/2021/ieemhh_2021/index.cfm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Impact of Environmental Exposures on the Microbiome and Human Health&lt;/a&gt; held virtually due to the global 
 &lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic.&lt;/p&gt;
 </description>
@@ -60,11 +121,12 @@
       <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/gawg-2021/</guid>
       <description>&lt;p&gt;
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; and I presented our &amp;ldquo;Spatial Power&amp;rdquo; webtool for the NCI 
+&lt;a href=&#34;https://orcid.org/0000-0001-8393-1713&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Derek Brown&lt;/a&gt; and I presented our &amp;ldquo;Spatial Power&amp;rdquo; webtool for the NCI 
 &lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt; January 2021 monthly 
-&lt;a href=&#34;https://dceg.cancer.gov/research/how-we-study/exposure-assessment/gis-environmental-exposure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Geographic Analysis Working Group&lt;/a&gt; meeting. Spatial Power is an upcomping webtool to calculate power for spatial statistics. Stay tuned for its launch.&lt;/p&gt;
+&lt;a href=&#34;https://dceg.cancer.gov/research/how-we-study/exposure-assessment/gis-environmental-exposure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Geographic Analysis Working Group&lt;/a&gt; meeting. Spatial Power is an upcoming webtool to calculate power for spatial statistics. Stay tuned for its launch.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 
-&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021&lt;/p&gt;
+&lt;a href=&#34;https://analysistools.cancer.gov/spatial-power&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Power&lt;/a&gt; was successfully launched on May 20, 2021. 
+&lt;a href=&#34;https://idblr.rbind.io/post/spatial-power&#34;&gt;See more details&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -74,10 +136,10 @@
       <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/frm1/</guid>
       <description>&lt;p&gt;I gave an invited talk at the 
-&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; entitled &amp;ldquo;A place for spatial analysis in the Cancer Control Continuum.&amp;rdquo; The talk was an overview of my work in progress over the past year in the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; entitled &amp;ldquo;A place for spatial analysis in the Cancer Control Continuum.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The talk was an overview of my work in progress over the past year in the 
 &lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellowship Program&lt;/a&gt;. The talk was recorded, so please 
-&lt;a href=&#34;https://idblr.rbind.io/profile&#34;&gt;contact me&lt;/a&gt; if you are interested in viewing the talk.&lt;/p&gt;
-</description>
+&lt;a href=&#34;https://idblr.rbind.io/profile&#34;&gt;contact me&lt;/a&gt; if you are interested in viewing the talk.&lt;/p&gt;</description>
     </item>
     
   </channel>

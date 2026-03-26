@@ -1,19 +1,17 @@
 ---
 title: Society for Epidemiologic Research 2021
-author: ~
+authors: ["idblr"] 
 date: '2021-06-23'
 slug: ser-2021
 categories: ["talk"]
-tags: ["mixtures", "spatial analysis", "NIH-AARP", "conference"]
+tags: ["mixtures", "spatial analysis", "NIH-AARP", "conference", "CPFP"]
 subtitle: ''
 summary: ''
-authors: []
-lastmod: '2021-06-23T14:41:03-04:00'
 featured: no
 image:
   caption: 'Image credit: [**SER2021**](https://epiresearch.org/annual-meeting/2021-meeting/)'
   focal_point: ''
-  preview_only: no
+  preview_only: false
 projects: []
 ---
 

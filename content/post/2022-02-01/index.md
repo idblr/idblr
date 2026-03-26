@@ -1,23 +1,25 @@
 ---
 title: New Web Application "Catchment Areas of NCI-Designated Cancer Centers" launched
-author: ~
+authors: ["idblr"]
 date: '2022-02-01'
 slug: nci-catchment
 categories: ["tool"]
-tags: ["cancer center", "catchment area", "data product"]
+tags: ["cancer center", "catchment area", "data product", "CPFP"]
 subtitle: ''
 summary: ''
-authors: []
-lastmod: '2022-02-01T14:41:03-04:00'
 featured: no
 image:
   caption: 'Image credit: [**NIH/NCI/DCCPS/SRP**](https://gis.cancer.gov/ncicatchment/)'
   focal_point: ''
-  preview_only: no
+  preview_only: false
 projects: []
 ---
 
-[Catchment Areas of NCI-Designated Cancer Centers](https://gis.cancer.gov/ncicatchment/) is a web-based application that serves as a visualization tool for the geographically defined catchment areas of NCI-Designated Cancer Centers, providing a geographic scope for:
+[Catchment Areas of NCI-Designated Cancer Centers](https://gis.cancer.gov/ncicatchment/) is a web-based application that serves as a visualization tool for the geographically defined catchment areas of NCI-Designated Cancer Centers. 
+
+<!--more-->
+
+The web application provides a geographic scope for:
   * monitoring cancer trends
   * identifying pronounced socioeconomic- and health-related disparities
   * informing high-impact translational science

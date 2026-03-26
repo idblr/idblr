@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>workshop | Ian Buller, Ph.D., M.A.</title>
+    <title>Workshop | Ian Buller, Ph.D., M.A.</title>
     <link>https://idblr.rbind.io/tag/workshop/</link>
       <atom:link href="https://idblr.rbind.io/tag/workshop/index.xml" rel="self" type="application/rss+xml" />
-    <description>workshop</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <description>Workshop</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://idblr.rbind.io/img/avatar.jpg</url>
-      <title>workshop</title>
+      <title>Workshop</title>
       <link>https://idblr.rbind.io/tag/workshop/</link>
     </image>
+    
+    <item>
+      <title>NIH Research Festival 2025</title>
+      <link>https://idblr.rbind.io/post/nihrf-2025/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/nihrf-2025/</guid>
+      <description>&lt;p&gt;I co-instructed a workshop at the 
+&lt;a href=&#34;https://researchfestival.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH Research Festival&lt;/a&gt; 2025 entitled &amp;ldquo;Geospatial for Everyone: Enhancing Your “Non-spatial” Research with Geospatial Data&amp;rdquo; with 
+&lt;a href=&#34;https://orcid.org/0009-0007-9851-1376&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Nathaniel MacNell&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In our 
+&lt;a href=&#34;https://github.com/nathanielmacnell/nihworkshop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;workshop&lt;/a&gt;, we presented an interactive open-source workflow of geographically linking publicly available data to simulated locations and demonstrated how these data can be used for clinical study design and analysis. We used the 
+&lt;a href=&#34;https://www.nhlbi.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Heart, Lung, and Blood Institute&lt;/a&gt; (NHLBI) &amp;amp; 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; (NCI) 
+&lt;a href=&#34;https://doi.org/10.1016/j.dib.2022.108002&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Neighborhood Deprivation Index&lt;/a&gt; (NDI) throughout our examples, which is also calculated by my R package 
+&lt;a href=&#34;https://CRAN.R-project.org/package=ndi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;ndi&lt;/em&gt;&lt;/a&gt; (click 
+&lt;a href=&#34;https://idblr.rbind.io/post/cran-ndi&#34;&gt;here&lt;/a&gt; for more information). We were one of twenty-six vendor workshops held at the NIH Research Festival chosen out of hundreds of applicants.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Society for Epidemiologic Research 2024</title>
+      <link>https://idblr.rbind.io/post/ser-2024/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ser-2024/</guid>
+      <description>&lt;p&gt;I co-instructed a 
+&lt;a href=&#34;https://epiresearch.org/annual-meeting/2024-meeting/2024-workshops/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;workshop&lt;/a&gt; at the 
+&lt;a href=&#34;https://epiresearch.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Society for Epidemiologic Research&lt;/a&gt; 
+&lt;a href=&#34;https://epiresearch.org/annual-meeting/2024-meeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Annual Meeting 2024&lt;/a&gt; entitled &amp;ldquo;Git’n up to speed on versioning control.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The workshop was an introduction to the Git language and other Git-enabled technology for epidemiologists to version control their software code. I developed the course with other DLHers, including 
+&lt;a href=&#34;https://orcid.org/0000-0002-6921-5742&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Ghassan Hamra&lt;/a&gt;, 
+&lt;a href=&#34;https://orcid.org/0000-0002-8748-2692&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Nat MacNell&lt;/a&gt;, and Audrey Brown.&lt;/p&gt;
+&lt;p&gt;I was also a co-author on a 
+&lt;a href=&#34;https://epiresearch.org/wp-content/uploads/2024/06/Book-Cover-and-Abstract.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;poster abstract&lt;/a&gt; entitled &amp;ldquo;Revisiting the modifiable areal unit problem in the era of exposome-wide association studies: Assessing the performance of the CDC/ATSDR Social Vulnerability Index at privacy-protecting spatial scales&amp;rdquo; led by 
+&lt;a href=&#34;https://orcid.org/0009-0008-0025-7435&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jonathan Lewis&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Lightning Talk at NIEHS Workshop</title>
@@ -18,7 +52,7 @@
       <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/niehs-2021/</guid>
       <description>&lt;p&gt;I presented a lightning talk entitled &amp;ldquo;Geographic Variation in the Oral Microbiome of NIH-AARP Diet and Health Study Participants&amp;rdquo; at a 
-&lt;a href=&#34;https://epiresearch.org/annual-meeting/2020-meeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institute of Environmental Health Sciences&lt;/a&gt; workshop entitled 
+&lt;a href=&#34;https://www.niehs.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institute of Environmental Health Sciences&lt;/a&gt; workshop entitled 
 &lt;a href=&#34;https://www.niehs.nih.gov/news/events/pastmtg/2021/ieemhh_2021/index.cfm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Impact of Environmental Exposures on the Microbiome and Human Health&lt;/a&gt; held virtually due to the global 
 &lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic.&lt;/p&gt;
 </description>

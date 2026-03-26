@@ -5,7 +5,7 @@
     <link>https://idblr.rbind.io/tag/cran/</link>
       <atom:link href="https://idblr.rbind.io/tag/cran/index.xml" rel="self" type="application/rss+xml" />
     <description>CRAN</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Mon, 21 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://idblr.rbind.io/img/avatar.jpg</url>
       <title>CRAN</title>
@@ -13,18 +13,90 @@
     </image>
     
     <item>
+      <title>Accessible geospatial socio-economic metrics</title>
+      <link>https://idblr.rbind.io/post/nci-2023/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/nci-2023/</guid>
+      <description>&lt;p&gt;I gave an invited talk at the 
+&lt;a href=&#34;https://www.cancer.gov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt; 
+&lt;a href=&#34;https://prevention.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Prevention&lt;/a&gt; 
+&lt;a href=&#34;https://prevention.cancer.gov/major-programs/mcd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Multi-Cancer Detection&lt;/a&gt; Working Group entitled &amp;ldquo;Accessible geospatial socio-economic metrics.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The talk was an introduction to my open-source R package in the 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comprehensive R Archive Network&lt;/a&gt; (CRAN) named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=ndi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;ndi&lt;/em&gt;&lt;/a&gt; that I developed as a postdoctoral 
+&lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellow&lt;/a&gt;. The host, 
+&lt;a href=&#34;https://orcid.org/0000-0002-3654-9076&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Amanda Skarlupka&lt;/a&gt;, performed a tutorial of the package and how it can be used for the evaluation and design of clinical trial recruitment. 
+&lt;a href=&#34;https://idblr.rbind.io/post/cran-ndi&#34;&gt;See more details about the &lt;em&gt;ndi&lt;/em&gt; package&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>New CRAN Package {ndi}</title>
+      <link>https://idblr.rbind.io/post/cran-ndi/</link>
+      <pubDate>Sat, 13 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/cran-ndi/</guid>
+      <description>&lt;p&gt;My fourth R package is published in the 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comprehensive R Archive Network&lt;/a&gt; named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=ndi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;ndi&lt;/em&gt;&lt;/a&gt;. It computes various geospatial neighborhood deprivation indices (NDI) and other metrics of social vulnerability in the United States.&lt;/p&gt;
+&lt;p&gt;Two types of NDI are available in the initial version:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;based on 
+&lt;a href=&#34;https://doi.org/10.1007/s11524-006-9094-x&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Messer et al. (2006)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;based on 
+&lt;a href=&#34;https://doi.org/10.1080/17445647.2020.1750066&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andrews et al. (2020)&lt;/a&gt; and 
+&lt;a href=&#34;https://doi.org/10.1016/j.dib.2022.108002&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slotman et al. (2022)&lt;/a&gt; who use variables chosen by 
+&lt;a href=&#34;https://doi.org/10.1111/j.1749-6632.2009.05333.x&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Roux and Mair (2010)&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Both are a decomposition of various demographic characteristics from the U.S. Census Bureau American Community Survey 5-year estimates (ACS-5; 2010-2020) pulled by the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=tidycensus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidycensus&lt;/a&gt; package.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; - 2022-08-15: The package computes two additional metrics using ACS-5 data (2009-2020) that account for values in nearby (i.e., adjacent) census geographies (i.e., census tracts or counties):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;the spatial Racial Isolation Index (RI) based on 
+&lt;a href=&#34;https://www.doi.org/10.1016/j.sste.2011.06.002&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anthopolos et al. (2011)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the spatial Educational Isolation Index (EI) based on 
+&lt;a href=&#34;https://www.doi.org/10.3390/ijerph18179384&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bravo et al. (2021)&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And retrieves the Gini Index based on 
+&lt;a href=&#34;https://www.doi.org/10.2307/2223319&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gini (1921)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; - 2022-08-18: The package link was added to the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NCI&lt;/a&gt; 
+&lt;a href=&#34;https://gis.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GIS Portal for Cancer Research&lt;/a&gt; 
+&lt;a href=&#34;https://www.nhlbi.nih.gov/science/adopt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Accumulating Data to Optimally Predict Obesity Treatment (ADOPT) Core Measures&lt;/a&gt; 
+&lt;a href=&#34;https://gis.cancer.gov/research/adopt.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Environmental Domain site&lt;/a&gt; under the &amp;ldquo;Socioeconomic Deprivation&amp;rdquo; tab.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; - 2022-10-01: The package computes an additional metric using ACS-5 data (2009-2020) to compute the Index of Concentration at the Extremes (ICE) based on 
+&lt;a href=&#34;https://www.doi.org/10.1136/jech-2015-205728&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Feldman et al. (2015)&lt;/a&gt; and 
+&lt;a href=&#34;https://www.doi.org/10.2105/AJPH.2015.302955&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Krieger et al. (2016)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; - 2022-12-01: The package computes an additional metric using ACS-5 data (2009-2020) to compute the Dissimilarity Index (DI) based on 
+&lt;a href=&#34;https://doi.org/10.2307/2088328&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Duncan &amp;amp; Duncan (1955)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; - 2023-02-01: The package computes two additional metrics using ACS-5 data (2009-2020):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;the aspatial income or racial/ethnic Atkinson Index (AI) based on 
+&lt;a href=&#34;https://doi.org/10.1016/0022-0531%2870%2990039-6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Atkinson (1970)&lt;/a&gt; for specified counties/tracts 2009 onward&lt;/li&gt;
+&lt;li&gt;the aspatial racial/ethnic Isolation Index (II) based on Shevky &amp;amp; Williams (1949; ISBN-13:978-0837156378) and 
+&lt;a href=&#34;https://doi.org/10.2307/2574118&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bell (1954)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the aspatial racial/ethnic Correlation Ratio (V) based on 
+&lt;a href=&#34;https://doi.org/10.2307/2574118&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bell (1954)&lt;/a&gt; and 
+&lt;a href=&#34;https://doi.org/10.2307/3644339&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;White (1986)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the aspatial racial/ethnic Location Quotient (LQ) based on 
+&lt;a href=&#34;https://doi.org/10.2307/2084686&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Merton (1939)&lt;/a&gt; and 
+&lt;a href=&#34;https://doi.org/10.1016/j.healthplace.2012.09.015&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sudano et al. (2013)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the aspatial racial/ethnic Local Exposure and Isolation metric (LEx/Is) based on 
+&lt;a href=&#34;https://doi.org/10.1158/1055-9965.EPI-16-0926&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bemanian &amp;amp; Beyer (2017)&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>New CRAN Package {envi}</title>
       <link>https://idblr.rbind.io/post/cran-envi/</link>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/cran-envi/</guid>
-      <description>&lt;p&gt;My third R package is on 
-&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; named 
-&lt;a href=&#34;https://CRAN.R-project.org/package=envi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;envi&lt;/a&gt;. It estimates the ecological niche using presence/absence data and the spatial relative risk function via the 
-&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. See the public 
-&lt;a href=&#34;https://github.com/Waller-SUSAN/envi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;Thanks to major contributions from Dr. 
-&lt;a href=&#34;https://sph.emory.edu/faculty/profile/index.php?FID=lance-waller-345&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lance Waller&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>&lt;p&gt;My third R package is published in the 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comprehensive R Archive Network&lt;/a&gt; named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=envi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;envi&lt;/em&gt;&lt;/a&gt;. It estimates the ecological niche using presence/absence data and the spatial relative risk function via the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;sparr&lt;/em&gt;&lt;/a&gt; package. See the public 
+&lt;a href=&#34;https://github.com/lance-waller-lab/envi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;Thanks to major contributions from 
+&lt;a href=&#34;https://orcid.org/0000-0001-5002-8886&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Lance Waller&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,16 +104,15 @@
       <link>https://idblr.rbind.io/post/cran-gater/</link>
       <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/cran-gater/</guid>
-      <description>&lt;p&gt;My second R package is on 
-&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; named 
-&lt;a href=&#34;https://CRAN.R-project.org/package=gateR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gateR&lt;/a&gt;. It estimates clustering of cytometry cells using markers and the spatial relative risk function via the 
-&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. See the public 
-&lt;a href=&#34;https://github.com/Waller-SUSAN/gateR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;Thanks to major contributions from Drs. 
-&lt;a href=&#34;https://medschool.cuanschutz.edu/immunology-and-microbiology/faculty/hsieh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Elena Hsieh&lt;/a&gt;, 
-&lt;a href=&#34;https://profiles.ucdenver.edu/display/7400934&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debashis Ghosh&lt;/a&gt;, and 
-&lt;a href=&#34;https://sph.emory.edu/faculty/profile/index.php?FID=lance-waller-345&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lance Waller&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>&lt;p&gt;My second R package is published in the 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comprehensive R Archive Network&lt;/a&gt; named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=gateR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;gateR&lt;/em&gt;&lt;/a&gt;. It estimates clustering of cytometry cells using markers and the spatial relative risk function via the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;sparr&lt;/em&gt;&lt;/a&gt; package. See the public 
+&lt;a href=&#34;https://github.com/lance-waller-lab/gateR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;Thanks to major contributions from 
+&lt;a href=&#34;https://orcid.org/0000-0003-3969-6597&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Elena Hsieh&lt;/a&gt;, 
+&lt;a href=&#34;https://orcid.org/0000-0001-6618-1316&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Debashis Ghosh&lt;/a&gt;, and 
+&lt;a href=&#34;https://orcid.org/0000-0001-5002-8886&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Lance Waller&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -49,17 +120,18 @@
       <link>https://idblr.rbind.io/post/cran-sparrpowr/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/cran-sparrpowr/</guid>
-      <description>&lt;p&gt;My first R package is on 
-&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; named 
-&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt;. It provides a statistical power calculation for the spatial relative risk function via the 
-&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. See the public 
+      <description>&lt;p&gt;My first R package is in the 
+&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comprehensive R Archive Network&lt;/a&gt; named 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;sparrpowR&lt;/em&gt;&lt;/a&gt;. It provides a statistical power calculation for the spatial relative risk function via the 
+&lt;a href=&#34;https://CRAN.R-project.org/package=sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;sparr&lt;/em&gt;&lt;/a&gt; package. See the public 
 &lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt; for more details. The featured image comes from the package 
 &lt;a href=&#34;https://cran.r-project.org/web/packages/sparrpowR/vignettes/vignette.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vignette&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Thanks to 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; as my co-first author as well as major contributions from 
+&lt;a href=&#34;https://orcid.org/0000-0001-8393-1713&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Derek Brown&lt;/a&gt; as my co-first author as well as major contributions from 
 &lt;a href=&#34;https://github.com/timyers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tim Myers&lt;/a&gt;, and 
-&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/machiela-mitchell&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mitch Machiela, Sc.D., M.P.H.&lt;/a&gt;&lt;/p&gt;
-&lt;img src=&#34;https://idblr.rbind.io/img/sparrpowR.png&#34; width=&#34;300&#34; align=&#34;center&#34;/&gt;</description>
+&lt;a href=&#34;https://orcid.org/0000-0001-6538-9705&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Mitch Machiela&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&#34;https://idblr.rbind.io/img/sparrpowR.png&#34; width=&#34;300&#34; align=&#34;center&#34;/&gt;
+</description>
     </item>
     
   </channel>

@@ -1,16 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>conference | Ian Buller, Ph.D., M.A.</title>
+    <title>Conference | Ian Buller, Ph.D., M.A.</title>
     <link>https://idblr.rbind.io/tag/conference/</link>
       <atom:link href="https://idblr.rbind.io/tag/conference/index.xml" rel="self" type="application/rss+xml" />
-    <description>conference</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <description>Conference</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://idblr.rbind.io/img/avatar.jpg</url>
-      <title>conference</title>
+      <title>Conference</title>
       <link>https://idblr.rbind.io/tag/conference/</link>
     </image>
+    
+    <item>
+      <title>American Geophysical Union 2025 Annual Meeting</title>
+      <link>https://idblr.rbind.io/post/agu-2025/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/agu-2025/</guid>
+      <description>&lt;p&gt;I presented a poster at the 
+&lt;a href=&#34;https://www.agu.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;American Geophysical Union&lt;/a&gt; 
+&lt;a href=&#34;https://www.agu.org/annual-meeting&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2025 Annual Meeting&lt;/a&gt; entitled &amp;ldquo;Temporal clustering of air pollution and heat wave events at domestic U.S. Military facilities.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I presented initial results comparing three statistical approaches (supervised and unsupervised machine learning approaches) to evaluate the potential relationship between heat and air pollution wave events at U.S. Military Facilities within 4 km of 
+&lt;a href=&#34;https://www.epa.gov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;U.S. Environmental Protection Agency&lt;/a&gt; 
+&lt;a href=&#34;https://www.epa.gov/aqs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Air Quality System&lt;/a&gt; sampling locations. We also used publicly-available 
+&lt;a href=&#34;https://prism.oregonstate.edu/notices/notice_20250327.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PRISM Climate Group&lt;/a&gt; data from 
+&lt;a href=&#34;https://oregonstate.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oregon State University&lt;/a&gt; with our custom-built open-source software.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Military Health System Research Symposium 2025</title>
+      <link>https://idblr.rbind.io/post/mhsrs-2025/</link>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/mhsrs-2025/</guid>
+      <description>&lt;p&gt;I presented a poster at the 
+&lt;a href=&#34;https://mhsrs.health.mil&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Military Health System Research Symposium&lt;/a&gt; 2025 entitled &amp;ldquo;Open-source estimation of shade availability at military bases in the United States.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I presented an initial workflow of estimating the shadow footprint (shade) of obstacles on United States (US) Military facilities using the US Naval Academy campus as an example. We use publicly-available 
+&lt;a href=&#34;https://www.usgs.gov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;US Geological Survey&lt;/a&gt; 
+&lt;a href=&#34;https://www.usgs.gov/3d-elevation-program&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;3D Elevation Program&lt;/a&gt; point cloud data with custom-built open-source software.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>American Geophysical Union 2024</title>
+      <link>https://idblr.rbind.io/post/agu-2024/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/agu-2024/</guid>
+      <description>&lt;p&gt;I presented a lightning talk at the 
+&lt;a href=&#34;https://www.agu.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;American Geophysical Union&lt;/a&gt; 
+&lt;a href=&#34;https://www.agu.org/annual-meeting-2024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Annual Meeting 2024&lt;/a&gt; entitled &amp;ldquo;Ambient PM2.5 exposure and risk of non-Hodgkin lymphoma in a large U.S.-based cohort.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I presented initial results from a project conducted by 
+&lt;a href=&#34;https://www.linkedin.com/in/inam-ghulamhussain&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Inam Ghulamhussain&lt;/a&gt; who I mentored while I was a postdoctoral 
+&lt;a href=&#34;https://prevention.cancer.gov/research-areas/networks-consortia-programs/cpfp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cancer Prevention Fellow&lt;/a&gt; and he was a 
+&lt;a href=&#34;https://www.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institutes of Health&lt;/a&gt; 
+&lt;a href=&#34;https://www.training.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Summer Intern&lt;/a&gt; at the 
+&lt;a href=&#34;https://www.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Cancer Institute&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Society for Epidemiologic Research 2024</title>
+      <link>https://idblr.rbind.io/post/ser-2024/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/ser-2024/</guid>
+      <description>&lt;p&gt;I co-instructed a 
+&lt;a href=&#34;https://epiresearch.org/annual-meeting/2024-meeting/2024-workshops/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;workshop&lt;/a&gt; at the 
+&lt;a href=&#34;https://epiresearch.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Society for Epidemiologic Research&lt;/a&gt; 
+&lt;a href=&#34;https://epiresearch.org/annual-meeting/2024-meeting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Annual Meeting 2024&lt;/a&gt; entitled &amp;ldquo;Git’n up to speed on versioning control.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The workshop was an introduction to the Git language and other Git-enabled technology for epidemiologists to version control their software code. I developed the course with other DLHers, including 
+&lt;a href=&#34;https://orcid.org/0000-0002-6921-5742&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Ghassan Hamra&lt;/a&gt;, 
+&lt;a href=&#34;https://orcid.org/0000-0002-8748-2692&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Nat MacNell&lt;/a&gt;, and Audrey Brown.&lt;/p&gt;
+&lt;p&gt;I was also a co-author on a 
+&lt;a href=&#34;https://epiresearch.org/wp-content/uploads/2024/06/Book-Cover-and-Abstract.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;poster abstract&lt;/a&gt; entitled &amp;ldquo;Revisiting the modifiable areal unit problem in the era of exposome-wide association studies: Assessing the performance of the CDC/ATSDR Social Vulnerability Index at privacy-protecting spatial scales&amp;rdquo; led by 
+&lt;a href=&#34;https://orcid.org/0009-0008-0025-7435&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jonathan Lewis&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>14th AACR Conference on The Science of Cancer Health Disparities in Racial/Ethnic Minorities and the Medically Underserved</title>
@@ -18,12 +78,12 @@
       <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/aacr-2021/</guid>
       <description>&lt;p&gt;I was a co-author on a poster entitled &amp;ldquo;Comparing the association of self-reported race-ethnicity and genetic ancestry with all-cause mortality: A pan-cancer survivor analysis in the PLCO Screening Trial&amp;rdquo; at the 
-&lt;a href=&#34;https://www.aacr.org/meeting/aacr-virtual-conference-14th-aacr-conference-on-the-science-of-cancer-health-disparities-in-racial-ethnic-minorities-and-the-medically-underserved/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;14th AACR Conference on The Science of Cancer Health Disparities in Racial/Ethnic Minorities and the Medically Underserved&lt;/a&gt; by Drs. 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown&lt;/a&gt; and 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/reb/vo-jacqueline&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jacqueline Vo&lt;/a&gt; held virtually due to the global 
-&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic. This effort was funded by our 
-&lt;a href=&#34;https://idblr.rbind.io/post/coleman-2021&#34;&gt;2021 William G. Coleman Minority Health and Health Disparities Research Innovation Award&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;a href=&#34;https://www.aacr.org/meeting/aacr-virtual-conference-14th-aacr-conference-on-the-science-of-cancer-health-disparities-in-racial-ethnic-minorities-and-the-medically-underserved/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;14th AACR Conference on The Science of Cancer Health Disparities in Racial/Ethnic Minorities and the Medically Underserved&lt;/a&gt; by 
+&lt;a href=&#34;https://orcid.org/0000-0001-8393-1713&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Derek Brown&lt;/a&gt; and 
+&lt;a href=&#34;https://orcid.org/0000-0001-8891-4437&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jacqueline Vo&lt;/a&gt; held virtually due to the global 
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic.&lt;/p&gt;
+&lt;p&gt;This effort was funded by our 
+&lt;a href=&#34;https://idblr.rbind.io/post/coleman-2021&#34;&gt;2021 William G. Coleman Minority Health and Health Disparities Research Innovation Award&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -34,7 +94,7 @@
       <description>&lt;p&gt;I presented a poster entitled &amp;ldquo;Geographic variation in the oral microbiome of NIH-AARP Diet and Health Study participants&amp;rdquo; at the 
 &lt;a href=&#34;https://jam-2021.virtualpostersession.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2021 FDA-NIH-NIST-USDA Joint Agency Microbiome (JAM) Symposium&lt;/a&gt; held virtually due to the global 
 &lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic. This poster was previously presented at the 
-&lt;a href=&#34;https://idblr.rbind.io/post/isee-2020&#34;&gt;International Society for Environmental Epidemiology 2020 Annual meeting&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://idblr.rbind.io/post/isee-2020&#34;&gt;International Society for Environmental Epidemiology 2020 Annual meeting&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -45,16 +105,16 @@
       <guid>https://idblr.rbind.io/post/isee-2021/</guid>
       <description>&lt;p&gt;I presented my oral abstract entitled &amp;ldquo;Roadway Proximity and Lung Cancer Risk in NIH-AARP Diet and Health Study Participants&amp;rdquo; at the 
 &lt;a href=&#34;https://www.isee2021.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;33rd Annual Conference of the International Society for Environmental Epidemiology&lt;/a&gt; held virtually due to the global 
-&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic. I was also a co-author on three abstracts:&lt;/p&gt;
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic.&lt;/p&gt;
+&lt;p&gt;I was also a co-author on three abstracts:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&amp;ldquo;Residential proximity to animal feeding operations and mortality among postmenopausal women in the Iowa Women’s Health Study&amp;rdquo; led by 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/oeeb/madrigal-jessica&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jessica Madrigal&lt;/a&gt;&lt;/li&gt;
+&lt;a href=&#34;https://orcid.org/0000-0001-5303-5109&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jessica Madrigal&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Residential proximity to animal feeding operations and risk of lymphohematopoietic cancers in the Iowa Women’s Health Study&amp;rdquo; led by 
-&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/fisher-jared&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jard Fisher&lt;/a&gt;&lt;/li&gt;
+&lt;a href=&#34;https://orcid.org/0000-0001-9203-5742&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jared Fisher&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Ethylene oxide emissions and risk of breast cancer and Non-Hodgkin lymphoma in a large U.S. cohort&amp;rdquo; led by 
-&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/jones-rena&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Rena Jones&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+&lt;a href=&#34;https://orcid.org/0000-0003-1294-1679&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Rena Jones&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -86,9 +146,9 @@
       <guid>https://idblr.rbind.io/post/isee-2020/</guid>
       <description>&lt;p&gt;I presented my abstract entitled &amp;ldquo;Geographic variation in the oral microbiome of NIH-AARP Diet and Health Study Participants&amp;rdquo; at the 
 &lt;a href=&#34;https://isee2020virtual.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;32nd Annual Conference of the International Society for Environmental Epidemiology&lt;/a&gt; held virtually due to the global 
-&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic. I was also a co-author on an abstract entitled &amp;ldquo;Ingestion of nitrate and nitrite from drinking water and diet and cancers of the gastrointestinal tract in Iowa women&amp;rdquo; led by 
-&lt;a href=&#34;https://dceg.cancer.gov/about/staff-directory/ward-mary&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Mary Ward&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic.&lt;/p&gt;
+&lt;p&gt;I was also a co-author on an abstract entitled &amp;ldquo;Ingestion of nitrate and nitrite from drinking water and diet and cancers of the gastrointestinal tract in Iowa women&amp;rdquo; led by 
+&lt;a href=&#34;https://orcid.org/0000-0001-7584-8856&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Mary Ward&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,19 +1,17 @@
 ---
 title: Lightning Talk at NIEHS Workshop
-author: ~
+authors: ["idblr"]
 date: '2021-02-24'
 slug: niehs-2021
 categories: ["talk"]
-tags: ["microbiome", "spatial analysis", "NIH-AARP", "workshop"]
+tags: ["microbiome", "spatial analysis", "NIH-AARP", "workshop", "CPFP"]
 subtitle: ''
 summary: ''
-authors: []
-lastmod: '2021-02-24T14:41:03-04:00'
 featured: no
 image:
   caption: 'Image credit: [**NIH/NIEHS**](https://www.niehs.nih.gov/news/events/pastmtg/2021/ieemhh_2021/index.cfm)'
   focal_point: ''
-  preview_only: no
+  preview_only: false
 projects: []
 ---
 

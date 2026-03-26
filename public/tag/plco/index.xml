@@ -5,7 +5,7 @@
     <link>https://idblr.rbind.io/tag/plco/</link>
       <atom:link href="https://idblr.rbind.io/tag/plco/index.xml" rel="self" type="application/rss+xml" />
     <description>PLCO</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2021 &amp;middot; Opinions expressed are my own</copyright><lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Wed, 30 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://idblr.rbind.io/img/avatar.jpg</url>
       <title>PLCO</title>
@@ -13,17 +13,46 @@
     </image>
     
     <item>
+      <title>New Publication in Cancer Research</title>
+      <link>https://idblr.rbind.io/post/cancerres-2025/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/cancerres-2025/</guid>
+      <description>&lt;p&gt;I co-authored an article in 
+&lt;a href=&#34;https://aacrjournals.org/cancerres&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Cancer Research&lt;/em&gt;&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.1158/0008-5472.CAN-24-4251&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Integration of Germline and Somatic Variation Improves Chronic Lymphocytic Leukemia Risk Stratification&amp;rdquo;&lt;/a&gt; led by 
+&lt;a href=&#34;https://orcid.org/0000-0003-4052-1110&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Aubrey Hubbard&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We investigated whether inclusion of a chronic lymphocytic leukemia (CLL)-associated polygenic score and two common types of clonal hematopoiesis (i.e., autosomal mosaic chromosomal alterations and clonal hematopoiesis indeterminate potential), could improve CLL risk stratification in the 
+&lt;a href=&#34;https://www.ukbiobank.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UK Biobank&lt;/a&gt;. We also replicated our investigation in the 
+&lt;a href=&#34;https://prevention.cancer.gov/major-programs/prostate-lung-colorectal-and-ovarian-cancer-screening-trial-plco&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial&lt;/a&gt;. We obtained enhanced ability to identify individuals at high risk of CLL when integrating germline and somatic data derived from peripheral blood.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>New Publication in the Journal of the National Cancer Institute</title>
+      <link>https://idblr.rbind.io/post/jnci-2025/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/post/jnci-2025/</guid>
+      <description>&lt;p&gt;I co-authored an article in the 
+&lt;a href=&#34;https://academic.oup.com/jnci&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Journal of the National Cancer Institute&lt;/em&gt;&lt;/a&gt; entitled 
+&lt;a href=&#34;https://doi.org/10.1093/jnci/djaf066&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Associations of self-identified race and ethnicity and genetic ancestry with mortality among cancer survivors&amp;rdquo;&lt;/a&gt; led by 
+&lt;a href=&#34;https://orcid.org/0000-0001-8891-4437&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jacqueline Vo&lt;/a&gt; and 
+&lt;a href=&#34;https://orcid.org/0000-0001-8393-1713&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Derek Brown&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We studied self-identified race and ethnicity (SIRE) and genetic ancestry in the 
+&lt;a href=&#34;https://prevention.cancer.gov/major-programs/prostate-lung-colorectal-and-ovarian-cancer-screening-trial-plco&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial&lt;/a&gt;. We found that SIRE and genetic ancestry do not solely reflect biologic variation; rather, social factors may drive mortality differences by SIRE and genetic ancestry. This project was funded, in-part, by our 
+&lt;a href=&#34;https://idblr.rbind.io/post/coleman-2021&#34;&gt;2021 William G. Coleman Minority Health and Health Disparities Research Innovation Award&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>14th AACR Conference on The Science of Cancer Health Disparities in Racial/Ethnic Minorities and the Medically Underserved</title>
       <link>https://idblr.rbind.io/post/aacr-2021/</link>
       <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/aacr-2021/</guid>
       <description>&lt;p&gt;I was a co-author on a poster entitled &amp;ldquo;Comparing the association of self-reported race-ethnicity and genetic ancestry with all-cause mortality: A pan-cancer survivor analysis in the PLCO Screening Trial&amp;rdquo; at the 
-&lt;a href=&#34;https://www.aacr.org/meeting/aacr-virtual-conference-14th-aacr-conference-on-the-science-of-cancer-health-disparities-in-racial-ethnic-minorities-and-the-medically-underserved/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;14th AACR Conference on The Science of Cancer Health Disparities in Racial/Ethnic Minorities and the Medically Underserved&lt;/a&gt; by Drs. 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown&lt;/a&gt; and 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/reb/vo-jacqueline&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jacqueline Vo&lt;/a&gt; held virtually due to the global 
-&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic. This effort was funded by our 
-&lt;a href=&#34;https://idblr.rbind.io/post/coleman-2021&#34;&gt;2021 William G. Coleman Minority Health and Health Disparities Research Innovation Award&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;a href=&#34;https://www.aacr.org/meeting/aacr-virtual-conference-14th-aacr-conference-on-the-science-of-cancer-health-disparities-in-racial-ethnic-minorities-and-the-medically-underserved/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;14th AACR Conference on The Science of Cancer Health Disparities in Racial/Ethnic Minorities and the Medically Underserved&lt;/a&gt; by 
+&lt;a href=&#34;https://orcid.org/0000-0001-8393-1713&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Derek Brown&lt;/a&gt; and 
+&lt;a href=&#34;https://orcid.org/0000-0001-8891-4437&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jacqueline Vo&lt;/a&gt; held virtually due to the global 
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COVID-19&lt;/a&gt; pandemic.&lt;/p&gt;
+&lt;p&gt;This effort was funded by our 
+&lt;a href=&#34;https://idblr.rbind.io/post/coleman-2021&#34;&gt;2021 William G. Coleman Minority Health and Health Disparities Research Innovation Award&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,16 +61,16 @@
       <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/coleman-2021/</guid>
       <description>&lt;p&gt;I received a 
-&lt;a href=&#34;https://www.nimhd.nih.gov/programs/intramural/research-award/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;William G. Coleman Minority Health and Health Disparities Research Innovation Award&lt;/a&gt; from the 
-&lt;a href=&#34;https://www.nimhd.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institute on Minority Health and Health Disparities&lt;/a&gt; for a joint research proposal entitled 
-&lt;a href=&#34;https://www.nimhd.nih.gov/programs/intramural/research-award/2021-awardees/awardees-group.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;HDoCS in PLCO: Health Disparities of Cancer Survivors in the Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial.&amp;quot;&lt;/a&gt; I join a stellar team of three co-awardees 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/reb/vo-jacqueline&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jacqueline Vo, Ph.D., R.N., M.P.H.&lt;/a&gt;, 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/synnott-naoise&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Naoise Synnott, Ph.D., M.P.H.&lt;/a&gt;, and 
-&lt;a href=&#34;https://dceg.cancer.gov/fellowship-training/fellowship-experience/meet-fellows/iteb/brown-derek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derek Brown, Ph.D., M.S.&lt;/a&gt; who are 
+&lt;a href=&#34;https://www.nimhd.nih.gov/programs/intramural/research-innovation-award/2021-awardees/awardees-group.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;William G. Coleman Minority Health and Health Disparities Research Innovation Award&lt;/a&gt; from the 
+&lt;a href=&#34;https://www.nimhd.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Institute on Minority Health and Health Disparities&lt;/a&gt; (NIMHD) for a joint research proposal entitled 
+&lt;a href=&#34;https://www.nimhd.nih.gov/programs/intramural/research-innovation-award/2021-awardees/awardees-group.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;HDoCS in PLCO: Health Disparities of Cancer Survivors in the Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial.&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I join a stellar team of three co-awardees 
+&lt;a href=&#34;https://orcid.org/0000-0001-8891-4437&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jacqueline Vo&lt;/a&gt;, 
+&lt;a href=&#34;https://orcid.org/0000-0001-8331-1143&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Naoise Synnott&lt;/a&gt;, and 
+&lt;a href=&#34;https://orcid.org/0000-0001-8393-1713&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Derek Brown&lt;/a&gt; who are also 
 &lt;a href=&#34;https://cpfp.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NCI Cancer Prevention Fellows&lt;/a&gt; in the intramural 
 &lt;a href=&#34;https://dceg.cancer.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Division of Cancer Epidemiology and Genetics&lt;/a&gt;. NIMHD designed this competitive award to support the development of innovative research ideas and concepts contributed by post-doctoral fellows within the 
-&lt;a href=&#34;https://irp.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH Intramural Research Program&lt;/a&gt; who have the potential for high impact in any area of minority health and health disparities research.&lt;/p&gt;
-</description>
+&lt;a href=&#34;https://irp.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH Intramural Research Program&lt;/a&gt; who have the potential for high impact in any area of minority health and health disparities research.&lt;/p&gt;</description>
     </item>
     
   </channel>

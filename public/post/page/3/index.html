@@ -20,14 +20,14 @@
   
   
 
-  <meta name="author" content="Ian Buller, Ph.D., M.A.">
+  <meta name="author" content="Ian Buller, PhD, MA">
 
   
   
   
     
   
-  <meta name="description" content="Personal website of Ian David Buller where I blog about spatial analysis in R. Opinions/Content/Views are my own.">
+  <meta name="description" content="Personal website of Ian D. Buller where I blog about my professional accomplishments and (geo)spatial analysis in R. Opinions/Content/Views are my own.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://idblr.rbind.io/post/">
@@ -50,7 +50,7 @@
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -203,44 +203,6 @@
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166311141-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-166311141-1', { 'anonymize_ip': true });
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
 
@@ -252,8 +214,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hue3c8c0abcde60b15cf7b3f1a8dee385e_56509_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hue3c8c0abcde60b15cf7b3f1a8dee385e_56509_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu_bf2e7abb1fa236d5.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu_86779c9993b8dabd.png">
 
   <link rel="canonical" href="https://idblr.rbind.io/post/">
 
@@ -275,10 +237,10 @@
   <meta property="og:site_name" content="Ian Buller, Ph.D., M.A.">
   <meta property="og:url" content="https://idblr.rbind.io/post/">
   <meta property="og:title" content="Posts | Ian Buller, Ph.D., M.A.">
-  <meta property="og:description" content="Personal website of Ian David Buller where I blog about spatial analysis in R. Opinions/Content/Views are my own."><meta property="og:image" content="https://idblr.rbind.io/img/avatar.jpg">
+  <meta property="og:description" content="Personal website of Ian D. Buller where I blog about my professional accomplishments and (geo)spatial analysis in R. Opinions/Content/Views are my own."><meta property="og:image" content="https://idblr.rbind.io/img/avatar.jpg">
   <meta property="twitter:image" content="https://idblr.rbind.io/img/avatar.jpg"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2021-10-12T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2025-12-18T00:00:00&#43;00:00">
   
 
   
@@ -319,10 +281,7 @@
 
 
 
-  
-
-
-
+  <link rel="me" href="https://mastodon.social/@idblr" />
 
 
   <title>Posts | Ian Buller, Ph.D., M.A.</title>
@@ -448,7 +407,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="https://www.ncbi.nlm.nih.gov/myncbi/ian.buller.2/bibliography/public/" target="_blank" rel="noopener"><span>Publications</span></a>
+          <a class="nav-link " href="https://www.ncbi.nlm.nih.gov/myncbi/ian.buller.1/bibliography/public/" target="_blank" rel="noopener"><span>Publications</span></a>
         </li>
 
         
@@ -558,12 +517,439 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/post/hexsticker-sparrpowr/" >Creating a hexsticker for the {sparrpowR} package</a>
+      <a href="/post/pnas-2023/" >New Publication in the Proceedings of the National Academy of Sciences</a>
     </h3>
 
     
     <div class="article-style">
-      I present code to create the hexsticker for the sparrpowR package using the hexSticker and spatstat packages. The sparrpowR calculated the statistical power for a spatial relative risk function from the sparr package.
+      <p>I co-authored an article in the 
+<a href="https://www.pnas.org" target="_blank" rel="noopener"><em>Proceedings of the National Academy of Sciences</em></a> entitled 
+<a href="https://doi.org/10.1073/pnas.2211055120" target="_blank" rel="noopener">&ldquo;Burkitt lymphoma risk shows geographic and temporal associations with <em>Plasmodium falciparum</em> infections in Uganda, Tanzania, and Kenya&rdquo;</a> led by 
+<a href="https://orcid.org/0000-0002-2220-4026" target="_blank" rel="noopener">Kelly Broen</a> and 
+<a href="https://orcid.org/0000-0002-8273-9831" target="_blank" rel="noopener">Dr. Sam Mbulaiteye</a>.</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/ian-buller-phd-ma/">Ian Buller, PhD, MA</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2023-01-03
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/publication/">Publication</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/pnas-2023/" >
+      <img src="/post/pnas-2023/featured_hu_b2dae16b0740a0ac.PNG" alt="">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/new-affiliation-2022/" >New Affiliation</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <p>I completed my postdoctoral fellowship at the 
+<a href="https://www.cancer.gov" target="_blank" rel="noopener">National Cancer Institute</a> through the 
+<a href="https://cpfp.cancer.gov" target="_blank" rel="noopener">Cancer Prevention Fellowship Program</a> working with 
+<a href="https://orcid.org/0000-0003-1294-1679" target="_blank" rel="noopener">Dr. Rena Jones</a> and 
+<a href="https://orcid.org/0000-0001-7584-8856" target="_blank" rel="noopener">Dr. Mary Ward</a> in the 
+<a href="https://dceg.cancer.gov/about/organization/tdrp/oeeb" target="_blank" rel="noopener">Occupational and Environmental Epidemiology Branch</a> in the 
+<a href="https://dceg.cancer.gov" target="_blank" rel="noopener">Division of Cancer Epidemiology and Genetics</a> in Rockville, Maryland.</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/ian-buller-phd-ma/">Ian Buller, PhD, MA</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2022-12-05
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/job/">Job</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/new-affiliation-2022/" >
+      <img src="/post/new-affiliation-2022/featured_hu_9c18dba153ffdaea.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/cebp-2022b/" >New Publication in Cancer Epidemiology, Biomarkers &amp; Prevention</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <p>I co-authored an article in 
+<a href="https://cebp.aacrjournals.org/" target="_blank" rel="noopener"><em>Cancer Epidemiology, Biomarkers &amp; Prevention</em></a> entitled 
+<a href="https://doi.org/10.1158/1055-9965.EPI-22-0253" target="_blank" rel="noopener">&ldquo;Geographic Patterns in U.S. Lung Cancer Mortality and Cigarette Smoking&rdquo;</a> led by 
+<a href="https://orcid.org/0000-0002-0127-4391" target="_blank" rel="noopener">Alaina Shreves</a> and 
+<a href="https://orcid.org/0000-0003-1294-1679" target="_blank" rel="noopener">Dr. Rena Jones</a>.</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/ian-buller-phd-ma/">Ian Buller, PhD, MA</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2022-11-22
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/publication/">Publication</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/cebp-2022b/" >
+      <img src="/post/cebp-2022b/featured_hu_dd8badfccb048d05.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/mastodon/" >Find me on Bluesky and Mastodon</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <p>Migrating my professional updates from <a rel="me" href="ttps://twitter.com/idblr">Twitter</a> to <a rel="me" href="https://bsky.app/profile/idblr.bsky.social">Bluesky</a> and <a rel="me" href="https://mastodon.social/@idblr">Mastodon</a>. Find me there!</p>
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/ian-buller-phd-ma/">Ian Buller, PhD, MA</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2022-10-29
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/social/">Social</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/cran-ndi/" >New CRAN Package {ndi}</a>
+    </h3>
+
+    
+    <div class="article-style">
+      <p>My fourth R package is published in the 
+<a href="https://cran.r-project.org/" target="_blank" rel="noopener">Comprehensive R Archive Network</a> named 
+<a href="https://CRAN.R-project.org/package=ndi" target="_blank" rel="noopener"><em>ndi</em></a>. It computes various geospatial neighborhood deprivation indices (NDI) and other metrics of social vulnerability in the United States.</p>
     </div>
     
 
@@ -585,10 +971,8 @@
     
     
       
-          Last updated on
-      
     
-    2020-06-15
+    2022-08-13
   </span>
   
 
@@ -624,8 +1008,8 @@
     
     
     
-    <a href="/post/hexsticker-sparrpowr/" >
-      <img src="/post/hexsticker-sparrpowr/featured_hu7bea69cba7607e56dac09b1d855405ac_433869_150x0_resize_lanczos_2.png" alt="">
+    <a href="/post/cran-ndi/" >
+      <img src="/post/cran-ndi/featured_hu_9846f639a036bb53.png" alt="">
     </a>
     
   </div>
@@ -654,12 +1038,15 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/post/cran-sparrpowr/" >New CRAN Package {sparrpowR}</a>
+      <a href="/post/environres-2022/" >New Publication in Environmental Research</a>
     </h3>
 
     
     <div class="article-style">
-      My first R package is on CRAN named sparrpowR. It provides a statistical power calculation for the spatial relative risk function via the sparr package. See the public Github repository for more details.
+      <p>I co-authored an article in 
+<a href="https://www.sciencedirect.com/journal/environmental-research" target="_blank" rel="noopener"><em>Environmental Research</em></a> entitled 
+<a href="https://doi.org/10.1016/j.envres.2022.113906" target="_blank" rel="noopener">&ldquo;Urinary nitrate and sodium in a high-risk area for upper gastrointestinal cancers: Golestan Cohort Study&rdquo;</a> led by 
+<a href="https://orcid.org/0000-0002-3458-1072" target="_blank" rel="noopener">Dr. Arash Etemadi</a>.</p>
     </div>
     
 
@@ -675,16 +1062,24 @@
 
   
   
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/ian-buller-phd-ma/">Ian Buller, PhD, MA</a></span>
+  </div>
+  
+  
 
   
   <span class="article-date">
     
     
       
-          Last updated on
-      
     
-    2020-06-10
+    2022-07-19
   </span>
   
 
@@ -705,7 +1100,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/category/publication/">Publication</a></span>
   
 
 </div>
@@ -720,8 +1115,8 @@
     
     
     
-    <a href="/post/cran-sparrpowr/" >
-      <img src="/post/cran-sparrpowr/featured_hub6fcff648c128cc32974232e4058801b_2275518_150x0_resize_lanczos_2.png" alt="">
+    <a href="/post/environres-2022/" >
+      <img src="/post/environres-2022/featured_hu_e7d134addcafe1e.png" alt="">
     </a>
     
   </div>
@@ -750,13 +1145,12 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/post/covid-dc-animated/" >Animating Spatio-Temporal COVID-19 Data</a>
+      <a href="/post/neighborhoods-ggplot/" >Plotting a Neighborhood Network with ggplot2</a>
     </h3>
 
     
     <div class="article-style">
-      I present an update to my previous posts #1 and #2. This update can also be found on a public GitHub repository.
-Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their coronavirus data portal.
+      <p>Here is an example of plotting a neighborhoods network with <code>ggplot2</code> using the <code>sf</code> and <code>sfdep</code> packages for counties in a U.S. state.</p>
     </div>
     
 
@@ -772,16 +1166,24 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
 
   
   
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/ian-buller-phd-ma/">Ian Buller, PhD, MA</a></span>
+  </div>
+  
+  
 
   
   <span class="article-date">
     
     
       
-          Last updated on
-      
     
-    2020-06-08
+    2022-06-26
   </span>
   
 
@@ -790,7 +1192,7 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    9 min read
+    2 min read
   </span>
   
 
@@ -817,8 +1219,8 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
     
     
     
-    <a href="/post/covid-dc-animated/" >
-      <img src="/post/covid-dc-animated/featured_hu6aa2a73cc5ac70f1a7d9e8a5937e83b2_58570_150x0_resize_lanczos_2.png" alt="">
+    <a href="/post/neighborhoods-ggplot/" >
+      <img src="/post/neighborhoods-ggplot/featured_hu_2ec2a7031b670ba6.png" alt="">
     </a>
     
   </div>
@@ -847,12 +1249,14 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/post/frm1/" >A Place for Spatial Analysis in the Cancer Control Continuum</a>
+      <a href="/post/cover-2022/" >First Cover Article</a>
     </h3>
 
     
     <div class="article-style">
-      I gave an invited talk at the National Cancer Institute entitled &ldquo;A place for spatial analysis in the Cancer Control Continuum.&rdquo; The talk was an overview of my work in progress over the past year in the Cancer Prevention Fellowship Program.
+      <p>My first manuscript that was featured as the cover article of a scientific journal was published today in 
+<a href="https://cebp.aacrjournals.org/" target="_blank" rel="noopener"><em>Cancer Epidemiology, Biomarkers &amp; Prevention</em></a> 
+<a href="https://aacrjournals.org/cebp/issue/31/5" target="_blank" rel="noopener">Volume 31, Issue 5</a>.</p>
     </div>
     
 
@@ -868,16 +1272,24 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
 
   
   
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/ian-buller-phd-ma/">Ian Buller, PhD, MA</a></span>
+  </div>
+  
+  
 
   
   <span class="article-date">
     
     
       
-          Last updated on
-      
     
-    2020-06-05
+    2022-05-04
   </span>
   
 
@@ -898,7 +1310,7 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/talk/">talk</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/category/publication/">Publication</a></span>
   
 
 </div>
@@ -913,8 +1325,8 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
     
     
     
-    <a href="/post/frm1/" >
-      <img src="/post/frm1/featured_hued824e4f443c5acd4e645a77e44ffe62_808394_150x0_resize_lanczos_2.png" alt="">
+    <a href="/post/cover-2022/" >
+      <img src="/post/cover-2022/featured_hu_6191acf53053b722.png" alt="">
     </a>
     
   </div>
@@ -943,12 +1355,14 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/post/tools/" >DCEG Informatics Tool Challenge Award</a>
+      <a href="/post/ncidirector-2021/" >2021 NCI Director&#39;s Award for Emerging Leader</a>
     </h3>
 
     
     <div class="article-style">
-      I received an Informatics Tool Challenge Award from the NCI Division of Cancer Epidemiology and Genetics for a project entitled &ldquo;sparrpowR: A flexible R package and webtool to estimate statistical power of a spatial cluster detection technique.
+      <p>I received a 2021 
+<a href="https://www.cancer.gov/" target="_blank" rel="noopener">National Cancer Institute</a> (NCI) Director&rsquo;s Award for Emerging Leader along with the other members of the Fellows Advisory Board of the 
+<a href="https://cpfp.cancer.gov/" target="_blank" rel="noopener">Cancer Prevention Fellowship Program</a> (CPFP) in recognition of spearheading innovative opportunities for fellows to develop skills and community during the COVID-19 pandemic.</p>
     </div>
     
 
@@ -970,10 +1384,8 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
     
     
       
-          Last updated on
-      
     
-    2020-06-02
+    2022-02-14
   </span>
   
 
@@ -994,7 +1406,7 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/award/">award</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/category/award/">Award</a></span>
   
 
 </div>
@@ -1009,8 +1421,8 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
     
     
     
-    <a href="/post/tools/" >
-      <img src="/post/tools/featured_hufa2e69131280ed8c656dde825f8aa03d_7272_150x0_resize_q90_lanczos.jpg" alt="">
+    <a href="/post/ncidirector-2021/" >
+      <img src="/post/ncidirector-2021/featured_hu_91f522e5b8812ffd.png" alt="">
     </a>
     
   </div>
@@ -1039,12 +1451,13 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/post/cluster-microbiome/" >Cluster Detection in PCoA Space using Kernel Density Estimation</a>
+      <a href="/post/epa-2022/" >Putting Cancer and Environmental Exposures in (Geo)spatial Perspective</a>
     </h3>
 
     
     <div class="article-style">
-      I present code to identify relative spatial clustering in multidimensional scaling / principal coordinate analysis (MDS/PCoA) space. I use a spatial relative risk function risk from the sparr package.
+      <p>I gave an invited talk at the Center for Science and Technology in the Radiation Protection Division of the Office of Air and Radiation of the 
+<a href="https://www.cancer.gov/" target="_blank" rel="noopener">U.S. Environmental Protection Agency</a> entitled &ldquo;Putting cancer and environmental exposures in (geo)spatial perspective.&rdquo;</p>
     </div>
     
 
@@ -1060,100 +1473,14 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
 
   
   
-
-  
-  <span class="article-date">
-    
-    
-      
-          Last updated on
-      
-    
-    2021-10-29
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    5 min read
-  </span>
-  
-
   
   
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
-  
-
-</div>
-
-      
-    </div>
-
+  <div>
     
 
+  
+  <span><a href="/author/ian-buller-phd-ma/">Ian Buller, PhD, MA</a></span>
   </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/post/cluster-microbiome/" >
-      <img src="/post/cluster-microbiome/featured_hu8df7bbc8018077a8fcda8368142382a5_130355_150x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/covid-dc-test/" >Test Positivity Rate of Cumulative SARS-CoV-2 Cases in the District of Columbia</a>
-    </h3>
-
-    
-    <div class="article-style">
-      I present an update to my previous post. Starting May 17, 2020 the DC Mayoral Office began releasing testing information by neighborhood on their coronavirus data portal.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
   
   
 
@@ -1162,298 +1489,8 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
     
     
       
-          Last updated on
-      
     
-    2020-05-22
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    6 min read
-  </span>
-  
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/post/covid-dc-test/" >
-      <img src="/post/covid-dc-test/featured_hud1611703b931b2851a85e4fc8a2ac44d_70147_150x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/covid-dc/" >Cumulative SARS-CoV-2 Cases in the District of Columbia by Health Planning Neighborhoods</a>
-    </h3>
-
-    
-    <div class="article-style">
-      After moving to DC last year, PoPville has been a personal favorite for local scoop. A post on May 11, 2020 captured my attention. Molly Tolzmann zmotoly adjusted the daily coronavirus data publicly released by the DC Mayoral Office at the DC health planning neighborhood level by the 2018 American Community Survey (ACS) census tract data and demographic data from Open Data DC.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-          Last updated on
-      
-    
-    2020-05-17
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    6 min read
-  </span>
-  
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/post/covid-dc/" >
-      <img src="/post/covid-dc/featured_hu4678c98571ef37bbe2a44e0d4d1b05d8_151393_150x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/pvalues-spatial-segregation/" >Areas of a spatial segregation model significantly different from null expectations</a>
-    </h3>
-
-    
-    <div class="article-style">
-      I present code to identify areas of a spatial segregation model that exceed our null expectations using the relrisk function in the spatstat package and an assumption of normality of the estimated probabilities.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-          Last updated on
-      
-    
-    2021-10-29
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    3 min read
-  </span>
-  
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/post/pvalues-spatial-segregation/" >
-      <img src="/post/pvalues-spatial-segregation/featured_huda33fb8b4a5f334545d27b2227b9299b_85998_150x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/coleman-2020/" >2020 William G. Coleman Minority Health and Health Disparities Research Innovation Award</a>
-    </h3>
-
-    
-    <div class="article-style">
-      I will be taking over Dr. Joseph Shearer&rsquo;s project entiled &ldquo;Evaluating the impact of concentrated animal feeding operations on Campylobacter jejuni infections in rural agricultural communities&rdquo; as he is departing the NCI.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-          Last updated on
-      
-    
-    2020-05-10
+    2022-02-07
   </span>
   
 
@@ -1474,7 +1511,7 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/award/">award</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/category/talk/">Talk</a></span>
   
 
 </div>
@@ -1489,8 +1526,8 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
     
     
     
-    <a href="/post/coleman-2020/" >
-      <img src="/post/coleman-2020/featured_hue6cefb84a7877643cf3b0457420abd07_98470_150x0_resize_q90_lanczos.jpg" alt="">
+    <a href="/post/epa-2022/" >
+      <img src="/post/epa-2022/featured_hu_6f7397775fb91fdb.png" alt="">
     </a>
     
   </div>
@@ -1621,7 +1658,7 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
     
     
     
-    <script src="/js/academic.min.8739b66b1d769a011397288d134da098.js"></script>
+    <script src="/js/academic.min.e3e1da2e49f8db48a94cfd65ca05cdd7.js"></script>
 
     
     
@@ -1641,7 +1678,7 @@ Starting May 17, 2020 the DC Mayoral Office began releasing testing information 
   
 
   <p class="powered-by">
-    © Ian Buller, 2021 · Opinions expressed are my own &middot; 
+    © Ian Buller, 2026 · Opinions expressed are my own &middot; 
 
     Created at <i class="fa fa-home"></i> during <a href="  https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank" rel="noopener">COVID-19</a> with
     <a href="https://github.com/idblr/idblr"><i class="fab fa-github"></i></a>, the <a href="https://www.r-project.org/"><i class="fab fa-r-project"></i></a> <a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package, and the <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

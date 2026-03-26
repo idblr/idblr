@@ -1,19 +1,17 @@
 ---
 title: New Postdoctoral Cancer Prevention Fellow
-author: ~
+authors: ["idblr"]
 date: '2019-06-10'
 slug: cpfp-2019
 categories: ["job"]
-tags: ["cpfp"]
+tags: ["CPFP"]
 subtitle: ''
 summary: ''
-authors: []
-lastmod: '2021-10-29T10:36:04-04:00'
 featured: no
 image: 
   caption: 'Image credit: [**CPFP**](https://cpfp.cancer.gov/)'
   focal_point: ''
-  preview_only: no
+  preview_only: false
 projects: []
 ---
 
