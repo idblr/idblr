@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R | Ian Buller, Ph.D., M.A.</title>
+    <title>R | Ian Buller, PhD, MA</title>
     <link>https://idblr.rbind.io/tag/r/</link>
       <atom:link href="https://idblr.rbind.io/tag/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
@@ -90,7 +90,10 @@
       <link>https://idblr.rbind.io/post/neighborhoods-ggplot/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/neighborhoods-ggplot/</guid>
-      <description>&lt;p&gt;Here is an example of plotting a neighborhoods network with &lt;code&gt;ggplot2&lt;/code&gt; using the &lt;code&gt;sf&lt;/code&gt; and &lt;code&gt;sfdep&lt;/code&gt; packages for counties in a U.S. state.&lt;/p&gt;
+      <description>&lt;p&gt;Here is an example of plotting a neighborhoods network with 
+&lt;a href=&#34;https://cran.r-project.org/package=ggplot2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ggplot2&lt;/a&gt; using the 
+&lt;a href=&#34;https://cran.r-project.org/package=sf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sf&lt;/a&gt; and 
+&lt;a href=&#34;https://cran.r-project.org/package=sfdep&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sfdep&lt;/a&gt; packages for counties in a U.S. state.&lt;/p&gt;
 &lt;p&gt;We can display the &amp;ldquo;weights&amp;rdquo; feature of the neighborhoods network as the size of the line segments by scaling the &lt;code&gt;size&lt;/code&gt; aesthetic with &lt;code&gt;+ scale_size_identity()&lt;/code&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Packages
 loadedPackages &amp;lt;- c(&amp;quot;ggplot2&amp;quot;, &amp;quot;sf&amp;quot;, &amp;quot;sfdep&amp;quot;, &amp;quot;tigris&amp;quot;)
@@ -192,7 +195,7 @@ colnames(da)[4:7] &amp;lt;- c(&amp;quot;longitude&amp;quot;, &amp;quot;latitude&
 &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;spatstat&lt;/a&gt; packages. The 
 &lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt; calculated the statistical power for a spatial relative risk function from the 
 &lt;a href=&#34;https://github.com/cran/sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package.&lt;/p&gt;
-&lt;div align=&#34;center&#34;&gt;* Update 06/15/2020: The {sparrpowR} sticker is posted in the [hexSticker](https://github.com/GuangchuangYu/hexSticker) README.md file *&lt;/div&gt;
+&lt;div align=&#34;center&#34;&gt;&lt;b&gt;Update&lt;/b&gt; - 2020-06-15: The &lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34;&gt;sparrpowR&lt;/a&gt; sticker is posted in the &lt;a href=&#34;https://github.com/GuangchuangYu/hexSticker&#34;&gt;hexSticker&lt;/a&gt; README.md file &lt;/div&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Packages
 loadedPackages &amp;lt;- c(&amp;quot;hexSticker&amp;quot;, &amp;quot;spatstat&amp;quot;)
 invisible(lapply(loadedPackages, require, character.only = TRUE))
@@ -587,7 +590,8 @@ animate(g1, end_pause = 30)               # animate
 &lt;a href=&#34;https://github.com/cran/sparr/blob/master/R/risk.R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;risk&lt;/a&gt; from the 
 &lt;a href=&#34;https://github.com/cran/sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. I use a spatial segregation model 
 &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;relrisk&lt;/a&gt; from the 
-&lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;spatstat&lt;/a&gt; package. See my 
+&lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;spatstat&lt;/a&gt; package.&lt;/p&gt;
+&lt;p&gt;See my 
 &lt;a href=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation&#34;&gt;previous post&lt;/a&gt; about using the spatial segregation model.&lt;/p&gt;
 &lt;p&gt;I use microbiome data from the 
 &lt;a href=&#34;https://datadryad.org/stash/dataset/doi:10.5061/dryad.1mn1n&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dietswap&lt;/a&gt; data set in the 
@@ -1031,7 +1035,7 @@ frameWidget(lf, width=&#39;100%&#39;)
 &lt;a href=&#34;https://opendata.dc.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Data DC&lt;/a&gt;. This post is a replication of the data visualization using 
 &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; and can be found on a public 
 &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Imporant Notes&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Important Notes&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The following show cumulative case rate per 1,000 since the beginning of the COVID-19 outbreak in DC. Therefore, the the stats do not reflect the number of people currently infected with SARS-CoV-2.&lt;/li&gt;
 &lt;li&gt;The following &lt;em&gt;does not&lt;/em&gt; account for the degree of COVID-19 testing in each neighborhood.&lt;/li&gt;
@@ -1277,7 +1281,7 @@ invisible(lapply(loadedPackages, require, character.only = T))
   plot.im(wh, main=&amp;quot;Most common species&amp;quot;, ribargs = list(las = 1))
 &lt;/code&gt;&lt;/pre&gt;
 &lt;img src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/figure-html/spatial_segregration-3.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Significant p-values assumming normality of the Poisson process
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Significant p-values assuming normality of the Poisson process
 ## relrisk() computes standard errors based on asymptotic theory, assuming a Poisson process
   alpha &amp;lt;- 0.05                           # alpha
   z &amp;lt;- qnorm(alpha/2, lower.tail = F)     # z-statistic

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Point Pattern | Ian Buller, Ph.D., M.A.</title>
+    <title>Point Pattern | Ian Buller, PhD, MA</title>
     <link>https://idblr.rbind.io/tag/point-pattern/</link>
       <atom:link href="https://idblr.rbind.io/tag/point-pattern/index.xml" rel="self" type="application/rss+xml" />
     <description>Point Pattern</description>
@@ -66,7 +66,7 @@
       <guid>https://idblr.rbind.io/post/ijerph-2021-special-issue/</guid>
       <description>&lt;p&gt;I co-authored an article in the 
 &lt;a href=&#34;https://www.mdpi.com/journal/ijerph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;International Journal of Environmental Research and Public Health&lt;/em&gt;&lt;/a&gt; entitled 
-&lt;a href=&#34;https://doi.org/10.3390/ijerph18041637&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Spatial Heterogeneity in Positional Errors: A Comparison of Two Residential Geocoding Efforts in the Agricultural Health Study&amp;rdquo;&lt;/a&gt;, which is included in the Special Issue 
+&lt;a href=&#34;https://doi.org/10.3390/ijerph18041637&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Spatial Heterogeneity in Positional Errors: A Comparison of Two Residential Geocoding Efforts in the Agricultural Health Study,&amp;rdquo;&lt;/a&gt; which is included in the Special Issue 
 &lt;a href=&#34;https://www.mdpi.com/journal/ijerph/special_issues/Spatial_Uncertainty&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Data Uncertainty in Public Health Research&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The article identifies areas with positional error in residential addresses between two geocoding efforts compared to Geographic Positioning System recordings in the 
 &lt;a href=&#34;https://aghealth.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Agricultural Health Study&lt;/a&gt;, a prospective cancer cohort of licensed pesticide applicators and their spouses in Iowa and North Carolina. My contribution was the data visualization and spatial analysis of the positional error such as a weighted spatial density estimation of the positional error to identify areas of significant improvement in positional accuracy between geocoding efforts while protecting personally identifiable information.&lt;/p&gt;</description>
@@ -146,7 +146,7 @@
 &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;spatstat&lt;/a&gt; packages. The 
 &lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt; calculated the statistical power for a spatial relative risk function from the 
 &lt;a href=&#34;https://github.com/cran/sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package.&lt;/p&gt;
-&lt;div align=&#34;center&#34;&gt;* Update 06/15/2020: The {sparrpowR} sticker is posted in the [hexSticker](https://github.com/GuangchuangYu/hexSticker) README.md file *&lt;/div&gt;
+&lt;div align=&#34;center&#34;&gt;&lt;b&gt;Update&lt;/b&gt; - 2020-06-15: The &lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34;&gt;sparrpowR&lt;/a&gt; sticker is posted in the &lt;a href=&#34;https://github.com/GuangchuangYu/hexSticker&#34;&gt;hexSticker&lt;/a&gt; README.md file &lt;/div&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Packages
 loadedPackages &amp;lt;- c(&amp;quot;hexSticker&amp;quot;, &amp;quot;spatstat&amp;quot;)
 invisible(lapply(loadedPackages, require, character.only = TRUE))
@@ -281,7 +281,7 @@ invisible(lapply(loadedPackages, require, character.only = T))
   plot.im(wh, main=&amp;quot;Most common species&amp;quot;, ribargs = list(las = 1))
 &lt;/code&gt;&lt;/pre&gt;
 &lt;img src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/figure-html/spatial_segregration-3.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Significant p-values assumming normality of the Poisson process
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Significant p-values assuming normality of the Poisson process
 ## relrisk() computes standard errors based on asymptotic theory, assuming a Poisson process
   alpha &amp;lt;- 0.05                           # alpha
   z &amp;lt;- qnorm(alpha/2, lower.tail = F)     # z-statistic

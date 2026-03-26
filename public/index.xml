@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ian Buller, Ph.D., M.A.</title>
+    <title>Ian Buller, PhD, MA</title>
     <link>https://idblr.rbind.io/</link>
       <atom:link href="https://idblr.rbind.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Ian Buller, Ph.D., M.A.</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <description>Ian Buller, PhD, MA</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ian Buller, 2026 &middot; Opinions expressed are my own</copyright><lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://idblr.rbind.io/img/avatar.jpg</url>
-      <title>Ian Buller, Ph.D., M.A.</title>
+      <title>Ian Buller, PhD, MA</title>
       <link>https://idblr.rbind.io/</link>
     </image>
     
@@ -55,6 +55,40 @@
     </item>
     
     <item>
+      <title>Privacy Policy</title>
+      <link>https://idblr.rbind.io/privacy/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://idblr.rbind.io/privacy/</guid>
+      <description>&lt;p&gt;This Privacy Policy describes how your personal information is collected, used, and shared when you visit this website.&lt;/p&gt;
+&lt;h3 id=&#34;1-information-collected-automatically&#34;&gt;1. Information Collected Automatically&lt;/h3&gt;
+&lt;p&gt;When you visit this site, certain information about your device is automatically collected:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hosting Logs:&lt;/strong&gt; This website is hosted by 
+&lt;a href=&#34;https://www.netlify.com/privacy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Netlify&lt;/a&gt;. Netlify automatically collects access logs, which include your IP address, browser type, and time of visit, to provide and maintain their hosting services.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analytics:&lt;/strong&gt; We use 
+&lt;a href=&#34;https://developers.google.com/analytics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt; to understand how visitors interact with the site. We have configured Google Analytics to &lt;strong&gt;anonymize your IP address&lt;/strong&gt;. Google Analytics 4 (GA4) does not store individual IP addresses by default.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-cookies&#34;&gt;2. Cookies&lt;/h3&gt;
+&lt;p&gt;We may use &amp;ldquo;cookies&amp;rdquo; to enhance your experience.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Analytics Cookies:&lt;/strong&gt; These help us track site usage and performance. You can opt out of these by using the 
+&lt;a href=&#34;https://tools.google.com/dlpage/gaoptout&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics Opt-out Browser Add-on&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Academic Theme:&lt;/strong&gt; This site uses the 
+&lt;a href=&#34;https://github.com/HugoBlox&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox (formerly Academic) theme&lt;/a&gt;, which may include a cookie consent banner to inform you of these practices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-third-party-services&#34;&gt;3. Third-Party Services&lt;/h3&gt;
+&lt;p&gt;This site is a static website generated with 
+&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt; and 
+&lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blogdown&lt;/a&gt;. It does not have a database and does not directly collect personal information through forms or user accounts unless you explicitly provide it (e.g., via an email link).&lt;/p&gt;
+&lt;h3 id=&#34;4-your-rights&#34;&gt;4. Your Rights&lt;/h3&gt;
+&lt;p&gt;Depending on your location (such as the EEA), you may have rights under the &lt;strong&gt;GDPR&lt;/strong&gt; or other data protection laws, including the right to access or delete any personal data held about you.&lt;/p&gt;
+&lt;h3 id=&#34;5-contact&#34;&gt;5. Contact&lt;/h3&gt;
+&lt;p&gt;If you have questions about this policy, please 
+&lt;a href=&#34;https://idblr.rbind.io/profile&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>American Geophysical Union 2025 Annual Meeting</title>
       <link>https://idblr.rbind.io/post/agu-2025/</link>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
@@ -75,7 +109,7 @@
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/nihrf-2025/</guid>
       <description>&lt;p&gt;I co-instructed a workshop at the 
-&lt;a href=&#34;https://researchfestival.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH Research Festival&lt;/a&gt; 2025 entitled &amp;ldquo;Geospatial for Everyone: Enhancing Your “Non-spatial” Research with Geospatial Data&amp;rdquo; with 
+&lt;a href=&#34;https://researchfestival.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH Research Festival&lt;/a&gt; 2025 entitled &amp;ldquo;Geospatial for Everyone: Enhancing Your &amp;lsquo;Non-spatial&amp;rsquo; Research with Geospatial Data&amp;rdquo; with 
 &lt;a href=&#34;https://orcid.org/0009-0007-9851-1376&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Nathaniel MacNell&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In our 
 &lt;a href=&#34;https://github.com/nathanielmacnell/nihworkshop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;workshop&lt;/a&gt;, we presented an interactive open-source workflow of geographically linking publicly available data to simulated locations and demonstrated how these data can be used for clinical study design and analysis. We used the 
@@ -234,7 +268,8 @@
       <guid>https://idblr.rbind.io/post/bmcc-2024/</guid>
       <description>&lt;p&gt;I co-first authored an article in 
 &lt;a href=&#34;https://bmccancer.biomedcentral.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;BMC Cancer&lt;/em&gt;&lt;/a&gt; entitled 
-&lt;a href=&#34;https://doi.org/10.1186/s12885-024-12720-w&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Neighborhood-Level Deprivation and Survival in Lung Cancer&amp;rdquo;&lt;/a&gt; co-led with Dr. Kathleen Kennedy and 
+&lt;a href=&#34;https://doi.org/10.1186/s12885-024-12720-w&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Neighborhood-Level Deprivation and Survival in Lung Cancer&amp;rdquo;&lt;/a&gt; co-led with 
+&lt;a href=&#34;https://www.loyolamedicine.org/provider/kathleen-amy-kennedy-md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Kathleen Kennedy&lt;/a&gt; and 
 &lt;a href=&#34;https://orcid.org/0000-0002-9749-1912&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Ignacio Jusue-Torres&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We assessed the potential associations of neighborhood deprivation, DNA methylation, and lung cancer mortality in a multicenter retrospective cohort study. We found HOXA7 and DNA methylation were significantly correlated with neighborhood deprivation and participants residing in high-deprivation neighborhoods had a significantly shorter survival than those residing in low-deprivation neighborhoods. My largest contributions to the study was creating the 
 &lt;a href=&#34;https://github.com/idblr/geomethylation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code companion&lt;/a&gt; for the manuscript and designing, computing, and performing of the neighborhood deprivation index linkages to participant locations using the 
@@ -488,7 +523,10 @@
       <link>https://idblr.rbind.io/post/neighborhoods-ggplot/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/neighborhoods-ggplot/</guid>
-      <description>&lt;p&gt;Here is an example of plotting a neighborhoods network with &lt;code&gt;ggplot2&lt;/code&gt; using the &lt;code&gt;sf&lt;/code&gt; and &lt;code&gt;sfdep&lt;/code&gt; packages for counties in a U.S. state.&lt;/p&gt;
+      <description>&lt;p&gt;Here is an example of plotting a neighborhoods network with 
+&lt;a href=&#34;https://cran.r-project.org/package=ggplot2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ggplot2&lt;/a&gt; using the 
+&lt;a href=&#34;https://cran.r-project.org/package=sf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sf&lt;/a&gt; and 
+&lt;a href=&#34;https://cran.r-project.org/package=sfdep&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sfdep&lt;/a&gt; packages for counties in a U.S. state.&lt;/p&gt;
 &lt;p&gt;We can display the &amp;ldquo;weights&amp;rdquo; feature of the neighborhoods network as the size of the line segments by scaling the &lt;code&gt;size&lt;/code&gt; aesthetic with &lt;code&gt;+ scale_size_identity()&lt;/code&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Packages
 loadedPackages &amp;lt;- c(&amp;quot;ggplot2&amp;quot;, &amp;quot;sf&amp;quot;, &amp;quot;sfdep&amp;quot;, &amp;quot;tigris&amp;quot;)
@@ -809,7 +847,7 @@ colnames(da)[4:7] &amp;lt;- c(&amp;quot;longitude&amp;quot;, &amp;quot;latitude&
       <guid>https://idblr.rbind.io/post/ijerph-2021-special-issue/</guid>
       <description>&lt;p&gt;I co-authored an article in the 
 &lt;a href=&#34;https://www.mdpi.com/journal/ijerph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;International Journal of Environmental Research and Public Health&lt;/em&gt;&lt;/a&gt; entitled 
-&lt;a href=&#34;https://doi.org/10.3390/ijerph18041637&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Spatial Heterogeneity in Positional Errors: A Comparison of Two Residential Geocoding Efforts in the Agricultural Health Study&amp;rdquo;&lt;/a&gt;, which is included in the Special Issue 
+&lt;a href=&#34;https://doi.org/10.3390/ijerph18041637&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Spatial Heterogeneity in Positional Errors: A Comparison of Two Residential Geocoding Efforts in the Agricultural Health Study,&amp;rdquo;&lt;/a&gt; which is included in the Special Issue 
 &lt;a href=&#34;https://www.mdpi.com/journal/ijerph/special_issues/Spatial_Uncertainty&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spatial Data Uncertainty in Public Health Research&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The article identifies areas with positional error in residential addresses between two geocoding efforts compared to Geographic Positioning System recordings in the 
 &lt;a href=&#34;https://aghealth.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Agricultural Health Study&lt;/a&gt;, a prospective cancer cohort of licensed pesticide applicators and their spouses in Iowa and North Carolina. My contribution was the data visualization and spatial analysis of the positional error such as a weighted spatial density estimation of the positional error to identify areas of significant improvement in positional accuracy between geocoding efforts while protecting personally identifiable information.&lt;/p&gt;</description>
@@ -951,7 +989,7 @@ colnames(da)[4:7] &amp;lt;- c(&amp;quot;longitude&amp;quot;, &amp;quot;latitude&
 &lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;spatstat&lt;/a&gt; packages. The 
 &lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparrpowR&lt;/a&gt; calculated the statistical power for a spatial relative risk function from the 
 &lt;a href=&#34;https://github.com/cran/sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package.&lt;/p&gt;
-&lt;div align=&#34;center&#34;&gt;* Update 06/15/2020: The {sparrpowR} sticker is posted in the [hexSticker](https://github.com/GuangchuangYu/hexSticker) README.md file *&lt;/div&gt;
+&lt;div align=&#34;center&#34;&gt;&lt;b&gt;Update&lt;/b&gt; - 2020-06-15: The &lt;a href=&#34;https://github.com/machiela-lab/sparrpowR&#34;&gt;sparrpowR&lt;/a&gt; sticker is posted in the &lt;a href=&#34;https://github.com/GuangchuangYu/hexSticker&#34;&gt;hexSticker&lt;/a&gt; README.md file &lt;/div&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Packages
 loadedPackages &amp;lt;- c(&amp;quot;hexSticker&amp;quot;, &amp;quot;spatstat&amp;quot;)
 invisible(lapply(loadedPackages, require, character.only = TRUE))
@@ -1380,7 +1418,8 @@ animate(g1, end_pause = 30)               # animate
 &lt;a href=&#34;https://github.com/cran/sparr/blob/master/R/risk.R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;risk&lt;/a&gt; from the 
 &lt;a href=&#34;https://github.com/cran/sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. I use a spatial segregation model 
 &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;relrisk&lt;/a&gt; from the 
-&lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;spatstat&lt;/a&gt; package. See my 
+&lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;spatstat&lt;/a&gt; package.&lt;/p&gt;
+&lt;p&gt;See my 
 &lt;a href=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation&#34;&gt;previous post&lt;/a&gt; about using the spatial segregation model.&lt;/p&gt;
 &lt;p&gt;I use microbiome data from the 
 &lt;a href=&#34;https://datadryad.org/stash/dataset/doi:10.5061/dryad.1mn1n&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dietswap&lt;/a&gt; data set in the 
@@ -1824,7 +1863,7 @@ frameWidget(lf, width=&#39;100%&#39;)
 &lt;a href=&#34;https://opendata.dc.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Data DC&lt;/a&gt;. This post is a replication of the data visualization using 
 &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; and can be found on a public 
 &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Imporant Notes&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Important Notes&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The following show cumulative case rate per 1,000 since the beginning of the COVID-19 outbreak in DC. Therefore, the the stats do not reflect the number of people currently infected with SARS-CoV-2.&lt;/li&gt;
 &lt;li&gt;The following &lt;em&gt;does not&lt;/em&gt; account for the degree of COVID-19 testing in each neighborhood.&lt;/li&gt;
@@ -2070,7 +2109,7 @@ invisible(lapply(loadedPackages, require, character.only = T))
   plot.im(wh, main=&amp;quot;Most common species&amp;quot;, ribargs = list(las = 1))
 &lt;/code&gt;&lt;/pre&gt;
 &lt;img src=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation/index_files/figure-html/spatial_segregration-3.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Significant p-values assumming normality of the Poisson process
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Significant p-values assuming normality of the Poisson process
 ## relrisk() computes standard errors based on asymptotic theory, assuming a Poisson process
   alpha &amp;lt;- 0.05                           # alpha
   z &amp;lt;- qnorm(alpha/2, lower.tail = F)     # z-statistic

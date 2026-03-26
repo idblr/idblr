@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Coronavirus | Ian Buller, Ph.D., M.A.</title>
+    <title>Coronavirus | Ian Buller, PhD, MA</title>
     <link>https://idblr.rbind.io/tag/coronavirus/</link>
       <atom:link href="https://idblr.rbind.io/tag/coronavirus/index.xml" rel="self" type="application/rss+xml" />
     <description>Coronavirus</description>
@@ -565,7 +565,7 @@ frameWidget(lf, width=&#39;100%&#39;)
 &lt;a href=&#34;https://opendata.dc.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Data DC&lt;/a&gt;. This post is a replication of the data visualization using 
 &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; and can be found on a public 
 &lt;a href=&#34;https://github.com/idblr/coviDC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Imporant Notes&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Important Notes&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The following show cumulative case rate per 1,000 since the beginning of the COVID-19 outbreak in DC. Therefore, the the stats do not reflect the number of people currently infected with SARS-CoV-2.&lt;/li&gt;
 &lt;li&gt;The following &lt;em&gt;does not&lt;/em&gt; account for the degree of COVID-19 testing in each neighborhood.&lt;/li&gt;

@@ -55,7 +55,7 @@ social:
   link: https://mastodon.social/@idblr
 - icon: cv
   icon_pack: ai
-  link: "files/cv_0525.pdf"
+  link: "files/cv_0326.pdf"
 superuser: true
 title: Ian Buller, PhD, MA
 user_groups:

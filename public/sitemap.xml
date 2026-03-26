@@ -11,6 +11,12 @@
     <loc>https://idblr.rbind.io/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
+    <loc>https://idblr.rbind.io/</loc>
+    <lastmod>2026-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://idblr.rbind.io/privacy/</loc>
+    <lastmod>2026-03-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://idblr.rbind.io/tag/agu/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -33,9 +39,6 @@
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://idblr.rbind.io/tag/heat/</loc>
-    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://idblr.rbind.io/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://idblr.rbind.io/author/ian-buller-phd-ma/</loc>
@@ -729,9 +732,6 @@
     <lastmod>2020-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://idblr.rbind.io/post/covid-dc/</loc>
-    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://idblr.rbind.io/author/idlbr/</loc>
     <lastmod>2020-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://idblr.rbind.io/post/pvalues-spatial-segregation/</loc>

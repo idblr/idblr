@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Workshop | Ian Buller, Ph.D., M.A.</title>
+    <title>Workshop | Ian Buller, PhD, MA</title>
     <link>https://idblr.rbind.io/tag/workshop/</link>
       <atom:link href="https://idblr.rbind.io/tag/workshop/index.xml" rel="self" type="application/rss+xml" />
     <description>Workshop</description>
@@ -18,7 +18,7 @@
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://idblr.rbind.io/post/nihrf-2025/</guid>
       <description>&lt;p&gt;I co-instructed a workshop at the 
-&lt;a href=&#34;https://researchfestival.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH Research Festival&lt;/a&gt; 2025 entitled &amp;ldquo;Geospatial for Everyone: Enhancing Your “Non-spatial” Research with Geospatial Data&amp;rdquo; with 
+&lt;a href=&#34;https://researchfestival.nih.gov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH Research Festival&lt;/a&gt; 2025 entitled &amp;ldquo;Geospatial for Everyone: Enhancing Your &amp;lsquo;Non-spatial&amp;rsquo; Research with Geospatial Data&amp;rdquo; with 
 &lt;a href=&#34;https://orcid.org/0009-0007-9851-1376&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Nathaniel MacNell&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In our 
 &lt;a href=&#34;https://github.com/nathanielmacnell/nihworkshop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;workshop&lt;/a&gt;, we presented an interactive open-source workflow of geographically linking publicly available data to simulated locations and demonstrated how these data can be used for clinical study design and analysis. We used the 

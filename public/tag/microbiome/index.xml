@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Microbiome | Ian Buller, Ph.D., M.A.</title>
+    <title>Microbiome | Ian Buller, PhD, MA</title>
     <link>https://idblr.rbind.io/tag/microbiome/</link>
       <atom:link href="https://idblr.rbind.io/tag/microbiome/index.xml" rel="self" type="application/rss+xml" />
     <description>Microbiome</description>
@@ -78,7 +78,8 @@
 &lt;a href=&#34;https://github.com/cran/sparr/blob/master/R/risk.R&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;risk&lt;/a&gt; from the 
 &lt;a href=&#34;https://github.com/cran/sparr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparr&lt;/a&gt; package. I use a spatial segregation model 
 &lt;a href=&#34;https://github.com/spatstat/spatstat/blob/master/man/relrisk.Rd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;relrisk&lt;/a&gt; from the 
-&lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;spatstat&lt;/a&gt; package. See my 
+&lt;a href=&#34;https://github.com/spatstat/spatstat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;spatstat&lt;/a&gt; package.&lt;/p&gt;
+&lt;p&gt;See my 
 &lt;a href=&#34;https://idblr.rbind.io/post/pvalues-spatial-segregation&#34;&gt;previous post&lt;/a&gt; about using the spatial segregation model.&lt;/p&gt;
 &lt;p&gt;I use microbiome data from the 
 &lt;a href=&#34;https://datadryad.org/stash/dataset/doi:10.5061/dryad.1mn1n&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dietswap&lt;/a&gt; data set in the 
