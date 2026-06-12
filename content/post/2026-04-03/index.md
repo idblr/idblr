@@ -9,7 +9,7 @@ subtitle: ''
 summary: ''
 featured: no
 image:
-  caption: 'Image credit: [*Sleep Med.*](https://doi.org/10.3389/fpubh.2025.1565251)'
+  caption: 'Image credit: [*Sleep Med.*](https://doi.org/10.1016/j.sleep.2026.108943)'
   focal_point: ''
   preview_only: false
 projects: []

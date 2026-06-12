@@ -4,7 +4,7 @@ authors: ["idblr"]
 date: '2025-05-28'
 slug: environres-2025
 categories: ["publication"]
-tags: [ "pregnancy loss", "vitamin D", "environmental epidemiology", "ambient air pollution", "DLH"]
+tags: ["pregnancy loss", "vitamin D", "environmental epidemiology", "ambient air pollution", "DLH"]
 subtitle: ''
 summary: ''
 featured: no
