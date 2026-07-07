@@ -21,7 +21,7 @@ interests:
 organizations:
 - name: DLH, LLC
   url: "https://www.dlhcorp.com/"
-role: Epidemiologist
+role: Senior Epidemiologist
 social:
 - icon: envelope
   icon_pack: fas
@@ -55,9 +55,9 @@ social:
   link: https://mastodon.social/@idblr
 - icon: cv
   icon_pack: ai
-  link: "files/cv_0326.pdf"
+  link: "files/cv_0726.pdf"
 superuser: true
-title: Ian Buller, PhD, MA
+title: "Ian Buller,<br>PhD, MA, GISP"
 user_groups:
 - Researchers
 - Visitors
@@ -69,7 +69,7 @@ user_groups:
  
  </center>
 
-I am an Epidemiologist within [Public Health & Scientific Research](https://www.dlhcorp.com/public-health-research/) at [DLH, LLC](https://www.dlhcorp.com) (formerly known as Social and Scientific Systems, Inc.), focusing on the (geo)spatial and environmental epidemiology of various health outcomes, including cancer and infectious disease.
+I am a certified [Geographic Information Systems Professional](https://credentials.gisci.org/credentials/47b134ab-0d83-44bd-bf71-e0f094d68260?preview=2) (GISP) and Senior Epidemiologist within [Public Health & Scientific Research](https://www.dlhcorp.com/public-health-research/) at [DLH, LLC](https://www.dlhcorp.com) (formerly known as Social and Scientific Systems, Inc.), focusing on the (geo)spatial and environmental epidemiology of various health outcomes, including cancer and infectious disease.
 
 I was a Postdoctoral Cancer Prevention Fellow in the [Cancer Prevention Fellowship Program](https://cpfp.cancer.gov/) at the [National Cancer Institute](https://www.cancer.gov) (Preceptor: [Rena Jones, PhD, MS](https://orcid.org/0000-0003-1294-1679)) working within the [Occupational and Enviornmental Epidemiology Branch](https://dceg.cancer.gov/about/organization/tdrp/oeeb) of the [Division of Cancer Epidemiology and Genetics](https://dceg.cancer.gov), part of the [Intramural Research Program](https://irp.nih.gov) at the [National Institutes of Health](https://www.nih.gov). I received a PhD in [Environmental Health Sciences](https://www.sph.emory.edu/departments/eh/degree-programs/phd/index.html) at [Emory University](http://www.emory.edu) (Advisor: [Lance Waller, PhD](https://orcid.org/0000-0001-5002-8886)) after completing a concurrent BA/MA in [Ecology and Evolutionary Biology](https://www.colorado.edu/ebio/) from the [University of Colorado at Boulder](https://www.colorado.edu) (Advisor: [Pieter Johnson, PhD](https://orcid.org/0000-0002-7997-5390)). 
 

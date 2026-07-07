@@ -18,12 +18,14 @@ src="https://github.com/lance-waller-lab/envi/blob/main/man/figures/envi.png?raw
 src="https://github.com/lance-waller-lab/gateR/blob/main/man/figures/gateR.png?raw=true" height="120"></a>
 <a href="https://github.com/machiela-lab/sparrpowR"><img 
 src="https://github.com/idblr/idblr/blob/master/static/img/sparrpowR.png?raw=true" height="120"></a>
+<a href="https://credentials.gisci.org/credentials/47b134ab-0d83-44bd-bf71-e0f094d68260?preview=2"><img
+src="https://cdn.certifier.io/dd27e4cc-2736-48f0-b741-a24daef5b2cf/credentials/01kwtfcvzdad3pekfhmxnh73ts/designs/01jtha57kfd1vmzgcdjhthhatz/Wl76wkEPSQ.png" height="133"></a>
 </div>
 <br>
 
 Welcome to my GitHub! Please check out my [personal website](https://idblr.rbind.io/) to learn more about me and my work.
 
-I am an Epidemiologist at [DLH, LLC](https://www.dlhcorp.com) (formerly Social and Scientific Systems, Inc.). Disclaimer: All content is my own & does not represent my employer.
+I am a certified [Geographic Information Systems Professional](https://credentials.gisci.org/credentials/47b134ab-0d83-44bd-bf71-e0f094d68260?preview=2) (GISP) and Senior Epidemiologist at [DLH, LLC](https://www.dlhcorp.com) (formerly Social and Scientific Systems, Inc.). Disclaimer: All content is my own & does not represent my employer.
 
 My [research](https://www.ncbi.nlm.nih.gov/myncbi/ian.buller.1/bibliography/public/) focuses on (geo)spatial and environmental epidemiology, primarily within Climate & Health. Here, you will find public repositories for packages on the [Comprehensive R Archive Network](https://cran.r-project.org/) and coding companions for peer-reviewed manuscripts.
 

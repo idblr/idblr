@@ -19,4 +19,4 @@ I completed my postdoctoral fellowship at the [National Cancer Institute](https:
 
 <!--more-->
 
-I am now an Epidemiologist at [DLH, LLC](https://www.dlhcorp.com) (formerly Social and Scientific Systems, Inc.), in Bethesda, Maryland.
+I am now a Senior Epidemiologist at [DLH, LLC](https://www.dlhcorp.com) (formerly Social and Scientific Systems, Inc.), in Bethesda, Maryland.

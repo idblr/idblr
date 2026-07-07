@@ -18,13 +18,23 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Epidemiologist"
-  company = "DLH, LLC (formerly Social & Scientific Systems, Inc.)"
+  title = "Senior Epidemiologist"
+  company = "DLH, LLC"
   company_url = "https://www.dlhcorp.com/"
   location = "Bethesda, MD"
   date_start = "2022-12-05"
   date_end = ""
-  # description = """
+  description = "_PRIMARY AFFLIATION_"
+  # Responsibilities include:"""
+  
+[[experience]]
+  title = "Adjunct Assistant Professor"
+  company = "Emory University"
+  company_url = "https://www.emory.edu/"
+  location = "Atlanta, GA"
+  date_start = "2025-08-21"
+  date_end = ""
+  description = "[Gangaroza Department of Environmental Health](https://sph.emory.edu/departments/environmental-health)<br>[Rollins School of Public Health](https://sph.emory.edu/)"
   # Responsibilities include:"""
   
 [[experience]]
@@ -34,17 +44,17 @@ date_format = "Jan 2006"
   location = "Rockville, MD"
   date_start = "2019-06-10"
   date_end = "2022-12-04"
-  # description = """
+  description = "[Occupational and Environmental Epidemiology Branch](https://dceg.cancer.gov/about/organization/tdrp/oeeb)<br>[Division of Cancer Epidemiology and Genetics](https://dceg.cancer.gov)"
   # Responsibilities include:"""
   
 [[experience]]
   title = "National Science Foundation Graduate Research Fellow"
   company = "Emory University"
-  company_url = "https://www.sph.emory.edu/departments/eh/degree-programs/phd/index.html"
+  company_url = "https://www.emory.edu/"
   location = "Atlanta, GA"
   date_start = "2013-08-20"
   date_end = "2019-05-31"
-  # description = """
+  description = "[Environmental Health Sciences](https://sph.emory.edu/degrees-programs/phd/environmental-health-sciences)<br>[Laney Graduate School](https://gs.emory.edu)"
   # Responsibilities include:"""
 
 # [[experience]]
